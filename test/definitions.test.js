@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import {readdir, readFile} from 'node:fs/promises';
 import {test} from 'node:test';
 import proj4 from 'proj4';
+import * as constants from 'crs-defs';
 
 const root = new URL('../', import.meta.url);
 const readJson = async path => JSON.parse(await readFile(new URL(path, root), 'utf8'));
@@ -27,18 +28,17 @@ function distance([lon1, lat1], [lon2, lat2]) {
 
 for (const {id, lonlat, xy, toleranceM} of places) {
   test(`${id} in proj4js lands where PROJ puts it`, async () => {
-    const {definition} = await import(`crs-defs/${id.replace(':', '/')}`);
+    const definition = constants[id.replace(':', '_')];
     const errorM = distance(proj4(definition).inverse(xy), lonlat);
     assert.ok(errorM <= toleranceM, `${errorM.toFixed(3)} m off`);
   });
 }
 
 test('EPSG:4326 is plain WGS 84', async () => {
-  const {definition} = await import('crs-defs/EPSG/4326');
-  assert.equal(definition, '+proj=longlat +datum=WGS84 +no_defs');
+  assert.equal(constants.EPSG_4326, '+proj=longlat +datum=WGS84 +no_defs');
 });
 
-test('modules, records, all.json and catalog.json list the same definitions', async () => {
+test('constants, modules, records, all.json and catalog.json list the same definitions', async () => {
   const all = await readJson('all.json');
   const {crs} = await readJson('catalog.json');
   const files = [];
@@ -47,6 +47,7 @@ test('modules, records, all.json and catalog.json list the same definitions', as
   }
   assert.deepEqual(new Set(files), new Set(Object.keys(all)));
   assert.deepEqual(new Set(crs.map(c => c.id)), new Set(Object.keys(all)));
+  assert.deepEqual(Object.fromEntries(Object.entries(constants).map(([k, v]) => [k.replace('_', ':'), v])), all);
   for (const id of ['EPSG:28992', 'ESRI:54009']) {
     const path = id.replace(':', '/');
     const module = await import(`crs-defs/${path}`);

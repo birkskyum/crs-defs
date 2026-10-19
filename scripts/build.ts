@@ -1,5 +1,5 @@
 // Picks one definition per CRS from the generator's candidates, checks it in proj4js and writes the package:
-// <AUTH>/<code>.js and <AUTH>/<code>.json for each CRS, all.json and catalog.json.
+// index.js with a constant per CRS, <AUTH>/<code>.js and <AUTH>/<code>.json for each CRS, all.json and catalog.json.
 import {mkdir, readdir, readFile, rm, writeFile} from 'node:fs/promises';
 import {createRequire} from 'node:module';
 
@@ -164,6 +164,18 @@ for (const authority of AUTHORITIES) {
   }
   definitions.push(...ok);
 }
+
+// The package root: one string constant per CRS, named like EPSG_28992, so editors can auto-import them.
+const constant = (r: Definition) => r.id.replace(':', '_');
+const comment = (r: Definition) => {
+  const accuracy = r.errorM <= EXACT_M ? 'Within 1 cm of PROJ.' : `Up to ${r.errorM} m from PROJ.`;
+  const proj4js = r.proj4jsErrorM === null ? ` proj4js ${proj4Version} can't read it.` : '';
+  const shift = r.datumShift === 'unknown' ? ' The registry has no transformation to WGS 84.' : '';
+  const text = `${r.id}, ${r.name}. ${r.area.name} ${accuracy}${shift}${proj4js}\n *\n * \`${r.definition}\``;
+  return `/**\n * ${text.replaceAll('*/', '* /')}\n */`;
+};
+await writeFile(`${ROOT}index.js`, definitions.map(r => `export const ${constant(r)} = ${JSON.stringify(r.definition)};`).join('\n') + '\n');
+await writeFile(`${ROOT}index.d.ts`, definitions.map(r => `${comment(r)}\nexport declare const ${constant(r)}: string;`).join('\n') + '\n');
 
 await writeFile(`${ROOT}all.json`, JSON.stringify(Object.fromEntries(definitions.map(r => [r.id, r.definition]))) + '\n');
 await writeFile(`${ROOT}catalog.json`, JSON.stringify({

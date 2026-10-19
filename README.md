@@ -12,13 +12,13 @@ npm install crs-defs
 
 ## Use
 
-Each code is its own small module, so a bundle only contains the codes it imports.
+Every code is a string constant named after it, `EPSG_28992` or `ESRI_54009`. Editors offer the import as you type the name and show the CRS's name, area and accuracy on hover. Bundlers keep only the constants you import.
 
 ```js
 import proj4 from 'proj4';
-import {definition} from 'crs-defs/EPSG/28992';
+import {EPSG_28992} from 'crs-defs';
 
-proj4.defs('EPSG:28992', definition);
+proj4.defs('EPSG:28992', EPSG_28992);
 proj4('EPSG:28992', [4.8932, 52.3731]); // [121358.61, 487361.81]
 ```
 
@@ -27,13 +27,19 @@ In MapLibre GL JS 6.15 and later:
 ```js
 import * as maplibregl from 'maplibre-gl';
 import proj4 from 'proj4';
-import {definition} from 'crs-defs/EPSG/28992';
+import {EPSG_28992} from 'crs-defs';
 
 maplibregl.addProjection({
   name: 'EPSG:28992',
-  projection: proj4('EPSG:4326', definition),
+  projection: proj4('EPSG:4326', EPSG_28992),
   tileMatrixSet: {origin: [-285401.92, 903401.92], extentAtZoom0: 256 * 3440.64}
 });
+```
+
+A development server loads the whole module (1.2 MB). `crs-defs/EPSG/28992` holds just one code, with its name, area of use and error as separate exports:
+
+```js
+import {definition, bbox, errorM} from 'crs-defs/EPSG/28992';
 ```
 
 In OpenLayers, looking codes up when they're needed:

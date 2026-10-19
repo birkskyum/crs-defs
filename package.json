@@ -5,6 +5,10 @@
   "type": "module",
   "sideEffects": false,
   "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
     "./all.json": "./all.json",
     "./catalog.json": "./catalog.json",
     "./EPSG/*.json": "./EPSG/*.json",
@@ -20,6 +24,8 @@
     "./package.json": "./package.json"
   },
   "files": [
+    "index.js",
+    "index.d.ts",
     "EPSG",
     "ESRI",
     "types",
