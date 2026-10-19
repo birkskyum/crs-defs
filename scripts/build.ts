@@ -88,9 +88,10 @@ function proj4jsError(raw: Raw, definition: string): number | null {
 
 const DATUM_SHIFT = {'same-datum': 'none', null: 'null', helmert: 'helmert', ballpark: 'unknown'} as Record<string, string>;
 
+// Named after its datum steps, without the projection PROJ wraps around them.
 function transformationOf(candidate: Candidate) {
   return {
-    name: candidate.name,
+    name: candidate.transformations.map(t => t.name).join(' + ') || candidate.name,
     accuracyM: candidate.accuracy,
     steps: candidate.transformations.map(({id, name, method}) => ({id, name, method}))
   };
