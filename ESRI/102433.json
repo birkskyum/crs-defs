@@ -1,0 +1,1 @@
+{"id":"ESRI:102433","name":"WGS_1984_ARC_System_Zone_13","type":"projected","area":{"bbox":[-180,-64,180,-56],"name":"ARC System - Zone 13"},"definition":"+proj=eqc +lat_ts=-60.32378942 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":33700,"approximate":false}

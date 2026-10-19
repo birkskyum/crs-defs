@@ -1,0 +1,1 @@
+{"id":"EPSG:4157","name":"Mount Dillon","type":"geographic","area":{"bbox":[-60.9,11.08,-60.44,11.41],"name":"Trinidad and Tobago - Tobago - onshore."},"definition":"+proj=longlat +a=6378293.64520876 +b=6356617.98767984 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

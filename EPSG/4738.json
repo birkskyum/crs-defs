@@ -1,0 +1,1 @@
+{"id":"EPSG:4738","name":"Hong Kong 1963","type":"geographic","area":{"bbox":[113.76,22.13,114.51,22.58],"name":"Hong Kong - onshore and offshore."},"definition":"+proj=longlat +a=6378293.64520876 +b=6356617.98767984 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

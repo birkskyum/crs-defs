@@ -1,0 +1,5 @@
+export const id = "EPSG:28193";
+export const name = "Palestine 1923 / Israeli CS Grid";
+export const bbox = [34.17,29.45,35.69,33.28];
+export const definition = "+proj=cass +lat_0=31.7340969444444 +lon_0=35.2120805555556 +x_0=170251.555 +y_0=1126867.909 +a=6378300.789 +b=6356566.435 +towgs84=-275.7224,94.7824,340.8944,-8.001,-4.42,-11.821,1 +units=m +no_defs";
+export const errorM = 0.0134;

@@ -1,0 +1,5 @@
+export const id = "EPSG:4456";
+export const name = "NAD27 / New York Long Island";
+export const bbox = [-74.26,40.47,-71.77,41.32];
+export const definition = "+proj=lcc +lat_0=40.5 +lon_0=-74 +lat_1=41.0333333333333 +lat_2=40.6666666666667 +x_0=609601.219202438 +y_0=30480.0609601219 +ellps=clrk66 +towgs84=-10,158,187 +units=us-ft +no_defs";
+export const errorM = 5.09;

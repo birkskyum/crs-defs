@@ -1,0 +1,1 @@
+{"id":"EPSG:3288","name":"WGS 84 / SCAR IMW SV11-20","type":"projected","area":{"bbox":[-120,-88,-60,-84],"name":"Antarctica - 84°S to 88°S and 120°W to 60°W."},"definition":"+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=-90 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

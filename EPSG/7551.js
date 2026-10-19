@@ -1,0 +1,5 @@
+export const id = "EPSG:7551";
+export const name = "NAD83(2011) / WISCRS Iowa (m)";
+export const bbox = [-90.43,42.81,-89.83,43.21];
+export const definition = "+proj=tmerc +lat_0=42.5388888888889 +lon_0=-90.1611111111111 +k=1.0000394961 +x_0=113081.0261 +y_0=0.0045 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs";
+export const errorM = 0;

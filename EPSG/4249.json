@@ -1,0 +1,1 @@
+{"id":"EPSG:4249","name":"Lake","type":"geographic","area":{"bbox":[-72.4,8.72,-70.78,11.04],"name":"Venezuela - Lake Maracaibo area, onshore and offshore in lake."},"definition":"+proj=longlat +ellps=intl +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

@@ -1,0 +1,5 @@
+export const id = "EPSG:22209";
+export const name = "NAD83(CSRS)v2 / UTM zone 9N";
+export const bbox = [-132,46.52,-126,80.93];
+export const definition = "+proj=utm +zone=9 +ellps=GRS80 +units=m +no_defs";
+export const errorM = 0;

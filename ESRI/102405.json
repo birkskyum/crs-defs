@@ -1,0 +1,1 @@
+{"id":"ESRI:102405","name":"NAD_1983_CORS96_UTM_Zone_5N","type":"projected","area":{"bbox":[-156,52.15,-149.99,74.71],"name":"United States (USA) - between 156°W and 150°W - Alaska and offshore continental shelf (OCS)."},"definition":"+proj=utm +zone=5 +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

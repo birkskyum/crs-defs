@@ -1,0 +1,1 @@
+{"id":"ESRI:102011","name":"Africa_Sinusoidal","type":"projected","area":{"bbox":[-25,-35,55,39],"name":"Africa"},"definition":"+proj=sinu +lon_0=15 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

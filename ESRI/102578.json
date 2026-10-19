@@ -1,0 +1,1 @@
+{"id":"ESRI:102578","name":"WGS_1984_Complex_UTM_Zone_28N","type":"projected","area":{"bbox":[-18,0,-12,84],"name":"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore."},"definition":"+proj=utm +zone=28 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

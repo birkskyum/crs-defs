@@ -1,0 +1,1 @@
+{"id":"EPSG:11279","name":"SRGI2013 epoch 2021.0 / UTM zone 49S","type":"projected","area":{"bbox":[108,-12.07,114,0],"name":"Indonesia - south of equator and between 108°E and 114°E - onshore and offshore."},"definition":"+proj=utm +zone=49 +south +ellps=WGS84 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

@@ -1,0 +1,1 @@
+{"id":"ESRI:102422","name":"WGS_1984_ARC_System_Zone_02","type":"projected","area":{"bbox":[-180,32,180,48],"name":"ARC System - Zone 2"},"definition":"+proj=eqc +lat_ts=41.12682127 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":29400,"approximate":false}

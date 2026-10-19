@@ -1,0 +1,1 @@
+{"id":"ESRI:103598","name":"GTM","type":"projected","area":{"bbox":[-94.57,10.6,-88.16,17.83],"name":"Guatemala - onshore and offshore."},"definition":"+proj=tmerc +lat_0=0 +lon_0=-90.5 +k=0.9998 +x_0=500000 +y_0=0 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

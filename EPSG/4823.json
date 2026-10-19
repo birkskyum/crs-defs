@@ -1,0 +1,1 @@
+{"id":"EPSG:4823","name":"Sao Tome","type":"geographic","area":{"bbox":[6.41,-0.04,6.82,0.46],"name":"Sao Tome and Principe - onshore - Sao Tome."},"definition":"+proj=longlat +ellps=intl +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

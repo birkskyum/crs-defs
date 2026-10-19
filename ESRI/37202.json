@@ -1,0 +1,1 @@
+{"id":"ESRI:37202","name":"GCS_Everest_Bangladesh","type":"geographic","area":{"bbox":[88.01,18.56,92.67,26.64],"name":"Bangladesh - onshore and offshore."},"definition":"+proj=longlat +ellps=evrst30 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

@@ -1,0 +1,1 @@
+{"id":"EPSG:7139","name":"IGD05/12","type":"geographic","area":{"bbox":[32.99,29.45,35.69,33.53],"name":"Israel - onshore and offshore."},"definition":"+proj=longlat +ellps=WGS84 +no_defs","datumShift":"unknown","transformation":null,"errorM":0.443,"proj4jsErrorM":0.443,"approximate":true}

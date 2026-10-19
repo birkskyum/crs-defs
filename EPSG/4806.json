@@ -1,0 +1,1 @@
+{"id":"EPSG:4806","name":"Monte Mario (Rome)","type":"geographic","area":{"bbox":[5.93,34.76,18.99,47.1],"name":"Italy - onshore and offshore; San Marino, Vatican City State."},"definition":"+proj=longlat +ellps=intl +pm=rome +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

@@ -1,0 +1,5 @@
+export const id = "EPSG:3857";
+export const name = "WGS 84 / Pseudo-Mercator";
+export const bbox = [-180,-85.06,180,85.06];
+export const definition = "+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs";
+export const errorM = 0;

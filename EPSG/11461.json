@@ -1,0 +1,1 @@
+{"id":"EPSG:11461","name":"Dart+26-IRF","type":"geographic","area":{"bbox":[-6.75,53.1,-6,53.8],"name":"Ireland - on or related to the DART+ rail project from Dublin city centre to Drogheda, Greystones, Hazelhatch and Kilcock."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

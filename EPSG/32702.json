@@ -1,0 +1,1 @@
+{"id":"EPSG:32702","name":"WGS 84 / UTM zone 2S","type":"projected","area":{"bbox":[-174,-80,-168,0],"name":"Between 174°W and 168°W, southern hemisphere between 80°S and equator, onshore and offshore."},"definition":"+proj=utm +zone=2 +south +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

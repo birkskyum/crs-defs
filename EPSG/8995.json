@@ -1,0 +1,1 @@
+{"id":"EPSG:8995","name":"ITRF96","type":"geographic","area":{"bbox":[-180,-90,180,90],"name":"World."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0.0234,"proj4jsErrorM":0.0234,"approximate":true}

@@ -1,0 +1,1 @@
+{"id":"EPSG:10898","name":"Asse 2025","type":"geographic","area":{"bbox":[10.6,52.11,10.7,52.16],"name":"Germany - Lower Saxony - Asse mining area."},"definition":"+proj=longlat +ellps=bessel +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

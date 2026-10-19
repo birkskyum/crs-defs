@@ -1,0 +1,1 @@
+{"id":"EPSG:6325","name":"NAD83(MA11)","type":"geographic","area":{"bbox":[129.48,1.64,149.55,23.9],"name":"Guam, Northern Mariana Islands and Palau; onshore and offshore."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

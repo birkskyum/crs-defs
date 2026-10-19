@@ -1,0 +1,5 @@
+export const id = "ESRI:102433";
+export const name = "WGS_1984_ARC_System_Zone_13";
+export const bbox = [-180,-64,180,-56];
+export const definition = "+proj=eqc +lat_ts=-60.32378942 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs";
+export const errorM = 0;

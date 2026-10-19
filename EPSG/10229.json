@@ -1,0 +1,1 @@
+{"id":"EPSG:10229","name":"OxWo08-IRF","type":"geographic","area":{"bbox":[-2.31,51.65,-1.15,52.26],"name":"United Kingdom (UK) - on or related to the rail route from Oxford to Worcester."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

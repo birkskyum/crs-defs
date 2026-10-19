@@ -1,0 +1,5 @@
+export const id = "ESRI:102018";
+export const name = "North_Pole_Stereographic";
+export const bbox = [-180,0,180,90];
+export const definition = "+proj=stere +lat_0=90 +lon_0=0 +k=1 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs";
+export const errorM = 0;

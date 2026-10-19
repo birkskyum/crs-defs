@@ -1,0 +1,1 @@
+{"id":"EPSG:4671","name":"Voirol 1879","type":"geographic","area":{"bbox":[-2.95,31.99,9.09,37.14],"name":"Algeria - onshore north of 32°N."},"definition":"+proj=longlat +ellps=clrk80ign +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

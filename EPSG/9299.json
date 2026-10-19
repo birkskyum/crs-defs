@@ -1,0 +1,1 @@
+{"id":"EPSG:9299","name":"HS2-IRF","type":"geographic","area":{"bbox":[-2.75,51.45,0,53.3],"name":"United Kingdom (UK) - HS2 phases 1 and 2a railway corridor from London to Birmingham, Lichfield and Crewe."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

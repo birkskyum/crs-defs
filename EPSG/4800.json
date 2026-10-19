@@ -1,0 +1,1 @@
+{"id":"EPSG:4800","name":"New Beijing / 3-degree Gauss-Kruger CM 129E","type":"projected","area":{"bbox":[127.5,41.37,130.5,50.25],"name":"China - between 127°30'E and 130°30'E."},"definition":"+proj=tmerc +lat_0=0 +lon_0=129 +k=1 +x_0=500000 +y_0=0 +ellps=krass +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

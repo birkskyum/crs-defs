@@ -1,0 +1,1 @@
+{"id":"EPSG:9712","name":"NAD83 / UTM zone 24N","type":"projected","area":{"bbox":[-42,45.53,-40.73,49.53],"name":"Canada offshore Atlantic - east of 42°W."},"definition":"+proj=utm +zone=24 +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

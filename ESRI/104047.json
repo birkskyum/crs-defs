@@ -1,0 +1,1 @@
+{"id":"ESRI:104047","name":"GCS_Sphere_GRS_1980_Mean_Radius","type":"geographic","area":{"bbox":[-180,-90,180,90],"name":"Not specified."},"definition":"+proj=longlat +R=6371008.7714 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

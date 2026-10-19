@@ -1,0 +1,1 @@
+{"id":"EPSG:10219","name":"GWWWA22-IRF","type":"geographic","area":{"bbox":[-5.16,51.55,-3.6,52.06],"name":"United Kingdom (UK) - on or related to the rail routes from Swansea to Pembroke Dock, Milford Haven and Fishguard."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

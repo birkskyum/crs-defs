@@ -1,0 +1,1 @@
+{"id":"ESRI:102425","name":"WGS_1984_ARC_System_Zone_05","type":"projected","area":{"bbox":[-180,64,180,68],"name":"ARC System - Zone 5"},"definition":"+proj=eqc +lat_ts=66.09421768 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":31300,"approximate":false}

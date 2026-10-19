@@ -1,0 +1,5 @@
+export const id = "EPSG:5482";
+export const name = "RSRGD2000 / RSPS2000";
+export const bbox = [150,-90,-150,-76];
+export const definition = "+proj=stere +lat_0=-90 +lon_0=180 +k=0.994 +x_0=5000000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs";
+export const errorM = 0;

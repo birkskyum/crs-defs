@@ -1,0 +1,1 @@
+{"id":"EPSG:11043","name":"CR-SIRGAS epoch 2019.24","type":"geographic","area":{"bbox":[-90.45,2.15,-81.43,11.77],"name":"Costa Rica - onshore and offshore."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

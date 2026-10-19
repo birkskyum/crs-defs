@@ -1,0 +1,1 @@
+{"id":"EPSG:9475","name":"PZ-90.11","type":"geographic","area":{"bbox":[-180,-90,180,90],"name":"World."},"definition":"+proj=longlat +a=6378136 +rf=298.257839303 +no_defs","datumShift":"unknown","transformation":null,"errorM":3.11,"proj4jsErrorM":3.11,"approximate":true}

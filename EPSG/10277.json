@@ -1,0 +1,1 @@
+{"id":"EPSG:10277","name":"RBEPP12-IRF","type":"geographic","area":{"bbox":[-5.63,50.05,-0.85,51.71],"name":"United Kingdom (UK) - on or related to the rail route from Reading via Newbury to Penzance."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

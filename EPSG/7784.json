@@ -1,0 +1,1 @@
+{"id":"EPSG:7784","name":"WGS 84 / Sikkim","type":"projected","area":{"bbox":[88.01,27.08,88.92,28.14],"name":"India - Sikkim."},"definition":"+proj=tmerc +lat_0=27.625 +lon_0=88.5 +k=0.9999926 +x_0=1000000 +y_0=1000000 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

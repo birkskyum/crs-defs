@@ -1,0 +1,1 @@
+{"id":"ESRI:102951","name":"LCC_Bangladesh","type":"projected","area":{"bbox":[88.01,18.56,92.67,26.64],"name":"Bangladesh - onshore and offshore."},"definition":"+proj=lcc +lat_0=26 +lon_0=90 +lat_1=23.15 +lat_2=28.8 +x_0=2743183.6991 +y_0=914395.233 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

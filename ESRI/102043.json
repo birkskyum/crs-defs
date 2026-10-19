@@ -1,0 +1,1 @@
+{"id":"ESRI:102043","name":"NAD_1983_CORS96_UTM_Zone_20N","type":"projected","area":{"bbox":[-68.49,14.92,-63.88,21.86],"name":"Puerto Rico and US Virgin Islands - onshore and offshore."},"definition":"+proj=utm +zone=20 +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

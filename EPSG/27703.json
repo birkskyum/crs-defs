@@ -1,0 +1,1 @@
+{"id":"EPSG:27703","name":"WGS 84 / Equi7 Asia","type":"projected","area":{"bbox":[31.45,-10.8,-168.43,83.67],"name":"Asia including Maldives and British Indian Ocean Territory."},"definition":"+proj=aeqd +lat_0=47 +lon_0=94 +x_0=4340913.848 +y_0=4812712.923 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

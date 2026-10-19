@@ -1,0 +1,1 @@
+{"id":"EPSG:4279","name":"OS(SN)80","type":"geographic","area":{"bbox":[-10.56,49.81,1.84,60.9],"name":"Ireland - onshore. United Kingdom (UK) - onshore - England; Scotland; Wales; Northern Ireland. Isle of Man."},"definition":"+proj=longlat +ellps=airy +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

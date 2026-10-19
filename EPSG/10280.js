@@ -1,0 +1,5 @@
+export const id = "EPSG:10280";
+export const name = "RBEPP12 Grid";
+export const bbox = [-5.63,50.05,-0.85,51.71];
+export const definition = "+proj=lcc +lat_0=50.85 +lon_0=-3.25 +lat_1=50.3 +lat_2=51.45 +x_0=372382.8292 +y_0=217764.7796 +ellps=GRS80 +units=m +no_defs";
+export const errorM = 0;

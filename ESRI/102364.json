@@ -1,0 +1,1 @@
+{"id":"ESRI:102364","name":"NAD_1983_CORS96_UTM_Zone_59N","type":"projected","area":{"bbox":[167.65,49.01,174.01,56.28],"name":"United States (USA) - west of 174°E. Alaska and offshore continental shelf (OCS)."},"definition":"+proj=utm +zone=59 +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

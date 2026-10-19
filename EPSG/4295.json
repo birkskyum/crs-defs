@@ -1,0 +1,1 @@
+{"id":"EPSG:4295","name":"Serindung","type":"geographic","area":{"bbox":[108.79,0.06,109.78,2.13],"name":"Indonesia - west Kalimantan - onshore coastal area."},"definition":"+proj=longlat +ellps=bessel +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

@@ -1,0 +1,1 @@
+{"id":"EPSG:4703","name":"Mhast 1951","type":"geographic","area":{"bbox":[10.53,-6.04,13.1,-4.38],"name":"Angola - Cabinda."},"definition":"+proj=longlat +a=6378249.145 +rf=293.465 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

@@ -1,0 +1,5 @@
+export const id = "EPSG:9880";
+export const name = "MOLDOR11 Grid";
+export const bbox = [-2.4,53.25,-1.39,53.55];
+export const definition = "+proj=tmerc +lat_0=53.35 +lon_0=-1.9 +k=1 +x_0=226574.2032 +y_0=390894.838 +ellps=GRS80 +units=m +no_defs";
+export const errorM = 0;

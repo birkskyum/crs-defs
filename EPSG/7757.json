@@ -1,0 +1,1 @@
+{"id":"EPSG:7757","name":"WGS 84 / Arunachal Pradesh","type":"projected","area":{"bbox":[91.55,26.65,97.42,29.47],"name":"India - Arunachal Pradesh."},"definition":"+proj=lcc +lat_0=28.00157897 +lon_0=94.5 +lat_1=27 +lat_2=29 +x_0=1000000 +y_0=1000000 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

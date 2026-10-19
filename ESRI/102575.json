@@ -1,0 +1,1 @@
+{"id":"ESRI:102575","name":"WGS_1984_Complex_UTM_Zone_25N","type":"projected","area":{"bbox":[-36,0,-30,84],"name":"Between 36°W and 30°W, northern hemisphere between equator and 84°N, onshore and offshore."},"definition":"+proj=utm +zone=25 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

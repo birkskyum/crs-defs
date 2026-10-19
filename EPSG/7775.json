@@ -1,0 +1,1 @@
+{"id":"EPSG:7775","name":"WGS 84 / Uttar Pradesh","type":"projected","area":{"bbox":[77.08,23.87,84.64,30.42],"name":"India - Uttar Pradesh."},"definition":"+proj=lcc +lat_0=27.13270823 +lon_0=80.875 +lat_1=24.875 +lat_2=29.375 +x_0=1000000 +y_0=1000000 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

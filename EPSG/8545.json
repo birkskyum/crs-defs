@@ -1,0 +1,1 @@
+{"id":"EPSG:8545","name":"NAD83(HARN Corrected)","type":"geographic","area":{"bbox":[-68,17.62,-64.51,18.57],"name":"Puerto Rico and US Virgin Islands - onshore."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0.363,"proj4jsErrorM":0.363,"approximate":true}

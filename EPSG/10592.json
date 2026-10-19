@@ -1,0 +1,1 @@
+{"id":"EPSG:10592","name":"WGS 84 / GLANCE Africa","type":"projected","area":{"bbox":[-31.68,-43.89,79.3,38.8],"name":"Africa and the Arabian peninsula."},"definition":"+proj=laea +lat_0=5 +lon_0=20 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0.00203,"approximate":false}

@@ -1,0 +1,1 @@
+{"id":"EPSG:3368","name":"IGN Astro 1960 / UTM zone 29N","type":"projected","area":{"bbox":[-12,14.75,-6,27.3],"name":"Mauritania - between 12°W and 6°W."},"definition":"+proj=utm +zone=29 +a=6378249.145 +rf=293.465 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

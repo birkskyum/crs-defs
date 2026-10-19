@@ -1,0 +1,1 @@
+{"id":"EPSG:22644","name":"NAD83(CSRS)v6 / MTM zone 4","type":"projected","area":{"bbox":[-63,52,-60,58.92],"name":"Canada - Labrador between 63°W and 60°W."},"definition":"+proj=tmerc +lat_0=0 +lon_0=-61.5 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

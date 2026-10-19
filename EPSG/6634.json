@@ -1,0 +1,1 @@
+{"id":"EPSG:6634","name":"NAD83(PA11) / UTM zone 4N","type":"projected","area":{"bbox":[-160.3,19.51,-155.99,22.29],"name":"United States (USA) - between 162°W and 156°W onshore - Hawaii."},"definition":"+proj=utm +zone=4 +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0.0567,"proj4jsErrorM":0.0567,"approximate":true}

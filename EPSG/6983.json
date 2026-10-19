@@ -1,0 +1,1 @@
+{"id":"EPSG:6983","name":"IG05 Intermediate CRS","type":"geographic","area":{"bbox":[34.17,29.45,35.69,33.28],"name":"Israel - onshore; Palestine onshore."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

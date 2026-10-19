@@ -1,0 +1,1 @@
+{"id":"ESRI:102408","name":"NAD_1983_CORS96_UTM_Zone_8N","type":"projected","area":{"bbox":[-138,53.6,-131.99,73.04],"name":"United States (USA) - between 138°W and 132°W onshore and offshore - Alaska."},"definition":"+proj=utm +zone=8 +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

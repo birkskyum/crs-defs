@@ -1,0 +1,1 @@
+{"id":"EPSG:4675","name":"Guam 1963","type":"geographic","area":{"bbox":[144.56,13.18,146.16,20.62],"name":"Guam - onshore. Northern Mariana Islands - onshore."},"definition":"+proj=longlat +ellps=clrk66 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

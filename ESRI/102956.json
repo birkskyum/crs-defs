@@ -1,0 +1,1 @@
+{"id":"ESRI:102956","name":"NAD_1983_(MA11)_UTM_Zone_53N","type":"projected","area":{"bbox":[134.1,6.87,134.65,7.7],"name":"Republic of Palau - Babeldaob"},"definition":"+proj=utm +zone=53 +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

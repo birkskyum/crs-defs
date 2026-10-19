@@ -1,0 +1,1 @@
+{"id":"ESRI:103985","name":"WGS_1984_SIRES_DMQ","type":"projected","area":{"bbox":[-79,-0.6,-78.15,0.27],"name":"Ecuador - Quito"},"definition":"+proj=tmerc +lat_0=0 +lon_0=-78.5 +k=1.0004584 +x_0=500000 +y_0=10000000 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

@@ -1,0 +1,5 @@
+export const id = "EPSG:8090";
+export const name = "NAD83(HARN) / WISCRS Florence (m)";
+export const bbox = [-88.69,45.71,-88.05,46.03];
+export const definition = "+proj=tmerc +lat_0=45.4388888888889 +lon_0=-88.1416666666667 +k=1.0000552095 +x_0=133502.6683 +y_0=0.0063 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs";
+export const errorM = 0;

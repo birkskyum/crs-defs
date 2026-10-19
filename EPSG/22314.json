@@ -1,0 +1,1 @@
+{"id":"EPSG:22314","name":"NAD83(CSRS)v3 / UTM zone 14N","type":"projected","area":{"bbox":[-102,48.99,-96,84],"name":"Canada between 102°W and 96°W, onshore and offshore south of 84°N - Manitoba, Nunavut, Saskatchewan."},"definition":"+proj=utm +zone=14 +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

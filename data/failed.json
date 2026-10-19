@@ -1,0 +1,938 @@
+[
+ {
+  "id": "EPSG:2000",
+  "failed": "Geographic2D offsets has no proj4 form"
+ },
+ {
+  "id": "EPSG:20041",
+  "failed": "2 Helmert steps and 0 grids"
+ },
+ {
+  "id": "EPSG:20049",
+  "failed": "2 Helmert steps and 0 grids"
+ },
+ {
+  "id": "EPSG:2096",
+  "failed": "Molodensky-Badekas (CF geog2D domain) has no proj4 form"
+ },
+ {
+  "id": "EPSG:2097",
+  "failed": "Molodensky-Badekas (CF geog2D domain) has no proj4 form"
+ },
+ {
+  "id": "EPSG:2098",
+  "failed": "Molodensky-Badekas (CF geog2D domain) has no proj4 form"
+ },
+ {
+  "id": "EPSG:2218",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "EPSG:2221",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "EPSG:22217",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22218",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22219",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22220",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22239",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22240",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22245",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22246",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22247",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22248",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22262",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22300",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "EPSG:22310",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22315",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22316",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22317",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22318",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22348",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22349",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22350",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22352",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22355",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22356",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22357",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22411",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22463",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22464",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22465",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:22700",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "EPSG:2296",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "EPSG:2299",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "EPSG:2301",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "EPSG:2303",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "EPSG:2304",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "EPSG:2305",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "EPSG:2306",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "EPSG:2307",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "EPSG:2312",
+  "failed": "2 Helmert steps and 0 grids"
+ },
+ {
+  "id": "EPSG:2313",
+  "failed": "2 Helmert steps and 0 grids"
+ },
+ {
+  "id": "EPSG:24718",
+  "failed": "Molodensky-Badekas (CF geog2D domain) has no proj4 form"
+ },
+ {
+  "id": "EPSG:2963",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "EPSG:2985",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "EPSG:2986",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "EPSG:3052",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "EPSG:3053",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "EPSG:3144",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "EPSG:3145",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "EPSG:3173",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "EPSG:3354",
+  "failed": "2 Helmert steps and 0 grids"
+ },
+ {
+  "id": "EPSG:3374",
+  "failed": "2 Helmert steps and 0 grids"
+ },
+ {
+  "id": "EPSG:4120",
+  "failed": "Geographic2D offsets has no proj4 form"
+ },
+ {
+  "id": "EPSG:4162",
+  "failed": "Molodensky-Badekas (CF geog2D domain) has no proj4 form"
+ },
+ {
+  "id": "EPSG:4197",
+  "failed": "2 Helmert steps and 0 grids"
+ },
+ {
+  "id": "EPSG:4198",
+  "failed": "2 Helmert steps and 0 grids"
+ },
+ {
+  "id": "EPSG:4600",
+  "failed": "Geographic2D offsets has no proj4 form"
+ },
+ {
+  "id": "EPSG:4676",
+  "failed": "2 Helmert steps and 0 grids"
+ },
+ {
+  "id": "EPSG:4677",
+  "failed": "2 Helmert steps and 0 grids"
+ },
+ {
+  "id": "EPSG:4705",
+  "failed": "2 Helmert steps and 0 grids"
+ },
+ {
+  "id": "EPSG:4741",
+  "failed": "2 Helmert steps and 0 grids"
+ },
+ {
+  "id": "EPSG:4815",
+  "failed": "Geographic2D offsets has no proj4 form"
+ },
+ {
+  "id": "EPSG:5017",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "EPSG:5167",
+  "failed": "Molodensky-Badekas (CF geog2D domain) has no proj4 form"
+ },
+ {
+  "id": "EPSG:5168",
+  "failed": "Molodensky-Badekas (CF geog2D domain) has no proj4 form"
+ },
+ {
+  "id": "EPSG:5173",
+  "failed": "Molodensky-Badekas (CF geog2D domain) has no proj4 form"
+ },
+ {
+  "id": "EPSG:5174",
+  "failed": "Molodensky-Badekas (CF geog2D domain) has no proj4 form"
+ },
+ {
+  "id": "EPSG:5175",
+  "failed": "Molodensky-Badekas (CF geog2D domain) has no proj4 form"
+ },
+ {
+  "id": "EPSG:5176",
+  "failed": "Molodensky-Badekas (CF geog2D domain) has no proj4 form"
+ },
+ {
+  "id": "EPSG:5177",
+  "failed": "Molodensky-Badekas (CF geog2D domain) has no proj4 form"
+ },
+ {
+  "id": "EPSG:5178",
+  "failed": "Molodensky-Badekas (CF geog2D domain) has no proj4 form"
+ },
+ {
+  "id": "EPSG:5360",
+  "failed": "2 Helmert steps and 0 grids"
+ },
+ {
+  "id": "EPSG:5361",
+  "failed": "2 Helmert steps and 0 grids"
+ },
+ {
+  "id": "EPSG:5362",
+  "failed": "2 Helmert steps and 0 grids"
+ },
+ {
+  "id": "EPSG:6622",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:6624",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:8237",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:8240",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:8246",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:8428",
+  "failed": "Molodensky-Badekas (CF geog2D domain) has no proj4 form"
+ },
+ {
+  "id": "EPSG:8433",
+  "failed": "Molodensky-Badekas (CF geog2D domain) has no proj4 form"
+ },
+ {
+  "id": "EPSG:8860",
+  "failed": "grid used in reverse"
+ },
+ {
+  "id": "EPSG:9148",
+  "failed": "2 Helmert steps and 0 grids"
+ },
+ {
+  "id": "EPSG:9150",
+  "failed": "2 Helmert steps and 0 grids"
+ },
+ {
+  "id": "EPSG:9153",
+  "failed": "2 Helmert steps and 0 grids"
+ },
+ {
+  "id": "EPSG:9155",
+  "failed": "2 Helmert steps and 0 grids"
+ },
+ {
+  "id": "EPSG:9309",
+  "failed": "Time-dependent Coordinate Frame rotation (geocen) has no proj4 form"
+ },
+ {
+  "id": "ESRI:102224",
+  "failed": "Geographic2D offsets has no proj4 form"
+ },
+ {
+  "id": "ESRI:102225",
+  "failed": "Geographic2D offsets has no proj4 form"
+ },
+ {
+  "id": "ESRI:102226",
+  "failed": "Geographic2D offsets has no proj4 form"
+ },
+ {
+  "id": "ESRI:102227",
+  "failed": "Geographic2D offsets has no proj4 form"
+ },
+ {
+  "id": "ESRI:102228",
+  "failed": "Geographic2D offsets has no proj4 form"
+ },
+ {
+  "id": "ESRI:102299",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "ESRI:103846",
+  "failed": "Geographic2D offsets has no proj4 form"
+ },
+ {
+  "id": "ESRI:103877",
+  "failed": "not on Earth (Moon)"
+ },
+ {
+  "id": "ESRI:103878",
+  "failed": "not on Earth (Moon)"
+ },
+ {
+  "id": "ESRI:103879",
+  "failed": "not on Earth (Moon)"
+ },
+ {
+  "id": "ESRI:103880",
+  "failed": "not on Earth (Moon)"
+ },
+ {
+  "id": "ESRI:103881",
+  "failed": "not on Earth (Moon)"
+ },
+ {
+  "id": "ESRI:103882",
+  "failed": "not on Earth (Moon)"
+ },
+ {
+  "id": "ESRI:103883",
+  "failed": "not on Earth (Mars)"
+ },
+ {
+  "id": "ESRI:103884",
+  "failed": "not on Earth (Mars)"
+ },
+ {
+  "id": "ESRI:103885",
+  "failed": "not on Earth (Mars)"
+ },
+ {
+  "id": "ESRI:103886",
+  "failed": "not on Earth (Mars)"
+ },
+ {
+  "id": "ESRI:103887",
+  "failed": "not on Earth (Mars)"
+ },
+ {
+  "id": "ESRI:103898",
+  "failed": "2 Helmert steps and 0 grids"
+ },
+ {
+  "id": "ESRI:103899",
+  "failed": "2 Helmert steps and 0 grids"
+ },
+ {
+  "id": "ESRI:103946",
+  "failed": "Geographic2D offsets has no proj4 form"
+ },
+ {
+  "id": "ESRI:104134",
+  "failed": "Geographic2D offsets has no proj4 form"
+ },
+ {
+  "id": "ESRI:104808",
+  "failed": "Geographic2D offsets has no proj4 form"
+ },
+ {
+  "id": "ESRI:104872",
+  "failed": "not on Earth (Phobos)"
+ },
+ {
+  "id": "ESRI:104873",
+  "failed": "not on Earth (Callisto)"
+ },
+ {
+  "id": "ESRI:104874",
+  "failed": "not on Earth (Europa)"
+ },
+ {
+  "id": "ESRI:104875",
+  "failed": "not on Earth (Ganymede)"
+ },
+ {
+  "id": "ESRI:104876",
+  "failed": "not on Earth (Io)"
+ },
+ {
+  "id": "ESRI:104877",
+  "failed": "not on Earth (Metis)"
+ },
+ {
+  "id": "ESRI:104878",
+  "failed": "not on Earth (Aegaeon)"
+ },
+ {
+  "id": "ESRI:104879",
+  "failed": "not on Earth (Anthe)"
+ },
+ {
+  "id": "ESRI:104897",
+  "failed": "not on Earth (Pandora)"
+ },
+ {
+  "id": "ESRI:104898",
+  "failed": "not on Earth (Phoebe)"
+ },
+ {
+  "id": "ESRI:104899",
+  "failed": "not on Earth (Polydeuces)"
+ },
+ {
+  "id": "ESRI:104900",
+  "failed": "not on Earth (Mercury)"
+ },
+ {
+  "id": "ESRI:104901",
+  "failed": "not on Earth (Venus)"
+ },
+ {
+  "id": "ESRI:104902",
+  "failed": "not on Earth (Venus)"
+ },
+ {
+  "id": "ESRI:104903",
+  "failed": "not on Earth (Moon)"
+ },
+ {
+  "id": "ESRI:104904",
+  "failed": "not on Earth (Mars)"
+ },
+ {
+  "id": "ESRI:104905",
+  "failed": "not on Earth (Mars)"
+ },
+ {
+  "id": "ESRI:104906",
+  "failed": "not on Earth (Deimos)"
+ },
+ {
+  "id": "ESRI:104907",
+  "failed": "not on Earth (Phobos)"
+ },
+ {
+  "id": "ESRI:104908",
+  "failed": "not on Earth (Jupiter)"
+ },
+ {
+  "id": "ESRI:104909",
+  "failed": "not on Earth (Adrastea)"
+ },
+ {
+  "id": "ESRI:104910",
+  "failed": "not on Earth (Amalthea)"
+ },
+ {
+  "id": "ESRI:104911",
+  "failed": "not on Earth (Ananke)"
+ },
+ {
+  "id": "ESRI:104912",
+  "failed": "not on Earth (Callisto)"
+ },
+ {
+  "id": "ESRI:104913",
+  "failed": "not on Earth (Carme)"
+ },
+ {
+  "id": "ESRI:104914",
+  "failed": "not on Earth (Elara)"
+ },
+ {
+  "id": "ESRI:104915",
+  "failed": "not on Earth (Europa)"
+ },
+ {
+  "id": "ESRI:104916",
+  "failed": "not on Earth (Ganymede)"
+ },
+ {
+  "id": "ESRI:104917",
+  "failed": "not on Earth (Himalia)"
+ },
+ {
+  "id": "ESRI:104918",
+  "failed": "not on Earth (Io)"
+ },
+ {
+  "id": "ESRI:104919",
+  "failed": "not on Earth (Leda)"
+ },
+ {
+  "id": "ESRI:104920",
+  "failed": "not on Earth (Lysithea)"
+ },
+ {
+  "id": "ESRI:104921",
+  "failed": "not on Earth (Metis)"
+ },
+ {
+  "id": "ESRI:104922",
+  "failed": "not on Earth (Pasiphae)"
+ },
+ {
+  "id": "ESRI:104923",
+  "failed": "not on Earth (Sinope)"
+ },
+ {
+  "id": "ESRI:104924",
+  "failed": "not on Earth (Thebe)"
+ },
+ {
+  "id": "ESRI:104925",
+  "failed": "not on Earth (Saturn)"
+ },
+ {
+  "id": "ESRI:104926",
+  "failed": "not on Earth (Atlas)"
+ },
+ {
+  "id": "ESRI:104927",
+  "failed": "not on Earth (Calypso)"
+ },
+ {
+  "id": "ESRI:104928",
+  "failed": "not on Earth (Dione)"
+ },
+ {
+  "id": "ESRI:104929",
+  "failed": "not on Earth (Enceladus)"
+ },
+ {
+  "id": "ESRI:104930",
+  "failed": "not on Earth (Epimetheus)"
+ },
+ {
+  "id": "ESRI:104931",
+  "failed": "not on Earth (Helene)"
+ },
+ {
+  "id": "ESRI:104932",
+  "failed": "not on Earth (Hyperion)"
+ },
+ {
+  "id": "ESRI:104933",
+  "failed": "not on Earth (Iapetus)"
+ },
+ {
+  "id": "ESRI:104934",
+  "failed": "not on Earth (Janus)"
+ },
+ {
+  "id": "ESRI:104935",
+  "failed": "not on Earth (Mimas)"
+ },
+ {
+  "id": "ESRI:104936",
+  "failed": "not on Earth (Pan)"
+ },
+ {
+  "id": "ESRI:104937",
+  "failed": "not on Earth (Pandora)"
+ },
+ {
+  "id": "ESRI:104938",
+  "failed": "not on Earth (Phoebe)"
+ },
+ {
+  "id": "ESRI:104939",
+  "failed": "not on Earth (Prometheus)"
+ },
+ {
+  "id": "ESRI:104940",
+  "failed": "not on Earth (Rhea)"
+ },
+ {
+  "id": "ESRI:104941",
+  "failed": "not on Earth (Telesto)"
+ },
+ {
+  "id": "ESRI:104942",
+  "failed": "not on Earth (Tethys)"
+ },
+ {
+  "id": "ESRI:104943",
+  "failed": "not on Earth (Titan)"
+ },
+ {
+  "id": "ESRI:104944",
+  "failed": "not on Earth (Uranus)"
+ },
+ {
+  "id": "ESRI:104945",
+  "failed": "not on Earth (Ariel)"
+ },
+ {
+  "id": "ESRI:104946",
+  "failed": "not on Earth (Belinda)"
+ },
+ {
+  "id": "ESRI:104947",
+  "failed": "not on Earth (Bianca)"
+ },
+ {
+  "id": "ESRI:104948",
+  "failed": "not on Earth (Cordelia)"
+ },
+ {
+  "id": "ESRI:104949",
+  "failed": "not on Earth (Cressida)"
+ },
+ {
+  "id": "ESRI:104950",
+  "failed": "not on Earth (Desdemona)"
+ },
+ {
+  "id": "ESRI:104951",
+  "failed": "not on Earth (Juliet)"
+ },
+ {
+  "id": "ESRI:104952",
+  "failed": "not on Earth (Miranda)"
+ },
+ {
+  "id": "ESRI:104953",
+  "failed": "not on Earth (Oberon)"
+ },
+ {
+  "id": "ESRI:104954",
+  "failed": "not on Earth (Ophelia)"
+ },
+ {
+  "id": "ESRI:104955",
+  "failed": "not on Earth (Portia)"
+ },
+ {
+  "id": "ESRI:104956",
+  "failed": "not on Earth (Puck)"
+ },
+ {
+  "id": "ESRI:104957",
+  "failed": "not on Earth (Rosalind)"
+ },
+ {
+  "id": "ESRI:104958",
+  "failed": "not on Earth (Titania)"
+ },
+ {
+  "id": "ESRI:104959",
+  "failed": "not on Earth (Umbriel)"
+ },
+ {
+  "id": "ESRI:104960",
+  "failed": "not on Earth (Neptune)"
+ },
+ {
+  "id": "ESRI:104961",
+  "failed": "not on Earth (Despina)"
+ },
+ {
+  "id": "ESRI:104962",
+  "failed": "not on Earth (Galatea)"
+ },
+ {
+  "id": "ESRI:104963",
+  "failed": "not on Earth (Larissa)"
+ },
+ {
+  "id": "ESRI:104964",
+  "failed": "not on Earth (Naiad)"
+ },
+ {
+  "id": "ESRI:104965",
+  "failed": "not on Earth (Nereid)"
+ },
+ {
+  "id": "ESRI:104966",
+  "failed": "not on Earth (Proteus)"
+ },
+ {
+  "id": "ESRI:104967",
+  "failed": "not on Earth (Thalassa)"
+ },
+ {
+  "id": "ESRI:104968",
+  "failed": "not on Earth (Triton)"
+ },
+ {
+  "id": "ESRI:104969",
+  "failed": "not on Earth (Pluto)"
+ },
+ {
+  "id": "ESRI:104970",
+  "failed": "not on Earth (Charon)"
+ },
+ {
+  "id": "ESRI:104971",
+  "failed": "not on Earth (Mars)"
+ },
+ {
+  "id": "ESRI:104972",
+  "failed": "not on Earth (1_Ceres)"
+ },
+ {
+  "id": "ESRI:104973",
+  "failed": "not on Earth (4_Vesta)"
+ },
+ {
+  "id": "ESRI:104974",
+  "failed": "not on Earth (Mercury)"
+ },
+ {
+  "id": "ESRI:104975",
+  "failed": "not on Earth (Sun)"
+ },
+ {
+  "id": "ESRI:104976",
+  "failed": "not on Earth (Atlas)"
+ },
+ {
+  "id": "ESRI:104977",
+  "failed": "not on Earth (Calypso)"
+ },
+ {
+  "id": "ESRI:104978",
+  "failed": "not on Earth (Daphnis)"
+ },
+ {
+  "id": "ESRI:104979",
+  "failed": "not on Earth (Dione)"
+ },
+ {
+  "id": "ESRI:104980",
+  "failed": "not on Earth (Enceladus)"
+ },
+ {
+  "id": "ESRI:104981",
+  "failed": "not on Earth (Epimetheus)"
+ },
+ {
+  "id": "ESRI:104982",
+  "failed": "not on Earth (Helene)"
+ },
+ {
+  "id": "ESRI:104983",
+  "failed": "not on Earth (Hyperion)"
+ },
+ {
+  "id": "ESRI:104984",
+  "failed": "not on Earth (Iapetus)"
+ },
+ {
+  "id": "ESRI:104985",
+  "failed": "not on Earth (Janus)"
+ },
+ {
+  "id": "ESRI:104986",
+  "failed": "not on Earth (Methone)"
+ },
+ {
+  "id": "ESRI:104987",
+  "failed": "not on Earth (Mimas)"
+ },
+ {
+  "id": "ESRI:104988",
+  "failed": "not on Earth (Pallene)"
+ },
+ {
+  "id": "ESRI:104989",
+  "failed": "not on Earth (Pan)"
+ },
+ {
+  "id": "ESRI:104993",
+  "failed": "not on Earth (Prometheus)"
+ },
+ {
+  "id": "ESRI:104994",
+  "failed": "not on Earth (Rhea)"
+ },
+ {
+  "id": "ESRI:104995",
+  "failed": "not on Earth (Telesto)"
+ },
+ {
+  "id": "ESRI:104996",
+  "failed": "not on Earth (Tethys)"
+ },
+ {
+  "id": "ESRI:104997",
+  "failed": "not on Earth (Larissa)"
+ },
+ {
+  "id": "ESRI:104998",
+  "failed": "not on Earth (Pluto)"
+ },
+ {
+  "id": "ESRI:104999",
+  "failed": "not on Earth (Charon)"
+ },
+ {
+  "id": "ESRI:53025",
+  "failed": "PROJ cannot read the base proj4 string"
+ },
+ {
+  "id": "ESRI:53044",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "ESRI:53076",
+  "failed": "no candidate without grids"
+ },
+ {
+  "id": "ESRI:54025",
+  "failed": "PROJ cannot read the base proj4 string"
+ },
+ {
+  "id": "ESRI:54044",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "ESRI:54050",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "ESRI:54051",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "ESRI:54076",
+  "failed": "no candidate without grids"
+ },
+ {
+  "id": "ESRI:54100",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "ESRI:54101",
+  "failed": "PROJ has no proj4 form for this CRS"
+ }
+]

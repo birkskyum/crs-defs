@@ -1,0 +1,1 @@
+{"id":"EPSG:22216","name":"NAD83(CSRS)v2 / UTM zone 16N","type":"projected","area":{"bbox":[-90,46.11,-84,84],"name":"Canada between 90°W and 84°W, onshore and offshore south of 84°N - Manitoba, Nunavut, Ontario."},"definition":"+proj=utm +zone=16 +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

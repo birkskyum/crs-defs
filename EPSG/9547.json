@@ -1,0 +1,1 @@
+{"id":"EPSG:9547","name":"LTF2004(G)","type":"geographic","area":{"bbox":[4.65,44.87,7.88,45.89],"name":"France and Italy - on or related to the rail route from Lyon to Turin."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

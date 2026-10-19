@@ -1,0 +1,1 @@
+{"id":"ESRI:104748","name":"GCS_NAD_1983_HARN_Adj_MN_Mower","type":"geographic","area":{"bbox":[-97.24,43.49,-89.48,49.39],"name":"United States (USA) - Minnesota."},"definition":"+proj=longlat +a=6378521.049 +rf=298.257222100883 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

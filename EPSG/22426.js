@@ -1,0 +1,5 @@
+export const id = "EPSG:22426";
+export const name = "NATRF2022e2020 / Indiana Spencer (ft)";
+export const bbox = [-87.27,37.78,-86.76,38.21];
+export const definition = "+proj=tmerc +lat_0=29.5 +lon_0=-87.05 +k=1.000014 +x_0=1257300 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs";
+export const errorM = 0;

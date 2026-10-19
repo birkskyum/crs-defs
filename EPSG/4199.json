@@ -1,0 +1,1 @@
+{"id":"EPSG:4199","name":"Egypt 1930","type":"geographic","area":{"bbox":[24.7,21.97,36.95,31.68],"name":"Egypt - onshore."},"definition":"+proj=longlat +ellps=intl +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

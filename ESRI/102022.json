@@ -1,0 +1,1 @@
+{"id":"ESRI:102022","name":"Africa_Albers_Equal_Area_Conic","type":"projected","area":{"bbox":[-25,-35,55,39],"name":"Africa"},"definition":"+proj=aea +lat_0=0 +lon_0=25 +lat_1=20 +lat_2=-23 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

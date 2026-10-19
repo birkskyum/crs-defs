@@ -1,0 +1,1 @@
+{"id":"EPSG:2042","name":"Locodjo 1965 / UTM zone 29N","type":"projected","area":{"bbox":[-8.61,4.29,-6,10.74],"name":"Côte d'Ivoire (Ivory Coast) west of 6°W."},"definition":"+proj=utm +zone=29 +a=6378249.145 +rf=293.465 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

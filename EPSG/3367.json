@@ -1,0 +1,1 @@
+{"id":"EPSG:3367","name":"IGN Astro 1960 / UTM zone 28N","type":"projected","area":{"bbox":[-17.08,14.72,-12,23.46],"name":"Mauritania - onshore west of 12°W."},"definition":"+proj=utm +zone=28 +a=6378249.145 +rf=293.465 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

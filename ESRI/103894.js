@@ -1,0 +1,5 @@
+export const id = "ESRI:103894";
+export const name = "California_SRS_Epoch_2017.50_(NAD83)_StatePlane_CA_IV_US_Feet";
+export const bbox = [-122.06,35.78,-115.64,37.59];
+export const definition = "+proj=lcc +lat_0=35.3333333333333 +lon_0=-119 +lat_1=36 +lat_2=37.25 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs";
+export const errorM = 0;

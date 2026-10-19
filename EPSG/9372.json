@@ -1,0 +1,1 @@
+{"id":"EPSG:9372","name":"MML07-IRF","type":"geographic","area":{"bbox":[-1.89,51.46,0.16,53.42],"name":"United Kingdom (UK) - on or related to the Midland Mainline rail route from Sheffield to London."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

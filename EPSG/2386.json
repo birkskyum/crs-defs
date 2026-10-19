@@ -1,0 +1,1 @@
+{"id":"EPSG:2386","name":"Xian 1980 / 3-degree Gauss-Kruger CM 123E","type":"projected","area":{"bbox":[121.5,28.22,124.5,53.56],"name":"China - onshore between 121°30'E and 124°30'E."},"definition":"+proj=tmerc +lat_0=0 +lon_0=123 +k=1 +x_0=500000 +y_0=0 +ellps=IAU76 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

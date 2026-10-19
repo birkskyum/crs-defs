@@ -1,0 +1,1 @@
+{"id":"EPSG:4241","name":"Jamaica 1875","type":"geographic","area":{"bbox":[-78.43,17.64,-76.17,18.58],"name":"Jamaica - onshore."},"definition":"+proj=longlat +a=6378249.14480801 +b=6356514.96620413 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

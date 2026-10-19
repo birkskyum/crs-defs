@@ -1,0 +1,1 @@
+{"id":"ESRI:102030","name":"Asia_South_Lambert_Conformal_Conic","type":"projected","area":{"bbox":[25,-10,165,30],"name":"Asia - South"},"definition":"+proj=lcc +lat_0=-15 +lon_0=125 +lat_1=7 +lat_2=-32 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

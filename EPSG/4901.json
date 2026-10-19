@@ -1,0 +1,1 @@
+{"id":"EPSG:4901","name":"ATF (Paris)","type":"geographic","area":{"bbox":[-4.87,42.33,8.23,51.14],"name":"France - mainland onshore."},"definition":"+proj=longlat +a=6376523 +rf=308.64 +pm=2.33720833333333 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

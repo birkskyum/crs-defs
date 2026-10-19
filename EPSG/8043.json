@@ -1,0 +1,1 @@
+{"id":"EPSG:8043","name":"St. Stephen (Ferro)","type":"geographic","area":{"bbox":[14.41,47.42,18.86,50.45],"name":"Austria - Lower Austria. Czechia - Moravia and Czech Silesia."},"definition":"+proj=longlat +a=6376045 +rf=310 +pm=ferro +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

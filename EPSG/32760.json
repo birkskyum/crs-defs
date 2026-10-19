@@ -1,0 +1,1 @@
+{"id":"EPSG:32760","name":"WGS 84 / UTM zone 60S","type":"projected","area":{"bbox":[174,-80,180,0],"name":"Between 174°E and 180°E, southern hemisphere between 80°S and equator, onshore and offshore. New Zealand."},"definition":"+proj=utm +zone=60 +south +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

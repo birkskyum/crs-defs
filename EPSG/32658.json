@@ -1,0 +1,1 @@
+{"id":"EPSG:32658","name":"WGS 84 / UTM zone 58N","type":"projected","area":{"bbox":[162,0,168,84],"name":"Between 162°E and 168°E, northern hemisphere between equator and 84°N, onshore and offshore. Russian Federation."},"definition":"+proj=utm +zone=58 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

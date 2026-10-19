@@ -1,0 +1,1 @@
+{"id":"EPSG:5523","name":"WGS 84 / Gabon TM 2011","type":"projected","area":{"bbox":[7.03,-6.37,14.52,2.32],"name":"Gabon - onshore and offshore."},"definition":"+proj=tmerc +lat_0=0 +lon_0=11.5 +k=0.9996 +x_0=1500000 +y_0=5500000 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

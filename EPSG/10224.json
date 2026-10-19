@@ -1,0 +1,1 @@
+{"id":"EPSG:10224","name":"MALS09-IRF","type":"geographic","area":{"bbox":[-2.26,51.45,-0.05,52.91],"name":"United Kingdom (UK) - on or related to the rail route from London (Marylebone) to Leamington Spa."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

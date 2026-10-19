@@ -1,0 +1,1 @@
+{"id":"EPSG:23946","name":"Indian 1954 / UTM zone 46N","type":"projected","area":{"bbox":[92.2,15.66,96.01,27.14],"name":"Myanmar (Burma) - onshore west of 96°E."},"definition":"+proj=utm +zone=46 +ellps=evrst30 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

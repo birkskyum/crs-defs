@@ -1,0 +1,5 @@
+export const id = "EPSG:22287";
+export const name = "Cape / Lo27";
+export const bbox = [26,-33.83,28,-22.92];
+export const definition = "+proj=tmerc +axis=wsu +lat_0=0 +lon_0=27 +k=1 +x_0=0 +y_0=0 +a=6378249.145 +rf=293.4663077 +towgs84=-136,-108,-292 +units=m +no_defs";
+export const errorM = 0;

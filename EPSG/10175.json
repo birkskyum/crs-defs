@@ -1,0 +1,1 @@
+{"id":"EPSG:10175","name":"DoPw22-IRF","type":"geographic","area":{"bbox":[-4.51,52.45,-3.8,53.01],"name":"United Kingdom (UK) - on or related to the rail route from Dovey Junction to Pwllheli."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

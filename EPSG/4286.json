@@ -1,0 +1,1 @@
+{"id":"EPSG:4286","name":"Qatar 1948","type":"geographic","area":{"bbox":[50.69,24.55,51.68,26.2],"name":"Qatar - onshore."},"definition":"+proj=longlat +ellps=helmert +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

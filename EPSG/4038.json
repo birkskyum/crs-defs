@@ -1,0 +1,1 @@
+{"id":"EPSG:4038","name":"WGS 84 / TMzn36N","type":"projected","area":{"bbox":[30,46.37,30.13,46.47],"name":"Moldova - east of 30°E."},"definition":"+proj=utm +zone=36 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

@@ -1,0 +1,5 @@
+export const id = "ESRI:102102";
+export const name = "NGO_1948_Norway_Zone_2";
+export const bbox = [7.22,57.9,9.56,64.23];
+export const definition = "+proj=tmerc +lat_0=58 +lon_0=8.38958333333333 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +rf=299.1528128 +towgs84=278.3,93,474.5,7.889,0.05,-6.61,6.21 +units=m +no_defs";
+export const errorM = 0.00366;

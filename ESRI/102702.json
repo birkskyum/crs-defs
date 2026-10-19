@@ -1,0 +1,1 @@
+{"id":"ESRI:102702","name":"NAD_1983_PACP00_UTM_Zone_5N","type":"projected","area":{"bbox":[-156,18.87,-154.74,20.86],"name":"United States (USA) - between 156°W and 150°W onshore - Hawaii."},"definition":"+proj=utm +zone=5 +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

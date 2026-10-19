@@ -1,0 +1,5 @@
+export const id = "EPSG:20010";
+export const name = "Pulkovo 1995 / Gauss-Kruger zone 10";
+export const bbox = [54,50.47,60,81.91];
+export const definition = "+proj=tmerc +lat_0=0 +lon_0=57 +k=1 +x_0=10500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs";
+export const errorM = 0;

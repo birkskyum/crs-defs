@@ -1,0 +1,5 @@
+export const id = "EPSG:27705";
+export const name = "WGS 84 / Equi7 North America";
+export const bbox = [-180,7.98,180,90];
+export const definition = "+proj=aeqd +lat_0=52 +lon_0=-97.5 +x_0=8264722.177 +y_0=4867518.353 +datum=WGS84 +units=m +no_defs";
+export const errorM = 0;

@@ -1,0 +1,1 @@
+{"id":"EPSG:9974","name":"FNL22-IRF","type":"geographic","area":{"bbox":[-4.6,57.4,-3,58.64],"name":"United Kingdom (UK) - on or related to the rail route from Inverness to Thurso and Wick."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

@@ -1,0 +1,1 @@
+{"id":"EPSG:11476","name":"SIRGAS-Chile 2025 / UTM zone 19S","type":"projected","area":{"bbox":[-72,-59.87,-66,-17.5],"name":"Chile - 72°W to 66°W, onshore and offshore."},"definition":"+proj=utm +zone=19 +south +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

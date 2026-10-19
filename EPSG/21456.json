@@ -1,0 +1,1 @@
+{"id":"EPSG:21456","name":"Beijing 1954 / Gauss-Kruger CM 93E","type":"projected","area":{"bbox":[90,27.71,96.01,47.9],"name":"China - between 90°E and 96°E."},"definition":"+proj=tmerc +lat_0=0 +lon_0=93 +k=1 +x_0=500000 +y_0=0 +ellps=krass +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

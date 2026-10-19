@@ -1,0 +1,1 @@
+{"id":"ESRI:104028","name":"GDM2008","type":"geographic","area":{"bbox":[53.8,-23.81,67.05,-8.43],"name":"Mauritius - onshore and offshore. Includes Rodrigues, Agalega Islands, and Cargados Carajos."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

@@ -1,0 +1,1 @@
+{"id":"ESRI:102116","name":"American_Samoa_1962_UTM_Zone_2S","type":"projected","area":{"bbox":[-173.75,-17.56,-165.2,-10.02],"name":"American Samoa - onshore and offshore."},"definition":"+proj=utm +zone=2 +south +ellps=clrk66 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

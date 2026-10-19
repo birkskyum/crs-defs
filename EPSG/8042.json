@@ -1,0 +1,1 @@
+{"id":"EPSG:8042","name":"Gusterberg (Ferro)","type":"geographic","area":{"bbox":[12.07,46.93,16.83,51.06],"name":"Austria - Upper Austria and Salzburg provinces. Czechia - Bohemia."},"definition":"+proj=longlat +a=6376045 +rf=310 +pm=ferro +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

@@ -1,0 +1,1 @@
+{"id":"EPSG:9364","name":"TPEN11-IRF","type":"geographic","area":{"bbox":[-3.14,53.32,-1.34,53.9],"name":"United Kingdom (UK) - on or related to the Trans-Pennine rail route from Liverpool via Manchester to Bradford and Leeds."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

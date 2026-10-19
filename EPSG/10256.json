@@ -1,0 +1,1 @@
+{"id":"EPSG:10256","name":"GS-IRF","type":"geographic","area":{"bbox":[8,54.51,12.87,57.8],"name":"Denmark - onshore Jutland, Funen, Zealand and Lolland."},"definition":"+proj=longlat +a=6377019.27 +rf=300 +no_defs","datumShift":"unknown","transformation":null,"errorM":615,"proj4jsErrorM":615,"approximate":true}

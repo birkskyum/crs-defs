@@ -1,0 +1,1 @@
+{"id":"EPSG:22641","name":"NAD83(CSRS)v6 / MTM zone 1","type":"projected","area":{"bbox":[-54.5,46.56,-52.54,49.89],"name":"Canada - Newfoundland - onshore east of 54°30'W."},"definition":"+proj=tmerc +lat_0=0 +lon_0=-53 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

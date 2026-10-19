@@ -1,0 +1,1 @@
+{"id":"EPSG:4555","name":"New Beijing","type":"geographic","area":{"bbox":[73.62,18.11,134.77,53.56],"name":"China - onshore."},"definition":"+proj=longlat +ellps=krass +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

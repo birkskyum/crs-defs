@@ -1,0 +1,5 @@
+export const id = "EPSG:10833";
+export const name = "Georgia Geodetic Datum / Lambert";
+export const bbox = [39.99,41.04,46.72,43.59];
+export const definition = "+proj=lcc +lat_0=42.5 +lon_0=43.5 +lat_1=41.6666666666667 +lat_2=42.6666666666667 +x_0=1300000 +y_0=400000 +ellps=GRS80 +towgs84=-2.0796,-0.3484,1.7009,-0.05465,0.06718,-0.06143,0.0181 +units=m +no_defs";
+export const errorM = 0;

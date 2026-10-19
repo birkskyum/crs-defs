@@ -1,0 +1,1 @@
+{"id":"EPSG:7773","name":"WGS 84 / Punjab","type":"projected","area":{"bbox":[73.87,29.54,76.94,32.58],"name":"India - Punjab including Chandigarh."},"definition":"+proj=lcc +lat_0=31.00178226 +lon_0=75.375 +lat_1=30 +lat_2=32 +x_0=1000000 +y_0=1000000 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

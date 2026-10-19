@@ -1,0 +1,1 @@
+{"id":"EPSG:5467","name":"Panama-Colon 1911","type":"geographic","area":{"bbox":[-83.04,7.15,-77.19,9.68],"name":"Panama - onshore."},"definition":"+proj=longlat +ellps=clrk66 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

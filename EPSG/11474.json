@@ -1,0 +1,1 @@
+{"id":"EPSG:11474","name":"SIRGAS-Chile 2025 / UTM zone 12S","type":"projected","area":{"bbox":[-113.21,-30.54,-108,-23.72],"name":"Chile - Easter Island onshore and offshore - west of 108°W."},"definition":"+proj=utm +zone=12 +south +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

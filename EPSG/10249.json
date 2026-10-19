@@ -1,0 +1,1 @@
+{"id":"EPSG:10249","name":"S34S-IRF","type":"geographic","area":{"bbox":[10.79,54.51,12.87,56.79],"name":"Denmark - Zealand and Lolland (onshore)."},"definition":"+proj=longlat +ellps=intl +no_defs","datumShift":"unknown","transformation":null,"errorM":30.8,"proj4jsErrorM":30.8,"approximate":true}

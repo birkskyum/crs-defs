@@ -1,0 +1,1 @@
+{"id":"EPSG:4700","name":"IGN Astro 1960","type":"geographic","area":{"bbox":[-17.08,14.72,-4.8,27.3],"name":"Mauritania - onshore."},"definition":"+proj=longlat +a=6378249.145 +rf=293.465 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

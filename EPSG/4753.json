@@ -1,0 +1,1 @@
+{"id":"EPSG:4753","name":"fk89","type":"geographic","area":{"bbox":[-7.49,61.33,-6.33,62.41],"name":"Faroe Islands - onshore."},"definition":"+proj=longlat +ellps=intl +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

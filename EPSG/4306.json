@@ -1,0 +1,1 @@
+{"id":"EPSG:4306","name":"Bern 1938","type":"geographic","area":{"bbox":[5.95,45.81,10.5,47.81],"name":"Liechtenstein; Switzerland."},"definition":"+proj=longlat +ellps=bessel +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

@@ -1,0 +1,1 @@
+{"id":"EPSG:4303","name":"TC(1948)","type":"geographic","area":{"bbox":[51.56,22.63,56.03,25.34],"name":"United Arab Emirates (UAE) - Abu Dhabi onshore and Dubai onshore."},"definition":"+proj=longlat +ellps=helmert +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

@@ -1,0 +1,1 @@
+{"id":"EPSG:11033","name":"SRGI2013 epoch 2021.0","type":"geographic","area":{"bbox":[92.01,-13.95,141.46,7.79],"name":"Indonesia - onshore and offshore."},"definition":"+proj=longlat +ellps=WGS84 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

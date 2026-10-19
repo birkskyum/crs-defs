@@ -1,0 +1,1 @@
+{"id":"EPSG:30340","name":"TC(1948) / UTM zone 40N","type":"projected","area":{"bbox":[53.99,22.63,56.03,25.34],"name":"United Arab Emirates (UAE) - Abu Dhabi onshore east of 54°E; Dubai onshore."},"definition":"+proj=utm +zone=40 +ellps=helmert +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

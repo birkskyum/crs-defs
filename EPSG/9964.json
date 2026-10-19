@@ -1,0 +1,1 @@
+{"id":"EPSG:9964","name":"HULLEE13-IRF","type":"geographic","area":{"bbox":[-1.7,53.6,-0.27,53.9],"name":"United Kingdom (UK) - on or related to the rail route from the Morley tunnel through Leeds to Hull."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

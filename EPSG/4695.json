@@ -1,0 +1,1 @@
+{"id":"EPSG:4695","name":"Katanga 1955","type":"geographic","area":{"bbox":[21.74,-13.46,30.78,-4.99],"name":"The Democratic Republic of the Congo (Zaire) - Katanga."},"definition":"+proj=longlat +ellps=clrk66 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

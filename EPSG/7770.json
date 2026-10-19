@@ -1,0 +1,1 @@
+{"id":"EPSG:7770","name":"WGS 84 / Nagaland","type":"projected","area":{"bbox":[93.33,25.2,95.25,27.05],"name":"India - Nagaland."},"definition":"+proj=lcc +lat_0=26.12581974 +lon_0=94.375 +lat_1=25.375 +lat_2=26.875 +x_0=1000000 +y_0=1000000 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

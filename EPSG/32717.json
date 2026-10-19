@@ -1,0 +1,1 @@
+{"id":"EPSG:32717","name":"WGS 84 / UTM zone 17S","type":"projected","area":{"bbox":[-84,-80,-78,0],"name":"Between 84°W and 78°W, southern hemisphere between 80°S and equator, onshore and offshore. Ecuador. Peru."},"definition":"+proj=utm +zone=17 +south +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

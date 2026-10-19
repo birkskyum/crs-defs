@@ -1,0 +1,1 @@
+{"id":"EPSG:9697","name":"REDGEOMIN / UTM zone 12S","type":"projected","area":{"bbox":[-109.51,-27.25,-109.16,-27.01],"name":"Chile - Easter Island onshore."},"definition":"+proj=utm +zone=12 +south +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

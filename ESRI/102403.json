@@ -1,0 +1,1 @@
+{"id":"ESRI:102403","name":"NAD_1983_CORS96_UTM_Zone_3N","type":"projected","area":{"bbox":[-168,49.52,-161.99,74.29],"name":"United States (USA) - between 168°W and 162°W - Alaska and offshore continental shelf (OCS)."},"definition":"+proj=utm +zone=3 +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

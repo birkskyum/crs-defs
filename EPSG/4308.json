@@ -1,0 +1,1 @@
+{"id":"EPSG:4308","name":"RT38","type":"geographic","area":{"bbox":[10.93,55.28,24.17,69.07],"name":"Sweden - onshore."},"definition":"+proj=longlat +ellps=bessel +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

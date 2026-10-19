@@ -1,0 +1,1 @@
+{"id":"EPSG:2351","name":"Xian 1980 / 3-degree Gauss-Kruger zone 27","type":"projected","area":{"bbox":[79.5,29.95,82.51,45.88],"name":"China - between 79°30'E and 82°30'E."},"definition":"+proj=tmerc +lat_0=0 +lon_0=81 +k=1 +x_0=27500000 +y_0=0 +ellps=IAU76 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

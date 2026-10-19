@@ -1,0 +1,1 @@
+{"id":"EPSG:9384","name":"AbInvA96_2020-IRF","type":"geographic","area":{"bbox":[-4.31,57.1,-2.1,57.71],"name":"United Kingdom (UK) - on or related to the A96 highway from Aberdeen to Inverness."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

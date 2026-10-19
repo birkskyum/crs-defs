@@ -1,0 +1,1 @@
+{"id":"EPSG:4174","name":"Sierra Leone 1924","type":"geographic","area":{"bbox":[-13.34,8.32,-13.13,8.55],"name":"Sierra Leone - Freetown Peninsula."},"definition":"+proj=longlat +a=6378300 +rf=296 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

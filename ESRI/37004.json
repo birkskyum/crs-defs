@@ -1,0 +1,1 @@
+{"id":"ESRI:37004","name":"GCS_Fischer_Modified","type":"geographic","area":{"bbox":[-180,-90,180,90],"name":"World."},"definition":"+proj=longlat +ellps=fschr60m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

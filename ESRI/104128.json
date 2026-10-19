@@ -1,0 +1,1 @@
+{"id":"ESRI:104128","name":"GCS_Sphere_EMEP","type":"geographic","area":{"bbox":[-30,34,50,85],"name":"Europe"},"definition":"+proj=longlat +R=6370000 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

@@ -1,0 +1,1 @@
+{"id":"EPSG:9453","name":"GBK19-IRF","type":"geographic","area":{"bbox":[-4.65,55.55,-4.05,55.95],"name":"United Kingdom (UK) - on or related to the rail route from Glasgow to Kilmarnock via Barrhead and the branch to East Kilbride."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

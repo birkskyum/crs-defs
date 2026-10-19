@@ -1,0 +1,1 @@
+{"id":"EPSG:4903","name":"Madrid 1870 (Madrid)","type":"geographic","area":{"bbox":[-9.37,35.95,3.39,43.82],"name":"Spain - mainland onshore."},"definition":"+proj=longlat +a=6378298.3 +rf=294.73 +pm=-3.687375 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

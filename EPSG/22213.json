@@ -1,0 +1,1 @@
+{"id":"EPSG:22213","name":"NAD83(CSRS)v2 / UTM zone 13N","type":"projected","area":{"bbox":[-108,48.99,-102,84],"name":"Canada between 108°W and 102°W onshore and offshore - Northwest Territories, Nunavut, Saskatchewan."},"definition":"+proj=utm +zone=13 +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

@@ -1,0 +1,1 @@
+{"id":"EPSG:4696","name":"Kasai 1953","type":"geographic","area":{"bbox":[21.5,-7.31,26.26,-5.01],"name":"The Democratic Republic of the Congo (Zaire) - Kasai - south of 5°S and east of 21°30'E."},"definition":"+proj=longlat +a=6378249.145 +rf=293.465 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

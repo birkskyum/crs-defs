@@ -1,0 +1,1 @@
+{"id":"EPSG:2309","name":"WGS 84 / TM 116 SE","type":"projected","area":{"bbox":[112.8,-8.46,117.01,-6.8],"name":"Indonesia - offshore Madura Strait and western Bali Sea."},"definition":"+proj=tmerc +lat_0=0 +lon_0=116 +k=0.9996 +x_0=500000 +y_0=10000000 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

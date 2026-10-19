@@ -1,0 +1,1 @@
+{"id":"ESRI:102958","name":"NAD_1983_(PA11)_UTM_Zone_57N","type":"projected","area":{"bbox":[157.92,5.25,163.07,7.02],"name":"Federated States of Micronesia - UTM 57N and east"},"definition":"+proj=utm +zone=57 +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

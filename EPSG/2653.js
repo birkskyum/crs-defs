@@ -1,0 +1,5 @@
+export const id = "EPSG:2653";
+export const name = "Pulkovo 1995 / 3-degree Gauss-Kruger zone 19";
+export const bbox = [55.5,50.53,58.5,81.89];
+export const definition = "+proj=tmerc +lat_0=0 +lon_0=57 +k=1 +x_0=19500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs";
+export const errorM = 0;

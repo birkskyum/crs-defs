@@ -1,0 +1,1 @@
+{"id":"EPSG:2310","name":"WGS 84 / TM 132 SE","type":"projected","area":{"bbox":[131.89,-2.94,133.82,-1.97],"name":"Indonesia - West Papua (formerly Irian Jaya) - Tangguh."},"definition":"+proj=tmerc +lat_0=0 +lon_0=132 +k=0.9996 +x_0=500000 +y_0=10000000 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

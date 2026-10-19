@@ -1,0 +1,5 @@
+export const id = "EPSG:7825";
+export const name = "Pulkovo 1942 / CS63 zone X1";
+export const bbox = [22.15,47.71,25.01,51.92];
+export const definition = "+proj=tmerc +lat_0=0.0833333333333333 +lon_0=23.5 +k=1 +x_0=1300000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs";
+export const errorM = 0;

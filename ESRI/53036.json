@@ -1,0 +1,1 @@
+{"id":"ESRI:53036","name":"Sphere_Equal_Earth_Americas","type":"projected","area":{"bbox":[-180,-90,180,90],"name":"World."},"definition":"+proj=eqearth +lon_0=-90 +x_0=0 +y_0=0 +R=6371008.7714 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

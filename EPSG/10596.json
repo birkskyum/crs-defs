@@ -1,0 +1,1 @@
+{"id":"EPSG:10596","name":"WGS 84 / GLANCE Europe","type":"projected","area":{"bbox":[-42.52,29.24,51.73,83.67],"name":"Europe including Russia west of the Ural Mountains."},"definition":"+proj=laea +lat_0=55 +lon_0=20 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

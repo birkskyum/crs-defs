@@ -1,0 +1,1 @@
+{"id":"EPSG:8693","name":"NAD83(MA11) / UTM zone 55N","type":"projected","area":{"bbox":[144,11.05,149.55,23.9],"name":"Guam and Northern Mariana Islands; onshore and offshore east of 144°E."},"definition":"+proj=utm +zone=55 +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0.819,"proj4jsErrorM":0.819,"approximate":true}

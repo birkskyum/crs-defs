@@ -1,0 +1,1 @@
+{"id":"EPSG:22207","name":"NAD83(CSRS)v2 / UTM zone 7N","type":"projected","area":{"bbox":[-141.01,52.05,-138,72.53],"name":"Canada west of 138°W, onshore and offshore south of 84°N - British Columbia, Yukon."},"definition":"+proj=utm +zone=7 +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

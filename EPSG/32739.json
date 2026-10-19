@@ -1,0 +1,1 @@
+{"id":"EPSG:32739","name":"WGS 84 / UTM zone 39S","type":"projected","area":{"bbox":[48,-80,54,0],"name":"Between 48°E and 54°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar."},"definition":"+proj=utm +zone=39 +south +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

@@ -1,0 +1,1 @@
+{"id":"ESRI:37260","name":"GCS_Alaskan_Islands","type":"geographic","area":{"bbox":[172.34,51.17,-129.97,71.44],"name":"United States (USA) - Alaska."},"definition":"+proj=longlat +ellps=clrk66 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

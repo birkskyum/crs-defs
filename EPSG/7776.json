@@ -1,0 +1,1 @@
+{"id":"EPSG:7776","name":"WGS 84 / Uttaranchal","type":"projected","area":{"bbox":[77.56,28.71,81.02,31.48],"name":"India - Uttarakhand (Uttaranchal)."},"definition":"+proj=lcc +lat_0=30.0017132 +lon_0=79.375 +lat_1=29 +lat_2=31 +x_0=1000000 +y_0=1000000 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

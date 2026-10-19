@@ -1,0 +1,1 @@
+{"id":"EPSG:4252","name":"Lome","type":"geographic","area":{"bbox":[-0.15,2.91,2.42,11.14],"name":"Togo - onshore and offshore."},"definition":"+proj=longlat +ellps=clrk80ign +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

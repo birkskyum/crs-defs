@@ -1,0 +1,1 @@
+{"id":"ESRI:102960","name":"NAD_1983_(PA11)_UTM_Zone_59N","type":"projected","area":{"bbox":[168,5.8,173,10],"name":"Republic of Marshall Islands - UTM 59N"},"definition":"+proj=utm +zone=59 +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

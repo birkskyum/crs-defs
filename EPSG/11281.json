@@ -1,0 +1,1 @@
+{"id":"EPSG:11281","name":"SRGI2013 epoch 2021.0 / UTM zone 51S","type":"projected","area":{"bbox":[120,-13.95,126.01,0.01],"name":"Indonesia - south of equator and between 120°E and 126°E - onshore and offshore."},"definition":"+proj=utm +zone=51 +south +ellps=WGS84 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

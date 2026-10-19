@@ -1,0 +1,1 @@
+{"id":"ESRI:102731","name":"PANAMA_ITRF08_UTM_17N","type":"projected","area":{"bbox":[-84.32,5,-77.99,12.51],"name":"Panama - UTM Zone 17N"},"definition":"+proj=utm +zone=17 +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

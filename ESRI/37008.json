@@ -1,0 +1,1 @@
+{"id":"ESRI:37008","name":"GCS_Sphere_ARC_INFO","type":"geographic","area":{"bbox":[-180,-90,180,90],"name":"World."},"definition":"+proj=longlat +ellps=sphere +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

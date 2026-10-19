@@ -1,0 +1,1 @@
+{"id":"EPSG:11266","name":"SRGI2013 epoch 2021.0 / UTM zone 46N","type":"projected","area":{"bbox":[92.01,0,96,7.79],"name":"Indonesia - north of equator and west of 96°E - onshore and offshore."},"definition":"+proj=utm +zone=46 +ellps=WGS84 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

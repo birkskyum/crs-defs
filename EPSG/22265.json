@@ -1,0 +1,1 @@
+{"id":"EPSG:22265","name":"NAD83(CSRS)v2 / Alberta 3TM ref merid 120 W","type":"projected","area":{"bbox":[-120,52.88,-118.5,60],"name":"Canada - Alberta - west of 118°30' W."},"definition":"+proj=tmerc +lat_0=0 +lon_0=-120 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

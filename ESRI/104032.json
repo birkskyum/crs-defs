@@ -1,0 +1,1 @@
+{"id":"ESRI:104032","name":"BTRS","type":"geographic","area":{"bbox":[19.99,-26.88,29.38,-17.78],"name":"Botswana."},"definition":"+proj=longlat +a=6378249.145 +rf=293.4663077 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

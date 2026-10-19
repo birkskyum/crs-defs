@@ -1,0 +1,1 @@
+{"id":"EPSG:25231","name":"Lome / UTM zone 31N","type":"projected","area":{"bbox":[-0.15,2.91,2.42,11.14],"name":"Togo - onshore and offshore."},"definition":"+proj=utm +zone=31 +ellps=clrk80ign +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

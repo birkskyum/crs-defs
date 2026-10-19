@@ -1,0 +1,1 @@
+{"id":"ESRI:102021","name":"South_Pole_Stereographic","type":"projected","area":{"bbox":[-180,-90,180,0],"name":"Southern hemisphere."},"definition":"+proj=stere +lat_0=-90 +lon_0=0 +k=1 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

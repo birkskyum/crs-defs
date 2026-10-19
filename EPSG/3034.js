@@ -1,0 +1,5 @@
+export const id = "EPSG:3034";
+export const name = "ETRS89-extended / LCC Europe";
+export const bbox = [-35.58,24.6,44.83,84.73];
+export const definition = "+proj=lcc +lat_0=52 +lon_0=10 +lat_1=35 +lat_2=65 +x_0=4000000 +y_0=2800000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs";
+export const errorM = 0;

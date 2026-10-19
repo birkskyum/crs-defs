@@ -1,0 +1,5 @@
+export const id = "EPSG:2196";
+export const name = "ETRS89 / Kp2000 Jutland";
+export const bbox = [8,54.67,11.29,57.8];
+export const definition = "+proj=tmerc +lat_0=0 +lon_0=9.5 +k=0.99995 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs";
+export const errorM = 0;

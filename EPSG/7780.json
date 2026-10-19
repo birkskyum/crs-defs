@@ -1,0 +1,1 @@
+{"id":"EPSG:7780","name":"WGS 84 / Karnataka","type":"projected","area":{"bbox":[74,11.57,78.58,18.46],"name":"India - Karnataka."},"definition":"+proj=tmerc +lat_0=15.125 +lon_0=76.375 +k=0.9998012 +x_0=1000000 +y_0=1000000 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

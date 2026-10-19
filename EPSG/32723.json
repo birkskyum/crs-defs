@@ -1,0 +1,1 @@
+{"id":"EPSG:32723","name":"WGS 84 / UTM zone 23S","type":"projected","area":{"bbox":[-48,-80,-42,0],"name":"Between 48°W and 42°W, southern hemisphere between 80°S and equator, onshore and offshore. Brazil."},"definition":"+proj=utm +zone=23 +south +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

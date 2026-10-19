@@ -1,0 +1,1 @@
+{"id":"ESRI:54003","name":"World_Miller_Cylindrical","type":"projected","area":{"bbox":[-180,-90,180,90],"name":"World."},"definition":"+proj=mill +R_A +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":15600,"proj4jsErrorM":20800,"approximate":true}

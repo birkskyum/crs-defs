@@ -1,0 +1,1 @@
+{"id":"EPSG:32709","name":"WGS 84 / UTM zone 9S","type":"projected","area":{"bbox":[-132,-80,-126,0],"name":"Between 132°W and 126°W, southern hemisphere between 80°S and equator, onshore and offshore."},"definition":"+proj=utm +zone=9 +south +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

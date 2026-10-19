@@ -1,0 +1,57 @@
+{
+  "name": "crs-defs",
+  "version": "0.1.0",
+  "description": "PROJ strings for EPSG and ESRI codes, with datum shifts checked against PROJ",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    "./all.json": "./all.json",
+    "./catalog.json": "./catalog.json",
+    "./EPSG/*.json": "./EPSG/*.json",
+    "./ESRI/*.json": "./ESRI/*.json",
+    "./EPSG/*": {
+      "types": "./types/crs.d.ts",
+      "default": "./EPSG/*.js"
+    },
+    "./ESRI/*": {
+      "types": "./types/crs.d.ts",
+      "default": "./ESRI/*.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "EPSG",
+    "ESRI",
+    "types",
+    "licenses",
+    "all.json",
+    "catalog.json",
+    "NOTICE.md"
+  ],
+  "scripts": {
+    "build": "node scripts/build.ts",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "epsg",
+    "esri",
+    "crs",
+    "proj",
+    "proj4",
+    "proj4js",
+    "projection",
+    "towgs84",
+    "datum",
+    "maplibre",
+    "openlayers"
+  ],
+  "author": "Birk Skyum",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/birkskyum/crs-defs.git"
+  },
+  "devDependencies": {
+    "proj4": "2.22.0"
+  }
+}

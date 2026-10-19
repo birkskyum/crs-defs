@@ -1,0 +1,1 @@
+{"id":"EPSG:4128","name":"Madzansua","type":"geographic","area":{"bbox":[30.21,-17.76,35.37,-14.01],"name":"Mozambique - west - Tete province."},"definition":"+proj=longlat +ellps=clrk66 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

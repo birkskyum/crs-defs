@@ -1,0 +1,1 @@
+{"id":"ESRI:112225","name":"BTRS_UTM_zone_34S","type":"projected","area":{"bbox":[19.99,-26.88,24,-17.99],"name":"Botswana - west of 24°E."},"definition":"+proj=utm +zone=34 +south +a=6378249.145 +rf=293.4663077 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

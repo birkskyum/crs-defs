@@ -1,0 +1,1 @@
+{"id":"EPSG:7777","name":"WGS 84 / Andaman and Nicobar","type":"projected","area":{"bbox":[92.15,6.7,94.33,13.73],"name":"India - Andaman and Nicobar Islands."},"definition":"+proj=tmerc +lat_0=10.25 +lon_0=93.25 +k=0.9999428 +x_0=1000000 +y_0=1000000 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

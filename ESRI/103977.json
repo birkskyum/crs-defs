@@ -1,0 +1,1 @@
+{"id":"ESRI:103977","name":"WGS_1984_UTM_GTM_2010","type":"projected","area":{"bbox":[8.65,-3.98,14.52,2.32],"name":"Gabon - onshore."},"definition":"+proj=tmerc +lat_0=0 +lon_0=12 +k=0.9996 +x_0=500000 +y_0=500000 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

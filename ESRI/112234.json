@@ -1,0 +1,1 @@
+{"id":"ESRI:112234","name":"BNGRS02_UTM_zone_35S","type":"projected","area":{"bbox":[24,-25.84,29.38,-17.78],"name":"Botswana - east of 24°E."},"definition":"+proj=utm +zone=35 +south +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

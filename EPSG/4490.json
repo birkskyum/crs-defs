@@ -1,0 +1,1 @@
+{"id":"EPSG:4490","name":"China Geodetic Coordinate System 2000","type":"geographic","area":{"bbox":[73.62,16.7,134.77,53.56],"name":"China - onshore and offshore."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

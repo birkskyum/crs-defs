@@ -1,0 +1,1 @@
+{"id":"EPSG:22417","name":"NAD83(CSRS)v4 / UTM zone 17N","type":"projected","area":{"bbox":[-84,41.67,-78,84],"name":"Canada between 84°W and 78°W, onshore and offshore south of 84°N - Nunavut, Ontario and Quebec."},"definition":"+proj=utm +zone=17 +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

@@ -1,0 +1,1 @@
+{"id":"EPSG:7786","name":"WGS 84 / Tripura","type":"projected","area":{"bbox":[91.15,22.94,92.34,24.54],"name":"India - Tripura."},"definition":"+proj=tmerc +lat_0=23.75 +lon_0=91.75 +k=0.9999822 +x_0=1000000 +y_0=1000000 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

@@ -1,0 +1,1 @@
+{"id":"EPSG:4704","name":"Mhast (onshore)","type":"geographic","area":{"bbox":[10.53,-6.04,13.1,-4.38],"name":"Angola (Cabinda) - onshore and offshore; The Democratic Republic of the Congo (Zaire) - onshore coastal area and offshore."},"definition":"+proj=longlat +ellps=intl +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

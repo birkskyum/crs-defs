@@ -1,0 +1,1 @@
+{"id":"ESRI:102957","name":"NAD_1983_(PA11)_UTM_Zone_56N","type":"projected","area":{"bbox":[151.3,6.9,152.15,7.8],"name":"Federated States of Micronesia - UTM 56N"},"definition":"+proj=utm +zone=56 +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

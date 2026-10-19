@@ -1,0 +1,1 @@
+{"id":"ESRI:104646","name":"GCS_PANAMA08_2011","type":"geographic","area":{"bbox":[-84.32,5,-77.04,12.51],"name":"Panama - onshore and offshore."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

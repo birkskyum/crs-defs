@@ -1,0 +1,1 @@
+{"id":"EPSG:5520","name":"DHDN / 3-degree Gauss-Kruger zone 1","type":"projected","area":{"bbox":[3.34,55.24,4.51,55.92],"name":"Germany - offshore North Sea west of 4°30'E."},"definition":"+proj=tmerc +lat_0=0 +lon_0=3 +k=1 +x_0=1500000 +y_0=0 +ellps=bessel +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

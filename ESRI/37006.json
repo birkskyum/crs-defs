@@ -1,0 +1,1 @@
+{"id":"ESRI:37006","name":"GCS_Everest_Modified_1969","type":"geographic","area":{"bbox":[-180,-90,180,90],"name":"World."},"definition":"+proj=longlat +ellps=evrst69 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

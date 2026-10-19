@@ -1,0 +1,1 @@
+{"id":"ESRI:37206","name":"GCS_Oman","type":"geographic","area":{"bbox":[51.99,14.33,63.38,26.74],"name":"Oman - onshore and offshore."},"definition":"+proj=longlat +a=6378249.145 +rf=293.465 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

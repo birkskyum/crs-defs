@@ -1,0 +1,1 @@
+{"id":"EPSG:10196","name":"CWS13-IRF","type":"geographic","area":{"bbox":[-3.16,52.5,-2.65,53.26],"name":"United Kingdom (UK) - on or related to the rail route from from Chester via Wrexham to Shrewsbury."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

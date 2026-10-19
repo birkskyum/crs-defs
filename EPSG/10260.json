@@ -1,0 +1,1 @@
+{"id":"EPSG:10260","name":"GSB-IRF","type":"geographic","area":{"bbox":[14.59,54.94,15.25,55.38],"name":"Denmark - Bornholm onshore."},"definition":"+proj=longlat +a=6377019.27 +rf=300 +no_defs","datumShift":"unknown","transformation":null,"errorM":148,"proj4jsErrorM":148,"approximate":true}

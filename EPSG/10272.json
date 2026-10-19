@@ -1,0 +1,1 @@
+{"id":"EPSG:10272","name":"SMITB20-IRF","type":"geographic","area":{"bbox":[-4.11,50.65,-3.6,50.86],"name":"United Kingdom (UK) - on or related to the rail route from Okehampton to Penstone."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

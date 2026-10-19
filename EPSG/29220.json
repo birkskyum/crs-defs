@@ -1,0 +1,1 @@
+{"id":"EPSG:29220","name":"Sapper Hill 1943 / UTM zone 20S","type":"projected","area":{"bbox":[-61.55,-52.33,-59.99,-50.96],"name":"Falkland Islands (Malvinas) - onshore west of 60°W."},"definition":"+proj=utm +zone=20 +south +ellps=intl +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

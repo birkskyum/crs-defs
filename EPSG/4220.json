@@ -1,0 +1,1 @@
+{"id":"EPSG:4220","name":"Camacupa 1948","type":"geographic","area":{"bbox":[8.2,-18.02,24.09,-5.82],"name":"Angola - Angola proper - onshore and offshore."},"definition":"+proj=longlat +a=6378249.145 +rf=293.465 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}

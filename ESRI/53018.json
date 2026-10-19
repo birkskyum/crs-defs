@@ -1,0 +1,1 @@
+{"id":"ESRI:53018","name":"Sphere_Winkel_I","type":"projected","area":{"bbox":[-180,-90,180,90],"name":"World."},"definition":"+proj=wink1 +lon_0=0 +lat_ts=50.4597762521898 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":null,"approximate":false}

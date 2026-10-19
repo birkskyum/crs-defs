@@ -1,0 +1,5 @@
+export const id = "ESRI:103793";
+export const name = "NAD_1983_HARN_Adj_MN_Yellow_Medicine_Feet";
+export const bbox = [-97.24,43.49,-89.48,49.39];
+export const definition = "+proj=lcc +lat_0=44.5416666666667 +lon_0=-95.9 +lat_1=44.6666666666667 +lat_2=44.95 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378530.193 +rf=298.257222100883 +units=us-ft +no_defs";
+export const errorM = 0;

@@ -1,0 +1,1 @@
+{"id":"EPSG:5464","name":"Sibun Gorge 1922","type":"geographic","area":{"bbox":[-89.22,15.88,-87.72,18.49],"name":"Belize - onshore."},"definition":"+proj=longlat +a=6378293.64520876 +b=6356617.98767984 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false}
