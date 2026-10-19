@@ -22,16 +22,16 @@ proj4.defs('EPSG:28992', EPSG_28992);
 proj4('EPSG:28992', [4.8932, 52.3731]); // [121358.61, 487361.81]
 ```
 
-In MapLibre GL JS 6.15 and later:
+In MapLibre GL JS 6.15 and later, `projection` converts from longitude and latitude on WGS 84 to the grid's meters:
 
 ```js
 import * as maplibregl from 'maplibre-gl';
 import proj4 from 'proj4';
-import {EPSG_28992} from 'crs-defs';
+import {EPSG_4326, EPSG_28992} from 'crs-defs';
 
 maplibregl.addProjection({
   name: 'EPSG:28992',
-  projection: proj4('EPSG:4326', EPSG_28992),
+  projection: proj4(EPSG_4326, EPSG_28992),
   tileMatrixSet: {origin: [-285401.92, 903401.92], extentAtZoom0: 256 * 3440.64}
 });
 ```
