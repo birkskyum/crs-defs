@@ -1,0 +1,1 @@
+{"id":"EPSG:4009","name":"Unknown datum based upon the Clarke 1866 Michigan ellipsoid","type":"geographic","area":{"bbox":[-180,-90,180,90],"name":"Not specified."},"definition":"+proj=longlat +a=6378450.0475489 +b=6356826.62148844 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":[]}

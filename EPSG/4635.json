@@ -1,0 +1,1 @@
+{"id":"EPSG:4635","name":"ST87 Ouvea","type":"geographic","area":{"bbox":[166.44,-20.77,166.71,-20.34],"name":"New Caledonia - Loyalty Islands - Ouvea."},"definition":"+proj=longlat +ellps=intl +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4750"]}

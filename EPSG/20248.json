@@ -1,0 +1,1 @@
+{"id":"EPSG:20248","name":"AGD66 / AMG zone 48","type":"projected","area":{"bbox":[102,-56,108,-10],"name":"Australia - between 102°E and 108°E."},"definition":"+proj=utm +zone=48 +south +ellps=aust_SA +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":[]}

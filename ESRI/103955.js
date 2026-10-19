@@ -1,0 +1,5 @@
+export const id = "ESRI:103955";
+export const name = "NAD_1983_HARN_Adj_WI_Langlade_Feet";
+export const bbox = [-92.89,42.48,-86.25,47.31];
+export const definition = "+proj=lcc +lat_0=44.2069444444445 +lon_0=-89.0333333333333 +lat_1=45 +lat_2=45.3083333333333 +x_0=198425.196850394 +y_0=0 +a=6378560.121 +rf=298.277008268831 +units=us-ft +no_defs";
+export const errorM = 0;

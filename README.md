@@ -1,6 +1,6 @@
 # crs-defs
 
-PROJ strings for 7,753 EPSG and ESRI codes. Each one carries the datum shift to WGS 84 that PROJ itself would use, and a measurement of how far it lands from PROJ.
+PROJ strings for 7,753 EPSG and ESRI codes, plus 1,755 deprecated ones. Each one carries the datum shift to WGS 84 that PROJ itself would use, and a measurement of how far it lands from PROJ.
 
 Most web maps copy their CRS definitions from a lookup site and hand them to proj4js. For grids on an older datum, the shift to WGS 84 is often missing or has its rotations the wrong way round, and data lands tens to hundreds of meters off. Every definition here is written by PROJ and checked against PROJ's best transformation at 17 points across the CRS's area of use, both as PROJ reads it and as proj4js reads it.
 
@@ -39,7 +39,7 @@ maplibregl.addProjection({
 
 MapLibre registers one CRS per name and always works in longitude and latitude. `projection` is the pair of functions between the two, `forward` from lng/lat to the grid's meters and `inverse` back, and proj4 builds that pair from WGS 84 and the grid's definition. `definition` is the string MapLibre's workers use to place GeoJSON, together with the projection handler from MapLibre's custom CRS guide.
 
-A development server loads the whole module (1.2 MB). `crs-defs/EPSG/28992` holds just one code, with its name, area of use and error as separate exports:
+A development server loads the whole module (1.5 MB). `crs-defs/EPSG/28992` holds just one code, with its name, area of use and error as separate exports:
 
 ```js
 import {definition, bbox, errorM} from 'crs-defs/EPSG/28992';
@@ -59,7 +59,7 @@ setProjectionCodeLookup(async code => {
 const projection = await fromProjectionCode('EPSG:28992');
 ```
 
-Every definition at once, for a CRS picker, is 1.1 MB (106 kB gzipped):
+Every definition at once, for a CRS picker, is 1.3 MB (132 kB gzipped):
 
 ```js
 import all from 'crs-defs/all.json' with {type: 'json'};
@@ -101,16 +101,19 @@ Each code also has a JSON record, `crs-defs/EPSG/28992.json`, which jsDelivr ser
 | `proj4jsErrorM` | The same in proj4js 2.22.0, or `null` when proj4js can't use the string. |
 | `approximate` | `true` when `errorM` is more than 1 cm. |
 | `grid` | Only when a grid file gets closer. A `+nadgrids` definition, its files on cdn.proj.org and its `errorM`. |
+| `deprecated`, `replacedBy` | Only on deprecated codes. `true`, and the codes the registry names as replacements, if any. |
+
+Deprecated codes such as ESRI:102100, the Web Mercator ID ArcGIS servers still report, keep working. Their constants are marked `@deprecated` with the replacement, so editors strike them through and say "Use EPSG:3857". A code the registry deprecates later stays in the package, marked the same way, so an import never breaks.
 
 ## How close
 
-| | EPSG | ESRI |
-|---|---|---|
-| Definitions | 6,525 | 1,228 |
-| Within 1 cm of PROJ | 5,575 | 1,006 |
-| Within 1 m of PROJ | 5,918 | 1,067 |
+| | EPSG | ESRI | Deprecated, both |
+|---|---|---|---|
+| Definitions | 6,525 | 1,228 | 1,755 |
+| Within 1 cm of PROJ | 5,575 | 1,006 | 1,444 |
+| Within 1 m of PROJ | 5,918 | 1,067 | 1,578 |
 
-Where the official transformation is a grid file, a single `+towgs84` can't match it everywhere. 780 records offer a `grid` definition that gets closer. cdn.proj.org allows cross-origin requests, so proj4js can load the grids with [geotiff](https://www.npmjs.com/package/geotiff):
+Where the official transformation is a grid file, a single `+towgs84` can't match it everywhere. 1,027 records offer a `grid` definition that gets closer. cdn.proj.org allows cross-origin requests, so proj4js can load the grids with [geotiff](https://www.npmjs.com/package/geotiff):
 
 ```js
 import {fromUrl} from 'geotiff';
@@ -124,9 +127,9 @@ For the British National Grid in London, that takes proj4js from 1.7 m to under 
 
 Not covered:
 
-- 115 CRSs have no definition, because PROJ can't write them as a PROJ string or their transformation has no PROJ string form. `data/failed.json` in the repository lists them.
-- 97 definitions use projections proj4js 2.22 doesn't have, such as Winkel Tripel, Eckert I to V, Natural Earth and the Colombian urban grids. They're correct PROJ strings.
-- Deprecated codes, and ESRI codes for other planets, are left out.
+- 141 CRSs have no definition, because PROJ can't write them as a PROJ string or their transformation has no PROJ string form. `data/failed.json` in the repository lists them.
+- 133 definitions use projections proj4js 2.22 doesn't have, such as Winkel Tripel, Eckert I to V, Natural Earth and the Colombian urban grids. They're correct PROJ strings.
+- ESRI codes for other planets are left out.
 
 ## Checked against national services
 

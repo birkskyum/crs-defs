@@ -1,0 +1,1 @@
+{"id":"EPSG:4054","name":"Unspecified datum based upon the Hughes 1980 ellipsoid","type":"geographic","area":{"bbox":[-180,-90,180,90],"name":"Not specified."},"definition":"+proj=longlat +a=6378273 +b=6356889.449 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":[]}

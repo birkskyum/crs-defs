@@ -41,6 +41,14 @@ export declare const EPSG_2006: string;
  */
 export declare const EPSG_2007: string;
 /**
+ * EPSG:2008, NAD27(CGQ77) / SCoPQ zone 2. Canada - Quebec - east of 57°W. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-55.5 +k=0.9999 +x_0=304800 +y_0=0 +ellps=clrk66 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_2008: string;
+/**
  * EPSG:2009, NAD27(CGQ77) / SCoPQ zone 3. Canada - Quebec - east of 60°W. Up to 77.4 m from PROJ. The registry has no transformation to WGS 84.
  *
  * `+proj=tmerc +lat_0=0 +lon_0=-58.5 +k=0.9999 +x_0=304800 +y_0=0 +ellps=clrk66 +units=m +no_defs`
@@ -203,6 +211,30 @@ export declare const EPSG_2034: string;
  */
 export declare const EPSG_2035: string;
 /**
+ * EPSG:2036, NAD83(CSRS98) / New Brunswick Stereo. Canada - New Brunswick. Within 1 cm of PROJ.
+ *
+ * `+proj=sterea +lat_0=46.5 +lon_0=-66.5 +k=0.999912 +x_0=2500000 +y_0=7500000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2953.
+ */
+export declare const EPSG_2036: string;
+/**
+ * EPSG:2037, NAD83(CSRS98) / UTM zone 19N. Canada south of 60°N and between 72°W and 66°W - New Brunswick (NB), Labrador, Nova Scotia (NS), Quebec. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=19 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2960.
+ */
+export declare const EPSG_2037: string;
+/**
+ * EPSG:2038, NAD83(CSRS98) / UTM zone 20N. Canada south of 60°N and between 66°W and 60°W - New Brunswick (NB), Labrador, Nova Scotia (NS), Prince Edward Island (PEI), Quebec. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=20 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2961.
+ */
+export declare const EPSG_2038: string;
+/**
  * EPSG:2039, Israel 1993 / Israeli TM Grid. Israel - onshore; Palestine onshore. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=31.7343936111111 +lon_0=35.2045169444444 +k=1.0000067 +x_0=219529.584 +y_0=626907.39 +ellps=GRS80 +towgs84=23.772,17.49,17.859,-0.3132,-1.85274,1.67299,-5.4262 +units=m +no_defs`
@@ -347,6 +379,22 @@ export declare const EPSG_2061: string;
  */
 export declare const EPSG_2062: string;
 /**
+ * EPSG:2063, Dabola 1981 / UTM zone 28N. Guinea - onshore west of 12°W. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=28 +ellps=clrk80ign +towgs84=-23,259,-9 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3461.
+ */
+export declare const EPSG_2063: string;
+/**
+ * EPSG:2064, Dabola 1981 / UTM zone 29N. Guinea - east of 12°W. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=29 +ellps=clrk80ign +towgs84=-23,259,-9 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3462.
+ */
+export declare const EPSG_2064: string;
+/**
  * EPSG:2065, S-JTSK (Ferro) / Krovak. Czechia; Slovakia. Up to 2.44 m from PROJ.
  *
  * `+proj=krovak +axis=swu +lat_0=49.5 +lon_0=42.5 +alpha=30.2881397527778 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +pm=ferro +towgs84=485,169.5,483.8,7.786,4.398,4.103,0 +units=m +no_defs`
@@ -467,6 +515,22 @@ export declare const EPSG_2083: string;
  */
 export declare const EPSG_2084: string;
 /**
+ * EPSG:2085, NAD27 / Cuba Norte. Cuba - onshore north of 21°30'N but also including all of Isla de la Juventud. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=22.35 +lat_0=22.35 +lon_0=-81 +k_0=0.99993602 +x_0=500000 +y_0=280296.016 +ellps=clrk66 +towgs84=2.478,149.752,197.726,0.526,0.498,-0.501,0.685 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3795.
+ */
+export declare const EPSG_2085: string;
+/**
+ * EPSG:2086, NAD27 / Cuba Sur. Cuba - onshore south of 21°30'N and east of 80°W . Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=20.7166666666667 +lat_0=20.7166666666667 +lon_0=-76.8333333333333 +k_0=0.99994848 +x_0=500000 +y_0=229126.939 +ellps=clrk66 +towgs84=2.478,149.752,197.726,0.526,0.498,-0.501,0.685 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3796.
+ */
+export declare const EPSG_2086: string;
+/**
  * EPSG:2087, ELD79 / TM 12 NE. Libya - onshore west of 15°E. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=0 +lon_0=12 +k=0.9996 +x_0=500000 +y_0=0 +ellps=intl +towgs84=-115.8543,-99.0583,-152.4616 +units=m +no_defs`
@@ -490,6 +554,22 @@ export declare const EPSG_2089: string;
  * `+proj=utm +zone=39 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
  */
 export declare const EPSG_2090: string;
+/**
+ * EPSG:2091, South Yemen / Gauss Kruger zone 8. Yemen - South Yemen onshore mainland west of 48°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=45 +k=1 +x_0=8500000 +y_0=0 +ellps=krass +towgs84=-76,-138,67 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2395.
+ */
+export declare const EPSG_2091: string;
+/**
+ * EPSG:2092, South Yemen / Gauss Kruger zone 9. Yemen - South Yemen onshore mainland east of 48°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=51 +k=1 +x_0=9500000 +y_0=0 +ellps=krass +towgs84=-76,-138,67 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2396.
+ */
+export declare const EPSG_2092: string;
 /**
  * EPSG:2093, Hanoi 1972 / GK 106 NE. Vietnam - onshore Vung Tau area. Within 1 cm of PROJ.
  *
@@ -749,11 +829,147 @@ export declare const EPSG_2137: string;
  */
 export declare const EPSG_2138: string;
 /**
+ * EPSG:2139, NAD83(CSRS98) / SCoPQ zone 2. Canada - Quebec - east of 57°W. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-55.5 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2944.
+ */
+export declare const EPSG_2139: string;
+/**
+ * EPSG:2140, NAD83(CSRS98) / MTM zone 3. Canada - Quebec - between 60°W and 57°W. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-58.5 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2945.
+ */
+export declare const EPSG_2140: string;
+/**
+ * EPSG:2141, NAD83(CSRS98) / MTM zone 4. Canada - Quebec - between 63°W and 60°W. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-61.5 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2946.
+ */
+export declare const EPSG_2141: string;
+/**
+ * EPSG:2142, NAD83(CSRS98) / MTM zone 5. Canada - Quebec - between 66°W and 63°W. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-64.5 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2947.
+ */
+export declare const EPSG_2142: string;
+/**
+ * EPSG:2143, NAD83(CSRS98) / MTM zone 6. Canada - Quebec - between 69°W and 66°W. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-67.5 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2948.
+ */
+export declare const EPSG_2143: string;
+/**
+ * EPSG:2144, NAD83(CSRS98) / MTM zone 7. Canada - Quebec - between 72°W and 69°W. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-70.5 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2949.
+ */
+export declare const EPSG_2144: string;
+/**
+ * EPSG:2145, NAD83(CSRS98) / MTM zone 8. Canada - Quebec - between 75°W and 72°W. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-73.5 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2950.
+ */
+export declare const EPSG_2145: string;
+/**
+ * EPSG:2146, NAD83(CSRS98) / MTM zone 9. Canada - Quebec - between 78°W and 75°W. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-76.5 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2951.
+ */
+export declare const EPSG_2146: string;
+/**
+ * EPSG:2147, NAD83(CSRS98) / MTM zone 10. Canada - Quebec - west of 78°W. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-79.5 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2952.
+ */
+export declare const EPSG_2147: string;
+/**
+ * EPSG:2148, NAD83(CSRS98) / UTM zone 21N. Canada - Quebec - east of 60°W. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=21 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2962.
+ */
+export declare const EPSG_2148: string;
+/**
+ * EPSG:2149, NAD83(CSRS98) / UTM zone 18N. Canada - Quebec - between 78°W and 72°W. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=18 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2959.
+ */
+export declare const EPSG_2149: string;
+/**
+ * EPSG:2150, NAD83(CSRS98) / UTM zone 17N. Canada - Quebec - west of 78°W. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=17 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2958.
+ */
+export declare const EPSG_2150: string;
+/**
+ * EPSG:2151, NAD83(CSRS98) / UTM zone 13N. Canada south of 60°N and between 108°E and 102°W - Saskatchewan. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=13 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2957.
+ */
+export declare const EPSG_2151: string;
+/**
+ * EPSG:2152, NAD83(CSRS98) / UTM zone 12N. Canada south of 60°N and between 114°E and 108°W - Alberta, Saskatchewan. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=12 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2956.
+ */
+export declare const EPSG_2152: string;
+/**
+ * EPSG:2153, NAD83(CSRS98) / UTM zone 11N. Canada south of 60°N and between 120°E and 114°W - Alberta, British Columbia (BC). Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=11 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2955.
+ */
+export declare const EPSG_2153: string;
+/**
  * EPSG:2154, ETRS89-FRA [RGF93 v1] / Lambert-93. France - onshore and offshore, mainland and Corsica (France métropolitaine including Corsica). Within 1 cm of PROJ.
  *
  * `+proj=lcc +lat_0=46.5 +lon_0=3 +lat_1=49 +lat_2=44 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
  */
 export declare const EPSG_2154: string;
+/**
+ * EPSG:2155, American Samoa 1962 / American Samoa Lambert. American Samoa - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_1=-14.2666666666667 +lat_0=-14.2666666666667 +lon_0=170 +k_0=1 +x_0=152400.30480061 +y_0=0 +ellps=clrk66 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2194.
+ */
+export declare const EPSG_2155: string;
+/**
+ * EPSG:2156, NAD83(HARN) / UTM zone 59S. American Samoa - onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=59 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2195.
+ */
+export declare const EPSG_2156: string;
 /**
  * EPSG:2157, ETRS89-IRE [ETRF2000] / Irish Transverse Mercator. Ireland - onshore. United Kingdom (UK) - Northern Ireland (Ulster) - onshore. Within 1 cm of PROJ.
  *
@@ -791,6 +1007,14 @@ export declare const EPSG_2161: string;
  */
 export declare const EPSG_2162: string;
 /**
+ * EPSG:2163, US National Atlas Equal Area. United States (USA) - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=laea +lat_0=45 +lon_0=-100 +x_0=0 +y_0=0 +ellps=sphere +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:9311.
+ */
+export declare const EPSG_2163: string;
+/**
  * EPSG:2164, Locodjo 1965 / TM 5 NW. Côte d'Ivoire (Ivory Coast) - offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
  * `+proj=tmerc +lat_0=0 +lon_0=-5 +k=0.9996 +x_0=500000 +y_0=0 +a=6378249.145 +rf=293.465 +units=m +no_defs`
@@ -803,11 +1027,51 @@ export declare const EPSG_2164: string;
  */
 export declare const EPSG_2165: string;
 /**
+ * EPSG:2166, Pulkovo 1942(83) / Gauss Kruger zone 3. Germany - states of former East Germany - west of 10°30'E - Thuringen. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=9 +k=1 +x_0=3500000 +y_0=0 +ellps=krass +towgs84=24,-123,-94,0.02,-0.25,-0.13,1.1 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2397.
+ */
+export declare const EPSG_2166: string;
+/**
+ * EPSG:2167, Pulkovo 1942(83) / Gauss Kruger zone 4. Czechia - west of 13°30'E. Germany - states of former East Germany onshore - between 10°30'E and 13°30'E - Brandenburg; Mecklenburg-Vorpommern; Sachsen; Sachsen-Anhalt; Thuringen. Up to 3.45 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=12 +k=1 +x_0=4500000 +y_0=0 +ellps=krass +towgs84=24,-123,-94,0.02,-0.25,-0.13,1.1 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2398.
+ */
+export declare const EPSG_2167: string;
+/**
+ * EPSG:2168, Pulkovo 1942(83) / Gauss Kruger zone 5. Germany - states of former East Germany - west of 10°30'E - Thuringen. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=5500000 +y_0=0 +ellps=krass +towgs84=24,-123,-94,0.02,-0.25,-0.13,1.1 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2399.
+ */
+export declare const EPSG_2168: string;
+/**
  * EPSG:2169, LUREF / Luxembourg TM. Luxembourg. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=49.8333333333333 +lon_0=6.16666666666667 +k=1 +x_0=80000 +y_0=100000 +ellps=intl +towgs84=-189.6806,18.3463,-42.7695,-0.33746,-3.09264,2.53861,0.4598 +units=m +no_defs`
  */
 export declare const EPSG_2169: string;
+/**
+ * EPSG:2170, MGI / Slovenia Grid. Slovenia - onshore and offshore. Up to 0.506 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9999 +x_0=500000 +y_0=0 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3911.
+ */
+export declare const EPSG_2170: string;
+/**
+ * EPSG:2171, Pulkovo 1942(58) / Poland zone I. Poland - southeast - south of 52°20'N and east of 18°E. Within 1 cm of PROJ.
+ *
+ * `+proj=sterea +lat_0=50.625 +lon_0=21.0833333333333 +k=0.9998 +x_0=4637000 +y_0=5647000 +ellps=krass +towgs84=33.4,-146.6,-76.3,-0.359,-0.053,0.844,-0.84 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3120.
+ */
+export declare const EPSG_2171: string;
 /**
  * EPSG:2172, Pulkovo 1942(58) / Poland zone II. Poland - northeast - onshore north of 51°20'N and east of 19°E. Within 1 cm of PROJ.
  *
@@ -881,11 +1145,35 @@ export declare const EPSG_2189: string;
  */
 export declare const EPSG_2190: string;
 /**
+ * EPSG:2191, Madeira 1936 / UTM zone 28N. Portugal - Madeira, Porto Santo and Desertas islands - onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=28 +ellps=intl +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2942 or EPSG:2943.
+ */
+export declare const EPSG_2191: string;
+/**
+ * EPSG:2192, ED50 / France EuroLambert. France - mainland onshore. Up to 4.9 m from PROJ.
+ *
+ * `+proj=lcc +lat_1=46.8 +lat_0=46.8 +lon_0=2.33722916666667 +k_0=0.99987742 +x_0=600000 +y_0=2200000 +ellps=intl +towgs84=-87,-98,-121 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2154.
+ */
+export declare const EPSG_2192: string;
+/**
  * EPSG:2193, NZGD2000 / New Zealand Transverse Mercator 2000. New Zealand - North Island, South Island, Stewart Island - onshore. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=0 +lon_0=173 +k=0.9996 +x_0=1600000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
  */
 export declare const EPSG_2193: string;
+/**
+ * EPSG:2194, American Samoa 1962 / American Samoa Lambert. American Samoa - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_1=-14.2666666666667 +lat_0=-14.2666666666667 +lon_0=-170 +k_0=1 +x_0=152400.30480061 +y_0=0 +ellps=clrk66 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3102.
+ */
+export declare const EPSG_2194: string;
 /**
  * EPSG:2195, NAD83(HARN) / UTM zone 2S. American Samoa - Tutuila, Aunu'u, Ofu, Olesega, Ta'u and Rose islands. Within 1 cm of PROJ.
  *
@@ -910,6 +1198,14 @@ export declare const EPSG_2197: string;
  * `+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=900000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
  */
 export declare const EPSG_2198: string;
+/**
+ * EPSG:2199, Albanian 1987 / Gauss Kruger zone 4. Albania - onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=21 +k=1 +x_0=4500000 +y_0=0 +ellps=krass +towgs84=-44.183,-0.58,-38.489,2.3867,2.7072,-3.5196,-8.2703 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2462.
+ */
+export declare const EPSG_2199: string;
 /**
  * EPSG:2200, ATS77 / New Brunswick Stereographic (ATS77). Canada - New Brunswick. Up to 5.15 m from PROJ. The registry has no transformation to WGS 84.
  *
@@ -994,6 +1290,14 @@ export declare const EPSG_2212: string;
  * `+proj=tmerc +lat_0=0 +lon_0=30 +k=0.9996 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
  */
 export declare const EPSG_2213: string;
+/**
+ * EPSG:2214, Douala 1948 / AOF west. Cameroon - coastal area. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=10.5 +k=0.999 +x_0=1000000 +y_0=1000000 +ellps=intl +towgs84=-206.1,-174.7,-87.7 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3119.
+ */
+export declare const EPSG_2214: string;
 /**
  * EPSG:2215, Manoca 1962 / UTM zone 32N. Cameroon - coastal area. Within 1 cm of PROJ.
  *
@@ -1156,6 +1460,22 @@ export declare const EPSG_2242: string;
  * `+proj=tmerc +lat_0=41.6666666666667 +lon_0=-115.75 +k=0.999933333 +x_0=800000.0001016 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
  */
 export declare const EPSG_2243: string;
+/**
+ * EPSG:2244, NAD83 / Indiana East (ftUS). United States (USA) - Indiana - counties of Adams; Allen; Bartholomew; Blackford; Brown; Cass; Clark; De Kalb; Dearborn; Decatur; Delaware; Elkhart; Fayette; Floyd; Franklin; Fulton; Grant; Hamilton; Hancock; Harrison; Henry; Howard; Huntington; Jackson; Jay; Jefferson; Jennings; Johnson; Kosciusko; Lagrange; Madison; Marion; Marshall; Miami; Noble; Ohio; Randolph; Ripley; Rush; Scott; Shelby; St Joseph; Steuben; Switzerland; Tipton; Union; Wabash; Washington; Wayne; Wells; Whitley. Up to 0.569 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=37.5 +lon_0=-85.6666666666667 +k=0.999966667 +x_0=99999.9998983998 +y_0=249364.998729997 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2965.
+ */
+export declare const EPSG_2244: string;
+/**
+ * EPSG:2245, NAD83 / Indiana West (ftUS). United States (USA) - Indiana - counties of Benton; Boone; Carroll; Clay; Clinton; Crawford; Daviess; Dubois; Fountain; Gibson; Greene; Hendricks; Jasper; Knox; La Porte; Lake; Lawrence; Martin; Monroe; Montgomery; Morgan; Newton; Orange; Owen; Parke; Perry; Pike; Porter; Posey; Pulaski; Putnam; Spencer; Starke; Sullivan; Tippecanoe; Vanderburgh; Vermillion; Vigo; Warren; Warrick; White. Up to 0.364 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=37.5 +lon_0=-87.0833333333333 +k=0.999966667 +x_0=900000 +y_0=249364.998729997 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2966.
+ */
+export declare const EPSG_2245: string;
 /**
  * EPSG:2246, NAD83 / Kentucky North (ftUS). United States (USA) - Kentucky - counties of Anderson; Bath; Boone; Bourbon; Boyd; Bracken; Bullitt; Campbell; Carroll; Carter; Clark; Elliott; Fayette; Fleming; Franklin; Gallatin; Grant; Greenup; Harrison; Henry; Jefferson; Jessamine; Kenton; Lawrence; Lewis; Mason; Menifee; Montgomery; Morgan; Nicholas; Oldham; Owen; Pendleton; Robertson; Rowan; Scott; Shelby; Spencer; Trimble; Woodford. Up to 0.424 m from PROJ.
  *
@@ -1426,6 +1746,22 @@ export declare const EPSG_2289: string;
  * `+proj=sterea +lat_0=47.25 +lon_0=-63 +k=0.999912 +x_0=700000 +y_0=400000 +a=6378135 +rf=298.257 +units=m +no_defs`
  */
 export declare const EPSG_2290: string;
+/**
+ * EPSG:2291, NAD83(CSRS98) / Prince Edward Isl. Stereographic (NAD83). Canada - Prince Edward Island. Up to 4.49 m from PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=sterea +lat_0=47.25 +lon_0=-63 +k=0.999912 +x_0=400000 +y_0=800000 +a=6378135 +rf=298.257 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2292.
+ */
+export declare const EPSG_2291: string;
+/**
+ * EPSG:2292, NAD83(CSRS98) / Prince Edward Isl. Stereographic (NAD83). Canada - Prince Edward Island. Within 1 cm of PROJ.
+ *
+ * `+proj=sterea +lat_0=47.25 +lon_0=-63 +k=0.999912 +x_0=400000 +y_0=800000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2954.
+ */
+export declare const EPSG_2292: string;
 /**
  * EPSG:2294, ATS77 / MTM Nova Scotia zone 4. Canada - Nova Scotia - east of 63°W. Up to 4.41 m from PROJ. The registry has no transformation to WGS 84.
  *
@@ -1979,6 +2315,14 @@ export declare const EPSG_2398: string;
  */
 export declare const EPSG_2399: string;
 /**
+ * EPSG:2400, RT90 2.5 gon W. Sweden - onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=15.8082777777778 +k=1 +x_0=1500000 +y_0=0 +ellps=bessel +towgs84=414.1,41.3,603.1,-0.855,2.141,-7.023,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3021.
+ */
+export declare const EPSG_2400: string;
+/**
  * EPSG:2401, Beijing 1954 / 3-degree Gauss-Kruger zone 25. China - west of 76°30'E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
  * `+proj=tmerc +lat_0=0 +lon_0=75 +k=1 +x_0=25500000 +y_0=0 +ellps=krass +units=m +no_defs`
@@ -2525,6 +2869,22 @@ export declare const EPSG_2490: string;
  */
 export declare const EPSG_2491: string;
 /**
+ * EPSG:2492, Pulkovo 1942 / Gauss-Kruger CM 9E. Czech Republic and Germany (former DDR) - west of 12°E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=9 +k=1 +x_0=500000 +y_0=0 +ellps=krass +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_2492: string;
+/**
+ * EPSG:2493, Pulkovo 1942 / Gauss-Kruger CM 15E. Germany (former DDR) - onshore east of 12°E. Poland - onshore west of 18°E. Czechia, Hungary and Slovakia - west of 18°E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=500000 +y_0=0 +ellps=krass +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_2493: string;
+/**
  * EPSG:2494, Pulkovo 1942 / Gauss-Kruger CM 21E. Belarus, Estonia, Latvia, Lithuania and Ukraine - onshore west of 24°E. Russian Federation - Kaliningrad onshore. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=0 +lon_0=21 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
@@ -2861,6 +3221,14 @@ export declare const EPSG_2548: string;
  */
 export declare const EPSG_2549: string;
 /**
+ * EPSG:2550, Samboja / UTM zone 50S. Indonesia - east Kalimantan - Mahakam delta coastal and offshore shelf areas. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=50 +south +ellps=bessel +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2933.
+ */
+export declare const EPSG_2550: string;
+/**
  * EPSG:2551, Pulkovo 1942 / 3-degree Gauss-Kruger zone 34. Russian Federation - onshore between 100°30'E and 103°30'E. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=0 +lon_0=102 +k=1 +x_0=34500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
@@ -3017,6 +3385,14 @@ export declare const EPSG_2575: string;
  */
 export declare const EPSG_2576: string;
 /**
+ * EPSG:2577, Pulkovo 1942 / 3-degree Gauss-Kruger zone 60. Russian Federation - onshore between 178°30'E and 178°30'W. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=180 +k=1 +x_0=60000000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3389.
+ */
+export declare const EPSG_2577: string;
+/**
  * EPSG:2578, Pulkovo 1942 / 3-degree Gauss-Kruger zone 61. Russian Federation - onshore between 178°30'W and 175°30'W. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=0 +lon_0=-177 +k=1 +x_0=61500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
@@ -3148,6 +3524,14 @@ export declare const EPSG_2598: string;
  * `+proj=tmerc +lat_0=0 +lon_0=72 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=25,-141,-78.5,0,0.35,0.736,0 +units=m +no_defs`
  */
 export declare const EPSG_2599: string;
+/**
+ * EPSG:2600, Lietuvos Koordinoei Sistema 1994. Lithuania - onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9998 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3346.
+ */
+export declare const EPSG_2600: string;
 /**
  * EPSG:2601, Pulkovo 1942 / 3-degree Gauss-Kruger CM 75E. Kazakhstan, Kyrgyzstan, Russian Federation onshore and Tajikistan - between 73°30'E and 76°30'E. Within 1 cm of PROJ.
  *
@@ -3706,6 +4090,14 @@ export declare const EPSG_2692: string;
  * `+proj=tmerc +lat_0=0 +lon_0=177 +k=1 +x_0=59500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
  */
 export declare const EPSG_2693: string;
+/**
+ * EPSG:2694, Pulkovo 1995 / 3-degree Gauss-Kruger zone 60. Russian Federation - onshore between 178°30'E and 178°30'W. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=180 +k=1 +x_0=60000000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3390.
+ */
+export declare const EPSG_2694: string;
 /**
  * EPSG:2695, Pulkovo 1995 / 3-degree Gauss-Kruger zone 61. Russian Federation - onshore between 178°30'W and 175°30'W. Within 1 cm of PROJ.
  *
@@ -4871,6 +5263,22 @@ export declare const EPSG_2887: string;
  */
 export declare const EPSG_2888: string;
 /**
+ * EPSG:2889, NAD83(HARN) / Indiana East (ftUS). United States (USA) - Indiana - counties of Adams; Allen; Bartholomew; Blackford; Brown; Cass; Clark; De Kalb; Dearborn; Decatur; Delaware; Elkhart; Fayette; Floyd; Franklin; Fulton; Grant; Hamilton; Hancock; Harrison; Henry; Howard; Huntington; Jackson; Jay; Jefferson; Jennings; Johnson; Kosciusko; Lagrange; Madison; Marion; Marshall; Miami; Noble; Ohio; Randolph; Ripley; Rush; Scott; Shelby; St Joseph; Steuben; Switzerland; Tipton; Union; Wabash; Washington; Wayne; Wells; Whitley. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=37.5 +lon_0=-85.6666666666667 +k=0.999966667 +x_0=99999.9998983998 +y_0=249364.998729997 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2967.
+ */
+export declare const EPSG_2889: string;
+/**
+ * EPSG:2890, NAD83(HARN) / Indiana West (ftUS). United States (USA) - Indiana - counties of Benton; Boone; Carroll; Clay; Clinton; Crawford; Daviess; Dubois; Fountain; Gibson; Greene; Hendricks; Jasper; Knox; La Porte; Lake; Lawrence; Martin; Monroe; Montgomery; Morgan; Newton; Orange; Owen; Parke; Perry; Pike; Porter; Posey; Pulaski; Putnam; Spencer; Starke; Sullivan; Tippecanoe; Vanderburgh; Vermillion; Vigo; Warren; Warrick; White. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=37.5 +lon_0=-87.0833333333333 +k=0.999966667 +x_0=900000 +y_0=249364.998729997 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2968.
+ */
+export declare const EPSG_2890: string;
+/**
  * EPSG:2891, NAD83(HARN) / Kentucky North (ftUS). United States (USA) - Kentucky - counties of Anderson; Bath; Boone; Bourbon; Boyd; Bracken; Bullitt; Campbell; Carroll; Carter; Clark; Elliott; Fayette; Fleming; Franklin; Gallatin; Grant; Greenup; Harrison; Henry; Jefferson; Jessamine; Kenton; Lawrence; Lewis; Mason; Menifee; Montgomery; Morgan; Nicholas; Oldham; Owen; Pendleton; Robertson; Rowan; Scott; Shelby; Spencer; Trimble; Woodford. Within 1 cm of PROJ.
  *
  * `+proj=lcc +lat_0=37.5 +lon_0=-84.25 +lat_1=37.9666666666667 +lat_2=38.9666666666667 +x_0=500000.0001016 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
@@ -5129,6 +5537,14 @@ export declare const EPSG_2932: string;
  */
 export declare const EPSG_2933: string;
 /**
+ * EPSG:2934, Segara (Jakarta) / NEIEZ. Indonesia - Kalimantan - onshore east coastal area including Mahakam delta coastal and offshore shelf areas. Within 1 cm of PROJ.
+ *
+ * `+proj=merc +lon_0=110 +k=0.997 +x_0=3900000 +y_0=900000 +ellps=bessel +pm=jakarta +towgs84=-403,684,41 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3000.
+ */
+export declare const EPSG_2934: string;
+/**
  * EPSG:2935, Pulkovo 1942 / CS63 zone A1. Armenia and Georgia onshore west of 43°02'E. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=0.116666666666667 +lon_0=41.5333333333333 +k=1 +x_0=1300000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
@@ -5182,6 +5598,14 @@ export declare const EPSG_2942: string;
  * `+proj=utm +zone=28 +ellps=intl +towgs84=-289,-124,60 +units=m +no_defs`
  */
 export declare const EPSG_2943: string;
+/**
+ * EPSG:2944, NAD83(CSRS) / SCoPQ zone 2. Canada - Quebec - east of 57°W. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-55.5 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_2944: string;
 /**
  * EPSG:2945, NAD83(CSRS) / MTM zone 3. Canada - Newfoundland and Labrador between 60°W and 57°30'W; Canada - Quebec east of 60°W. Within 1 cm of PROJ.
  *
@@ -5375,6 +5799,14 @@ export declare const EPSG_2977: string;
  */
 export declare const EPSG_2978: string;
 /**
+ * EPSG:2979, K0 1949 / UTM zone 42S. French Southern Territories - Kerguelen onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=42 +south +ellps=intl +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3336.
+ */
+export declare const EPSG_2979: string;
+/**
  * EPSG:2980, Combani 1950 / UTM zone 38S. Mayotte - onshore. Within 1 cm of PROJ.
  *
  * `+proj=utm +zone=38 +south +ellps=intl +towgs84=-382,-59,-262 +units=m +no_defs`
@@ -5387,6 +5819,30 @@ export declare const EPSG_2980: string;
  */
 export declare const EPSG_2981: string;
 /**
+ * EPSG:2982, IGN72 Grand Terre / UTM zone 58S. New Caledonia - Grande Terre. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=58 +south +ellps=intl +towgs84=-11.64,-348.6,291.98 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3060.
+ */
+export declare const EPSG_2982: string;
+/**
+ * EPSG:2983, ST87 Ouvea / UTM zone 58S. New Caledonia - Loyalty Islands - Ouvea. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=58 +south +ellps=intl +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3164.
+ */
+export declare const EPSG_2983: string;
+/**
+ * EPSG:2984, RGNC 1991 / Lambert New Caledonia. New Caledonia - onshore and offshore. Isle de Pins, Loyalty Islands, Huon Islands, Belep archipelago, Chesterfield Islands, and Walpole. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=-21.5 +lon_0=166 +lat_1=-20.6666666666667 +lat_2=-22.3333333333333 +x_0=400000 +y_0=300000 +ellps=intl +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3163.
+ */
+export declare const EPSG_2984: string;
+/**
  * EPSG:2987, Saint Pierre et Miquelon 1950 / UTM zone 21N. St Pierre and Miquelon - onshore. Within 1 cm of PROJ.
  *
  * `+proj=utm +zone=21 +ellps=clrk66 +towgs84=11.363,424.148,373.13 +units=m +no_defs`
@@ -5398,6 +5854,22 @@ export declare const EPSG_2987: string;
  * `+proj=utm +zone=1 +south +ellps=intl +towgs84=253,-132,-127 +units=m +no_defs`
  */
 export declare const EPSG_2988: string;
+/**
+ * EPSG:2989, RRAF 1991 / UTM zone 20N. French Antilles onshore and offshore - Guadeloupe (including Grande Terre, Basse Terre, Marie Galante, Les Saintes, Iles de la Petite Terre, La Desirade); Martinique; St Barthélemy; St Martin. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=20 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4559.
+ */
+export declare const EPSG_2989: string;
+/**
+ * EPSG:2990, Reunion 1947 / TM Reunion. Reunion - onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=-21.1166666666667 +lon_0=55.5333333333333 +k=1 +x_0=50000 +y_0=160000 +ellps=intl +towgs84=94,-948,-1262 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3727.
+ */
+export declare const EPSG_2990: string;
 /**
  * EPSG:2991, NAD83 / Oregon LCC (m). United States (USA) - Oregon. Up to 1.15 m from PROJ.
  *
@@ -5681,6 +6153,22 @@ export declare const EPSG_3036: string;
  */
 export declare const EPSG_3037: string;
 /**
+ * EPSG:3038, ETRS89 / TM26. Europe - between 30°W and 24°W. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=26 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_3038: string;
+/**
+ * EPSG:3039, ETRS89 / TM27. Europe - between 24°W and 18°W. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=27 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_3039: string;
+/**
  * EPSG:3040, ETRS89 / UTM zone 28N (N-E). Europe between 18°W and 12°W: Faroe Islands - offshore; Ireland - offshore; Jan Mayen - offshore; Portugal - offshore mainland; Spain - offshore mainland; United Kingdom (UKCS) - offshore. Within 1 cm of PROJ.
  *
  * `+proj=utm +zone=28 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
@@ -5740,6 +6228,22 @@ export declare const EPSG_3048: string;
  * `+proj=utm +zone=37 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
  */
 export declare const EPSG_3049: string;
+/**
+ * EPSG:3050, ETRS89 / TM38. Europe - between 42°E and 48°E. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=38 +ellps=GRS80 +towgs84=-0.023,-0.036,0.068,-0.00176,-0.00912,0.01136,-0.00439 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_3050: string;
+/**
+ * EPSG:3051, ETRS89 / TM39. Europe - between 48°E and 54°E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=39 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_3051: string;
 /**
  * EPSG:3054, Hjorsey 1955 / UTM zone 26N. Iceland - mainland west of 24°W. Within 1 cm of PROJ.
  *
@@ -5855,6 +6359,14 @@ export declare const EPSG_3071: string;
  */
 export declare const EPSG_3072: string;
 /**
+ * EPSG:3073, NAD83 / Maine CS2000 Central. United States (USA) - Maine between approximately 69°40'W and 68°25'W. The area is bounded by the following: Beginning at the point determined by the intersection of the Maine State line and the County Line between Aroostook and Somerset Counties, thence northeasterly along the state line to the intersection of the Fort Kent - Frenchville town line, thence southerly along this town line to the intersection with the New Canada Plantation - T17 R5 WELS town line, thence continuing southerly along town lines to the northeast corner of Penobscot County, thence continuing southerly along the Penobscot County line to the intersection of the Woodville - Mattawamkeag town line (being determined by the Penobscot River), thence along the Penobscot River to the Enfield - Lincoln town line, thence southeasterly along the Enfield - Lincoln town line and the Enfield - Lowell town line to the Passadumkeag - Edinburg town line, thence south-southeasterly along town lines to the intersection of the Hancock County line, thence southerly along the county line to the intersection of the Otis - Mariaville town line, thence southerly along the Otis - Mariaville town line to the Ellsworth city line, thence southerly along the Ellsworth city line to the intersection of the Surry - Trenton town line, thence southerly along the easterly town lines of Surry, Blue Hill, Brooklin, Deer Isle, and Stonington to the Knox County line, thence following the Knox County line to the boundary of the State of Maine as determined by Maritime law, thence following the State boundary westerly to the intersection of the Sagadahoc - Lincoln county line, thence northerly along the easterly boundary of the Maine 2000 West Zone, as defined, to the point of beginning. Up to 0.447 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=43 +lon_0=-69.125 +k=0.99998 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3463.
+ */
+export declare const EPSG_3073: string;
+/**
  * EPSG:3074, NAD83 / Maine CS2000 West. United States (USA) - Maine west of approximately 69°40'W. The area is bounded by the following: Beginning at the point determined by the intersection of the Maine State line and the County Line between Aroostook and Somerset Counties, thence following the Somerset County line Easterly to the Northwest corner of the Somerset and Piscataquis county line, thence Southerly along this county line to the northeast corner of the Athens town line, thence westerly along the town line between Brighton Plantation and Athens to the westerly corner of Athens, and continuing southerly to the southwest corner of the town of Athens where it meets the Cornville town line, thence westerly along the Cornville - Solon town line to the intersection of the Cornville - Madison town line, thence southerly and westerly following the Madison town line to the intersection of the Norridgewock - Skowhegan town line, thence southerly along the Skowhegan town line to the Fairfield town line, thence easterly along the Fairfield town line to the Clinton town line (being determined by the Kennebec River), thence southerly along the Kennebec River to the Augusta city line, thence easterly along the city line to the Windsor town line, thence southerly along the Augusta - Windsor town line to the northwest corner of the Lincoln County line, thence southerly along the westerly Lincoln county line to the boundary of the State of Maine as determined by Maritime law, thence following the State boundary on the westerly side of the state to the point of beginning. Up to 0.343 m from PROJ.
  *
  * `+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.375 +k=0.99998 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
@@ -5866,6 +6378,14 @@ export declare const EPSG_3074: string;
  * `+proj=tmerc +lat_0=43.8333333333333 +lon_0=-67.875 +k=0.99998 +x_0=700000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
  */
 export declare const EPSG_3075: string;
+/**
+ * EPSG:3076, NAD83(HARN) / Maine CS2000 Central. United States (USA) - Maine between approximately 69°40'W and 68°25'W. The area is bounded by the following: Beginning at the point determined by the intersection of the Maine State line and the County Line between Aroostook and Somerset Counties, thence northeasterly along the state line to the intersection of the Fort Kent - Frenchville town line, thence southerly along this town line to the intersection with the New Canada Plantation - T17 R5 WELS town line, thence continuing southerly along town lines to the northeast corner of Penobscot County, thence continuing southerly along the Penobscot County line to the intersection of the Woodville - Mattawamkeag town line (being determined by the Penobscot River), thence along the Penobscot River to the Enfield - Lincoln town line, thence southeasterly along the Enfield - Lincoln town line and the Enfield - Lowell town line to the Passadumkeag - Edinburg town line, thence south-southeasterly along town lines to the intersection of the Hancock County line, thence southerly along the county line to the intersection of the Otis - Mariaville town line, thence southerly along the Otis - Mariaville town line to the Ellsworth city line, thence southerly along the Ellsworth city line to the intersection of the Surry - Trenton town line, thence southerly along the easterly town lines of Surry, Blue Hill, Brooklin, Deer Isle, and Stonington to the Knox County line, thence following the Knox County line to the boundary of the State of Maine as determined by Maritime law, thence following the State boundary westerly to the intersection of the Sagadahoc - Lincoln county line, thence northerly along the easterly boundary of the Maine 2000 West Zone, as defined, to the point of beginning. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=43 +lon_0=-69.125 +k=0.99998 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3464.
+ */
+export declare const EPSG_3076: string;
 /**
  * EPSG:3077, NAD83(HARN) / Maine CS2000 West. United States (USA) - Maine west of approximately 69°40'W. The area is bounded by the following: Beginning at the point determined by the intersection of the Maine State line and the County Line between Aroostook and Somerset Counties, thence following the Somerset County line Easterly to the Northwest corner of the Somerset and Piscataquis county line, thence Southerly along this county line to the northeast corner of the Athens town line, thence westerly along the town line between Brighton Plantation and Athens to the westerly corner of Athens, and continuing southerly to the southwest corner of the town of Athens where it meets the Cornville town line, thence westerly along the Cornville - Solon town line to the intersection of the Cornville - Madison town line, thence southerly and westerly following the Madison town line to the intersection of the Norridgewock - Skowhegan town line, thence southerly along the Skowhegan town line to the Fairfield town line, thence easterly along the Fairfield town line to the Clinton town line (being determined by the Kennebec River), thence southerly along the Kennebec River to the Augusta city line, thence easterly along the city line to the Windsor town line, thence southerly along the Augusta - Windsor town line to the northwest corner of the Lincoln County line, thence southerly along the westerly Lincoln county line to the boundary of the State of Maine as determined by Maritime law, thence following the State boundary on the westerly side of the state to the point of beginning. Within 1 cm of PROJ.
  *
@@ -6022,6 +6542,30 @@ export declare const EPSG_3101: string;
  * `+proj=lcc +lat_1=-14.2666666666667 +lat_0=-14.2666666666667 +lon_0=-170 +k_0=1 +x_0=152400.30480061 +y_0=95169.3116586233 +ellps=clrk66 +towgs84=-115,118,426 +units=us-ft +no_defs`
  */
 export declare const EPSG_3102: string;
+/**
+ * EPSG:3103, Mauritania 1999 / UTM zone 28N. Mauritania - onshore west of 12°W. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=28 +a=6378249.145 +rf=293.465 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3343 or EPSG:3367.
+ */
+export declare const EPSG_3103: string;
+/**
+ * EPSG:3104, Mauritania 1999 / UTM zone 29N. Mauritania - between 12°W and 6°W. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=29 +a=6378249.145 +rf=293.465 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3344 or EPSG:3368.
+ */
+export declare const EPSG_3104: string;
+/**
+ * EPSG:3105, Mauritania 1999 / UTM zone 30N. Mauritania - east of 6°W. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=30 +a=6378249.145 +rf=293.465 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3345 or EPSG:3369.
+ */
+export declare const EPSG_3105: string;
 /**
  * EPSG:3106, Gulshan 303 / TM 90 NE. Bangladesh - onshore. Within 1 cm of PROJ.
  *
@@ -6245,6 +6789,30 @@ export declare const EPSG_3141: string;
  */
 export declare const EPSG_3142: string;
 /**
+ * EPSG:3143, Fiji 1986 / Fiji Map Grid. Fiji - onshore. Includes Viti Levu, Vanua Levu, Taveuni, the Yasawa Group, the Kadavu Group, the Lau Islands and Rotuma Islands. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=-17 +lon_0=178.75 +k=0.99985 +x_0=2000000 +y_0=4000000 +a=6378135 +rf=298.26 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3460.
+ */
+export declare const EPSG_3143: string;
+/**
+ * EPSG:3146, Pulkovo 1942 / 3-degree Gauss-Kruger zone 6. Russian Federation - Kaliningrad - west of 19°30'E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=18 +k=1 +x_0=6500000 +y_0=0 +ellps=krass +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_3146: string;
+/**
+ * EPSG:3147, Pulkovo 1942 / 3-degree Gauss-Kruger CM 18E. Russian Federation - Kaliningrad - west of 19°30'E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=18 +k=1 +x_0=500000 +y_0=0 +ellps=krass +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_3147: string;
+/**
  * EPSG:3148, Indian 1960 / UTM zone 48N. Cambodia; Vietnam west of 108°E. Up to 10.9 m from PROJ.
  *
  * `+proj=utm +zone=48 +ellps=evrst30 +towgs84=198,881,317 +units=m +no_defs`
@@ -6256,6 +6824,22 @@ export declare const EPSG_3148: string;
  * `+proj=utm +zone=49 +ellps=evrst30 +towgs84=198,881,317 +units=m +no_defs`
  */
 export declare const EPSG_3149: string;
+/**
+ * EPSG:3150, Pulkovo 1995 / 3-degree Gauss-Kruger zone 6. Russian Federation - Kaliningrad - west of 19°30'E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=18 +k=1 +x_0=6500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_3150: string;
+/**
+ * EPSG:3151, Pulkovo 1995 / 3-degree Gauss-Kruger CM 18E. Russian Federation - Kaliningrad - west of 19°30'E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=18 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_3151: string;
 /**
  * EPSG:3152, ST74. Sweden - Stockholm commune. Within 1 cm of PROJ.
  *
@@ -7223,6 +7807,22 @@ export declare const EPSG_3312: string;
  */
 export declare const EPSG_3313: string;
 /**
+ * EPSG:3314, Katanga 1955 / Katanga Lambert. The Democratic Republic of the Congo (Zaire) - Katanga. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=0 +lon_0=26 +lat_1=-6.5 +lat_2=-11.5 +x_0=0 +y_0=0 +ellps=clrk66 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3985.
+ */
+export declare const EPSG_3314: string;
+/**
+ * EPSG:3315, Katanga 1955 / Katanga TM. The Democratic Republic of the Congo (Zaire) - Katanga. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=-9 +lon_0=26 +k=0.9998 +x_0=0 +y_0=0 +ellps=clrk66 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3989 or EPSG:3988 or EPSG:3987 or EPSG:3986.
+ */
+export declare const EPSG_3315: string;
+/**
  * EPSG:3316, Kasai 1953 / Congo TM zone 22. The Democratic Republic of the Congo (Zaire) - adjacent to 6th parallel south traverse between 21°30'E and 23°E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
  * `+proj=tmerc +lat_0=0 +lon_0=22 +k=0.9999 +x_0=500000 +y_0=10000000 +a=6378249.145 +rf=293.465 +units=m +no_defs`
@@ -7421,6 +8021,14 @@ export declare const EPSG_3347: string;
  */
 export declare const EPSG_3348: string;
 /**
+ * EPSG:3349, WGS 84 / PDC Mercator. Pacific Ocean - American Samoa, Antarctica, Australia, Brunei Darussalam, Cambodia, Canada, Chile, China, China - Hong Kong, China - Macao, Cook Islands, Ecuador, Fiji, French Polynesia, Guam, Indonesia, Japan, Kiribati, Democratic People's Republic of Korea (North Korea), Republic of Korea (South Korea), Malaysia, Marshall Islands, Federated States of Micronesia, Nauru, New Caledonia, New Zealand, Niue, Norfolk Island, Northern Mariana Islands, Palau, Panama, Papua New Guinea (PNG), Peru, Philippines, Pitcairn, Russian Federation, Samoa, Singapore, Solomon Islands, Taiwan, Thailand, Tokelau, Tonga, Tuvalu, United States (USA), United States Minor Outlying Islands, Vanuatu, Venezuela, Vietnam, Wallis and Futuna. Within 1 cm of PROJ.
+ *
+ * `+proj=merc +lon_0=-150 +k=1 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3832.
+ */
+export declare const EPSG_3349: string;
+/**
  * EPSG:3350, Pulkovo 1942 / CS63 zone C0. Estonia, Latvia and Lithuania - onshore west of 23°27'E. Russia - Kaliningrad onshore. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=0.1 +lon_0=21.95 +k=1 +x_0=250000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
@@ -7451,11 +8059,35 @@ export declare const EPSG_3353: string;
  */
 export declare const EPSG_3355: string;
 /**
+ * EPSG:3356, Grand Cayman 1959 / UTM zone 17N. Cayman Islands - Grand Cayman. Up to 0.011 m from PROJ.
+ *
+ * `+proj=utm +zone=17 +ellps=clrk66 +towgs84=-179.483,-69.379,-27.584,-7.862,8.163,6.042,-13.925 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6128.
+ */
+export declare const EPSG_3356: string;
+/**
+ * EPSG:3357, Little Cayman 1961 / UTM zone 17N. Cayman Islands - Little Cayman and Cayman Brac. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=17 +ellps=clrk66 +towgs84=8.853,-52.644,180.304,-0.393,-2.323,2.96,-24.081 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6129.
+ */
+export declare const EPSG_3357: string;
+/**
  * EPSG:3358, NAD83(HARN) / North Carolina. United States (USA) - North Carolina. Within 1 cm of PROJ.
  *
  * `+proj=lcc +lat_0=33.75 +lon_0=-79 +lat_1=36.1666666666667 +lat_2=34.3333333333333 +x_0=609601.22 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
  */
 export declare const EPSG_3358: string;
+/**
+ * EPSG:3359, NAD83(HARN) / North Carolina (ftUS). United States (USA) - North Carolina. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=33.75 +lon_0=-79 +lat_1=36.1666666666667 +lat_2=34.3333333333333 +x_0=609601.219202438 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:3404.
+ */
+export declare const EPSG_3359: string;
 /**
  * EPSG:3360, NAD83(HARN) / South Carolina. United States (USA) - South Carolina. Within 1 cm of PROJ.
  *
@@ -7492,6 +8124,14 @@ export declare const EPSG_3364: string;
  * `+proj=lcc +lat_0=39.3333333333333 +lon_0=-77.75 +lat_1=40.9666666666667 +lat_2=39.9333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
  */
 export declare const EPSG_3365: string;
+/**
+ * EPSG:3366, Hong Kong 1963 Grid System. Hong Kong - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=cass +lat_0=22.3121333333333 +lon_0=114.178555555556 +x_0=40243.5777560424 +y_0=19069.9335151258 +a=6378293.64520876 +b=6356617.98767984 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3407.
+ */
+export declare const EPSG_3366: string;
 /**
  * EPSG:3367, IGN Astro 1960 / UTM zone 28N. Mauritania - onshore west of 12°W. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
@@ -8008,6 +8648,14 @@ export declare const EPSG_3452: string;
  * `+proj=lcc +lat_0=25.5 +lon_0=-91.3333333333333 +lat_1=27.8333333333333 +lat_2=26.1666666666667 +x_0=999999.99998984 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
  */
 export declare const EPSG_3453: string;
+/**
+ * EPSG:3454, NAD83 / South Dakota North (ftUS). United States (USA) - South Dakota - counties of Beadle; Brookings; Brown; Butte; Campbell; Clark; Codington; Corson; Day; Deuel; Dewey; Edmunds; Faulk; Grant; Hamlin; Hand; Harding; Hyde; Kingsbury; Lawrence; Marshall; McPherson; Meade; Perkins; Potter; Roberts; Spink; Sully; Walworth; Ziebach. Up to 0.588 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=42.3333333333333 +lon_0=-100.333333333333 +lat_1=44.4 +lat_2=42.8333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:4457.
+ */
+export declare const EPSG_3454: string;
 /**
  * EPSG:3455, NAD83 / South Dakota South (ftUS). United States (USA) - South Dakota - counties of Aurora; Bennett; Bon Homme; Brule; Buffalo; Charles Mix; Clay; Custer; Davison; Douglas; Fall River; Gregory; Haakon; Hanson; Hughes; Hutchinson; Jackson; Jerauld; Jones; Lake; Lincoln; Lyman; McCook; Mellette; Miner; Minnehaha; Moody; Pennington; Sanborn; Shannon; Stanley; Todd; Tripp; Turner; Union; Yankton. Up to 0.596 m from PROJ.
  *
@@ -9917,6 +10565,14 @@ export declare const EPSG_3772: string;
  */
 export declare const EPSG_3773: string;
 /**
+ * EPSG:3774, NAD27 / Alberta 3TM ref merid 120 W. Canada - Alberta - west of 118°30' W. Up to 8.09 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-120 +k=0.9999 +x_0=0 +y_0=0 +ellps=clrk66 +towgs84=-7,162,188 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3800.
+ */
+export declare const EPSG_3774: string;
+/**
  * EPSG:3775, NAD83 / Alberta 3TM ref merid 111 W. Canada - Alberta - east of 112°30'W. Up to 1.12 m from PROJ.
  *
  * `+proj=tmerc +lat_0=0 +lon_0=-111 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
@@ -9934,6 +10590,14 @@ export declare const EPSG_3776: string;
  * `+proj=tmerc +lat_0=0 +lon_0=-117 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
  */
 export declare const EPSG_3777: string;
+/**
+ * EPSG:3778, NAD83 / Alberta 3TM ref merid 120 W. Canada - Alberta - west of 118°30' W. Up to 1.69 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-120 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3801.
+ */
+export declare const EPSG_3778: string;
 /**
  * EPSG:3779, NAD83(CSRS) / Alberta 3TM ref merid 111 W. Canada - Alberta - east of 112°30'W. Within 1 cm of PROJ.
  *
@@ -9953,6 +10617,14 @@ export declare const EPSG_3780: string;
  */
 export declare const EPSG_3781: string;
 /**
+ * EPSG:3782, NAD83(CSRS) / Alberta 3TM ref merid 120 W. Canada - Alberta - west of 118°30' W. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-120 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3802.
+ */
+export declare const EPSG_3782: string;
+/**
  * EPSG:3783, Pitcairn 2006 / Pitcairn TM 2006. Pitcairn - Pitcairn Island. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=-25.0685526111111 +lon_0=-130.112967111111 +k=1 +x_0=14200 +y_0=15500 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
@@ -9964,6 +10636,30 @@ export declare const EPSG_3783: string;
  * `+proj=utm +zone=9 +south +ellps=intl +towgs84=185,165,42 +units=m +no_defs`
  */
 export declare const EPSG_3784: string;
+/**
+ * EPSG:3785, Popular Visualisation CRS / Mercator. World between 85.06°S and 85.06°N. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs`
+ *
+ * @deprecated Use EPSG:3857.
+ */
+export declare const EPSG_3785: string;
+/**
+ * EPSG:3786, World Equidistant Cylindrical (Sphere). World. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=eqc +lat_ts=0 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +R=6371007 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4088.
+ */
+export declare const EPSG_3786: string;
+/**
+ * EPSG:3787, MGI / Slovene National Grid. Slovenia - onshore and offshore. Up to 0.506 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9999 +x_0=500000 +y_0=-5000000 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3912.
+ */
+export declare const EPSG_3787: string;
 /**
  * EPSG:3788, NZGD2000 / Auckland Islands TM 2000. New Zealand - Snares Island, Auckland Island - onshore. Within 1 cm of PROJ.
  *
@@ -10181,6 +10877,22 @@ export declare const EPSG_3840: string;
  */
 export declare const EPSG_3841: string;
 /**
+ * EPSG:3842, Pulkovo 1942(83) / 3-degree Gauss-Kruger zone 7. Hungary and Slovakia - between 19°30'E and 22°30'E. Up to 1.04 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=18 +k=1 +x_0=6500000 +y_0=0 +ellps=krass +towgs84=26,-121,-78 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4417.
+ */
+export declare const EPSG_3842: string;
+/**
+ * EPSG:3843, Pulkovo 1942(83) / 3-degree Gauss-Kruger zone 8. Hungary and Slovakia - east of 22°30'E. Up to 1.06 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=18 +k=1 +x_0=6500000 +y_0=0 +ellps=krass +towgs84=28,-121,-77 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4434.
+ */
+export declare const EPSG_3843: string;
+/**
  * EPSG:3844, Pulkovo 1942(58) / Stereo70. Romania - onshore and offshore. Within 1 cm of PROJ.
  *
  * `+proj=sterea +lat_0=46 +lon_0=25 +k=0.99975 +x_0=500000 +y_0=500000 +ellps=krass +towgs84=2.329,-147.042,-92.08,-0.309,0.325,0.497,5.69 +units=m +no_defs`
@@ -10361,6 +11073,46 @@ export declare const EPSG_3893: string;
  */
 export declare const EPSG_3906: string;
 /**
+ * EPSG:3907, MGI 1901 / Balkans zone 5. Bosnia and Herzegovina - west of 16°30'E; Croatia - onshore west of 16°30'E; Slovenia - onshore. Up to 2.02 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9999 +x_0=5500000 +y_0=0 +ellps=bessel +towgs84=551.7,162.9,467.9,6.04,1.96,-11.38,-4.82 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8677.
+ */
+export declare const EPSG_3907: string;
+/**
+ * EPSG:3908, MGI 1901 / Balkans zone 6. Bosnia and Herzegovina - between 16°30'E and 19°30'E; Croatia - onshore east of 16°30'E; Montenegro - onshore west of 19°30'E; Serbia - west of 19°30'E. Up to 4.27 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=18 +k=0.9999 +x_0=6500000 +y_0=0 +ellps=bessel +towgs84=551.7,162.9,467.9,6.04,1.96,-11.38,-4.82 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8678.
+ */
+export declare const EPSG_3908: string;
+/**
+ * EPSG:3909, MGI 1901 / Balkans zone 7. Bosnia and Herzegovina - east of 19°30'E; Kosovo; Montenegro - east of 19°30'E; Serbia - between 19°30'E and 22°30'E. Up to 1610 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=21 +k=0.9999 +x_0=7500000 +y_0=0 +ellps=bessel +towgs84=682,-203,480 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6316.
+ */
+export declare const EPSG_3909: string;
+/**
+ * EPSG:3910, MGI 1901 / Balkans zone 8. North Macedonia - east of 22°30'E; Serbia - east of 22°30'E. Up to 3.77 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9999 +x_0=8500000 +y_0=0 +ellps=bessel +towgs84=521.748,229.489,590.921,4.029,4.488,-15.521,-9.78 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8679.
+ */
+export declare const EPSG_3910: string;
+/**
+ * EPSG:3911, MGI 1901 / Slovenia Grid. Slovenia - onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9999 +x_0=500000 +y_0=0 +ellps=bessel +towgs84=476.08,125.947,417.81,4.610862,2.388137,-11.942335,9.896638 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8686.
+ */
+export declare const EPSG_3911: string;
+/**
  * EPSG:3912, MGI 1901 / Slovene National Grid. Slovenia - onshore and offshore. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9999 +x_0=500000 +y_0=-5000000 +ellps=bessel +towgs84=476.08,125.947,417.81,4.610862,2.388137,-11.942335,9.896638 +units=m +no_defs`
@@ -10445,6 +11197,30 @@ export declare const EPSG_3969: string;
  */
 export declare const EPSG_3970: string;
 /**
+ * EPSG:3973, WGS 84 / NSIDC EASE-Grid North. Northern hemisphere. Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=laea +R_A +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6931.
+ */
+export declare const EPSG_3973: string;
+/**
+ * EPSG:3974, WGS 84 / NSIDC EASE-Grid South. Southern hemisphere. Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=laea +R_A +lat_0=-90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6932.
+ */
+export declare const EPSG_3974: string;
+/**
+ * EPSG:3975, WGS 84 / NSIDC EASE-Grid Global. World between 86°S and 86°N. Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=cea +R_A +lat_ts=30 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6933.
+ */
+export declare const EPSG_3975: string;
+/**
  * EPSG:3976, WGS 84 / NSIDC Sea Ice Polar Stereographic South. Southern hemisphere - south of 60°S onshore and offshore - Antarctica. Within 1 cm of PROJ.
  *
  * `+proj=stere +lat_0=-90 +lat_ts=-70 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs`
@@ -10462,6 +11238,14 @@ export declare const EPSG_3978: string;
  * `+proj=lcc +lat_0=49 +lon_0=-95 +lat_1=49 +lat_2=77 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
  */
 export declare const EPSG_3979: string;
+/**
+ * EPSG:3985, Katanga 1955 / Katanga Lambert. The Democratic Republic of the Congo (Zaire) - Katanga. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=9 +lon_0=26 +lat_1=-6.5 +lat_2=-11.5 +x_0=500000 +y_0=500000 +ellps=clrk66 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4415.
+ */
+export declare const EPSG_3985: string;
 /**
  * EPSG:3986, Katanga 1955 / Katanga Gauss zone A. The Democratic Republic of the Congo (Zaire) - Katanga east of 28°30'E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
@@ -10529,17 +11313,281 @@ export declare const EPSG_3996: string;
  */
 export declare const EPSG_3997: string;
 /**
+ * EPSG:4001, Unknown datum based upon the Airy 1830 ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=airy +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4001: string;
+/**
+ * EPSG:4002, Unknown datum based upon the Airy Modified 1849 ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6377340.189 +rf=299.3249646 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4002: string;
+/**
+ * EPSG:4003, Unknown datum based upon the Australian National Spheroid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=aust_SA +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4003: string;
+/**
+ * EPSG:4004, Unknown datum based upon the Bessel 1841 ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=bessel +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4004: string;
+/**
+ * EPSG:4005, Unknown datum based upon the Bessel Modified ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6377492.018 +rf=299.1528128 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4005: string;
+/**
+ * EPSG:4006, Unknown datum based upon the Bessel Namibia ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=bess_nam +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4006: string;
+/**
+ * EPSG:4007, Unknown datum based upon the Clarke 1858 ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378293.64520876 +b=6356617.98767984 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4007: string;
+/**
+ * EPSG:4008, Unknown datum based upon the Clarke 1866 ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=clrk66 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4008: string;
+/**
+ * EPSG:4009, Unknown datum based upon the Clarke 1866 Michigan ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378450.0475489 +b=6356826.62148844 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4009: string;
+/**
+ * EPSG:4010, Unknown datum based upon the Clarke 1880 (Benoit) ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378300.789 +b=6356566.435 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4010: string;
+/**
+ * EPSG:4011, Unknown datum based upon the Clarke 1880 (IGN) ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=clrk80ign +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4011: string;
+/**
+ * EPSG:4012, Unknown datum based upon the Clarke 1880 (RGS) ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378249.145 +rf=293.465 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4012: string;
+/**
+ * EPSG:4013, Unknown datum based upon the Clarke 1880 (Arc) ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378249.145 +rf=293.4663077 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4013: string;
+/**
+ * EPSG:4014, Unknown datum based upon the Clarke 1880 (SGA 1922) ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378249.2 +rf=293.46598 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4014: string;
+/**
+ * EPSG:4015, Unknown datum based upon the Everest 1830 (1937 Adjustment) ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=evrst30 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4015: string;
+/**
+ * EPSG:4016, Unknown datum based upon the Everest 1830 (1967 Definition) ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=evrstSS +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4016: string;
+/**
+ * EPSG:4018, Unknown datum based upon the Everest 1830 Modified ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=evrst48 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4018: string;
+/**
+ * EPSG:4019, Unknown datum based upon the GRS 1980 ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4019: string;
+/**
+ * EPSG:4020, Unknown datum based upon the Helmert 1906 ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=helmert +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4020: string;
+/**
+ * EPSG:4021, Unknown datum based upon the Indonesian National Spheroid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378160 +rf=298.247 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4021: string;
+/**
+ * EPSG:4022, Unknown datum based upon the International 1924 ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4022: string;
+/**
  * EPSG:4023, ETRS89-MDA [MOLDREF99]. Moldova. Within 1 cm of PROJ.
  *
  * `+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs`
  */
 export declare const EPSG_4023: string;
 /**
+ * EPSG:4024, Unknown datum based upon the Krassowsky 1940 ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=krass +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4024: string;
+/**
+ * EPSG:4025, Unknown datum based upon the NWL 9D ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=NWL9D +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4025: string;
+/**
  * EPSG:4026, ETRS89-MDA [MOLDREF99] / Moldova TM. Moldova. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=0 +lon_0=28.4 +k=0.99994 +x_0=200000 +y_0=-5000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
  */
 export declare const EPSG_4026: string;
+/**
+ * EPSG:4027, Unknown datum based upon the Plessis 1817 ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6376523 +rf=308.64 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4027: string;
+/**
+ * EPSG:4028, Unknown datum based upon the Struve 1860 ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378298.3 +rf=294.73 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4028: string;
+/**
+ * EPSG:4029, Unknown datum based upon the War Office ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378300 +rf=296 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4029: string;
+/**
+ * EPSG:4030, Unknown datum based upon the WGS 84 ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=WGS84 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4030: string;
+/**
+ * EPSG:4031, Unknown datum based upon the GEM 10C ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=WGS84 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4031: string;
+/**
+ * EPSG:4032, Unknown datum based upon the OSU86F ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378136.2 +rf=298.257223563 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4032: string;
+/**
+ * EPSG:4033, Unknown datum based upon the OSU91A ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378136.3 +rf=298.257223563 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4033: string;
+/**
+ * EPSG:4034, Unknown datum based upon the Clarke 1880 ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378249.14480801 +b=6356514.96620413 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4034: string;
+/**
+ * EPSG:4035, Unknown datum based upon the Authalic Sphere. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +R=6371000 +no_defs`
+ *
+ * @deprecated Use EPSG:4047.
+ */
+export declare const EPSG_4035: string;
+/**
+ * EPSG:4036, Unknown datum based upon the GRS 1967 ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS67 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4036: string;
 /**
  * EPSG:4037, WGS 84 / TMzn35N. Moldova - west of 30°E. Within 1 cm of PROJ.
  *
@@ -10553,11 +11601,59 @@ export declare const EPSG_4037: string;
  */
 export declare const EPSG_4038: string;
 /**
+ * EPSG:4041, Unknown datum based upon the Average Terrestrial System 1977 ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378135 +rf=298.257 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4041: string;
+/**
+ * EPSG:4042, Unknown datum based upon the Everest (1830 Definition) ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6377299.36559538 +b=6356098.35900516 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4042: string;
+/**
+ * EPSG:4043, Unknown datum based upon the WGS 72 ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378135 +rf=298.26 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4043: string;
+/**
+ * EPSG:4044, Unknown datum based upon the Everest 1830 (1962 Definition) ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6377301.243 +rf=300.8017255 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4044: string;
+/**
+ * EPSG:4045, Unknown datum based upon the Everest 1830 (1975 Definition) ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6377299.151 +rf=300.8017255 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4045: string;
+/**
  * EPSG:4046, RGRDC 2005. The Democratic Republic of the Congo (Zaire) - south of a line through Bandundu, Seke and Pweto - onshore and offshore. Within 1 cm of PROJ.
  *
  * `+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs`
  */
 export declare const EPSG_4046: string;
+/**
+ * EPSG:4047, Unspecified datum based upon the GRS 1980 Authalic Sphere. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +R=6371007 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4047: string;
 /**
  * EPSG:4048, RGRDC 2005 / Congo TM zone 12. The Democratic Republic of the Congo (Zaire) - west of 13°E onshore and offshore. Within 1 cm of PROJ.
  *
@@ -10582,6 +11678,38 @@ export declare const EPSG_4050: string;
  * `+proj=tmerc +lat_0=0 +lon_0=18 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
  */
 export declare const EPSG_4051: string;
+/**
+ * EPSG:4052, Unspecified datum based upon the Clarke 1866 Authalic Sphere. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=sphere +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4052: string;
+/**
+ * EPSG:4053, Unspecified datum based upon the International 1924 Authalic Sphere. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +R=6371228 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4053: string;
+/**
+ * EPSG:4054, Unspecified datum based upon the Hughes 1980 ellipsoid. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378273 +b=6356889.449 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4054: string;
+/**
+ * EPSG:4055, Popular Visualisation CRS. World. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +R=6378137 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_4055: string;
 /**
  * EPSG:4056, RGRDC 2005 / Congo TM zone 20. The Democratic Republic of the Congo (Zaire) - south of a line through Bandundu, Seke and Pweto and between 19°E and 21°E. Within 1 cm of PROJ.
  *
@@ -10667,6 +11795,14 @@ export declare const EPSG_4083: string;
  */
 export declare const EPSG_4087: string;
 /**
+ * EPSG:4088, World Equidistant Cylindrical (Sphere). World. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=eqc +lat_ts=0 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +R=6371007 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4087.
+ */
+export declare const EPSG_4088: string;
+/**
  * EPSG:4093, ETRS89 / DKTM1. Denmark - Jutland onshore west of 10°E. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=0 +lon_0=9 +k=0.99998 +x_0=200000 +y_0=-5000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
@@ -10714,6 +11850,22 @@ export declare const EPSG_4123: string;
  * `+proj=longlat +ellps=bessel +towgs84=414.1,41.3,603.1,-0.855,2.141,-7.023,0 +no_defs`
  */
 export declare const EPSG_4124: string;
+/**
+ * EPSG:4125, Samboja. Indonesia - east Kalimantan - Mahakam delta coastal and offshore shelf areas. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=bessel +no_defs`
+ *
+ * @deprecated Use EPSG:4613.
+ */
+export declare const EPSG_4125: string;
+/**
+ * EPSG:4126, LKS94 (ETRS89). Lithuania - onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs`
+ *
+ * @deprecated Use EPSG:4669.
+ */
+export declare const EPSG_4126: string;
 /**
  * EPSG:4127, Tete. Mozambique - onshore. Up to 26.8 m from PROJ.
  *
@@ -10792,6 +11944,14 @@ export declare const EPSG_4138: string;
  * `+proj=longlat +ellps=clrk66 +towgs84=11,72,-101 +no_defs`
  */
 export declare const EPSG_4139: string;
+/**
+ * EPSG:4140, NAD83(CSRS98). Canada - Alberta; New Brunswick; Saskatchewan; Prince Edward Island; and Quebec. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +no_defs`
+ *
+ * @deprecated Use EPSG:4617.
+ */
+export declare const EPSG_4140: string;
 /**
  * EPSG:4141, Israel 1993. Israel - onshore; Palestine onshore. Within 1 cm of PROJ.
  *
@@ -10973,6 +12133,14 @@ export declare const EPSG_4170: string;
  */
 export declare const EPSG_4171: string;
 /**
+ * EPSG:4172, POSGAR. Argentina - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:4190 or EPSG:4694.
+ */
+export declare const EPSG_4172: string;
+/**
  * EPSG:4173, ETRS89-IRE [ETRF2000]. Ireland - onshore. United Kingdom (UK) - Northern Ireland (Ulster) - onshore. Within 1 cm of PROJ.
  *
  * `+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs`
@@ -11038,6 +12206,14 @@ export declare const EPSG_4183: string;
  * `+proj=longlat +ellps=intl +towgs84=-203,141,53 +no_defs`
  */
 export declare const EPSG_4184: string;
+/**
+ * EPSG:4185, Madeira 1936. Portugal - Madeira, Porto Santo and Desertas islands - onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4615 or EPSG:4616.
+ */
+export declare const EPSG_4185: string;
 /**
  * EPSG:4188, OSNI 1952. United Kingdom (UK) - Northern Ireland (Ulster) - onshore. Within 1 cm of PROJ.
  *
@@ -11255,11 +12431,27 @@ export declare const EPSG_4224: string;
  */
 export declare const EPSG_4225: string;
 /**
+ * EPSG:4226, Cote d'Ivoire. Côte d'Ivoire (Ivory Coast) - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=clrk80ign +no_defs`
+ *
+ * @deprecated Use EPSG:4142 or EPSG:4143.
+ */
+export declare const EPSG_4226: string;
+/**
  * EPSG:4227, Deir ez Zor. Lebanon - onshore. Syrian Arab Republic - onshore. Up to 2.7 m from PROJ.
  *
  * `+proj=longlat +ellps=clrk80ign +towgs84=-190.421,8.532,238.69 +no_defs`
  */
 export declare const EPSG_4227: string;
+/**
+ * EPSG:4228, Douala. Cameroon - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=clrk80ign +no_defs`
+ *
+ * @deprecated Use EPSG:4192.
+ */
+export declare const EPSG_4228: string;
 /**
  * EPSG:4229, Egypt 1907. Egypt - onshore and offshore. Up to 7.68 m from PROJ.
  *
@@ -11284,6 +12476,30 @@ export declare const EPSG_4231: string;
  * `+proj=longlat +a=6378249.145 +rf=293.465 +towgs84=-345,3,223 +no_defs`
  */
 export declare const EPSG_4232: string;
+/**
+ * EPSG:4233, Gandajika 1970. Maldives - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4684 or EPSG:4685.
+ */
+export declare const EPSG_4233: string;
+/**
+ * EPSG:4234, Garoua. Cameroon - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=clrk80ign +no_defs`
+ *
+ * @deprecated Use EPSG:4197.
+ */
+export declare const EPSG_4234: string;
+/**
+ * EPSG:4235, Guyane Francaise. French Guiana - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4623.
+ */
+export declare const EPSG_4235: string;
 /**
  * EPSG:4236, Hu Tzu Shan 1950. Taiwan, Republic of China - onshore - Taiwan Island, Penghu (Pescadores) Islands. Within 1 cm of PROJ.
  *
@@ -11429,6 +12645,14 @@ export declare const EPSG_4258: string;
  */
 export declare const EPSG_4259: string;
 /**
+ * EPSG:4260, Manoca. Cameroon - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378249.145 +rf=293.465 +no_defs`
+ *
+ * @deprecated Use EPSG:4193.
+ */
+export declare const EPSG_4260: string;
+/**
  * EPSG:4261, Merchich. Africa - Morocco and Western Sahara - onshore. Within 1 cm of PROJ.
  *
  * `+proj=longlat +ellps=clrk80ign +towgs84=31,146,47 +no_defs`
@@ -11446,6 +12670,14 @@ export declare const EPSG_4262: string;
  * `+proj=longlat +a=6378249.145 +rf=293.465 +towgs84=-92.726,-90.304,115.735 +no_defs`
  */
 export declare const EPSG_4263: string;
+/**
+ * EPSG:4264, Mhast. Angola - Cabinda. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4704 or EPSG:4705.
+ */
+export declare const EPSG_4264: string;
 /**
  * EPSG:4265, Monte Mario. Italy - onshore and offshore; San Marino, Vatican City State. Up to 8.35 m from PROJ.
  *
@@ -11466,6 +12698,14 @@ onshore and offshore. US Virgin Islands - onshore. Up to 21.6 m from PROJ.
  * `+proj=longlat +ellps=clrk66 +towgs84=-8,159,175 +no_defs`
  */
 export declare const EPSG_4267: string;
+/**
+ * EPSG:4268, NAD27 Michigan. United States (USA) - Michigan. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378450.0475489 +b=6356826.62148844 +no_defs`
+ *
+ * @deprecated Use EPSG:4267.
+ */
+export declare const EPSG_4268: string;
 /**
  * EPSG:4269, NAD83. North America - onshore and offshore: Canada. Puerto Rico. United States (USA). US Virgin Islands. British Virgin Islands. Up to 0.242 m from PROJ.
  *
@@ -11533,6 +12773,14 @@ export declare const EPSG_4278: string;
  */
 export declare const EPSG_4279: string;
 /**
+ * EPSG:4280, Padang. Indonesia - Sumatra. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=bessel +no_defs`
+ *
+ * @deprecated Use EPSG:4211.
+ */
+export declare const EPSG_4280: string;
+/**
  * EPSG:4281, Palestine 1923. Israel - onshore; Jordan; Palestine - onshore. Up to 0.0135 m from PROJ.
  *
  * `+proj=longlat +a=6378300.789 +b=6356566.435 +towgs84=-275.7224,94.7824,340.8944,-8.001,-4.42,-11.821,1 +no_defs`
@@ -11569,6 +12817,14 @@ export declare const EPSG_4285: string;
  */
 export declare const EPSG_4286: string;
 /**
+ * EPSG:4287, Qornoq. Greenland - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4194.
+ */
+export declare const EPSG_4287: string;
+/**
  * EPSG:4288, Loma Quintana. Venezuela - onshore north of approximately 7°45'N. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
  * `+proj=longlat +ellps=intl +no_defs`
@@ -11580,6 +12836,14 @@ export declare const EPSG_4288: string;
  * `+proj=longlat +ellps=bessel +towgs84=565.4171,50.3319,465.5524,-0.398957388243,0.343987817378,-1.87740163998,4.0725 +no_defs`
  */
 export declare const EPSG_4289: string;
+/**
+ * EPSG:4291, SAD69. Brazil - onshore and offshore. Chile - onshore south of 43°30'S including Tierra del Fuego. In rest of South America - onshore north of approximately 45°S. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS67 +no_defs`
+ *
+ * @deprecated Use EPSG:4618.
+ */
+export declare const EPSG_4291: string;
 /**
  * EPSG:4292, Sapper Hill 1943. Falkland Islands (Malvinas) - onshore. Within 1 cm of PROJ.
  *
@@ -11593,11 +12857,27 @@ export declare const EPSG_4292: string;
  */
 export declare const EPSG_4293: string;
 /**
+ * EPSG:4294, Segora. Indonesia - Kalimantan - onshore southeast coastal area including Mahakam delta coastal and offshore shelf areas. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=bessel +no_defs`
+ *
+ * @deprecated Use EPSG:4613.
+ */
+export declare const EPSG_4294: string;
+/**
  * EPSG:4295, Serindung. Indonesia - west Kalimantan - onshore coastal area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
  * `+proj=longlat +ellps=bessel +no_defs`
  */
 export declare const EPSG_4295: string;
+/**
+ * EPSG:4296, Sudan. Sudan - south. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=clrk80ign +no_defs`
+ *
+ * @deprecated Use EPSG:4201.
+ */
+export declare const EPSG_4296: string;
 /**
  * EPSG:4297, Tananarive. Madagascar - onshore and nearshore. Within 1 cm of PROJ.
  *
@@ -11712,6 +12992,14 @@ export declare const EPSG_4315: string;
  * `+proj=longlat +ellps=intl +towgs84=103.25,-100.4,-307.19 +no_defs`
  */
 export declare const EPSG_4316: string;
+/**
+ * EPSG:4317, Dealul Piscului 1970. Romania - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=krass +no_defs`
+ *
+ * @deprecated Use EPSG:4179.
+ */
+export declare const EPSG_4317: string;
 /**
  * EPSG:4318, NGN. Kuwait - onshore. Within 1 cm of PROJ.
  *
@@ -12072,6 +13360,14 @@ export declare const EPSG_4470: string;
  * `+proj=utm +zone=38 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
  */
 export declare const EPSG_4471: string;
+/**
+ * EPSG:4474, Cadastre 1997 / UTM zone 38S. Mayotte - onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=38 +south +ellps=intl +towgs84=-382,-59,-262 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5879.
+ */
+export declare const EPSG_4474: string;
 /**
  * EPSG:4475, Cadastre 1997. Mayotte - onshore. Within 1 cm of PROJ.
  *
@@ -12841,6 +14137,14 @@ export declare const EPSG_4629: string;
  */
 export declare const EPSG_4630: string;
 /**
+ * EPSG:4631, K0 1949. French Southern Territories - Kerguelen onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4698.
+ */
+export declare const EPSG_4631: string;
+/**
  * EPSG:4632, Combani 1950. Mayotte - onshore. Within 1 cm of PROJ.
  *
  * `+proj=longlat +ellps=intl +towgs84=-382,-59,-262 +no_defs`
@@ -12852,6 +14156,22 @@ export declare const EPSG_4632: string;
  * `+proj=longlat +ellps=intl +towgs84=335.47,222.58,-230.94 +no_defs`
  */
 export declare const EPSG_4633: string;
+/**
+ * EPSG:4634, IGN72 Grand Terre. New Caledonia - Grande Terre. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=intl +towgs84=-11.64,-348.6,291.98 +no_defs`
+ *
+ * @deprecated Use EPSG:4662.
+ */
+export declare const EPSG_4634: string;
+/**
+ * EPSG:4635, ST87 Ouvea. New Caledonia - Loyalty Islands - Ouvea. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4750.
+ */
+export declare const EPSG_4635: string;
 /**
  * EPSG:4636, Petrels 1972. Antarctica - Adelie Land - Petrels island. Within 1 cm of PROJ.
  *
@@ -12877,6 +14197,14 @@ export declare const EPSG_4638: string;
  */
 export declare const EPSG_4639: string;
 /**
+ * EPSG:4640, RRAF 1991. French Antilles onshore and offshore - Guadeloupe (including Grande Terre, Basse Terre, Marie Galante, Les Saintes, Iles de la Petite Terre, La Desirade); Martinique; St Barthélemy; St Martin. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +no_defs`
+ *
+ * @deprecated Use EPSG:4558.
+ */
+export declare const EPSG_4640: string;
+/**
  * EPSG:4641, IGN53 Mare. New Caledonia - Loyalty Islands - Mare. Within 1 cm of PROJ.
  *
  * `+proj=longlat +ellps=intl +towgs84=287.58,177.78,-135.41 +no_defs`
@@ -12900,6 +14228,14 @@ export declare const EPSG_4643: string;
  * `+proj=longlat +ellps=intl +towgs84=-10.18,-350.43,291.37 +no_defs`
  */
 export declare const EPSG_4644: string;
+/**
+ * EPSG:4645, RGNC 1991. New Caledonia - onshore and offshore. Isle de Pins, Loyalty Islands, Huon Islands, Belep archipelago, Chesterfield Islands, and Walpole. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4749.
+ */
+export declare const EPSG_4645: string;
 /**
  * EPSG:4646, Grand Comoros. Comoros - Njazidja (Grande Comore). Within 1 cm of PROJ.
  *
@@ -13075,6 +14411,14 @@ export declare const EPSG_4679: string;
  */
 export declare const EPSG_4680: string;
 /**
+ * EPSG:4681, Mauritania 1999. Mauritania - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378249.145 +rf=293.465 +no_defs`
+ *
+ * @deprecated Use EPSG:4700 or EPSG:4702.
+ */
+export declare const EPSG_4681: string;
+/**
  * EPSG:4682, Gulshan 303. Bangladesh - onshore and offshore. Within 1 cm of PROJ.
  *
  * `+proj=longlat +ellps=evrst30 +towgs84=283.729,735.942,261.143 +no_defs`
@@ -13092,6 +14436,14 @@ export declare const EPSG_4683: string;
  * `+proj=longlat +ellps=intl +towgs84=-133,-321,50 +no_defs`
  */
 export declare const EPSG_4684: string;
+/**
+ * EPSG:4685, Gandajika. The Democratic Republic of the Congo (Zaire) - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4696.
+ */
+export declare const EPSG_4685: string;
 /**
  * EPSG:4686, MAGNA-SIRGAS. Colombia - onshore and offshore. Includes San Andres y Providencia, Malpelo Islands, Roncador Bank, Serrana Bank and Serranilla Bank. Within 1 cm of PROJ.
  *
@@ -13356,6 +14708,14 @@ export declare const EPSG_4729: string;
  * `+proj=longlat +ellps=intl +towgs84=170,42,84 +no_defs`
  */
 export declare const EPSG_4730: string;
+/**
+ * EPSG:4731, Viti Levu 1916. Fiji - Viti Levu island. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378249.145 +rf=293.465 +no_defs`
+ *
+ * @deprecated Use EPSG:4752.
+ */
+export declare const EPSG_4731: string;
 /**
  * EPSG:4732, Marshall Islands 1960. Marshall Islands - onshore. Wake atoll onshore. Within 1 cm of PROJ.
  *
@@ -13807,6 +15167,14 @@ export declare const EPSG_4806: string;
  */
 export declare const EPSG_4807: string;
 /**
+ * EPSG:4808, Padang (Jakarta). Indonesia - Sumatra. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=bessel +pm=jakarta +no_defs`
+ *
+ * @deprecated Use EPSG:4813.
+ */
+export declare const EPSG_4808: string;
+/**
  * EPSG:4809, BD50 (Brussels). Belgium - onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
  * `+proj=longlat +ellps=intl +pm=brussels +no_defs`
@@ -13861,6 +15229,14 @@ export declare const EPSG_4817: string;
  */
 export declare const EPSG_4818: string;
 /**
+ * EPSG:4819, Nord Sahara 1959 (Paris). Algeria; Morocco; Tunisia. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378249.145 +rf=293.465 +pm=paris +no_defs`
+ *
+ * @deprecated Use EPSG:4307.
+ */
+export declare const EPSG_4819: string;
+/**
  * EPSG:4820, Segara (Jakarta). Indonesia - Kalimantan - onshore east coastal area including Mahakam delta coastal and offshore shelf areas. Within 1 cm of PROJ.
  *
  * `+proj=longlat +ellps=bessel +pm=jakarta +towgs84=-403,684,41 +no_defs`
@@ -13903,11 +15279,227 @@ export declare const EPSG_4826: string;
  */
 export declare const EPSG_4839: string;
 /**
+ * EPSG:4855, ETRS89 / NTM zone 5. Norway - onshore - west of 6°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=5.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5105.
+ */
+export declare const EPSG_4855: string;
+/**
+ * EPSG:4856, ETRS89 / NTM zone 6. Norway - onshore - between 6°E and 7°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=6.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5106.
+ */
+export declare const EPSG_4856: string;
+/**
+ * EPSG:4857, ETRS89 / NTM zone 7. Norway - onshore - between 7°E and 8°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=7.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5107.
+ */
+export declare const EPSG_4857: string;
+/**
+ * EPSG:4858, ETRS89 / NTM zone 8. Norway - onshore - between 8°E and 9°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=8.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5108.
+ */
+export declare const EPSG_4858: string;
+/**
+ * EPSG:4859, ETRS89 / NTM zone 9. Norway - onshore - between 9°E and 10°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=9.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5109.
+ */
+export declare const EPSG_4859: string;
+/**
+ * EPSG:4860, ETRS89 / NTM zone 10. Norway - onshore - between 10°E and 11°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=10.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5110.
+ */
+export declare const EPSG_4860: string;
+/**
+ * EPSG:4861, ETRS89 / NTM zone 11. Norway - onshore - between 11°E and 12°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=11.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5111.
+ */
+export declare const EPSG_4861: string;
+/**
+ * EPSG:4862, ETRS89 / NTM zone 12. Norway - onshore - between 12°E and 13°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=12.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5112.
+ */
+export declare const EPSG_4862: string;
+/**
+ * EPSG:4863, ETRS89 / NTM zone 13. Norway - onshore - between 13°E and 14°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=13.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5113.
+ */
+export declare const EPSG_4863: string;
+/**
+ * EPSG:4864, ETRS89 / NTM zone 14. Norway - onshore - between 14°E and 15°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=14.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5114.
+ */
+export declare const EPSG_4864: string;
+/**
+ * EPSG:4865, ETRS89 / NTM zone 15. Norway - onshore - between 15°E and 16°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=15.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5115.
+ */
+export declare const EPSG_4865: string;
+/**
+ * EPSG:4866, ETRS89 / NTM zone 16. Norway - onshore - between 16°E and 17°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=16.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5116.
+ */
+export declare const EPSG_4866: string;
+/**
+ * EPSG:4867, ETRS89 / NTM zone 17. Norway - onshore - between 17°E and 18°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=17.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5117.
+ */
+export declare const EPSG_4867: string;
+/**
+ * EPSG:4868, ETRS89 / NTM zone 18. Norway - onshore - between 18°E and 19°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=18.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5118.
+ */
+export declare const EPSG_4868: string;
+/**
+ * EPSG:4869, ETRS89 / NTM zone 19. Norway - onshore - between 19°E and 20°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=19.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5119.
+ */
+export declare const EPSG_4869: string;
+/**
+ * EPSG:4870, ETRS89 / NTM zone 20. Norway - onshore - between 20°E and 21°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=20.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5120.
+ */
+export declare const EPSG_4870: string;
+/**
+ * EPSG:4871, ETRS89 / NTM zone 21. Norway - onshore - between 21°E and 22°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=21.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5121.
+ */
+export declare const EPSG_4871: string;
+/**
+ * EPSG:4872, ETRS89 / NTM zone 22. Norway - onshore - between 22°E and 23°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=22.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5122.
+ */
+export declare const EPSG_4872: string;
+/**
+ * EPSG:4873, ETRS89 / NTM zone 23. Norway - onshore - between 23°E and 24°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=23.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5123.
+ */
+export declare const EPSG_4873: string;
+/**
+ * EPSG:4874, ETRS89 / NTM zone 24. Norway - onshore - between 24°E and 25°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=24.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5124.
+ */
+export declare const EPSG_4874: string;
+/**
+ * EPSG:4875, ETRS89 / NTM zone 25. Norway - onshore - between 25°E and 26°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=25.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5125.
+ */
+export declare const EPSG_4875: string;
+/**
+ * EPSG:4876, ETRS89 / NTM zone 26. Norway - onshore - between 26°E and 27°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=26.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5126.
+ */
+export declare const EPSG_4876: string;
+/**
+ * EPSG:4877, ETRS89 / NTM zone 27. Norway - onshore - between 27°E and 28°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=27.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5127.
+ */
+export declare const EPSG_4877: string;
+/**
+ * EPSG:4878, ETRS89 / NTM zone 28. Norway - onshore - between 28°E and 29°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=28.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5128.
+ */
+export declare const EPSG_4878: string;
+/**
+ * EPSG:4879, ETRS89 / NTM zone 29. Norway - onshore - between 29°E and 30°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=29.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5129.
+ */
+export declare const EPSG_4879: string;
+/**
+ * EPSG:4880, ETRS89 / NTM zone 30. Norway - onshore - east of 30°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=30.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5130.
+ */
+export declare const EPSG_4880: string;
+/**
  * EPSG:4901, ATF (Paris). France - mainland onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
  * `+proj=longlat +a=6376523 +rf=308.64 +pm=2.33720833333333 +no_defs`
  */
 export declare const EPSG_4901: string;
+/**
+ * EPSG:4902, NDG (Paris). France - Alsace. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6376523 +rf=308.64 +pm=paris +no_defs`
+ *
+ * @deprecated Use EPSG:4901.
+ */
+export declare const EPSG_4902: string;
 /**
  * EPSG:4903, Madrid 1870 (Madrid). Spain - mainland onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
@@ -14707,6 +16299,14 @@ export declare const EPSG_5383: string;
  */
 export declare const EPSG_5387: string;
 /**
+ * EPSG:5388, Peru96 / UTM zone 17S. Peru - between 84°W and 78°W, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=17 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5839.
+ */
+export declare const EPSG_5388: string;
+/**
  * EPSG:5389, Peru96 / UTM zone 19S. Peru - east of 72°W, onshore and offshore. Within 1 cm of PROJ.
  *
  * `+proj=utm +zone=19 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
@@ -14743,6 +16343,14 @@ export declare const EPSG_5456: string;
  */
 export declare const EPSG_5457: string;
 /**
+ * EPSG:5458, Ocotepeque 1935 / Guatemala Norte. Guatemala - north of 15°51'30"N. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=16.8166666666667 +lat_0=16.8166666666667 +lon_0=-90.3333333333333 +k_0=0.99992226 +x_0=500000 +y_0=292209.579 +ellps=clrk66 +towgs84=0,125,194 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5559.
+ */
+export declare const EPSG_5458: string;
+/**
  * EPSG:5459, Ocotepeque 1935 / Guatemala Sur. Guatemala - south of 15°51'30"N. Within 1 cm of PROJ.
  *
  * `+proj=lcc +lat_1=14.9 +lat_0=14.9 +lon_0=-90.3333333333333 +k_0=0.99989906 +x_0=500000 +y_0=325992.681 +ellps=clrk66 +towgs84=205,96,-98 +units=m +no_defs`
@@ -14778,6 +16386,14 @@ export declare const EPSG_5463: string;
  * `+proj=longlat +a=6378293.64520876 +b=6356617.98767984 +no_defs`
  */
 export declare const EPSG_5464: string;
+/**
+ * EPSG:5466, Sibun Gorge 1922 / Colony Grid. Belize - onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=17.0612419444444 +lon_0=-88.6318575 +k=1 +x_0=66220.0283308276 +y_0=135779.50998853 +a=6378293.64520876 +b=6356617.98767984 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5589.
+ */
+export declare const EPSG_5466: string;
 /**
  * EPSG:5467, Panama-Colon 1911. Panama - onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
@@ -14905,6 +16521,14 @@ export declare const EPSG_5530: string;
  */
 export declare const EPSG_5531: string;
 /**
+ * EPSG:5532, SAD69(96) / UTM zone 22S. Brazil - onshore and offshore northern and southern hemispheres between 54°W and 48°W. Up to 16.5 m from PROJ.
+ *
+ * `+proj=utm +zone=22 +south +ellps=aust_SA +towgs84=-57,1,-41 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5858.
+ */
+export declare const EPSG_5532: string;
+/**
  * EPSG:5533, SAD69(96) / UTM zone 23S. Brazil - between 48°W and 42°W, northern and southern hemispheres, onshore and offshore. Up to 2.49 m from PROJ.
  *
  * `+proj=utm +zone=23 +south +ellps=aust_SA +towgs84=-67.35,3.88,-38.22 +units=m +no_defs`
@@ -15030,6 +16654,118 @@ export declare const EPSG_5568: string;
  * `+proj=tmerc +lat_0=0 +lon_0=39 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24,-121,-76 +units=m +no_defs`
  */
 export declare const EPSG_5569: string;
+/**
+ * EPSG:5570, UCS-2000 / 3-degree Gauss-Kruger zone 7. Ukraine - west of 22°30'E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=21 +k=1 +x_0=7500000 +y_0=0 +ellps=krass +towgs84=24,-121,-76 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6381.
+ */
+export declare const EPSG_5570: string;
+/**
+ * EPSG:5571, UCS-2000 / 3-degree Gauss-Kruger zone 8. Ukraine - between 22°30'E and 25°30'E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=24 +k=1 +x_0=8500000 +y_0=0 +ellps=krass +towgs84=24,-121,-76 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6382.
+ */
+export declare const EPSG_5571: string;
+/**
+ * EPSG:5572, UCS-2000 / 3-degree Gauss-Kruger zone 9. Ukraine - between 25°30'E and 28°30'E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=27 +k=1 +x_0=9500000 +y_0=0 +ellps=krass +towgs84=24,-121,-76 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6383.
+ */
+export declare const EPSG_5572: string;
+/**
+ * EPSG:5573, UCS-2000 / 3-degree Gauss-Kruger zone 10. Ukraine - between 28°30'E and 31°30'E, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=30 +k=1 +x_0=10500000 +y_0=0 +ellps=krass +towgs84=24,-121,-76 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6384.
+ */
+export declare const EPSG_5573: string;
+/**
+ * EPSG:5574, UCS-2000 / 3-degree Gauss-Kruger zone 11. Ukraine - between 31°30'E and 34°30'E, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=33 +k=1 +x_0=11500000 +y_0=0 +ellps=krass +towgs84=24,-121,-76 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6385.
+ */
+export declare const EPSG_5574: string;
+/**
+ * EPSG:5575, UCS-2000 / 3-degree Gauss-Kruger zone 12. Ukraine - between 34°30'E and 37°30'E, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=36 +k=1 +x_0=12500000 +y_0=0 +ellps=krass +towgs84=24,-121,-76 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6386.
+ */
+export declare const EPSG_5575: string;
+/**
+ * EPSG:5576, UCS-2000 / 3-degree Gauss-Kruger zone 13. Ukraine - east of 37°30'E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=39 +k=1 +x_0=13500000 +y_0=0 +ellps=krass +towgs84=24,-121,-76 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6387.
+ */
+export declare const EPSG_5576: string;
+/**
+ * EPSG:5577, UCS-2000 / 3-degree Gauss-Kruger CM 21E. Ukraine - west of 22°30'E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=21 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24,-121,-76 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6381.
+ */
+export declare const EPSG_5577: string;
+/**
+ * EPSG:5578, UCS-2000 / 3-degree Gauss-Kruger CM 24E. Ukraine - between 22°30'E and 25°30'E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=24 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24,-121,-76 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6382.
+ */
+export declare const EPSG_5578: string;
+/**
+ * EPSG:5579, UCS-2000 / 3-degree Gauss-Kruger CM 27E. Ukraine - between 25°30'E and 28°30'E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=27 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24,-121,-76 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6383.
+ */
+export declare const EPSG_5579: string;
+/**
+ * EPSG:5580, UCS-2000 / 3-degree Gauss-Kruger CM 30E. Ukraine - between 28°30'E and 31°30'E, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=30 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24,-121,-76 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6384.
+ */
+export declare const EPSG_5580: string;
+/**
+ * EPSG:5581, UCS-2000 / 3-degree Gauss-Kruger CM 33E. Ukraine - between 31°30'E and 34°30'E, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=33 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24,-121,-76 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6385.
+ */
+export declare const EPSG_5581: string;
+/**
+ * EPSG:5582, UCS-2000 / 3-degree Gauss-Kruger CM 36E. Ukraine - between 34°30'E and 37°30'E, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=36 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24,-121,-76 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6386.
+ */
+export declare const EPSG_5582: string;
+/**
+ * EPSG:5583, UCS-2000 / 3-degree Gauss-Kruger CM 39E. Ukraine - east of 37°30'E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=39 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24,-121,-76 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6387.
+ */
+export declare const EPSG_5583: string;
 /**
  * EPSG:5588, NAD27 / New Brunswick Stereographic (NAD27). Canada - New Brunswick. Up to 4.11 m from PROJ.
  *
@@ -15438,6 +17174,14 @@ export declare const EPSG_5886: string;
  * `+proj=tmerc +lat_0=0 +lon_0=-177 +k=0.9996 +x_0=1500000 +y_0=5000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
  */
 export declare const EPSG_5887: string;
+/**
+ * EPSG:5890, JAXA Snow Depth Polar Stereographic North. Northern hemisphere - north of 60°N onshore and offshore, including Arctic. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=stere +lat_0=90 +lat_ts=70 +lon_0=90 +x_0=0 +y_0=0 +a=6378273 +b=6356889.449 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_5890: string;
 /**
  * EPSG:5896, VN-2000 / TM-3 zone 481. Vietnam - onshore west of 103°30'E. Within 1 cm of PROJ.
  *
@@ -16056,6 +17800,22 @@ export declare const EPSG_6129: string;
  * `+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs`
  */
 export declare const EPSG_6135: string;
+/**
+ * EPSG:6141, Cayman Islands National Grid 2011. Cayman Islands - onshore and offshore. Includes Grand Cayman, Little Cayman and Cayman Brac. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=19.3333333333333 +lon_0=80.5666666666667 +lat_1=19.3333333333333 +lat_2=19.7 +x_0=899160 +y_0=579120 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6391.
+ */
+export declare const EPSG_6141: string;
+/**
+ * EPSG:6200, NAD27 / Michigan North. United States (USA) - Michigan north of approximately 45°45'N - counties of Alger; Baraga; Chippewa; Delta; Dickinson; Gogebic; Houghton; Iron; Keweenaw; Luce; Mackinac; Marquette; Menominee; Ontonagon; Schoolcraft. Up to 8.32 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=45.45 +lon_0=-87 +lat_1=45.4833333333333 +lat_2=47.0833333333333 +x_0=609601.219202438 +y_0=0 +k_0=1.0000382 +ellps=clrk66 +towgs84=-8,160,176 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6966.
+ */
+export declare const EPSG_6200: string;
 /**
  * EPSG:6201, NAD27 / Michigan Central. United States (USA) - Michigan - counties of Alcona; Alpena; Antrim; Arenac; Benzie; Charlevoix; Cheboygan; Clare; Crawford; Emmet; Gladwin; Grand Traverse; Iosco; Kalkaska; Lake; Leelanau; Manistee; Mason; Missaukee; Montmorency; Ogemaw; Osceola; Oscoda; Otsego; Presque Isle; Roscommon; Wexford. Up to 5.89 m from PROJ.
  *
@@ -17341,6 +19101,14 @@ export declare const EPSG_6515: string;
  */
 export declare const EPSG_6516: string;
 /**
+ * EPSG:6517, NAD83(2011) / Nebraska (ftUS). United States (USA) - Nebraska. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=39.8333333333333 +lon_0=-100 +lat_1=43 +lat_2=40 +x_0=500000.00001016 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6880.
+ */
+export declare const EPSG_6517: string;
+/**
  * EPSG:6518, NAD83(2011) / Nevada Central. United States (USA) - Nevada - counties of Lander; Nye. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=34.75 +lon_0=-116.666666666667 +k=0.9999 +x_0=500000 +y_0=6000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
@@ -17857,6 +19625,14 @@ export declare const EPSG_6602: string;
  */
 export declare const EPSG_6603: string;
 /**
+ * EPSG:6604, NAD83(2011) / Wisconsin Central. United States (USA) - Wisconsin - counties of Barron; Brown; Buffalo; Chippewa; Clark; Door; Dunn; Eau Claire; Jackson; Kewaunee; Langlade; Lincoln; Marathon; Marinette; Menominee; Oconto; Outagamie; Pepin; Pierce; Polk; Portage; Rusk; Shawano; St Croix; Taylor; Trempealeau; Waupaca; Wood. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=43.8333333333333 +lon_0=-90 +lat_1=45.5 +lat_2=44.25 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6879.
+ */
+export declare const EPSG_6604: string;
+/**
  * EPSG:6605, NAD83(2011) / Wisconsin Central (ftUS). United States (USA) - Wisconsin - counties of Barron; Brown; Buffalo; Chippewa; Clark; Door; Dunn; Eau Claire; Jackson; Kewaunee; Langlade; Lincoln; Marathon; Marinette; Menominee; Oconto; Outagamie; Pepin; Pierce; Polk; Portage; Rusk; Shawano; St Croix; Taylor; Trempealeau; Waupaca; Wood. Within 1 cm of PROJ.
  *
  * `+proj=lcc +lat_0=43.8333333333333 +lon_0=-90 +lat_1=45.5 +lat_2=44.25 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
@@ -18252,6 +20028,38 @@ export declare const EPSG_6722: string;
  * `+proj=tmerc +lat_0=0 +lon_0=96.875 +k=0.99999387 +x_0=50000 +y_0=1500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
  */
 export declare const EPSG_6723: string;
+/**
+ * EPSG:6732, GDA94 / MGA zone 41. Heard Island and McDonald Islands - offshore west of 66°E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=41 +south +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_6732: string;
+/**
+ * EPSG:6733, GDA94 / MGA zone 42. Heard Island and McDonald Islands - offshore 66°E to 72°E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=42 +south +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_6733: string;
+/**
+ * EPSG:6734, GDA94 / MGA zone 43. Heard Island and McDonald Islands - onshore and offshore 72°E to 78°E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=43 +south +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_6734: string;
+/**
+ * EPSG:6735, GDA94 / MGA zone 44. Heard Island and McDonald Islands - offshore east of 78°E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=44 +south +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_6735: string;
 /**
  * EPSG:6736, GDA94 / MGA zone 46. Cocos (Keeling) Islands - offshore west of 96°E. Within 1 cm of PROJ.
  *
@@ -18901,6 +20709,38 @@ export declare const EPSG_6932: string;
  */
 export declare const EPSG_6933: string;
 /**
+ * EPSG:6956, VN-2000 / TM-3 zone 481. Vietnam - onshore west of 103°30'E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=102 +k=0.9999 +x_0=0 +y_0=500000 +ellps=WGS84 +towgs84=-191.90441429,-39.30318279,-111.45032835,0.00928836,-0.01975479,0.00427372,0.252906278 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5896.
+ */
+export declare const EPSG_6956: string;
+/**
+ * EPSG:6957, VN-2000 / TM-3 zone 482. Vietnam - between 103°30'E and 106°30'E, onshore. Up to 0.815 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=105 +k=0.9999 +x_0=0 +y_0=500000 +ellps=WGS84 +towgs84=-191.90441429,-39.30318279,-111.45032835,0.00928836,-0.01975479,0.00427372,0.252906278 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5897.
+ */
+export declare const EPSG_6957: string;
+/**
+ * EPSG:6958, VN-2000 / TM-3 zone 491. Vietnam - onshore east of 106°30'E. Up to 0.806 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=108 +k=0.9999 +x_0=0 +y_0=500000 +ellps=WGS84 +towgs84=-191.90441429,-39.30318279,-111.45032835,0.00928836,-0.01975479,0.00427372,0.252906278 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5898.
+ */
+export declare const EPSG_6958: string;
+/**
+ * EPSG:6959, VN-2000 / TM-3 Da Nang zone. Vietnam - Quang Ninh province; Da Nang municipality and Quang Nam province; Ba Ria-Vung Tau, Dong Nai and Lam Dong provinces. Up to 0.808 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=107.75 +k=0.9999 +x_0=0 +y_0=500000 +ellps=WGS84 +towgs84=-191.90441429,-39.30318279,-111.45032835,0.00928836,-0.01975479,0.00427372,0.252906278 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5899.
+ */
+export declare const EPSG_6959: string;
+/**
  * EPSG:6962, ETRS89-ALB [2008] / Albania LCC 2010. Albania - onshore. Within 1 cm of PROJ.
  *
  * `+proj=lcc +lat_0=41 +lon_0=20 +lat_1=39 +lat_2=43 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
@@ -18912,6 +20752,14 @@ export declare const EPSG_6962: string;
  * `+proj=lcc +lat_0=44.7833333333333 +lon_0=-87 +lat_1=45.4833333333333 +lat_2=47.0833333333333 +x_0=609601.219202438 +y_0=0 +k_0=1.0000382 +ellps=clrk66 +towgs84=-8,160,176 +units=us-ft +no_defs`
  */
 export declare const EPSG_6966: string;
+/**
+ * EPSG:6980, IGD05. Israel - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:7136.
+ */
+export declare const EPSG_6980: string;
 /**
  * EPSG:6983, IG05 Intermediate CRS. Israel - onshore; Palestine onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
@@ -18925,6 +20773,14 @@ export declare const EPSG_6983: string;
  */
 export declare const EPSG_6984: string;
 /**
+ * EPSG:6987, IGD05/12. Israel - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:7139.
+ */
+export declare const EPSG_6987: string;
+/**
  * EPSG:6990, IG05/12 Intermediate CRS. Israel - onshore; Palestine onshore. Within 1 cm of PROJ.
  *
  * `+proj=longlat +ellps=GRS80 +towgs84=23.772,17.49,17.859,-0.3132,-1.85274,1.67299,-5.4262 +no_defs`
@@ -18936,6 +20792,22 @@ export declare const EPSG_6990: string;
  * `+proj=tmerc +lat_0=31.7343936111111 +lon_0=35.2045169444444 +k=1.0000067 +x_0=219529.584 +y_0=626907.39 +ellps=GRS80 +towgs84=23.772,17.49,17.859,-0.3132,-1.85274,1.67299,-5.4262 +units=m +no_defs`
  */
 export declare const EPSG_6991: string;
+/**
+ * EPSG:6996, NAD83(2011) / San Francisco CS13. United States (USA) - California - San Francisco bay area - counties of Alameda, Contra Costa, Marin, Napa, San Francisco, San Mateo, Santa Clara, Santa Cruz, Solano and Sonoma. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=37.75 +lon_0=-122.45 +k=1.000007e-06 +x_0=48000 +y_0=24000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:7131.
+ */
+export declare const EPSG_6996: string;
+/**
+ * EPSG:6997, NAD83(2011) / San Francisco CS13 (ftUS). United States (USA) - California - San Francisco bay area - counties of Alameda, Contra Costa, Marin, Napa, San Francisco, San Mateo, Santa Clara, Santa Cruz, Solano and Sonoma. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=37.75 +lon_0=-122.45 +k=1.000007e-06 +x_0=48000 +y_0=24000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:7132.
+ */
+export declare const EPSG_6997: string;
 /**
  * EPSG:7005, Nahrwan 1934 / UTM zone 37N. Iraq - west of 42°E. Within 1 cm of PROJ.
  *
@@ -19128,6 +21000,14 @@ export declare const EPSG_7084: string;
  * `+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs`
  */
 export declare const EPSG_7086: string;
+/**
+ * EPSG:7088, RGTAAF07 (lon-lat). French Southern Territories - onshore and offshore: Amsterdam and St Paul, Crozet, Europa and Kerguelen. Antarctica - Adelie Land coastal area. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs`
+ *
+ * @deprecated Use EPSG:7133.
+ */
+export declare const EPSG_7088: string;
 /**
  * EPSG:7109, NAD83(2011) / RMTCRS St Mary (m). United States (USA) - Montana - St Mary's Valley area. Within 1 cm of PROJ.
  *
@@ -21001,6 +22881,14 @@ export declare const EPSG_7801: string;
  */
 export declare const EPSG_7803: string;
 /**
+ * EPSG:7804, BGS2005 / UTM zone 35N. Bulgaria - onshore east of 24°E, offshore west of 30°E. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=34 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:9391.
+ */
+export declare const EPSG_7804: string;
+/**
  * EPSG:7805, ETRS89-BGR [BGS2005] / UTM zone 36N. Bulgaria - offshore east of 30°E. Within 1 cm of PROJ.
  *
  * `+proj=utm +zone=36 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
@@ -22477,6 +24365,14 @@ export declare const EPSG_8431: string;
  */
 export declare const EPSG_8441: string;
 /**
+ * EPSG:8449, NAD83(FBN). American Samoa - Tutuila, Aunu'u, Ofu, Olesega, Ta'u and Rose islands - onshore. Guam - onshore. Northern Mariana Islands - onshore. Puerto Rico - onshore. United States (USA) - conterminous (contiguous) lower 48 states (CONUS) onshore plus Gulf of Mexico offshore continental shelf (GoM OCS). US Virgin Islands - onshore. Up to 1.28 m from PROJ.
+ *
+ * `+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs`
+ *
+ * @deprecated Use EPSG:8860.
+ */
+export declare const EPSG_8449: string;
+/**
  * EPSG:8455, RGTAAF07 / UTM zone 53S. Antarctica - Adelie Land - coastal area between 136°E and 138°E. Within 1 cm of PROJ.
  *
  * `+proj=utm +zone=53 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
@@ -22788,6 +24684,30 @@ export declare const EPSG_8909: string;
  * `+proj=utm +zone=17 +ellps=GRS80 +towgs84=0.16959,-0.35312,-0.51846,-0.03385,0.16325,-0.03446,-0.03693 +units=m +no_defs`
  */
 export declare const EPSG_8910: string;
+/**
+ * EPSG:8949, SIRGAS-Chile 2010. Chile - onshore and offshore. Includes Easter Island, Juan Fernandez Islands, San Felix, and Sala y Gomez. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_8949: string;
+/**
+ * EPSG:8950, SIRGAS-Chile 2010 / UTM zone 18S. Chile - 78°W to 72°W, onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=18 +south +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_8950: string;
+/**
+ * EPSG:8951, SIRGAS-Chile 2010 / UTM zone 19S. Chile - 72°W to 66°W, onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=19 +south +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_8951: string;
 /**
  * EPSG:8972, SIRGAS-CON DGF00P01. Latin America - Central America and South America, onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
@@ -23172,6 +25092,14 @@ export declare const EPSG_9158: string;
  * `+proj=tmerc +lat_0=0 +lon_0=12 +k=0.9996 +x_0=500000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
  */
 export declare const EPSG_9159: string;
+/**
+ * EPSG:9184, SIRGAS-Chile. Chile - onshore and offshore. Includes Easter Island, Juan Fernandez Islands, San Felix, and Sala y Gomez. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_9184: string;
 /**
  * EPSG:9191, WGS 84 / NIWA Albers. Southwestern Pacific Ocean and Southern Ocean areas surrounding New Zealand. Within 1 cm of PROJ.
  *
@@ -24721,6 +26649,14 @@ export declare const EPSG_10475: string;
  */
 export declare const EPSG_10477: string;
 /**
+ * EPSG:10480, NAD83 / TWDB GM. United States (USA) - Texas. Up to 1.26 m from PROJ.
+ *
+ * `+proj=aea +lat_0=31.25 +lon_0=-100 +lat_1=27.5 +lat_2=35 +x_0=1500000 +y_0=6000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:10481.
+ */
+export declare const EPSG_10480: string;
+/**
  * EPSG:10481, NAD83 / TWDB GM. United States (USA) - Texas. Up to 1.26 m from PROJ.
  *
  * `+proj=aea +lat_0=31.25 +lon_0=-100 +lat_1=27.5 +lat_2=35 +x_0=1500000 +y_0=6000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
@@ -24966,6 +26902,30 @@ export declare const EPSG_10762: string;
  * `+proj=tmerc +lat_0=-21.2 +lon_0=-47.7833333333333 +k=1.000092 +x_0=15000 +y_0=25000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
  */
 export declare const EPSG_10773: string;
+/**
+ * EPSG:10781, ITRF2020-u2023. World. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:9990.
+ */
+export declare const EPSG_10781: string;
+/**
+ * EPSG:10785, IGb20. World. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:10178.
+ */
+export declare const EPSG_10785: string;
+/**
+ * EPSG:10788, WGS 84 / Agriculture Canada Albers. Canada - onshore south of 60°N - Alberta, British Columbia (BC), Manitoba, New Brunswick (NB), Newfoundland and Labrador, Nova Scotia (NS), Ontario, Prince Edward Island (PEI), Quebec and Saskatchewan. Within 1 cm of PROJ.
+ *
+ * `+proj=aea +lat_0=40 +lon_0=-96 +lat_1=45.25 +lat_2=56.25 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:10820.
+ */
+export declare const EPSG_10788: string;
 /**
  * EPSG:10791, UGRF. Uganda. Within 1 cm of PROJ.
  *
@@ -26317,6 +28277,238 @@ export declare const EPSG_20048: string;
  */
 export declare const EPSG_20050: string;
 /**
+ * EPSG:20064, Pulkovo 1995 / Gauss-Kruger 4N. Russian Federation - onshore west of 24°E - Kaliningrad. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=21 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2463.
+ */
+export declare const EPSG_20064: string;
+/**
+ * EPSG:20065, Pulkovo 1995 / Gauss-Kruger 5N. Russian Federation - onshore between 24°E and 30°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=27 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2464.
+ */
+export declare const EPSG_20065: string;
+/**
+ * EPSG:20066, Pulkovo 1995 / Gauss-Kruger 6N. Russian Federation - onshore between 30°E and 36°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=33 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2465.
+ */
+export declare const EPSG_20066: string;
+/**
+ * EPSG:20067, Pulkovo 1995 / Gauss-Kruger 7N. Russian Federation - onshore between 36°E and 42°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=39 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2466.
+ */
+export declare const EPSG_20067: string;
+/**
+ * EPSG:20068, Pulkovo 1995 / Gauss-Kruger 8N. Russian Federation - onshore between 42°E and 48°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=45 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2467.
+ */
+export declare const EPSG_20068: string;
+/**
+ * EPSG:20069, Pulkovo 1995 / Gauss-Kruger 9N. Russian Federation - onshore between 48°E and 54°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=51 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2468.
+ */
+export declare const EPSG_20069: string;
+/**
+ * EPSG:20070, Pulkovo 1995 / Gauss-Kruger 10N. Russian Federation - onshore between 54°E and 60°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=57 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2469.
+ */
+export declare const EPSG_20070: string;
+/**
+ * EPSG:20071, Pulkovo 1995 / Gauss-Kruger 11N. Russian Federation - onshore between 60°E and 66°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=63 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2470.
+ */
+export declare const EPSG_20071: string;
+/**
+ * EPSG:20072, Pulkovo 1995 / Gauss-Kruger 12N. Russian Federation - onshore between 66°E and 72°E . Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=69 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2471.
+ */
+export declare const EPSG_20072: string;
+/**
+ * EPSG:20073, Pulkovo 1995 / Gauss-Kruger 13N. Russian Federation - onshore between 72°E and 78°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=75 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2472.
+ */
+export declare const EPSG_20073: string;
+/**
+ * EPSG:20074, Pulkovo 1995 / Gauss-Kruger 14N. Russian Federation - onshore between 78°E and 84°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=81 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2473.
+ */
+export declare const EPSG_20074: string;
+/**
+ * EPSG:20075, Pulkovo 1995 / Gauss-Kruger 15N. Russian Federation - onshore between 84°E and 90°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=87 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2474.
+ */
+export declare const EPSG_20075: string;
+/**
+ * EPSG:20076, Pulkovo 1995 / Gauss-Kruger 16N. Russian Federation - onshore between 90°E and 96°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=93 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2475.
+ */
+export declare const EPSG_20076: string;
+/**
+ * EPSG:20077, Pulkovo 1995 / Gauss-Kruger 17N. Russian Federation - onshore between 96°E and 102°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=99 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2476.
+ */
+export declare const EPSG_20077: string;
+/**
+ * EPSG:20078, Pulkovo 1995 / Gauss-Kruger 18N. Russian Federation - onshore between 102°E and 108°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=105 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2477.
+ */
+export declare const EPSG_20078: string;
+/**
+ * EPSG:20079, Pulkovo 1995 / Gauss-Kruger 19N. Russian Federation - onshore between 108°E and 114°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=111 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2478.
+ */
+export declare const EPSG_20079: string;
+/**
+ * EPSG:20080, Pulkovo 1995 / Gauss-Kruger 20N. Russian Federation - onshore between 114°E and 120°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=117 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2479.
+ */
+export declare const EPSG_20080: string;
+/**
+ * EPSG:20081, Pulkovo 1995 / Gauss-Kruger 21N. Russian Federation - onshore between 120°E and 126°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=123 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2480.
+ */
+export declare const EPSG_20081: string;
+/**
+ * EPSG:20082, Pulkovo 1995 / Gauss-Kruger 22N. Russian Federation - onshore between 126°E and 132°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=129 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2481.
+ */
+export declare const EPSG_20082: string;
+/**
+ * EPSG:20083, Pulkovo 1995 / Gauss-Kruger 23N. Russian Federation - onshore between 132°E and 138°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=135 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2482.
+ */
+export declare const EPSG_20083: string;
+/**
+ * EPSG:20084, Pulkovo 1995 / Gauss-Kruger 24N. Russian Federation - onshore between 138°E and 144°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=141 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2483.
+ */
+export declare const EPSG_20084: string;
+/**
+ * EPSG:20085, Pulkovo 1995 / Gauss-Kruger 25N. Russian Federation - onshore between 144°E and 150°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=147 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2484.
+ */
+export declare const EPSG_20085: string;
+/**
+ * EPSG:20086, Pulkovo 1995 / Gauss-Kruger 26N. Russian Federation - onshore between 150°E and 156°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=153 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2485.
+ */
+export declare const EPSG_20086: string;
+/**
+ * EPSG:20087, Pulkovo 1995 / Gauss-Kruger 27N. Russian Federation - onshore between 156°E and 162°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=159 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2486.
+ */
+export declare const EPSG_20087: string;
+/**
+ * EPSG:20088, Pulkovo 1995 / Gauss-Kruger 28N. Russian Federation - onshore between 162°E and 168°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=165 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2487.
+ */
+export declare const EPSG_20088: string;
+/**
+ * EPSG:20089, Pulkovo 1995 / Gauss-Kruger 29N. Russian Federation - onshore between 168°E and 174°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=171 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2488.
+ */
+export declare const EPSG_20089: string;
+/**
+ * EPSG:20090, Pulkovo 1995 / Gauss-Kruger 30N. Russian Federation - onshore between 174°E and 180°E . Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=177 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2489.
+ */
+export declare const EPSG_20090: string;
+/**
+ * EPSG:20091, Pulkovo 1995 / Gauss-Kruger 31N. Russian Federation - onshore between 180°E and 174°W. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-177 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2490.
+ */
+export declare const EPSG_20091: string;
+/**
+ * EPSG:20092, Pulkovo 1995 / Gauss-Kruger 32N. Russian Federation - onshore east of 174°W. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-171 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2491.
+ */
+export declare const EPSG_20092: string;
+/**
  * EPSG:20135, Adindan / UTM zone 35N. South Sudan and Sudan - between 24°E and 30°E. Within 1 cm of PROJ.
  *
  * `+proj=utm +zone=35 +a=6378249.145 +rf=293.465 +towgs84=-161,-14,205 +units=m +no_defs`
@@ -26340,6 +28532,14 @@ export declare const EPSG_20137: string;
  * `+proj=utm +zone=38 +a=6378249.145 +rf=293.465 +towgs84=-165,-11,206 +units=m +no_defs`
  */
 export declare const EPSG_20138: string;
+/**
+ * EPSG:20248, AGD66 / AMG zone 48. Australia - between 102°E and 108°E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=48 +south +ellps=aust_SA +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_20248: string;
 /**
  * EPSG:20249, AGD66 / AMG zone 49. Australia - onshore and offshore to 200 nautical mile EEZ boundary between 108°E and 114°E. Up to 3.22 m from PROJ.
  *
@@ -26401,6 +28601,14 @@ export declare const EPSG_20257: string;
  */
 export declare const EPSG_20258: string;
 /**
+ * EPSG:20348, AGD84 / AMG zone 48. Australia - between 102°E and 108°E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=48 +south +ellps=aust_SA +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_20348: string;
+/**
  * EPSG:20349, AGD84 / AMG zone 49. Australia - onshore and offshore to 200 nautical mile EEZ boundary between 108°E and 114°E. Up to 1.26 m from PROJ.
  *
  * `+proj=utm +zone=49 +south +ellps=aust_SA +towgs84=-117.763,-51.51,139.061,0.292,0.443,0.277,-0.191 +units=m +no_defs`
@@ -26448,6 +28656,22 @@ export declare const EPSG_20355: string;
  * `+proj=utm +zone=56 +south +ellps=aust_SA +towgs84=-117.763,-51.51,139.061,0.292,0.443,0.277,-0.191 +units=m +no_defs`
  */
 export declare const EPSG_20356: string;
+/**
+ * EPSG:20357, AGD84 / AMG zone 57. Australia including Lord Howe Island - onshore and offshore between 156°E and 162°E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=57 +south +ellps=aust_SA +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_20357: string;
+/**
+ * EPSG:20358, AGD84 / AMG zone 58. Australia - offshore east of 162°E to 200 nautical mile EEZ boundary. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=58 +south +ellps=aust_SA +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_20358: string;
 /**
  * EPSG:20436, Ain el Abd / UTM zone 36N. Saudi Arabia - onshore west of 36°E. Within 1 cm of PROJ.
  *
@@ -26928,6 +29152,14 @@ export declare const EPSG_21096: string;
  * `+proj=utm +zone=37 +a=6378249.145 +rf=293.465 +towgs84=-157,-2,-299 +units=m +no_defs`
  */
 export declare const EPSG_21097: string;
+/**
+ * EPSG:21100, Batavia (Jakarta) / NEIEZ. Indonesia - onshore - Bali, Java and western Sumatra. Within 1 cm of PROJ.
+ *
+ * `+proj=merc +lon_0=110 +k=0.997 +x_0=3900000 +y_0=900000 +ellps=bessel +pm=jakarta +towgs84=-377,681,-50 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3001.
+ */
+export declare const EPSG_21100: string;
 /**
  * EPSG:21148, Batavia / UTM zone 48S. Indonesia - onshore Java and offshore southern Java Sea west of 108°E. Up to 4.63 m from PROJ.
  *
@@ -27787,6 +30019,94 @@ export declare const EPSG_21462: string;
  */
 export declare const EPSG_21463: string;
 /**
+ * EPSG:21473, Beijing 1954 / Gauss-Kruger 13N. China - west of 78°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=75 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:21453.
+ */
+export declare const EPSG_21473: string;
+/**
+ * EPSG:21474, Beijing 1954 / Gauss-Kruger 14N. China - between 78°E and 84°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=81 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:21454.
+ */
+export declare const EPSG_21474: string;
+/**
+ * EPSG:21475, Beijing 1954 / Gauss-Kruger 15N. China - between 84°E and 90°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=87 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:21455.
+ */
+export declare const EPSG_21475: string;
+/**
+ * EPSG:21476, Beijing 1954 / Gauss-Kruger 16N. China - between 90°E and 96°E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=93 +k=1 +x_0=500000 +y_0=0 +ellps=krass +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:21456.
+ */
+export declare const EPSG_21476: string;
+/**
+ * EPSG:21477, Beijing 1954 / Gauss-Kruger 17N. China - between 96°E and 102°E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=99 +k=1 +x_0=500000 +y_0=0 +ellps=krass +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:21457.
+ */
+export declare const EPSG_21477: string;
+/**
+ * EPSG:21478, Beijing 1954 / Gauss-Kruger 18N. China - onshore between 102°E and 108°E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=105 +k=1 +x_0=500000 +y_0=0 +ellps=krass +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:21458.
+ */
+export declare const EPSG_21478: string;
+/**
+ * EPSG:21479, Beijing 1954 / Gauss-Kruger 19N. China - onshore between 108°E and 114°E. Up to 10.4 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=111 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=18,-136.8,-73.7,0,0,0.814,-0.38 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:21459.
+ */
+export declare const EPSG_21479: string;
+/**
+ * EPSG:21480, Beijing 1954 / Gauss-Kruger 20N. China - onshore between 114°E and 120°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=117 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.53,-113.82,-41.38,0,0,0.814,-0.38 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:21460.
+ */
+export declare const EPSG_21480: string;
+/**
+ * EPSG:21481, Beijing 1954 / Gauss-Kruger 21N. China - onshore between 120°E and 126°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=123 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.53,-113.82,-41.38,0,0,0.814,-0.38 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:21461.
+ */
+export declare const EPSG_21481: string;
+/**
+ * EPSG:21482, Beijing 1954 / Gauss-Kruger 22N. China - onshore between 126°E and 132°E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=129 +k=1 +x_0=500000 +y_0=0 +ellps=krass +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:21462.
+ */
+export declare const EPSG_21482: string;
+/**
+ * EPSG:21483, Beijing 1954 / Gauss-Kruger 23N. China - east of 132°E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=135 +k=1 +x_0=500000 +y_0=0 +ellps=krass +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:21463.
+ */
+export declare const EPSG_21483: string;
+/**
  * EPSG:21500, BD50 (Brussels) / Belge Lambert 50. Belgium - onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
  * `+proj=lcc +lat_0=90 +lon_0=0 +lat_1=49.8333333333333 +lat_2=51.1666666666667 +x_0=150000 +y_0=5400000 +ellps=intl +pm=brussels +units=m +no_defs`
@@ -27852,6 +30172,38 @@ export declare const EPSG_21782: string;
  * `+proj=utm +zone=18 +ellps=intl +towgs84=307,304,-318 +units=m +no_defs`
  */
 export declare const EPSG_21818: string;
+/**
+ * EPSG:21891, Bogota 1975 / Colombia West zone. Colombia - mainland onshore west of 1°30'W of Bogota (approximately 75°35'W of Greenwich). Up to 7.95 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=4.59904722222222 +lon_0=-77.0809166666667 +k=1 +x_0=1000000 +y_0=1000000 +ellps=intl +towgs84=-90.29,247.559,-21.989,8.696885348513,4.18803362841,12.808266849625,2.181658 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:21896.
+ */
+export declare const EPSG_21891: string;
+/**
+ * EPSG:21892, Bogota 1975 / Colombia Bogota zone. Colombia - onshore between 1°30'W and 1°30'E of Bogota (approximately 75°35'W and 72°35'W of Greenwich). Up to 10.4 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=4.59904722222222 +lon_0=-74.0809166666667 +k=1 +x_0=1000000 +y_0=1000000 +ellps=intl +towgs84=336.026,348.565,252.978,17.241289439007,6.306492822155,-1.562049771918,-5.771909 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:21897.
+ */
+export declare const EPSG_21892: string;
+/**
+ * EPSG:21893, Bogota 1975 / Colombia East Central zone. Colombia - onshore between 1°30'E and 4°30'E of Bogota (approximately 72°35'W and 69°35'W of Greenwich). Up to 9.61 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=4.59904722222222 +lon_0=-71.0809166666667 +k=1 +x_0=1000000 +y_0=1000000 +ellps=intl +towgs84=304.5,306.5,-318.1 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:21898.
+ */
+export declare const EPSG_21893: string;
+/**
+ * EPSG:21894, Bogota 1975 / Colombia East. Colombia - east of 4°30'E of Bogota (approximately 69°35'W of Greenwich). Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=4.59904722222222 +lon_0=-68.0809166666667 +k=1 +x_0=1000000 +y_0=1000000 +ellps=intl +towgs84=221.899,274.136,-397.554,-2.808445910363,0.448508588913,2.810172346791,-2.199943 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:21899.
+ */
+export declare const EPSG_21894: string;
 /**
  * EPSG:21896, Bogota 1975 / Colombia West zone. Colombia - mainland onshore west of 1°30'W of Bogota (approximately 75°35'W of Greenwich). Up to 7.95 m from PROJ.
  *
@@ -28728,6 +31080,14 @@ export declare const EPSG_22234: string;
  * `+proj=utm +zone=35 +south +a=6378249.145 +rf=293.4663077 +towgs84=-136,-108,-292 +units=m +no_defs`
  */
 export declare const EPSG_22235: string;
+/**
+ * EPSG:22236, Cape / UTM zone 36S. Botswana - between 21°E and 27°E. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=36 +south +a=6378249.145 +rf=293.4663077 +towgs84=-136,-108,-292 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_22236: string;
 /**
  * EPSG:22237, NATRF2022e2020 / Illinois Robinson. United States (USA) - Illinois - counties of Clark, Crawford, Cumberland and Jasper. Within 1 cm of PROJ.
  *
@@ -30355,6 +32715,14 @@ export declare const EPSG_22821: string;
  */
 export declare const EPSG_22822: string;
 /**
+ * EPSG:22832, Douala / UTM zone 32N. Cameroon - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=32 +ellps=clrk80ign +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2214.
+ */
+export declare const EPSG_22832: string;
+/**
  * EPSG:22875, NATRF2022e2020 / Montana. United States (USA) - Montana. Within 1 cm of PROJ.
  *
  * `+proj=lcc +lat_1=46.95 +lat_0=46.95 +lon_0=-110 +k_0=0.9999 +x_0=1219200 +y_0=419100 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
@@ -31975,6 +34343,14 @@ export declare const EPSG_23332: string;
  */
 export declare const EPSG_23333: string;
 /**
+ * EPSG:23433, Garoua / UTM zone 33N. Cameroon - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=33 +ellps=clrk80ign +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2312.
+ */
+export declare const EPSG_23433: string;
+/**
  * EPSG:23439, NATRF2022e2020 / Pennsylvania. United States (USA) - Pennsylvania. Within 1 cm of PROJ.
  *
  * `+proj=lcc +lat_1=40.95 +lat_0=40.95 +lon_0=-77.5 +k_0=0.99993 +x_0=762000 +y_0=304800 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
@@ -32899,6 +35275,14 @@ export declare const EPSG_24547: string;
  */
 export declare const EPSG_24548: string;
 /**
+ * EPSG:24571, Kertau / R.S.O. Malaya (ch). Malaysia - Peninsular Malaysia - onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=omerc +no_uoff +lat_0=4 +lonc=102.25 +alpha=323.0257905 +gamma=323.130102361111 +k=0.99984 +x_0=804671.299775035 +y_0=0 +ellps=evrst48 +towgs84=-11,851,5 +to_meter=20.1167824943759 +no_defs`
+ *
+ * @deprecated Use EPSG:3167 or EPSG:3168.
+ */
+export declare const EPSG_24571: string;
+/**
  * EPSG:24600, KOC Lambert. Kuwait - onshore. Within 1 cm of PROJ.
  *
  * `+proj=lcc +lat_1=32.5 +lat_0=32.5 +lon_0=45 +k_0=0.9987864078 +x_0=1500000 +y_0=1166200 +a=6378249.145 +rf=293.465 +towgs84=-294.7,-200.1,525.5 +units=m +no_defs`
@@ -33151,6 +35535,14 @@ export declare const EPSG_25394: string;
  */
 export declare const EPSG_25395: string;
 /**
+ * EPSG:25700, Makassar (Jakarta) / NEIEZ. Indonesia - south west Sulawesi. Within 1 cm of PROJ.
+ *
+ * `+proj=merc +lon_0=110 +k=0.997 +x_0=3900000 +y_0=900000 +ellps=bessel +pm=jakarta +towgs84=-587.8,519.75,145.76 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3002.
+ */
+export declare const EPSG_25700: string;
+/**
  * EPSG:25828, ETRS89 / UTM zone 28N. Europe between 18°W and 12°W: Faroe Islands - offshore; Ireland - offshore; Jan Mayen - offshore; Portugal - offshore mainland; Spain - offshore mainland; United Kingdom (UKCS) - offshore. Within 1 cm of PROJ.
  *
  * `+proj=utm +zone=28 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
@@ -33211,6 +35603,14 @@ export declare const EPSG_25836: string;
  */
 export declare const EPSG_25837: string;
 /**
+ * EPSG:25838, ETRS89 / UTM zone 38N. Europe - between 42°E and 48°E. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=38 +ellps=GRS80 +towgs84=-0.023,-0.036,0.068,-0.00176,-0.00912,0.01136,-0.00439 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_25838: string;
+/**
  * EPSG:25884, ETRS89 / TM Baltic93. Estonia, Latvia and Lithuania - onshore and offshore. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9996 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
@@ -33252,6 +35652,14 @@ export declare const EPSG_26191: string;
  * `+proj=lcc +lat_1=29.7 +lat_0=29.7 +lon_0=-5.4 +k_0=0.999615596 +x_0=500000 +y_0=300000 +ellps=clrk80ign +towgs84=31,146,47 +units=m +no_defs`
  */
 export declare const EPSG_26192: string;
+/**
+ * EPSG:26193, Merchich / Sahara. Morocco south of 31 grads North (27°54'N). Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_1=26.1 +lat_0=26.1 +lon_0=-5.4 +k_0=0.9996 +x_0=1200000 +y_0=400000 +ellps=clrk80ign +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26194.
+ */
+export declare const EPSG_26193: string;
 /**
  * EPSG:26194, Merchich / Sahara Nord. Western Sahara - onshore north of 27grads North (24°18'N). Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
@@ -33300,6 +35708,30 @@ export declare const EPSG_26392: string;
  * `+proj=tmerc +lat_0=4 +lon_0=12.5 +k=0.99975 +x_0=1110369.7 +y_0=0 +a=6378249.145 +rf=293.465 +towgs84=-92,-93,122 +units=m +no_defs`
  */
 export declare const EPSG_26393: string;
+/**
+ * EPSG:26432, Mhast / UTM zone 32S. Angola - Cabinda. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=32 +south +ellps=intl +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3353 or EPSG:3354.
+ */
+export declare const EPSG_26432: string;
+/**
+ * EPSG:26591, Monte Mario (Rome) / Italy zone 1. Italy - onshore and offshore - west of 12°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=9 +k=0.9996 +x_0=1500000 +y_0=0 +ellps=intl +pm=rome +towgs84=-225,-65,9 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3003.
+ */
+export declare const EPSG_26591: string;
+/**
+ * EPSG:26592, Monte Mario (Rome) / Italy zone 2. Italy - onshore and offshore - east of 12°E including San Marino and Vatican City State. Up to 9.84 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9996 +x_0=2520000 +y_0=0 +ellps=intl +pm=rome +towgs84=-104.1,-49.1,-9.9,0.971,-2.917,0.714,-11.68 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3004.
+ */
+export declare const EPSG_26592: string;
 /**
  * EPSG:26632, M'poraloko / UTM zone 32N. Gabon - onshore north of equator and west of 12°E. Within 1 cm of PROJ.
  *
@@ -33552,6 +35984,14 @@ export declare const EPSG_26745: string;
  * `+proj=lcc +lat_0=32.1666666666667 +lon_0=-116.25 +lat_1=33.8833333333333 +lat_2=32.7833333333333 +x_0=609601.219202438 +y_0=0 +ellps=clrk66 +towgs84=-8,159,175 +units=us-ft +no_defs`
  */
 export declare const EPSG_26746: string;
+/**
+ * EPSG:26747, NAD27 / California zone VII. United States (USA) - California - Los Angeles county. Up to 1.93 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=34.1333333333333 +lon_0=-118.333333333333 +lat_1=34.4166666666667 +lat_2=33.8666666666667 +x_0=1276106.4505969 +y_0=127079.524511049 +ellps=clrk66 +towgs84=-8,159,175 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:26799.
+ */
+export declare const EPSG_26747: string;
 /**
  * EPSG:26748, NAD27 / Arizona East. United States (USA) - Arizona - counties Apache; Cochise; Gila; Graham; Greenlee; Navajo. Up to 4.5 m from PROJ.
  *
@@ -33816,6 +36256,246 @@ export declare const EPSG_26798: string;
  * `+proj=lcc +lat_0=34.1333333333333 +lon_0=-118.333333333333 +lat_1=34.4166666666667 +lat_2=33.8666666666667 +x_0=1276106.4505969 +y_0=1268253.00685801 +ellps=clrk66 +towgs84=-8,159,175 +units=us-ft +no_defs`
  */
 export declare const EPSG_26799: string;
+/**
+ * EPSG:26801, NAD Michigan / Michigan East. United States (USA) - Michigan - counties of Alcona; Alpena; Arenac; Bay; Cheboygan; Chippewa; Clinton; Crawford; Genesee; Gladwin; Gratiot; Hillsdale; Huron; Ingham; Iosco; Jackson; Lapeer; Lenawee; Livingston; Macomb; Midland; Monroe; Montmorency; Oakland; Ogemaw; Oscoda; Otsego; Presque Isle; Roscommon; Saginaw; Sanilac; Shiawassee; St Clair; Tuscola; Washtenaw; Wayne. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=41.5 +lon_0=-83.6666666666667 +k=0.999942857 +x_0=152400.30480061 +y_0=0 +a=6378450.0475489 +b=6356826.62148844 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:5623.
+ */
+export declare const EPSG_26801: string;
+/**
+ * EPSG:26802, NAD Michigan / Michigan Old Central. United States (USA) - Michigan - counties of Alger; Allegan; Antrim; Barry; Benzie; Berrien; Branch; Calhoun; Cass; Charlevoix; Clare; Delta; Eaton; Emmet; Grand Traverse; Ionia; Isabella; Kalamazoo; Kalkaska; Kent; Lake; Leelanau; Luce; Mackinac; Manistee; Mason; Mecosta; Missaukee; Montcalm; Muskegon; Newaygo; Oceana; Osceola; Ottawa; St Joseph; Schoolcraft; Van Buren; Wexford. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=41.5 +lon_0=-85.75 +k=0.999909091 +x_0=152400.30480061 +y_0=0 +a=6378450.0475489 +b=6356826.62148844 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:5624.
+ */
+export declare const EPSG_26802: string;
+/**
+ * EPSG:26803, NAD Michigan / Michigan West. United States (USA) - Michigan - counties of Baraga; Dickinson; Gogebic; Houghton; Iron; Keweenaw; Marquette; Menominee; Ontonagon. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=41.5 +lon_0=-88.75 +k=0.999909091 +x_0=152400.30480061 +y_0=0 +a=6378450.0475489 +b=6356826.62148844 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:5625.
+ */
+export declare const EPSG_26803: string;
+/**
+ * EPSG:26811, NAD Michigan / Michigan North. United States (USA) - Michigan north of approximately 45°45'N - counties of Alger; Baraga; Chippewa; Delta; Dickinson; Gogebic; Houghton; Iron; Keweenaw; Luce; Mackinac; Marquette; Menominee; Ontonagon; Schoolcraft. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=44.7833333333333 +lon_0=-87 +lat_1=45.4833333333333 +lat_2=47.0833333333333 +x_0=609601.219202438 +y_0=0 +a=6378450.0475489 +b=6356826.62148844 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6200.
+ */
+export declare const EPSG_26811: string;
+/**
+ * EPSG:26812, NAD Michigan / Michigan Central. United States (USA) - Michigan - counties of Alcona; Alpena; Antrim; Arenac; Benzie; Charlevoix; Cheboygan; Clare; Crawford; Emmet; Gladwin; Grand Traverse; Iosco; Kalkaska; Lake; Leelanau; Manistee; Mason; Missaukee; Montmorency; Ogemaw; Osceola; Oscoda; Otsego; Presque Isle; Roscommon; Wexford. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=43.3166666666667 +lon_0=-84.3333333333333 +lat_1=44.1833333333333 +lat_2=45.7 +x_0=609601.219202438 +y_0=0 +a=6378450.0475489 +b=6356826.62148844 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6201.
+ */
+export declare const EPSG_26812: string;
+/**
+ * EPSG:26813, NAD Michigan / Michigan South. United States (USA) - Michigan - counties of Allegan; Barry; Bay; Berrien; Branch; Calhoun; Cass; Clinton; Eaton; Genesee; Gratiot; Hillsdale; Huron; Ingham; Ionia; Isabella; Jackson; Kalamazoo; Kent; Lapeer; Lenawee; Livingston; Macomb; Mecosta; Midland; Monroe; Montcalm; Muskegon; Newaygo; Oakland; Oceana; Ottawa; Saginaw; Sanilac; Shiawassee; St Clair; St Joseph; Tuscola; Van Buren; Washtenaw; Wayne. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=41.5 +lon_0=-84.3333333333333 +lat_1=42.1 +lat_2=43.6666666666667 +x_0=609601.219202438 +y_0=0 +a=6378450.0475489 +b=6356826.62148844 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6202.
+ */
+export declare const EPSG_26813: string;
+/**
+ * EPSG:26814, NAD83 / Maine East (ftUS). United States (USA) - Maine - counties of Aroostook; Hancock; Knox; Penobscot; Piscataquis; Waldo; Washington. Up to 0.48 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=43.6666666666667 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26847.
+ */
+export declare const EPSG_26814: string;
+/**
+ * EPSG:26815, NAD83 / Maine West (ftUS). United States (USA) - Maine - counties of Androscoggin; Cumberland; Franklin; Kennebec; Lincoln; Oxford; Sagadahoc; Somerset; York. Up to 0.354 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.1666666666667 +k=0.999966667 +x_0=900000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26848.
+ */
+export declare const EPSG_26815: string;
+/**
+ * EPSG:26819, NAD83 / Minnesota North (ftUS). United States (USA) - Minnesota - counties of Beltrami; Clearwater; Cook; Itasca; Kittson; Koochiching; Lake; Lake of the Woods; Mahnomen; Marshall; Norman; Pennington; Polk; Red Lake; Roseau; St Louis. Up to 1.15 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=46.5 +lon_0=-93.1 +lat_1=48.6333333333333 +lat_2=47.0333333333333 +x_0=800000.00001016 +y_0=99999.99998984 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26849.
+ */
+export declare const EPSG_26819: string;
+/**
+ * EPSG:26820, NAD83 / Minnesota Central (ftUS). United States (USA) - Minnesota - counties of Aitkin; Becker; Benton; Carlton; Cass; Chisago; Clay; Crow Wing; Douglas; Grant; Hubbard; Isanti; Kanabec; Mille Lacs; Morrison; Otter Tail; Pine; Pope; Stearns; Stevens; Todd; Traverse; Wadena; Wilkin. Up to 0.411 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=45 +lon_0=-94.25 +lat_1=47.05 +lat_2=45.6166666666667 +x_0=800000.00001016 +y_0=99999.99998984 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26850.
+ */
+export declare const EPSG_26820: string;
+/**
+ * EPSG:26821, NAD83 / Minnesota South (ftUS). United States (USA) - Minnesota - counties of Anoka; Big Stone; Blue Earth; Brown; Carver; Chippewa; Cottonwood; Dakota; Dodge; Faribault; Fillmore; Freeborn; Goodhue; Hennepin; Houston; Jackson; Kandiyohi; Lac Qui Parle; Le Sueur; Lincoln; Lyon; Martin; McLeod; Meeker; Mower; Murray; Nicollet; Nobles; Olmsted; Pipestone; Ramsey; Redwood; Renville; Rice; Rock; Scott; Sherburne; Sibley; Steele; Swift; Wabasha; Waseca; Washington; Watonwan; Winona; Wright; Yellow Medicine. Up to 0.436 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=43 +lon_0=-94 +lat_1=45.2166666666667 +lat_2=43.7833333333333 +x_0=800000.00001016 +y_0=99999.99998984 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26851.
+ */
+export declare const EPSG_26821: string;
+/**
+ * EPSG:26822, NAD83 / Nebraska (ftUS). United States (USA) - Nebraska. Up to 0.463 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=39.8333333333333 +lon_0=-100 +lat_1=43 +lat_2=40 +x_0=500000.00001016 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26852.
+ */
+export declare const EPSG_26822: string;
+/**
+ * EPSG:26823, NAD83 / West Virginia North (ftUS). United States (USA) - West Virginia - counties of Barbour; Berkeley; Brooke; Doddridge; Grant; Hampshire; Hancock; Hardy; Harrison; Jefferson; Marion; Marshall; Mineral; Monongalia; Morgan; Ohio; Pleasants; Preston; Ritchie; Taylor; Tucker; Tyler; Wetzel; Wirt; Wood. Up to 0.318 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=38.5 +lon_0=-79.5 +lat_1=40.25 +lat_2=39 +x_0=1968500 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26853.
+ */
+export declare const EPSG_26823: string;
+/**
+ * EPSG:26824, NAD83 / West Virginia South (ftUS). United States (USA) - West Virginia - counties of Boone; Braxton; Cabell; Calhoun; Clay; Fayette; Gilmer; Greenbrier; Jackson; Kanawha; Lewis; Lincoln; Logan; Mason; McDowell; Mercer; Mingo; Monroe; Nicholas; Pendleton; Pocahontas; Putnam; Raleigh; Randolph; Roane; Summers; Upshur; Wayne; Webster; Wyoming. Up to 0.434 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=37 +lon_0=-81 +lat_1=38.8833333333333 +lat_2=37.4833333333333 +x_0=1968500 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26854.
+ */
+export declare const EPSG_26824: string;
+/**
+ * EPSG:26825, NAD83(HARN) / Maine East (ftUS). United States (USA) - Maine - counties of Aroostook; Hancock; Knox; Penobscot; Piscataquis; Waldo; Washington. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=43.6666666666667 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26855.
+ */
+export declare const EPSG_26825: string;
+/**
+ * EPSG:26826, NAD83(HARN) / Maine West (ftUS). United States (USA) - Maine - counties of Androscoggin; Cumberland; Franklin; Kennebec; Lincoln; Oxford; Sagadahoc; Somerset; York. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.1666666666667 +k=0.999966667 +x_0=900000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26856.
+ */
+export declare const EPSG_26826: string;
+/**
+ * EPSG:26830, NAD83(HARN) / Minnesota North (ftUS). United States (USA) - Minnesota - counties of Beltrami; Clearwater; Cook; Itasca; Kittson; Koochiching; Lake; Lake of the Woods; Mahnomen; Marshall; Norman; Pennington; Polk; Red Lake; Roseau; St Louis. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=46.5 +lon_0=-93.1 +lat_1=48.6333333333333 +lat_2=47.0333333333333 +x_0=800000.00001016 +y_0=99999.99998984 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26857.
+ */
+export declare const EPSG_26830: string;
+/**
+ * EPSG:26831, NAD83(HARN) / Minnesota Central (ftUS). United States (USA) - Minnesota - counties of Aitkin; Becker; Benton; Carlton; Cass; Chisago; Clay; Crow Wing; Douglas; Grant; Hubbard; Isanti; Kanabec; Mille Lacs; Morrison; Otter Tail; Pine; Pope; Stearns; Stevens; Todd; Traverse; Wadena; Wilkin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=45 +lon_0=-94.25 +lat_1=47.05 +lat_2=45.6166666666667 +x_0=800000.00001016 +y_0=99999.99998984 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26858.
+ */
+export declare const EPSG_26831: string;
+/**
+ * EPSG:26832, NAD83(HARN) / Minnesota South (ftUS). United States (USA) - Minnesota - counties of Anoka; Big Stone; Blue Earth; Brown; Carver; Chippewa; Cottonwood; Dakota; Dodge; Faribault; Fillmore; Freeborn; Goodhue; Hennepin; Houston; Jackson; Kandiyohi; Lac Qui Parle; Le Sueur; Lincoln; Lyon; Martin; McLeod; Meeker; Mower; Murray; Nicollet; Nobles; Olmsted; Pipestone; Ramsey; Redwood; Renville; Rice; Rock; Scott; Sherburne; Sibley; Steele; Swift; Wabasha; Waseca; Washington; Watonwan; Winona; Wright; Yellow Medicine. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=43 +lon_0=-94 +lat_1=45.2166666666667 +lat_2=43.7833333333333 +x_0=800000.00001016 +y_0=99999.99998984 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26859.
+ */
+export declare const EPSG_26832: string;
+/**
+ * EPSG:26833, NAD83(HARN) / Nebraska (ftUS). United States (USA) - Nebraska. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=39.8333333333333 +lon_0=-100 +lat_1=43 +lat_2=40 +x_0=500000.00001016 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26860.
+ */
+export declare const EPSG_26833: string;
+/**
+ * EPSG:26834, NAD83(HARN) / West Virginia North (ftUS). United States (USA) - West Virginia - counties of Barbour; Berkeley; Brooke; Doddridge; Grant; Hampshire; Hancock; Hardy; Harrison; Jefferson; Marion; Marshall; Mineral; Monongalia; Morgan; Ohio; Pleasants; Preston; Ritchie; Taylor; Tucker; Tyler; Wetzel; Wirt; Wood. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=38.5 +lon_0=-79.5 +lat_1=40.25 +lat_2=39 +x_0=1968500 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26861.
+ */
+export declare const EPSG_26834: string;
+/**
+ * EPSG:26835, NAD83(HARN) / West Virginia South (ftUS). United States (USA) - West Virginia - counties of Boone; Braxton; Cabell; Calhoun; Clay; Fayette; Gilmer; Greenbrier; Jackson; Kanawha; Lewis; Lincoln; Logan; Mason; McDowell; Mercer; Mingo; Monroe; Nicholas; Pendleton; Pocahontas; Putnam; Raleigh; Randolph; Roane; Summers; Upshur; Wayne; Webster; Wyoming. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=37 +lon_0=-81 +lat_1=38.8833333333333 +lat_2=37.4833333333333 +x_0=1968500 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26862.
+ */
+export declare const EPSG_26835: string;
+/**
+ * EPSG:26836, NAD83(NSRS2007) / Maine East (ftUS). United States (USA) - Maine - counties of Aroostook; Hancock; Knox; Penobscot; Piscataquis; Waldo; Washington. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=43.6666666666667 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26863.
+ */
+export declare const EPSG_26836: string;
+/**
+ * EPSG:26837, NAD83(NSRS2007) / Maine West (ftUS). United States (USA) - Maine - counties of Androscoggin; Cumberland; Franklin; Kennebec; Lincoln; Oxford; Sagadahoc; Somerset; York. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.1666666666667 +k=0.999966667 +x_0=900000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26864.
+ */
+export declare const EPSG_26837: string;
+/**
+ * EPSG:26841, NAD83(NSRS2007) / Minnesota North (ftUS). United States (USA) - Minnesota - counties of Beltrami; Clearwater; Cook; Itasca; Kittson; Koochiching; Lake; Lake of the Woods; Mahnomen; Marshall; Norman; Pennington; Polk; Red Lake; Roseau; St Louis. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=46.5 +lon_0=-93.1 +lat_1=48.6333333333333 +lat_2=47.0333333333333 +x_0=800000.00001016 +y_0=99999.99998984 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26865.
+ */
+export declare const EPSG_26841: string;
+/**
+ * EPSG:26842, NAD83(NSRS2007) / Minnesota Central (ftUS). United States (USA) - Minnesota - counties of Aitkin; Becker; Benton; Carlton; Cass; Chisago; Clay; Crow Wing; Douglas; Grant; Hubbard; Isanti; Kanabec; Mille Lacs; Morrison; Otter Tail; Pine; Pope; Stearns; Stevens; Todd; Traverse; Wadena; Wilkin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=45 +lon_0=-94.25 +lat_1=47.05 +lat_2=45.6166666666667 +x_0=800000.00001016 +y_0=99999.99998984 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26866.
+ */
+export declare const EPSG_26842: string;
+/**
+ * EPSG:26843, NAD83(NSRS2007) / Minnesota South (ftUS). United States (USA) - Minnesota - counties of Anoka; Big Stone; Blue Earth; Brown; Carver; Chippewa; Cottonwood; Dakota; Dodge; Faribault; Fillmore; Freeborn; Goodhue; Hennepin; Houston; Jackson; Kandiyohi; Lac Qui Parle; Le Sueur; Lincoln; Lyon; Martin; McLeod; Meeker; Mower; Murray; Nicollet; Nobles; Olmsted; Pipestone; Ramsey; Redwood; Renville; Rice; Rock; Scott; Sherburne; Sibley; Steele; Swift; Wabasha; Waseca; Washington; Watonwan; Winona; Wright; Yellow Medicine. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=43 +lon_0=-94 +lat_1=45.2166666666667 +lat_2=43.7833333333333 +x_0=800000.00001016 +y_0=99999.99998984 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26867.
+ */
+export declare const EPSG_26843: string;
+/**
+ * EPSG:26844, NAD83(NSRS2007) / Nebraska (ftUS). United States (USA) - Nebraska. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=39.8333333333333 +lon_0=-100 +lat_1=43 +lat_2=40 +x_0=500000.00001016 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26868.
+ */
+export declare const EPSG_26844: string;
+/**
+ * EPSG:26845, NAD83(NSRS2007) / West Virginia North (ftUS). United States (USA) - West Virginia - counties of Barbour; Berkeley; Brooke; Doddridge; Grant; Hampshire; Hancock; Hardy; Harrison; Jefferson; Marion; Marshall; Mineral; Monongalia; Morgan; Ohio; Pleasants; Preston; Ritchie; Taylor; Tucker; Tyler; Wetzel; Wirt; Wood. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=38.5 +lon_0=-79.5 +lat_1=40.25 +lat_2=39 +x_0=1968500 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26869.
+ */
+export declare const EPSG_26845: string;
+/**
+ * EPSG:26846, NAD83(NSRS2007) / West Virginia South (ftUS). United States (USA) - West Virginia - counties of Boone; Braxton; Cabell; Calhoun; Clay; Fayette; Gilmer; Greenbrier; Jackson; Kanawha; Lewis; Lincoln; Logan; Mason; McDowell; Mercer; Mingo; Monroe; Nicholas; Pendleton; Pocahontas; Putnam; Raleigh; Randolph; Roane; Summers; Upshur; Wayne; Webster; Wyoming. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=37 +lon_0=-81 +lat_1=38.8833333333333 +lat_2=37.4833333333333 +x_0=1968500 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26870.
+ */
+export declare const EPSG_26846: string;
 /**
  * EPSG:26847, NAD83 / Maine East (ftUS). United States (USA) - Maine - counties of Aroostook; Hancock; Knox; Penobscot; Piscataquis; Waldo; Washington. Up to 0.48 m from PROJ.
  *
@@ -34447,6 +37127,14 @@ export declare const EPSG_26977: string;
  */
 export declare const EPSG_26978: string;
 /**
+ * EPSG:26979, NAD83 / Kentucky North. United States (USA) - Kentucky - counties of Anderson; Bath; Boone; Bourbon; Boyd; Bracken; Bullitt; Campbell; Carroll; Carter; Clark; Elliott; Fayette; Fleming; Franklin; Gallatin; Grant; Greenup; Harrison; Henry; Jefferson; Jessamine; Kenton; Lawrence; Lewis; Mason; Menifee; Montgomery; Morgan; Nicholas; Oldham; Owen; Pendleton; Robertson; Rowan; Scott; Shelby; Spencer; Trimble; Woodford. Up to 0.424 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=37.5 +lon_0=-84.25 +lat_1=37.9666666666667 +lat_2=37.9666666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2205.
+ */
+export declare const EPSG_26979: string;
+/**
  * EPSG:26980, NAD83 / Kentucky South. United States (USA) - Kentucky - counties of Adair; Allen; Ballard; Barren; Bell; Boyle; Breathitt; Breckinridge; Butler; Caldwell; Calloway; Carlisle; Casey; Christian; Clay; Clinton; Crittenden; Cumberland; Daviess; Edmonson; Estill; Floyd; Fulton; Garrard; Graves; Grayson; Green; Hancock; Hardin; Harlan; Hart; Henderson; Hickman; Hopkins; Jackson; Johnson; Knott; Knox; Larue; Laurel; Lee; Leslie; Letcher; Lincoln; Livingston; Logan; Lyon; Madison; Magoffin; Marion; Marshall; Martin; McCracken; McCreary; McLean; Meade; Mercer; Metcalfe; Monroe; Muhlenberg; Nelson; Ohio; Owsley; Perry; Pike; Powell; Pulaski; Rockcastle; Russell; Simpson; Taylor; Todd; Trigg; Union; Warren; Washington; Wayne; Webster; Whitley; Wolfe. Up to 0.341 m from PROJ.
  *
  * `+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=37.9333333333333 +lat_2=36.7333333333333 +x_0=500000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
@@ -34560,6 +37248,22 @@ export declare const EPSG_26997: string;
  * `+proj=tmerc +lat_0=36.1666666666667 +lon_0=-94.5 +k=0.999941177 +x_0=850000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
  */
 export declare const EPSG_26998: string;
+/**
+ * EPSG:27037, Nahrwan 1967 / UTM zone 37N. Iraq - west of 42°E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=37 +a=6378249.145 +rf=293.465 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:7005.
+ */
+export declare const EPSG_27037: string;
+/**
+ * EPSG:27038, Nahrwan 1967 / UTM zone 38N. Iraq - between 42°E and 48°E. Kuwait - west of 48°E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=38 +a=6378249.145 +rf=293.465 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:7006.
+ */
+export declare const EPSG_27038: string;
 /**
  * EPSG:27039, Nahrwan 1967 / UTM zone 39N. Qatar - offshore. United Arab Emirates (UAE) - Abu Dhabi - onshore and offshore west of 54°E. Up to 9.46 m from PROJ.
  *
@@ -34837,6 +37541,14 @@ export declare const EPSG_27398: string;
  */
 export declare const EPSG_27429: string;
 /**
+ * EPSG:27492, Datum 73 / Modified Portuguese Grid. Portugal - mainland - onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=39.6666666666667 +lon_0=-8.13190611111111 +k=1 +x_0=180.598 +y_0=-86.99 +ellps=intl +towgs84=-239.749,88.181,30.488,0.263,0.082,1.211,2.229 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:27493.
+ */
+export declare const EPSG_27492: string;
+/**
  * EPSG:27493, Datum 73 / Modified Portuguese Grid. Portugal - mainland - onshore. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=39.6666666666667 +lon_0=-8.13190611111111 +k=1 +x_0=180.598 +y_0=-86.99 +ellps=intl +towgs84=-239.749,88.181,30.488,0.263,0.082,1.211,2.229 +units=m +no_defs`
@@ -34896,6 +37608,70 @@ export declare const EPSG_27573: string;
  * `+proj=lcc +lat_1=42.165 +lat_0=42.165 +lon_0=0 +k_0=0.99994471 +x_0=234.358 +y_0=4185861.369 +ellps=clrk80ign +pm=paris +towgs84=-168,-60,320 +units=m +no_defs`
  */
 export declare const EPSG_27574: string;
+/**
+ * EPSG:27581, NTF (Paris) / France I. France mainland onshore north of 53.5 grads North (48°09'N). Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=49.5 +lat_0=49.5 +lon_0=0 +k_0=0.999877341 +x_0=600000 +y_0=1200000 +ellps=clrk80ign +pm=paris +towgs84=-168,-60,320 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:27571.
+ */
+export declare const EPSG_27581: string;
+/**
+ * EPSG:27582, NTF (Paris) / France II. France mainland onshore between 50.5 grads and 53.5 grads North (45°27'N to 48°09'N). Also used over all onshore mainland France. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=46.8 +lat_0=46.8 +lon_0=0 +k_0=0.99987742 +x_0=600000 +y_0=2200000 +ellps=clrk80ign +pm=paris +towgs84=-168,-60,320 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:27572.
+ */
+export declare const EPSG_27582: string;
+/**
+ * EPSG:27583, NTF (Paris) / France III. France - mainland onshore south of 50.5 grads North (45°27'N). Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=44.1 +lat_0=44.1 +lon_0=0 +k_0=0.999877499 +x_0=600000 +y_0=3200000 +ellps=clrk80ign +pm=paris +towgs84=-168,-60,320 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:27573.
+ */
+export declare const EPSG_27583: string;
+/**
+ * EPSG:27584, NTF (Paris) / France IV. France - Corsica onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=42.165 +lat_0=42.165 +lon_0=0 +k_0=0.99994471 +x_0=234.358 +y_0=4185861.369 +ellps=clrk80ign +pm=paris +towgs84=-168,-60,320 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:27574.
+ */
+export declare const EPSG_27584: string;
+/**
+ * EPSG:27591, NTF (Paris) / Nord France. France mainland onshore north of 53.5 grads North (48°09'N). Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=49.5 +lat_0=49.5 +lon_0=0 +k_0=0.999877341 +x_0=600000 +y_0=200000 +ellps=clrk80ign +pm=paris +towgs84=-168,-60,320 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:27561.
+ */
+export declare const EPSG_27591: string;
+/**
+ * EPSG:27592, NTF (Paris) / Centre France. France mainland onshore between 50.5 grads and 53.5 grads North (45°27'N to 48°09'N). Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=46.8 +lat_0=46.8 +lon_0=0 +k_0=0.99987742 +x_0=600000 +y_0=200000 +ellps=clrk80ign +pm=paris +towgs84=-168,-60,320 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:27562.
+ */
+export declare const EPSG_27592: string;
+/**
+ * EPSG:27593, NTF (Paris) / Sud France. France - mainland onshore south of 50.5 grads North (45°27'N). Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=44.1 +lat_0=44.1 +lon_0=0 +k_0=0.999877499 +x_0=600000 +y_0=200000 +ellps=clrk80ign +pm=paris +towgs84=-168,-60,320 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:27563.
+ */
+export declare const EPSG_27593: string;
+/**
+ * EPSG:27594, NTF (Paris) / Corse. France - Corsica onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=42.165 +lat_0=42.165 +lon_0=0 +k_0=0.99994471 +x_0=234.358 +y_0=185861.369 +ellps=clrk80ign +pm=paris +towgs84=-168,-60,320 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:27564.
+ */
+export declare const EPSG_27594: string;
 /**
  * EPSG:27700, OSGB36 / British National Grid. United Kingdom (UK) - offshore to boundary of UKCS within 49°45'N to 61°N and 9°W to 2°E; onshore Great Britain (England, Wales and Scotland). Isle of Man onshore. Up to 4.36 m from PROJ.
  *
@@ -35034,6 +37810,22 @@ export declare const EPSG_28357: string;
  * `+proj=utm +zone=58 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
  */
 export declare const EPSG_28358: string;
+/**
+ * EPSG:28402, Pulkovo 1942 / Gauss-Kruger zone 2. Czech Republic and Germany (former DDR) - west of 12°E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=9 +k=1 +x_0=2500000 +y_0=0 +ellps=krass +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3833.
+ */
+export declare const EPSG_28402: string;
+/**
+ * EPSG:28403, Pulkovo 1942 / Gauss-Kruger zone 3. Germany (former DDR) - onshore east of 12°E. Poland - onshore west of 18°E. Czechia, Hungary and Slovakia - west of 18°E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=3500000 +y_0=0 +ellps=krass +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3333.
+ */
+export declare const EPSG_28403: string;
 /**
  * EPSG:28404, Pulkovo 1942 / Gauss-Kruger zone 4. Belarus, Estonia, Latvia, Lithuania and Ukraine - onshore west of 24°E. Russian Federation - Kaliningrad onshore. Within 1 cm of PROJ.
  *
@@ -35209,6 +38001,254 @@ export declare const EPSG_28431: string;
  */
 export declare const EPSG_28432: string;
 /**
+ * EPSG:28462, Pulkovo 1942 / Gauss-Kruger 2N. Czech Republic and Germany (former DDR) - west of 12°E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=9 +k=1 +x_0=500000 +y_0=0 +ellps=krass +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2492.
+ */
+export declare const EPSG_28462: string;
+/**
+ * EPSG:28463, Pulkovo 1942 / Gauss-Kruger 3N. Germany (former DDR) - onshore east of 12°E. Poland - onshore west of 18°E. Czechia, Hungary and Slovakia - west of 18°E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=500000 +y_0=0 +ellps=krass +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2493.
+ */
+export declare const EPSG_28463: string;
+/**
+ * EPSG:28464, Pulkovo 1942 / Gauss-Kruger 4N. Belarus, Estonia, Latvia, Lithuania and Ukraine - onshore west of 24°E. Russian Federation - Kaliningrad onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=21 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2494.
+ */
+export declare const EPSG_28464: string;
+/**
+ * EPSG:28465, Pulkovo 1942 / Gauss-Kruger 5N. Estonia; Latvia and Lithuania - onshore east of 24°E; Belarus, Moldova, Russian Federation and Ukraine - onshore 24°E to 30°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=27 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2495.
+ */
+export declare const EPSG_28465: string;
+/**
+ * EPSG:28466, Pulkovo 1942 / Gauss-Kruger 6N. Belarus and Moldova - east of 30°E; Russian Federation and Ukraine - onshore 30°E to 36°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=33 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2496.
+ */
+export declare const EPSG_28466: string;
+/**
+ * EPSG:28467, Pulkovo 1942 / Gauss-Kruger 7N. Georgia - onshore west of 36°E; Russian Federation - onshore 36°E to 42°E; Ukraine - onshore east of 36°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=39 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2497.
+ */
+export declare const EPSG_28467: string;
+/**
+ * EPSG:28468, Pulkovo 1942 / Gauss-Kruger 8N. Armenia - west of 48°E; Azerbaijan - west of 48°E; Georgia - east of 42°E; Kazakhstan - west of 48°E; Russian Federation - onshore 42°E to 48°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=45 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2498.
+ */
+export declare const EPSG_28468: string;
+/**
+ * EPSG:28469, Pulkovo 1942 / Gauss-Kruger 9N. Azerbaijan - east of 48°E; Kazakhstan - 48°E to 54°E; Russian Federation - 48°E to 54°E; Turkmenistan - west of 54°E. Includes Caspian Sea (considered a lake rather than offshore). Up to 2.77 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=51 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2499.
+ */
+export declare const EPSG_28469: string;
+/**
+ * EPSG:28470, Pulkovo 1942 / Gauss-Kruger 10N. Kazakhstan; Russian Federation - onshore; Turkmenistan - 54°E to 60°E; Uzbekistan - west of 60°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=57 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2500.
+ */
+export declare const EPSG_28470: string;
+/**
+ * EPSG:28471, Pulkovo 1942 / Gauss-Kruger 11N. Kazakhstan; Russian Federation - onshore; Uzbekistan - 60°E to 66°E; Turkmenistan - east of 60°E. Up to 2.36 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=63 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=25,-141,-78.5,0,0.35,0.736,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2501.
+ */
+export declare const EPSG_28471: string;
+/**
+ * EPSG:28472, Pulkovo 1942 / Gauss-Kruger 12N. Kazakhstan, Russian Federation onshore and Uzbekistan - 66°E to 72°E; Kyrgyzstan and Tajikistan - west of 72°E. Up to 2.45 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=69 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=25,-141,-78.5,0,0.35,0.736,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2502.
+ */
+export declare const EPSG_28472: string;
+/**
+ * EPSG:28473, Pulkovo 1942 / Gauss-Kruger 13N. Kazakhstan; Kyrgyzstan; Russian Federation onshore - 72°E to 78°E; Tajikistan and Uzbekistan - east of 72°E. Up to 2.48 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=75 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=25,-141,-78.5,0,0.35,0.736,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2503.
+ */
+export declare const EPSG_28473: string;
+/**
+ * EPSG:28474, Pulkovo 1942 / Gauss-Kruger 14N. Kazakhstan and Russian Federation onshore - 78°E to 84°E; Kyrgyzstan - east of 78°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=81 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2504.
+ */
+export declare const EPSG_28474: string;
+/**
+ * EPSG:28475, Pulkovo 1942 / Gauss-Kruger 15N. Kazakhstan - east of 84°E; Russian Federation - onshore 84°E to 90°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=87 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2505.
+ */
+export declare const EPSG_28475: string;
+/**
+ * EPSG:28476, Pulkovo 1942 / Gauss-Kruger 16N. Russian Federation - onshore between 90°E and 96°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=93 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2506.
+ */
+export declare const EPSG_28476: string;
+/**
+ * EPSG:28477, Pulkovo 1942 / Gauss-Kruger 17N. Russian Federation - onshore between 96°E and 102°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=99 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2507.
+ */
+export declare const EPSG_28477: string;
+/**
+ * EPSG:28478, Pulkovo 1942 / Gauss-Kruger 18N. Russian Federation - onshore between 102°E and 108°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=105 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2508.
+ */
+export declare const EPSG_28478: string;
+/**
+ * EPSG:28479, Pulkovo 1942 / Gauss-Kruger 19N. Russian Federation - onshore between 108°E and 114°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=111 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2509.
+ */
+export declare const EPSG_28479: string;
+/**
+ * EPSG:28480, Pulkovo 1942 / Gauss-Kruger 20N. Russian Federation - onshore between 114°E and 120°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=117 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2510.
+ */
+export declare const EPSG_28480: string;
+/**
+ * EPSG:28481, Pulkovo 1942 / Gauss-Kruger 21N. Russian Federation - onshore between 120°E and 126°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=123 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2511.
+ */
+export declare const EPSG_28481: string;
+/**
+ * EPSG:28482, Pulkovo 1942 / Gauss-Kruger 22N. Russian Federation - onshore between 126°E and 132°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=129 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2512.
+ */
+export declare const EPSG_28482: string;
+/**
+ * EPSG:28483, Pulkovo 1942 / Gauss-Kruger 23N. Russian Federation - onshore between 132°E and 138°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=135 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2513.
+ */
+export declare const EPSG_28483: string;
+/**
+ * EPSG:28484, Pulkovo 1942 / Gauss-Kruger 24N. Russian Federation - onshore between 138°E and 144°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=141 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2514.
+ */
+export declare const EPSG_28484: string;
+/**
+ * EPSG:28485, Pulkovo 1942 / Gauss-Kruger 25N. Russian Federation - onshore between 144°E and 150°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=147 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2515.
+ */
+export declare const EPSG_28485: string;
+/**
+ * EPSG:28486, Pulkovo 1942 / Gauss-Kruger 26N. Russian Federation - onshore between 150°E and 156°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=153 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2516.
+ */
+export declare const EPSG_28486: string;
+/**
+ * EPSG:28487, Pulkovo 1942 / Gauss-Kruger 27N. Russian Federation - onshore between 156°E and 162°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=159 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2517.
+ */
+export declare const EPSG_28487: string;
+/**
+ * EPSG:28488, Pulkovo 1942 / Gauss-Kruger 28N. Russian Federation - onshore between 162°E and 168°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=165 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2518.
+ */
+export declare const EPSG_28488: string;
+/**
+ * EPSG:28489, Pulkovo 1942 / Gauss-Kruger 29N. Russian Federation - onshore between 168°E and 174°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=171 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2519.
+ */
+export declare const EPSG_28489: string;
+/**
+ * EPSG:28490, Pulkovo 1942 / Gauss-Kruger 30N. Russian Federation - onshore between 174°E and 180°E . Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=177 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2520.
+ */
+export declare const EPSG_28490: string;
+/**
+ * EPSG:28491, Pulkovo 1942 / Gauss-Kruger 31N. Russian Federation - onshore between 180°E and 174°W. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-177 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2521.
+ */
+export declare const EPSG_28491: string;
+/**
+ * EPSG:28492, Pulkovo 1942 / Gauss-Kruger 32N. Russian Federation - onshore east of 174°W. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-171 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2522.
+ */
+export declare const EPSG_28492: string;
+/**
  * EPSG:28600, Qatar 1974 / Qatar National Grid. Qatar - onshore. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=24.45 +lon_0=51.2166666666667 +k=0.99999 +x_0=200000 +y_0=300000 +ellps=intl +towgs84=-128.033,-283.697,21.052 +units=m +no_defs`
@@ -35227,11 +38267,27 @@ export declare const EPSG_28991: string;
  */
 export declare const EPSG_28992: string;
 /**
+ * EPSG:29100, SAD69 / Brazil Polyconic. Brazil - onshore and offshore. Includes Rocas, Fernando de Noronha archipelago, Trindade, Ihlas Martim Vaz and Sao Pedro e Sao Paulo. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=poly +lat_0=0 +lon_0=-54 +x_0=5000000 +y_0=10000000 +ellps=GRS67 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:29101.
+ */
+export declare const EPSG_29100: string;
+/**
  * EPSG:29101, SAD69 / Brazil Polyconic. Brazil - onshore and offshore. Includes Rocas, Fernando de Noronha archipelago, Trindade, Ihlas Martim Vaz and Sao Pedro e Sao Paulo. Up to 9.62 m from PROJ.
  *
  * `+proj=poly +lat_0=0 +lon_0=-54 +x_0=5000000 +y_0=10000000 +ellps=aust_SA +towgs84=-60,-2,-41 +units=m +no_defs`
  */
 export declare const EPSG_29101: string;
+/**
+ * EPSG:29122, SAD69 / UTM zone 22N. Brazil - offshore deep water - Amazon cone. In remainder of South America, between 54°W and 48°W, northern hemisphere onshore but excluding most of the area southeast of a line between approximately 2°N, 54°W and 4°N, 52°W. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=22 +ellps=GRS67 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:29172.
+ */
+export declare const EPSG_29122: string;
 /**
  * EPSG:29168, SAD69 / UTM zone 18N. South America between 78°W and 72°W, northern hemisphere, onshore. Up to 16 m from PROJ.
  *
@@ -35262,6 +38318,46 @@ export declare const EPSG_29171: string;
  * `+proj=utm +zone=22 +ellps=aust_SA +towgs84=-57,1,-41 +units=m +no_defs`
  */
 export declare const EPSG_29172: string;
+/**
+ * EPSG:29181, SAD69 / UTM zone 21S. Brazil - between 60°W and 54°W, northern and southern hemispheres. In rest of South America between 60°W and 54°W southern hemisphere, onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=21 +south +ellps=GRS67 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:29191.
+ */
+export declare const EPSG_29181: string;
+/**
+ * EPSG:29182, SAD69 / UTM zone 22S. Brazil - onshore and offshore northern and southern hemispheres between 54°W and 48°W. In remainder of South America - between 54°W and 48°W, southern hemisphere, onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=22 +south +ellps=GRS67 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:29192.
+ */
+export declare const EPSG_29182: string;
+/**
+ * EPSG:29183, SAD69 / UTM zone 23S. Brazil - between 48°W and 42°W. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=23 +south +ellps=GRS67 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:29193.
+ */
+export declare const EPSG_29183: string;
+/**
+ * EPSG:29184, SAD69 / UTM zone 24S. Brazil - between 42°W and 36°W, onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=24 +south +ellps=GRS67 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:29194.
+ */
+export declare const EPSG_29184: string;
+/**
+ * EPSG:29185, SAD69 / UTM zone 25S. Brazil - between 36°W and 30°W. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=25 +south +ellps=GRS67 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:29195.
+ */
+export declare const EPSG_29185: string;
 /**
  * EPSG:29187, SAD69 / UTM zone 17S. South America between 84°W and 78°W, southern hemisphere, onshore. Up to 9.69 m from PROJ.
  *
@@ -35383,6 +38479,14 @@ export declare const EPSG_29383: string;
  */
 export declare const EPSG_29385: string;
 /**
+ * EPSG:29700, Tananarive (Paris) / Laborde Grid. Madagascar - onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=omerc +lat_0=-18.9 +lonc=44.1 +alpha=18.9 +gamma=18.9 +k=0.9995 +x_0=400000 +y_0=800000 +ellps=intl +pm=paris +towgs84=-198.383,-240.517,-107.909 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:29701 or EPSG:29702.
+ */
+export declare const EPSG_29700: string;
+/**
  * EPSG:29701, Tananarive (Paris) / Laborde Grid. Madagascar - onshore. Up to 0.0209 m from PROJ. proj4js 2.22.0 can't read it.
  *
  * `+proj=labrd +lat_0=-18.9 +lon_0=44.1 +azi=18.9 +k=0.9995 +x_0=400000 +y_0=800000 +ellps=intl +pm=paris +towgs84=-198.383,-240.517,-107.909 +units=m +no_defs`
@@ -35442,6 +38546,14 @@ export declare const EPSG_29873: string;
  * `+proj=omerc +no_uoff +lat_0=4 +lonc=115 +alpha=53.3158204722222 +gamma=53.1301023611111 +k=0.99984 +x_0=2000000 +y_0=5000000 +ellps=evrstSS +towgs84=-679,667,-49 +units=m +no_defs`
  */
 export declare const EPSG_29874: string;
+/**
+ * EPSG:29900, TM65 / Irish National Grid. Ireland - onshore. United Kingdom (UK) - Northern Ireland (Ulster) - onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=53.5 +lon_0=-8 +k=1.000035 +x_0=200000 +y_0=250000 +a=6377340.189 +rf=299.3249646 +towgs84=482.5,-130.6,564.6,-1.042,-0.214,-0.631,8.15 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:29902.
+ */
+export declare const EPSG_29900: string;
 /**
  * EPSG:29901, OSNI 1952 / Irish National Grid. United Kingdom (UK) - Northern Ireland (Ulster) - onshore. Within 1 cm of PROJ.
  *
@@ -35653,6 +38765,14 @@ export declare const EPSG_30791: string;
  */
 export declare const EPSG_30792: string;
 /**
+ * EPSG:30800, RT38 2.5 gon W. Sweden - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=15.8082777777778 +k=1 +x_0=1500000 +y_0=0 +ellps=bessel +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3027.
+ */
+export declare const EPSG_30800: string;
+/**
  * EPSG:31028, Yoff / UTM zone 28N. Senegal - onshore and offshore. Within 1 cm of PROJ.
  *
  * `+proj=utm +zone=28 +ellps=clrk80ign +towgs84=-30,190,89 +units=m +no_defs`
@@ -35737,6 +38857,78 @@ export declare const EPSG_31258: string;
  */
 export declare const EPSG_31259: string;
 /**
+ * EPSG:31265, MGI / 3-degree Gauss zone 5. Bosnia and Herzegovina - west of 16°30'E; Croatia - onshore west of 16°30'E; Slovenia - onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=5500000 +y_0=0 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:31275.
+ */
+export declare const EPSG_31265: string;
+/**
+ * EPSG:31266, MGI / 3-degree Gauss zone 6. Bosnia and Herzegovina - between 16°30'E and 19°30'E; Croatia - onshore east of 16°30'E; Montenegro - onshore west of 19°30'E; Serbia - west of 19°30'E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=18 +k=1 +x_0=6500000 +y_0=0 +ellps=bessel +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:31276.
+ */
+export declare const EPSG_31266: string;
+/**
+ * EPSG:31267, MGI / 3-degree Gauss zone 7. Bosnia and Herzegovina - east of 19°30'E; Kosovo; Montenegro - east of 19°30'E; Serbia - between 19°30'E and 22°30'E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=21 +k=1 +x_0=7500000 +y_0=0 +ellps=bessel +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:31277.
+ */
+export declare const EPSG_31267: string;
+/**
+ * EPSG:31268, MGI / 3-degree Gauss zone 8. North Macedonia - east of 22°30'E; Serbia - east of 22°30'E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=24 +k=1 +x_0=8500000 +y_0=0 +ellps=bessel +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:31278.
+ */
+export declare const EPSG_31268: string;
+/**
+ * EPSG:31275, MGI / Balkans zone 5. Bosnia and Herzegovina - west of 16°30'E; Croatia - onshore west of 16°30'E; Slovenia - onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9999 +x_0=5500000 +y_0=0 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3907.
+ */
+export declare const EPSG_31275: string;
+/**
+ * EPSG:31276, MGI / Balkans zone 6. Bosnia and Herzegovina - between 16°30'E and 19°30'E; Croatia - onshore east of 16°30'E; Montenegro - onshore west of 19°30'E; Serbia - west of 19°30'E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=18 +k=0.9999 +x_0=6500000 +y_0=0 +ellps=bessel +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3908.
+ */
+export declare const EPSG_31276: string;
+/**
+ * EPSG:31277, MGI / Balkans zone 7. Bosnia and Herzegovina - east of 19°30'E; Kosovo; Montenegro - east of 19°30'E; Serbia - between 19°30'E and 22°30'E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=21 +k=0.9999 +x_0=7500000 +y_0=0 +ellps=bessel +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3909.
+ */
+export declare const EPSG_31277: string;
+/**
+ * EPSG:31278, MGI / Balkans zone 8. North Macedonia - east of 22°30'E; Serbia - east of 22°30'E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=21 +k=0.9999 +x_0=7500000 +y_0=0 +ellps=bessel +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:31279.
+ */
+export declare const EPSG_31278: string;
+/**
+ * EPSG:31279, MGI / Balkans zone 8. North Macedonia - east of 22°30'E; Serbia - east of 22°30'E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9999 +x_0=8500000 +y_0=0 +ellps=bessel +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3910.
+ */
+export declare const EPSG_31279: string;
+/**
  * EPSG:31281, MGI (Ferro) / Austria West Zone. Austria west of 11°50'E of Greenwich (29°30'E of Ferro). Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=0 +lon_0=28 +k=1 +x_0=0 +y_0=0 +ellps=bessel +pm=ferro +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232 +units=m +no_defs`
@@ -35797,6 +38989,62 @@ export declare const EPSG_31289: string;
  */
 export declare const EPSG_31290: string;
 /**
+ * EPSG:31291, MGI (Ferro) / Austria West Zone. Austria west of 11°50'E of Greenwich (29°30'E of Ferro). Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=28 +k=1 +x_0=0 +y_0=0 +ellps=bessel +pm=ferro +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:31281.
+ */
+export declare const EPSG_31291: string;
+/**
+ * EPSG:31292, MGI (Ferro) / Austria Central Zone. Austria east of 14°50'E of Greenwich (32°30'E of Ferro). Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=31 +k=1 +x_0=0 +y_0=0 +ellps=bessel +pm=ferro +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:31282.
+ */
+export declare const EPSG_31292: string;
+/**
+ * EPSG:31293, MGI (Ferro) / Austria East Zone. Austria between 11°50'E and 14°50'E of Greenwich (29°30'E and 32°30'E of Ferro). Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=34 +k=1 +x_0=0 +y_0=0 +ellps=bessel +pm=ferro +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:31283.
+ */
+export declare const EPSG_31293: string;
+/**
+ * EPSG:31294, MGI / M28. Austria west of 11°50'E of Greenwich (29°30'E of Ferro). Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=10.3333333333333 +k=1 +x_0=150000 +y_0=0 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:31284.
+ */
+export declare const EPSG_31294: string;
+/**
+ * EPSG:31295, MGI / M31. Austria between 11°50'E and 14°50'E of Greenwich (29°30'E and 32°30'E of Ferro). Up to 0.209 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=13.3333333333333 +k=1 +x_0=450000 +y_0=0 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:31285.
+ */
+export declare const EPSG_31295: string;
+/**
+ * EPSG:31296, MGI / M34. Austria east of 14°50'E of Greenwich (32°30'E of Ferro). Up to 0.705 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=16.3333333333333 +k=1 +x_0=750000 +y_0=0 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:31286.
+ */
+export declare const EPSG_31296: string;
+/**
+ * EPSG:31297, MGI / Austria Lambert. Austria. Up to 0.316 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=47.5 +lon_0=13.3333333333333 +lat_1=49 +lat_2=46 +x_0=400000 +y_0=400000 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:31287.
+ */
+export declare const EPSG_31297: string;
+/**
  * EPSG:31300, BD72 / Belge Lambert 72. Belgium - onshore. Within 1 cm of PROJ.
  *
  * `+proj=lcc +lat_0=90 +lon_0=4.35693972222222 +lat_1=49.8333333333333 +lat_2=51.1666666666667 +x_0=150000.01256 +y_0=5400088.4378 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs`
@@ -35808,6 +39056,38 @@ export declare const EPSG_31300: string;
  * `+proj=lcc +lat_0=90 +lon_0=4.36748666666667 +lat_1=51.1666672333333 +lat_2=49.8333339 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs`
  */
 export declare const EPSG_31370: string;
+/**
+ * EPSG:31462, DHDN / 3-degree Gauss zone 2. Germany - former West Germany onshore west of 7°30'E - states of Niedersachsen, Nordrhein-Westfalen, Rheinland-Pfalz, Saarland. Up to 2.22 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=6 +k=1 +x_0=2500000 +y_0=0 +ellps=bessel +towgs84=598.1,73.7,418.2,0.202,0.045,-2.455,6.7 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:31466.
+ */
+export declare const EPSG_31462: string;
+/**
+ * EPSG:31463, DHDN / 3-degree Gauss zone 3. Germany - former West Germany onshore between 7°30'E and 10°30'E - states of Baden-Wurtemberg, Bayern, Bremen, Hamberg, Hessen, Niedersachsen, Nordrhein-Westfalen, Rhineland-Pfalz, Schleswig-Holstein. Up to 2.37 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=9 +k=1 +x_0=3500000 +y_0=0 +ellps=bessel +towgs84=598.1,73.7,418.2,0.202,0.045,-2.455,6.7 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:31467.
+ */
+export declare const EPSG_31463: string;
+/**
+ * EPSG:31464, DHDN / 3-degree Gauss zone 4. Germany - former West Germany onshore between 10°30'E and 13°30'E - states of Bayern, Berlin, Niedersachsen, Schleswig-Holstein. Up to 1.43 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=12 +k=1 +x_0=4500000 +y_0=0 +ellps=bessel +towgs84=598.1,73.7,418.2,0.202,0.045,-2.455,6.7 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:31468.
+ */
+export declare const EPSG_31464: string;
+/**
+ * EPSG:31465, DHDN / 3-degree Gauss zone 5. Germany - former West Germany onshore east of 13°30'E - state of Bayern. Up to 1.39 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=5500000 +y_0=0 +ellps=bessel +towgs84=598.1,73.7,418.2,0.202,0.045,-2.455,6.7 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:31469.
+ */
+export declare const EPSG_31465: string;
 /**
  * EPSG:31466, DHDN / 3-degree Gauss-Kruger zone 2. Germany - former West Germany onshore west of 7°30'E - states of Niedersachsen, Nordrhein-Westfalen, Rheinland-Pfalz, Saarland. Up to 2.22 m from PROJ.
  *
@@ -35851,6 +39131,14 @@ export declare const EPSG_31529: string;
  */
 export declare const EPSG_31600: string;
 /**
+ * EPSG:31700, Dealul Piscului 1970/ Stereo 70. Romania - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=sterea +lat_0=46 +lon_0=25 +k=0.99975 +x_0=500000 +y_0=500000 +ellps=krass +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3844.
+ */
+export declare const EPSG_31700: string;
+/**
  * EPSG:31838, NGN / UTM zone 38N. Kuwait - onshore west of 48°E. Within 1 cm of PROJ.
  *
  * `+proj=utm +zone=38 +ellps=WGS84 +towgs84=-3.2,-5.7,2.8 +units=m +no_defs`
@@ -35862,6 +39150,14 @@ export declare const EPSG_31838: string;
  * `+proj=utm +zone=39 +ellps=WGS84 +towgs84=-3.2,-5.7,2.8 +units=m +no_defs`
  */
 export declare const EPSG_31839: string;
+/**
+ * EPSG:31900, KUDAMS / KTM. Kuwait - Kuwait City. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=48 +k=0.9996 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=226.702,-193.337,-35.371,-2.229,-4.391,9.238,0.9798 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:31901.
+ */
+export declare const EPSG_31900: string;
 /**
  * EPSG:31901, KUDAMS / KTM. Kuwait - Kuwait City. Within 1 cm of PROJ.
  *
@@ -36181,6 +39477,14 @@ export declare const EPSG_32016: string;
  */
 export declare const EPSG_32017: string;
 /**
+ * EPSG:32018, NAD27 / New York Long Island. United States (USA) - New York - counties of Bronx; Kings; Nassau; New York; Queens; Richmond; Suffolk. Up to 5.09 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=40.5 +lon_0=-74 +lat_1=41.0333333333333 +lat_2=40.6666666666667 +x_0=304800.609601219 +y_0=0 +ellps=clrk66 +towgs84=-10,158,187 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:4456.
+ */
+export declare const EPSG_32018: string;
+/**
  * EPSG:32019, NAD27 / North Carolina. United States (USA) - North Carolina. Up to 6.38 m from PROJ.
  *
  * `+proj=lcc +lat_0=33.75 +lon_0=-79 +lat_1=34.3333333333333 +lat_2=36.1666666666667 +x_0=609601.219202438 +y_0=0 +ellps=clrk66 +towgs84=-9,161,179 +units=us-ft +no_defs`
@@ -36241,6 +39545,14 @@ export declare const EPSG_32027: string;
  */
 export declare const EPSG_32028: string;
 /**
+ * EPSG:32029, NAD27 / Pennsylvania South. United States (USA) - Pennsylvania - counties of Adams; Allegheny; Armstrong; Beaver; Bedford; Berks; Blair; Bucks; Butler; Cambria; Chester; Cumberland; Dauphin; Delaware; Fayette; Franklin; Fulton; Greene; Huntingdon; Indiana; Juniata; Lancaster; Lawrence; Lebanon; Lehigh; Mifflin; Montgomery; Northampton; Perry; Philadelphia; Schuylkill; Snyder; Somerset; Washington; Westmoreland; York. Up to 7.88 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=39.3333333333333 +lon_0=-77.75 +lat_1=39.9333333333333 +lat_2=40.8 +x_0=609601.219202438 +y_0=0 +ellps=clrk66 +towgs84=-10,158,187 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:4455.
+ */
+export declare const EPSG_32029: string;
+/**
  * EPSG:32030, NAD27 / Rhode Island. United States (USA) - Rhode Island. Up to 6.7 m from PROJ.
  *
  * `+proj=tmerc +lat_0=41.0833333333333 +lon_0=-71.5 +k=0.9999938 +x_0=152400.30480061 +y_0=0 +ellps=clrk66 +towgs84=-10,158,187 +units=us-ft +no_defs`
@@ -36270,6 +39582,14 @@ export declare const EPSG_32034: string;
  * `+proj=lcc +lat_0=42.3333333333333 +lon_0=-100.333333333333 +lat_1=42.8333333333333 +lat_2=44.4 +x_0=609601.219202438 +y_0=0 +ellps=clrk66 +towgs84=-9,157,184 +units=us-ft +no_defs`
  */
 export declare const EPSG_32035: string;
+/**
+ * EPSG:32036, NAD27 / Tennessee. United States (USA) - Tennessee. Up to 3.71 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=34.6666666666667 +lon_0=-86 +lat_1=35.25 +lat_2=36.4166666666667 +x_0=30480.0609601219 +y_0=0 +ellps=clrk66 +towgs84=-8,159,175 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2204.
+ */
+export declare const EPSG_32036: string;
 /**
  * EPSG:32037, NAD27 / Texas North. United States (USA) - Texas - counties of: Armstrong; Briscoe; Carson; Castro; Childress; Collingsworth; Dallam; Deaf Smith; Donley; Gray; Hall; Hansford; Hartley; Hemphill; Hutchinson; Lipscomb; Moore; Ochiltree; Oldham; Parmer; Potter; Randall; Roberts; Sherman; Swisher; Wheeler. Up to 3.59 m from PROJ.
  *
@@ -36403,6 +39723,22 @@ export declare const EPSG_32057: string;
  */
 export declare const EPSG_32058: string;
 /**
+ * EPSG:32061, NAD27 / Guatemala Norte. Guatemala - north of 15°51'30"N. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=16.8166666666667 +lat_0=16.8166666666667 +lon_0=-90.3333333333333 +k_0=0.99992226 +x_0=500000 +y_0=292209.579 +ellps=clrk66 +towgs84=0,125,194 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5458.
+ */
+export declare const EPSG_32061: string;
+/**
+ * EPSG:32062, NAD27 / Guatemala Sur. Guatemala - south of 15°51'30"N. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=14.9 +lat_0=14.9 +lon_0=-90.3333333333333 +k_0=0.99989906 +x_0=500000 +y_0=325992.681 +ellps=clrk66 +towgs84=0,125,194 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5459.
+ */
+export declare const EPSG_32062: string;
+/**
  * EPSG:32064, NAD27 / BLM 14N (ftUS). United States (USA) - between 102°W and 96°W. Iowa; Kansas; Minnesota; Nebraska; North Dakota; Oklahoma; South Dakota; Texas; Gulf of Mexico west of approximately 96°W - leasing areas Matagorda Island, Mustang Island, North Padre Island and South Padre Island; outer continental shelf (GoM OCS) protraction areas Corpus Christi, Port Isabel. Up to 8.05 m from PROJ.
  *
  * `+proj=tmerc +lat_0=0 +lon_0=-99 +k=0.9996 +x_0=500000.001016002 +y_0=0 +ellps=clrk66 +towgs84=-8,160,176 +units=us-ft +no_defs`
@@ -36426,6 +39762,39 @@ export declare const EPSG_32066: string;
  * `+proj=tmerc +lat_0=0 +lon_0=-81 +k=0.9996 +x_0=500000.001016002 +y_0=0 +ellps=clrk66 +towgs84=-8,160,176 +units=us-ft +no_defs`
  */
 export declare const EPSG_32067: string;
+/**
+ * EPSG:32074, NAD27 / BLM 14N (feet). United States (USA) - Gulf of Mexico west of approximately 96°W - leasing areas Matagorda Island, Mustang Island, North Padre Island and South Padre Island; outer continental shelf (GoM OCS) protraction areas Corpus Christi, Port Isabel. Up to 3.04 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-99 +k=0.9996 +x_0=500000.001016002 +y_0=0 +ellps=clrk66 +towgs84=-7,151,178 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:32064.
+ */
+export declare const EPSG_32074: string;
+/**
+ * EPSG:32075, NAD27 / BLM 15N (feet). United States (USA) - Gulf of Mexico outer continental shelf (GoM OCS) between approximately 96°W and 90°W - leasing areas Brazos, Galveston, High Island; Sabine Pass; West Cameron, East Cameron, Vermilion, South Marsh Island, Eugene Island, Ship Shoal, South Pelto, Bay Marchand, South Timbalier, Grand Isle; protraction areas East Breaks, Alaminos Canyon, Garden Banks, Keathley Canyon, Sigsbee Escarpment, Ewing Bank, Green Canyon, Walker Ridge, Amery Terrace.
+ Up to 9.18 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-93 +k=0.9996 +x_0=500000.001016002 +y_0=0 +ellps=clrk66 +towgs84=-7,151,175 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:32065.
+ */
+export declare const EPSG_32075: string;
+/**
+ * EPSG:32076, NAD27 / BLM 16N (feet). United States (USA) - Gulf of Mexico outer continental shelf (GoM OCS) between approximately 90°W and 84°W - leasing areas Grand Isle, West Delta, South Pass, Breton Sound, Main Pass,  Chandeleur; protraction areas Mobile, Viosca Knoll, Mississippi Canyon, Atwater Valley, Lund, Lund South, Pensacola, Destin Dome, De Soto Canyon, Lloyd Ridge, Henderson, Florida Plain, Campeche Escarpment, Apalachicola, Florida Middle Ground, The Elbow, Vernon Basin, Howell Hook, Rankin. Up to 14.1 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-87 +k=0.9996 +x_0=500000.001016002 +y_0=0 +ellps=clrk66 +towgs84=-4.2,135.4,181.9 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:32066.
+ */
+export declare const EPSG_32076: string;
+/**
+ * EPSG:32077, NAD27 / BLM 17N (feet). United States (USA) - Gulf of Mexico outer continental shelf (GoM OCS) east of approximately 84°W - protraction areas Gainesville; Tarpon Springs; St Petersburg; Charlotte Harbor; Pulley Ridge; Dry Tortugas; Tortugas Valley; Miami; Key West. Up to 4.35 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-81 +k=0.9996 +x_0=500000.001016002 +y_0=0 +ellps=clrk66 +towgs84=-3,154,177 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:32067.
+ */
+export declare const EPSG_32077: string;
 /**
  * EPSG:32081, NAD27 / MTM zone 1. Canada - Newfoundland - onshore east of 54°30'W. Up to 7.89 m from PROJ.
  *
@@ -36822,6 +40191,14 @@ export declare const EPSG_32166: string;
  * `+proj=tmerc +lat_0=0 +lon_0=-81 +k=0.9996 +x_0=500000.001016002 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
  */
 export declare const EPSG_32167: string;
+/**
+ * EPSG:32180, NAD83 / SCoPQ zone 2. Canada - Quebec - east of 57°W. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-55.5 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_32180: string;
 /**
  * EPSG:32181, NAD83 / MTM zone 1. Canada - Newfoundland - onshore east of 54°30'W. Within 1 cm of PROJ.
  *
@@ -38749,6 +42126,22 @@ export declare const EPSG_32660: string;
  */
 export declare const EPSG_32661: string;
 /**
+ * EPSG:32662, WGS 84 / Plate Carree. World. Within 1 cm of PROJ.
+ *
+ * `+proj=eqc +lat_ts=0 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:32663 or EPSG:3786.
+ */
+export declare const EPSG_32662: string;
+/**
+ * EPSG:32663, WGS 84 / World Equidistant Cylindrical. World. Within 1 cm of PROJ.
+ *
+ * `+proj=eqc +lat_ts=0 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4087.
+ */
+export declare const EPSG_32663: string;
+/**
  * EPSG:32664, WGS 84 / BLM 14N (ftUS). United States (USA) - Gulf of Mexico west of approximately 96°W - leasing areas Matagorda Island, Mustang Island, North Padre Island and South Padre Island; outer continental shelf (GoM OCS) protraction areas Corpus Christi, Port Isabel. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=0 +lon_0=-99 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=WGS84 +units=us-ft +no_defs`
@@ -39152,6 +42545,150 @@ export declare const EPSG_32761: string;
  */
 export declare const EPSG_32766: string;
 /**
+ * EPSG:900913, Google Maps Global Mercator. World between 85.06°S and 85.06°N. Within 1 cm of PROJ.
+ *
+ * `+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const EPSG_900913: string;
+/**
+ * ESRI:2181, ED_1950_Turkey_9. Türkiye (Turkey) - west of 28°30'E, onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=27 +k=0.9996 +x_0=9500000 +y_0=0 +ellps=intl +towgs84=-84.1,-101.8,-129.7,0,0,0.468,1.05 +units=m +no_defs`
+ *
+ * @deprecated Use ESRI:102550.
+ */
+export declare const ESRI_2181: string;
+/**
+ * ESRI:2182, ED_1950_Turkey_10. Türkiye (Turkey) - between 28°30'E and 31°30'E, onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=30 +k=0.9996 +x_0=10500000 +y_0=0 +ellps=intl +towgs84=-84.1,-101.8,-129.7,0,0,0.468,1.05 +units=m +no_defs`
+ *
+ * @deprecated Use ESRI:102551.
+ */
+export declare const ESRI_2182: string;
+/**
+ * ESRI:2183, ED_1950_Turkey_11. Türkiye (Turkey) - between 31°30'E and 34°30'E, onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=33 +k=0.9996 +x_0=11500000 +y_0=0 +ellps=intl +towgs84=-84.1,-101.8,-129.7,0,0,0.468,1.05 +units=m +no_defs`
+ *
+ * @deprecated Use ESRI:102552.
+ */
+export declare const ESRI_2183: string;
+/**
+ * ESRI:2184, ED_1950_Turkey_12. Türkiye (Turkey) - between 34°30'E and 37°30'E, onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=36 +k=0.9996 +x_0=12500000 +y_0=0 +ellps=intl +towgs84=-84.1,-101.8,-129.7,0,0,0.468,1.05 +units=m +no_defs`
+ *
+ * @deprecated Use ESRI:102553.
+ */
+export declare const ESRI_2184: string;
+/**
+ * ESRI:2185, ED_1950_Turkey_13. Türkiye (Turkey) - between 37°30'E and 40°30'E, onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=39 +k=0.9996 +x_0=13500000 +y_0=0 +ellps=intl +towgs84=-84.1,-101.8,-129.7,0,0,0.468,1.05 +units=m +no_defs`
+ *
+ * @deprecated Use ESRI:102554.
+ */
+export declare const ESRI_2185: string;
+/**
+ * ESRI:2186, ED_1950_Turkey_14. Türkiye (Turkey) - between 40°30'E and 43°30'E, onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=42 +k=0.9996 +x_0=14500000 +y_0=0 +ellps=intl +towgs84=-84.1,-101.8,-129.7,0,0,0.468,1.05 +units=m +no_defs`
+ *
+ * @deprecated Use ESRI:102555.
+ */
+export declare const ESRI_2186: string;
+/**
+ * ESRI:2187, ED_1950_Turkey_15. Türkiye (Turkey) - east of 43°30'E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=45 +k=0.9996 +x_0=15500000 +y_0=0 +ellps=intl +towgs84=-84.1,-101.8,-129.7,0,0,0.468,1.05 +units=m +no_defs`
+ *
+ * @deprecated Use ESRI:102556.
+ */
+export declare const ESRI_2187: string;
+/**
+ * ESRI:4305, GCS_Voirol_Unifie_1960. Algeria - onshore north of 32°N. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +a=6378249.145 +rf=293.465 +towgs84=-123,-206,219 +no_defs`
+ *
+ * @deprecated Use ESRI:104026.
+ */
+export declare const ESRI_4305: string;
+/**
+ * ESRI:4812, GCS_Voirol_Unifie_1960_Paris. Algeria - onshore north of 32°N. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378249.145 +rf=293.465 +pm=paris +no_defs`
+ *
+ * @deprecated Use ESRI:104025.
+ */
+export declare const ESRI_4812: string;
+/**
+ * ESRI:20062, Pulkovo_1995_GK_Zone_2N. Czech Republic and Germany (former DDR) - west of 12°E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=9 +k=1 +x_0=500000 +y_0=0 +ellps=krass +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_20062: string;
+/**
+ * ESRI:20063, Pulkovo_1995_GK_Zone_3N. Germany (former DDR) - onshore east of 12°E. Poland - onshore west of 18°E. Czechia, Hungary and Slovakia - west of 18°E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=500000 +y_0=0 +ellps=krass +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_20063: string;
+/**
+ * ESRI:24721, La_Canoa_UTM_Zone_21N. Venezuela - east of 60~W, N hemisphere Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=21 +ellps=intl +towgs84=-273.5,110.6,-357.9 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_24721: string;
+/**
+ * ESRI:26761, NAD_1927_StatePlane_Hawaii_1_FIPS_5101. United States (USA) - Hawaii - island of Hawaii - onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=18.8333333333333 +lon_0=-155.5 +k=0.999966666666667 +x_0=152400.30480061 +y_0=0 +ellps=clrk66 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_26761: string;
+/**
+ * ESRI:26762, NAD_1927_StatePlane_Hawaii_2_FIPS_5102. United States (USA) - Hawaii - Maui; Kahoolawe; Lanai; Molokai - onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=20.3333333333333 +lon_0=-156.666666666667 +k=0.999966666666667 +x_0=152400.30480061 +y_0=0 +ellps=clrk66 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_26762: string;
+/**
+ * ESRI:26763, NAD_1927_StatePlane_Hawaii_3_FIPS_5103. United States (USA) - Hawaii - Oahu - onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=21.1666666666667 +lon_0=-158 +k=0.99999 +x_0=152400.30480061 +y_0=0 +ellps=clrk66 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_26763: string;
+/**
+ * ESRI:26764, NAD_1927_StatePlane_Hawaii_4_FIPS_5104. United States (USA) - Hawaii - Kauai - onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=21.8333333333333 +lon_0=-159.5 +k=0.99999 +x_0=152400.30480061 +y_0=0 +ellps=clrk66 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_26764: string;
+/**
+ * ESRI:26765, NAD_1927_StatePlane_Hawaii_5_FIPS_5105. United States (USA) - Hawaii - Niihau - onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=21.6666666666667 +lon_0=-160.166666666667 +k=1 +x_0=152400.30480061 +y_0=0 +ellps=clrk66 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_26765: string;
+/**
  * ESRI:26788, NAD_1927_StatePlane_Michigan_North_FIPS_2111. United States (USA) - Michigan north of approximately 45°45'N - counties of Alger; Baraga; Chippewa; Delta; Dickinson; Gogebic; Houghton; Iron; Keweenaw; Luce; Mackinac; Marquette; Menominee; Ontonagon; Schoolcraft. Up to 8.32 m from PROJ.
  *
  * `+proj=lcc +lat_0=44.7833333333333 +lon_0=-87 +lat_1=45.4833333333333 +lat_2=47.0833333333333 +x_0=609601.219202438 +y_0=0 +ellps=clrk66 +towgs84=-8,160,176 +units=us-ft +no_defs`
@@ -39170,6 +42707,110 @@ export declare const ESRI_26789: string;
  */
 export declare const ESRI_26790: string;
 /**
+ * ESRI:30591, Nord_Algerie. Algeria - onshore north of 38.5 grads North (34°39'N). Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=36 +lat_0=36 +lon_0=2.7 +k_0=0.999625544 +x_0=500135 +y_0=300090 +a=6378249.145 +rf=293.465 +towgs84=-123,-206,219 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_30591: string;
+/**
+ * ESRI:30592, Sud_Algerie. Algeria - 35 grads to 38.5 grads North (31°30'N to 34°39'N). Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=33.3 +lat_0=33.3 +lon_0=2.7 +k_0=0.999625769 +x_0=500135 +y_0=300090 +a=6378249.145 +rf=293.465 +towgs84=-123,-206,219 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_30592: string;
+/**
+ * ESRI:31491, Germany_Zone_1. Germany - offshore North Sea west of 4°30'E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=3 +k=1 +x_0=1500000 +y_0=0 +ellps=bessel +units=m +no_defs`
+ *
+ * @deprecated Use ESRI:103972.
+ */
+export declare const ESRI_31491: string;
+/**
+ * ESRI:31492, Germany_Zone_2. Germany - former West Germany onshore west of 7°30'E - states of Niedersachsen, Nordrhein-Westfalen, Rheinland-Pfalz, Saarland. Up to 2.22 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=6 +k=1 +x_0=2500000 +y_0=0 +ellps=bessel +towgs84=598.1,73.7,418.2,0.202,0.045,-2.455,6.7 +units=m +no_defs`
+ *
+ * @deprecated Use ESRI:103973.
+ */
+export declare const ESRI_31492: string;
+/**
+ * ESRI:31493, Germany_Zone_3. Germany - former West Germany onshore between 7°30'E and 10°30'E - states of Baden-Wurtemberg, Bayern, Bremen, Hamberg, Hessen, Niedersachsen, Nordrhein-Westfalen, Rhineland-Pfalz, Schleswig-Holstein. Up to 2.37 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=9 +k=1 +x_0=3500000 +y_0=0 +ellps=bessel +towgs84=598.1,73.7,418.2,0.202,0.045,-2.455,6.7 +units=m +no_defs`
+ *
+ * @deprecated Use ESRI:103974.
+ */
+export declare const ESRI_31493: string;
+/**
+ * ESRI:31494, Germany_Zone_4. Germany - former West Germany onshore between 10°30'E and 13°30'E - states of Bayern, Berlin, Niedersachsen, Schleswig-Holstein. Up to 1.43 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=12 +k=1 +x_0=4500000 +y_0=0 +ellps=bessel +towgs84=598.1,73.7,418.2,0.202,0.045,-2.455,6.7 +units=m +no_defs`
+ *
+ * @deprecated Use ESRI:103975.
+ */
+export declare const ESRI_31494: string;
+/**
+ * ESRI:31495, Germany_Zone_5. Germany - former West Germany onshore east of 13°30'E - state of Bayern. Up to 1.39 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=5500000 +y_0=0 +ellps=bessel +towgs84=598.1,73.7,418.2,0.202,0.045,-2.455,6.7 +units=m +no_defs`
+ *
+ * @deprecated Use ESRI:103976.
+ */
+export declare const ESRI_31495: string;
+/**
+ * ESRI:31917, SIRGAS_UTM_Zone_17N. South America between 84°W and 78°W, northern hemisphere, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=17 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:31986.
+ */
+export declare const ESRI_31917: string;
+/**
+ * ESRI:31918, SIRGAS_UTM_Zone_18N. South America between 78°W and 72°W, northern hemisphere, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=18 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:31987.
+ */
+export declare const ESRI_31918: string;
+/**
+ * ESRI:31919, SIRGAS_UTM_Zone_19N. South America between 72°W and 66°W, northern hemisphere, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=19 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:31988.
+ */
+export declare const ESRI_31919: string;
+/**
+ * ESRI:31920, SIRGAS_UTM_Zone_20N. South America between 66°W and 60°W, northern hemisphere, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=20 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:31989.
+ */
+export declare const ESRI_31920: string;
+/**
+ * ESRI:31921, SIRGAS_UTM_Zone_21N. South America between 60°W and 54°W, northern hemisphere, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=21 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:31990.
+ */
+export declare const ESRI_31921: string;
+/**
+ * ESRI:31922, SIRGAS_UTM_Zone_22N. South America between 54°W and 48°W, northern hemisphere, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=22 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:31991.
+ */
+export declare const ESRI_31922: string;
+/**
  * ESRI:32059, NAD_1927_StatePlane_Puerto_Rico_FIPS_5201. Puerto Rico - onshore and offshore. Within 1 cm of PROJ.
  *
  * `+proj=lcc +lat_0=17.8333333333333 +lon_0=-66.4333333333333 +lat_1=18.0333333333333 +lat_2=18.4333333333333 +x_0=152400.30480061 +y_0=0 +ellps=clrk66 +towgs84=-3,142,183 +units=us-ft +no_defs`
@@ -39187,6 +42828,14 @@ export declare const ESRI_32060: string;
  * `+proj=longlat +ellps=intl +towgs84=17.364,309.441,-464.91,-19.801873,59.20496,-2.284568,16.1821067141 +no_defs`
  */
 export declare const ESRI_37000: string;
+/**
+ * ESRI:37001, GCS_WGS_1966. World. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=NWL9D +no_defs`
+ *
+ * @deprecated Use EPSG:4760.
+ */
+export declare const ESRI_37001: string;
 /**
  * ESRI:37002, GCS_Fischer_1960. World. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
@@ -39230,6 +42879,14 @@ export declare const ESRI_37007: string;
  */
 export declare const ESRI_37008: string;
 /**
+ * ESRI:37201, GCS_European_1979. Europe - west. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4668.
+ */
+export declare const ESRI_37201: string;
+/**
  * ESRI:37202, GCS_Everest_Bangladesh. Bangladesh - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
  * `+proj=longlat +ellps=evrst30 +no_defs`
@@ -39241,6 +42898,22 @@ export declare const ESRI_37202: string;
  * `+proj=longlat +a=6377301.243 +rf=300.8017255 +no_defs`
  */
 export declare const ESRI_37203: string;
+/**
+ * ESRI:37204, GCS_Hjorsey_1955. Iceland - mainland. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4658.
+ */
+export declare const ESRI_37204: string;
+/**
+ * ESRI:37205, GCS_Hong_Kong_1963_67. Hong Kong - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4739.
+ */
+export declare const ESRI_37205: string;
 /**
  * ESRI:37206, GCS_Oman. Oman - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
@@ -39254,11 +42927,91 @@ export declare const ESRI_37206: string;
  */
 export declare const ESRI_37207: string;
 /**
+ * ESRI:37208, GCS_Ayabelle. Djibouti - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378249.145 +rf=293.465 +no_defs`
+ *
+ * @deprecated Use EPSG:4713.
+ */
+export declare const ESRI_37208: string;
+/**
+ * ESRI:37211, GCS_Point_58. Senegal - central, Mali - southwest, Burkina Faso - central, Niger - southwest, Nigeria - north, Chad - central. All in proximity to the parallel of latitude of 12°N. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378249.145 +rf=293.465 +no_defs`
+ *
+ * @deprecated Use EPSG:4620.
+ */
+export declare const ESRI_37211: string;
+/**
+ * ESRI:37212, GCS_Beacon_E_1945. Japan - Iwo Jima island. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4709.
+ */
+export declare const ESRI_37212: string;
+/**
+ * ESRI:37213, GCS_Tern_Island_1961. United States (USA) - Hawaii - Tern Island and Sorel Atoll. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4707.
+ */
+export declare const ESRI_37213: string;
+/**
+ * ESRI:37214, GCS_Astro_1952. Japan - onshore - Tokyo-to south of 28°N and east of 143°E - Minamitori-shima (Marcus Island). Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4711.
+ */
+export declare const ESRI_37214: string;
+/**
+ * ESRI:37215, GCS_Bellevue_IGN. Vanuatu - southern islands - Aneityum, Efate, Erromango and Tanna. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4714.
+ */
+export declare const ESRI_37215: string;
+/**
+ * ESRI:37216, GCS_Canton_1966. Kiribati - Phoenix Islands: Kanton, Orona, McKean Atoll, Birnie Atoll, Phoenix Seamounts. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4716.
+ */
+export declare const ESRI_37216: string;
+/**
+ * ESRI:37217, GCS_Chatham_Island_1971. New Zealand - Chatham Islands group - onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4672.
+ */
+export declare const ESRI_37217: string;
+/**
  * ESRI:37218, GCS_DOS_1968. Solomon Islands - Western Islands - New Georgia, Ghizo (Gizo). Within 1 cm of PROJ.
  *
  * `+proj=longlat +ellps=intl +towgs84=230,-199,-752 +no_defs`
  */
 export declare const ESRI_37218: string;
+/**
+ * ESRI:37219, GCS_Easter_Island_1967. Chile - Easter Island onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4719.
+ */
+export declare const ESRI_37219: string;
+/**
+ * ESRI:37220, GCS_Guam_1963. Guam, Northern Mariana Islands and Palau; onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=clrk66 +no_defs`
+ *
+ * @deprecated Use EPSG:4675.
+ */
+export declare const ESRI_37220: string;
 /**
  * ESRI:37221, GCS_GUX_1. Solomon Islands - Guadalcanal Island. Within 1 cm of PROJ.
  *
@@ -39266,11 +43019,139 @@ export declare const ESRI_37218: string;
  */
 export declare const ESRI_37221: string;
 /**
+ * ESRI:37222, GCS_Johnston_Island_1961. United States Minor Outlying Islands - Johnston Atoll. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4725.
+ */
+export declare const ESRI_37222: string;
+/**
+ * ESRI:37223, GCS_Carthage. Tunisia - onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=clrk80ign +towgs84=-263,6,431 +no_defs`
+ *
+ * @deprecated Use EPSG:4223.
+ */
+export declare const ESRI_37223: string;
+/**
+ * ESRI:37224, GCS_Midway_1961. United States Minor Outlying Islands - Midway Islands - Sand Island and Eastern Island. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4727.
+ */
+export declare const ESRI_37224: string;
+/**
  * ESRI:37225, GCS_Carthage_Grad. Tunisia - onshore and offshore. Within 1 cm of PROJ.
  *
  * `+proj=longlat +ellps=clrk80ign +towgs84=-263,6,431 +no_defs`
  */
 export declare const ESRI_37225: string;
+/**
+ * ESRI:37226, GCS_Pitcairn_1967. Pitcairn - Pitcairn Island. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4729.
+ */
+export declare const ESRI_37226: string;
+/**
+ * ESRI:37227, GCS_Santo_DOS_1965. Vanuatu - northern islands - Aese, Ambrym, Aoba, Epi, Espiritu Santo, Maewo, Malo, Malkula, Paama, Pentecost, Shepherd and Tutuba. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4730.
+ */
+export declare const ESRI_37227: string;
+/**
+ * ESRI:37228, GCS_Viti_Levu_1916. Fiji - Viti Levu island. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378249.145 +rf=293.465 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_37228: string;
+/**
+ * ESRI:37229, GCS_Wake_Eniwetok_1960. Marshall Islands - onshore. Wake atoll onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=hough +no_defs`
+ *
+ * @deprecated Use EPSG:4732.
+ */
+export declare const ESRI_37229: string;
+/**
+ * ESRI:37230, GCS_Wake_Island_1952. Wake atoll - onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4733.
+ */
+export declare const ESRI_37230: string;
+/**
+ * ESRI:37231, GCS_Anna_1_1965. Cocos (Keeling) Islands - onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=aust_SA +no_defs`
+ *
+ * @deprecated Use EPSG:4708.
+ */
+export declare const ESRI_37231: string;
+/**
+ * ESRI:37232, GCS_Gan_1970. Maldives - onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4684.
+ */
+export declare const ESRI_37232: string;
+/**
+ * ESRI:37233, GCS_ISTS_073_1969. British Indian Ocean Territory - Chagos Archipelago - Diego Garcia. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4724.
+ */
+export declare const ESRI_37233: string;
+/**
+ * ESRI:37234, GCS_Kerguelen_Island_1949. French Southern Territories - Kerguelen onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4698.
+ */
+export declare const ESRI_37234: string;
+/**
+ * ESRI:37235, GCS_Reunion_1947. Reunion - onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4626.
+ */
+export declare const ESRI_37235: string;
+/**
+ * ESRI:37237, GCS_Ascension_Island_1958. St Helena, Ascension and Tristan da Cunha - Ascension Island - onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4712.
+ */
+export declare const ESRI_37237: string;
+/**
+ * ESRI:37238, GCS_DOS_71_4. St Helena, Ascension and Tristan da Cunha - St Helena Island - onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4710.
+ */
+export declare const ESRI_37238: string;
+/**
+ * ESRI:37239, GCS_Cape_Canaveral. North America - onshore - Bahamas and USA - Florida (east). Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=clrk66 +no_defs`
+ *
+ * @deprecated Use EPSG:4717.
+ */
+export declare const ESRI_37239: string;
 /**
  * ESRI:37240, GCS_Fort_Thomas_1955. St Kitts and Nevis - onshore and offshore. Within 1 cm of PROJ.
  *
@@ -39284,6 +43165,14 @@ export declare const ESRI_37240: string;
  */
 export declare const ESRI_37241: string;
 /**
+ * ESRI:37242, GCS_ISTS_061_1968. South Georgia and the South Sandwich Islands - South Georgia onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4722.
+ */
+export declare const ESRI_37242: string;
+/**
  * ESRI:37243, GCS_LC5_1961. Cayman Islands - Little Cayman and Cayman Brac. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
  * `+proj=longlat +ellps=clrk66 +no_defs`
@@ -39296,17 +43185,89 @@ export declare const ESRI_37243: string;
  */
 export declare const ESRI_37245: string;
 /**
+ * ESRI:37246, GCS_Pico_de_Las_Nieves. Spain - Canary Islands onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4728.
+ */
+export declare const ESRI_37246: string;
+/**
+ * ESRI:37247, GCS_Porto_Santo_1936. Portugal - Madeira, Porto Santo and Desertas islands - onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4615.
+ */
+export declare const ESRI_37247: string;
+/**
  * ESRI:37249, GCS_Sao_Braz. Portugal - eastern Azores onshore - Sao Miguel, Santa Maria, Formigas. Up to 0.0115 m from PROJ.
  *
  * `+proj=longlat +ellps=intl +towgs84=-269.089,186.247,155.667,2.005,3.606,-0.366,0.097 +no_defs`
  */
 export declare const ESRI_37249: string;
 /**
+ * ESRI:37250, GCS_Selvagem_Grande_1938. Portugal - Selvagens islands (Madeira province) - onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4616.
+ */
+export declare const ESRI_37250: string;
+/**
+ * ESRI:37251, GCS_Tristan_1968. St Helena, Ascension and Tristan da Cunha - Tristan da Cunha island group including Tristan, Inaccessible, Nightingale, Middle and Stoltenhoff Islands. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4734.
+ */
+export declare const ESRI_37251: string;
+/**
+ * ESRI:37252, GCS_American_Samoa_1962. American Samoa - Tutuila, Aunu'u, Ofu, Olesega and Ta'u islands. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=clrk66 +no_defs`
+ *
+ * @deprecated Use EPSG:4169.
+ */
+export declare const ESRI_37252: string;
+/**
+ * ESRI:37253, GCS_Camp_Area. Antarctica - McMurdo Sound, Camp McMurdo area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4715.
+ */
+export declare const ESRI_37253: string;
+/**
+ * ESRI:37254, GCS_Deception_Island. Antarctica - South Shetland Islands - Deception Island. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378249.145 +rf=293.465 +no_defs`
+ *
+ * @deprecated Use EPSG:4736.
+ */
+export declare const ESRI_37254: string;
+/**
+ * ESRI:37255, GCS_Gunung_Segara. Indonesia - Kalimantan - onshore east coastal area including Mahakam delta coastal and offshore shelf areas. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=bessel +no_defs`
+ *
+ * @deprecated Use EPSG:4613.
+ */
+export declare const ESRI_37255: string;
+/**
  * ESRI:37257, GCS_S42_Hungary. Hungary. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
  * `+proj=longlat +ellps=krass +no_defs`
  */
 export declare const ESRI_37257: string;
+/**
+ * ESRI:37259, GCS_Kusaie_1951. Federated States of Micronesia - Kosrae (Kusaie). Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4735.
+ */
+export declare const ESRI_37259: string;
 /**
  * ESRI:37260, GCS_Alaskan_Islands. United States (USA) - Alaska. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
@@ -39740,6 +43701,30 @@ export declare const ESRI_54032: string;
  */
 export declare const ESRI_54034: string;
 /**
+ * ESRI:54035, WGS_1984_Equal_Earth_Greenwich. World. Within 1 cm of PROJ.
+ *
+ * `+proj=eqearth +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8857.
+ */
+export declare const ESRI_54035: string;
+/**
+ * ESRI:54036, WGS_1984_Equal_Earth_Americas. World. Within 1 cm of PROJ.
+ *
+ * `+proj=eqearth +lon_0=-90 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8858.
+ */
+export declare const ESRI_54036: string;
+/**
+ * ESRI:54037, WGS_1984_Equal_Earth_Asia_Pacific. World. Within 1 cm of PROJ.
+ *
+ * `+proj=eqearth +lon_0=150 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8859.
+ */
+export declare const ESRI_54037: string;
+/**
  * ESRI:54042, World_Winkel_Tripel_NGS. World. Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
  *
  * `+proj=wintri +lon_0=0 +lat_1=50.467 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs`
@@ -39896,6 +43881,14 @@ export declare const ESRI_65062: string;
  */
 export declare const ESRI_65161: string;
 /**
+ * ESRI:65163, NAD_1983_StatePlane_Kentucky_FIPS_1600. United States (USA) - Kentucky. Up to 0.344 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=37.0833333333333 +lat_2=38.6666666666667 +x_0=1500000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3088.
+ */
+export declare const ESRI_65163: string;
+/**
  * ESRI:102001, Canada_Albers_Equal_Area_Conic. Canada - onshore and offshore - Alberta; British Columbia; Manitoba; New Brunswick; Newfoundland and Labrador; Northwest Territories; Nova Scotia; Nunavut; Ontario; Prince Edward Island; Quebec; Saskatchewan; Yukon. Up to 0.771 m from PROJ.
  *
  * `+proj=aea +lat_0=40 +lon_0=-96 +lat_1=50 +lat_2=70 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
@@ -39925,6 +43918,14 @@ export declare const ESRI_102004: string;
  * `+proj=eqdc +lat_0=39 +lon_0=-96 +lat_1=33 +lat_2=45 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
  */
 export declare const ESRI_102005: string;
+/**
+ * ESRI:102006, NAD_1983_Alaska_Albers. United States (USA) - Alaska. Up to 0.798 m from PROJ.
+ *
+ * `+proj=aea +lat_0=50 +lon_0=-154 +lat_1=55 +lat_2=65 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3338.
+ */
+export declare const ESRI_102006: string;
 /**
  * ESRI:102007, Hawaii_Albers_Equal_Area_Conic. United States (USA) - Hawaii - main islands onshore. Up to 2.89 m from PROJ.
  *
@@ -40154,6 +44155,118 @@ export declare const ESRI_102044: string;
  */
 export declare const ESRI_102045: string;
 /**
+ * ESRI:102046, NAD_1983_2011_UTM_Zone_59N. United States (USA) - west of 174°E. Alaska and offshore continental shelf (OCS). Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=59 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6328.
+ */
+export declare const ESRI_102046: string;
+/**
+ * ESRI:102047, NAD_1983_2011_UTM_Zone_60N. United States (USA) - between 174°E and 180°E - Alaska and offshore continental shelf (OCS). Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=60 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6329.
+ */
+export declare const ESRI_102047: string;
+/**
+ * ESRI:102048, NAD_1983_2011_UTM_Zone_1N. United States (USA) - between 180°W and 174°W - Alaska and offshore continental shelf (OCS). Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=1 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6330.
+ */
+export declare const ESRI_102048: string;
+/**
+ * ESRI:102049, NAD_1983_2011_UTM_Zone_2N. United States (USA) - between 174°W and 168°W - Alaska and offshore continental shelf (OCS). Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=2 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6331.
+ */
+export declare const ESRI_102049: string;
+/**
+ * ESRI:102050, NAD_1983_2011_UTM_Zone_3N. United States (USA) - between 168°W and 162°W - Alaska and offshore continental shelf (OCS). Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=3 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6332.
+ */
+export declare const ESRI_102050: string;
+/**
+ * ESRI:102051, NAD_1983_2011_UTM_Zone_4N. United States (USA) - between 162°W and 156°W - Alaska and offshore continental shelf (OCS). Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=4 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6333.
+ */
+export declare const ESRI_102051: string;
+/**
+ * ESRI:102052, NAD_1983_2011_UTM_Zone_5N. United States (USA) - between 156°W and 150°W - Alaska and offshore continental shelf (OCS). Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=5 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6334.
+ */
+export declare const ESRI_102052: string;
+/**
+ * ESRI:102053, NAD_1983_2011_UTM_Zone_6N. United States (USA) - between 150°W and 144°W - Alaska and offshore continental shelf (OCS). Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=6 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6335.
+ */
+export declare const ESRI_102053: string;
+/**
+ * ESRI:102054, NAD_1983_2011_UTM_Zone_7N. United States (USA) - between 144°W and 138°W onshore and offshore - Alaska. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=7 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6336.
+ */
+export declare const ESRI_102054: string;
+/**
+ * ESRI:102055, NAD_1983_2011_UTM_Zone_8N. United States (USA) - between 138°W and 132°W onshore and offshore - Alaska. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=8 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6337.
+ */
+export declare const ESRI_102055: string;
+/**
+ * ESRI:102056, NAD_1983_2011_UTM_Zone_9N. United States (USA) - between 132°W and 126°W onshore and offshore - Alaska. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=9 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6338.
+ */
+export declare const ESRI_102056: string;
+/**
+ * ESRI:102057, NAD_1983_2011_UTM_Zone_10N. United States (USA) - between 126°W and 120°W onshore and offshore - California; Oregon; Washington. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=10 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6339.
+ */
+export declare const ESRI_102057: string;
+/**
+ * ESRI:102058, NAD_1983_2011_UTM_Zone_11N. United States (USA) - between 120°W and 114°W onshore and offshore - California, Idaho, Nevada, Oregon, Washington. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=11 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6340.
+ */
+export declare const ESRI_102058: string;
+/**
+ * ESRI:102059, NAD_1983_2011_UTM_Zone_12N. United States (USA) - between 114°W and 108°W - Arizona; Colorado; Idaho; Montana; New Mexico; Utah; Wyoming. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=12 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6341.
+ */
+export declare const ESRI_102059: string;
+/**
  * ESRI:102060, D48_Slovenia_TM. Slovenia - onshore and offshore. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9999 +x_0=500000 +y_0=-5000000 +ellps=bessel +towgs84=426.62,142.62,460.09,4.98,4.49,-12.42,-17.1 +units=m +no_defs`
@@ -40183,6 +44296,30 @@ export declare const ESRI_102063: string;
  * `+proj=tmerc +lat_0=7.00048027777778 +lon_0=80.7717111111111 +k=1 +x_0=160933.56048 +y_0=160933.56048 +ellps=evrst30 +towgs84=-97,787,86 +units=ind-yd +no_defs`
  */
 export declare const ESRI_102064: string;
+/**
+ * ESRI:102065, S-JTSK_Krovak. Czechia; Slovakia. Up to 12.9 m from PROJ.
+ *
+ * `+proj=krovak +axis=swu +lat_0=49.5 +lon_0=24.8333333333333 +alpha=30.2881397527778 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=572.213,85.334,461.94,4.9732,1.529,5.2484,3.5378 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5513.
+ */
+export declare const ESRI_102065: string;
+/**
+ * ESRI:102066, S-JTSK_Ferro_Krovak_East_North. Czechia; Slovakia. Up to 164 m from PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=krovak +lat_0=49.5 +lon_0=42.5 +alpha=30.2881397527778 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +pm=ferro +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5221.
+ */
+export declare const ESRI_102066: string;
+/**
+ * ESRI:102067, S-JTSK_Krovak_East_North. Czechia; Slovakia. Up to 12.9 m from PROJ.
+ *
+ * `+proj=krovak +lat_0=49.5 +lon_0=24.8333333333333 +alpha=30.2881397527778 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=572.213,85.334,461.94,4.9732,1.529,5.2484,3.5378 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5514.
+ */
+export declare const ESRI_102067: string;
 /**
  * ESRI:102068, EMEP_50_Kilometer_Grid. Europe Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
@@ -40256,6 +44393,70 @@ export declare const ESRI_102078: string;
  */
 export declare const ESRI_102079: string;
 /**
+ * ESRI:102080, KGD2002_Unified_Coordinate_System. Republic of Korea (South Korea) - onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=38 +lon_0=127.5 +k=0.9996 +x_0=1000000 +y_0=2000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5179.
+ */
+export declare const ESRI_102080: string;
+/**
+ * ESRI:102081, KGD2002_West_Belt_2010. Republic of Korea (South Korea) - onshore between 124°E and 126°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=38 +lon_0=125 +k=1 +x_0=200000 +y_0=600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5185.
+ */
+export declare const ESRI_102081: string;
+/**
+ * ESRI:102082, KGD2002_Central_Belt_2010. Republic of Korea (South Korea) - onshore between 126°E and 128°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=38 +lon_0=127 +k=1 +x_0=200000 +y_0=600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5186.
+ */
+export declare const ESRI_102082: string;
+/**
+ * ESRI:102083, KGD2002_East_Belt_2010. Republic of Korea (South Korea) - onshore between 128°E and 130°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=38 +lon_0=129 +k=1 +x_0=200000 +y_0=600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5187.
+ */
+export declare const ESRI_102083: string;
+/**
+ * ESRI:102084, KGD2002_East_Sea_Belt_2010. Republic of Korea (South Korea) - onshore between 130°E and 132°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=38 +lon_0=131 +k=1 +x_0=200000 +y_0=600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5188.
+ */
+export declare const ESRI_102084: string;
+/**
+ * ESRI:102090, Bermuda_2000_National_Grid. Bermuda - onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=32 +lon_0=-64.75 +k=1 +x_0=550000 +y_0=100000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3770.
+ */
+export declare const ESRI_102090: string;
+/**
+ * ESRI:102091, Monte_Mario_Italy_1. Italy - onshore and offshore - west of 12°E. Up to 10.7 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=9 +k=0.9996 +x_0=1500000 +y_0=0 +ellps=intl +towgs84=-104.1,-49.1,-9.9,0.971,-2.917,0.714,-11.68 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3003.
+ */
+export declare const ESRI_102091: string;
+/**
+ * ESRI:102092, Monte_Mario_Italy_2. Italy - onshore and offshore - east of 12°E including San Marino and Vatican City State. Up to 9.84 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9996 +x_0=2520000 +y_0=0 +ellps=intl +towgs84=-104.1,-49.1,-9.9,0.971,-2.917,0.714,-11.68 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3004.
+ */
+export declare const ESRI_102092: string;
+/**
  * ESRI:102093, Roma_1940_Gauss_Boaga_Est. Italy - onshore and offshore - east of 12°E including San Marino and Vatican City State. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
  * `+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9996 +x_0=2520000 +y_0=0 +ellps=intl +units=m +no_defs`
@@ -40268,11 +44469,51 @@ export declare const ESRI_102093: string;
  */
 export declare const ESRI_102094: string;
 /**
+ * ESRI:102095, JAD_2001_Jamaica_Grid. Jamaica - onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=18 +lat_0=18 +lon_0=-77 +k_0=1 +x_0=750000 +y_0=650000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3448.
+ */
+export declare const ESRI_102095: string;
+/**
  * ESRI:102096, Bab_South_Palau_Azimuthal_Equidistant. Palau - onshore and offshore. Within 1 cm of PROJ.
  *
  * `+proj=aeqd +lat_0=7.35122211111111 +lon_0=134.450444861111 +x_0=50000 +y_0=150000 +ellps=clrk66 +towgs84=-185.583,-230.096,281.361 +units=m +no_defs`
  */
 export declare const ESRI_102096: string;
+/**
+ * ESRI:102097, ETRS_1989_UTM_Zone_26N. Europe - between 30°W and 24°W. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=26 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102097: string;
+/**
+ * ESRI:102098, ETRS_1989_UTM_Zone_27N. Europe - between 24°W and 18°W. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=27 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102098: string;
+/**
+ * ESRI:102099, ETRS_1989_UTM_Zone_39N. Europe - between 48°E and 54°E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=39 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102099: string;
+/**
+ * ESRI:102100, WGS_1984_Web_Mercator_Auxiliary_Sphere. World between 85.06°S and 85.06°N. Within 1 cm of PROJ.
+ *
+ * `+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs`
+ *
+ * @deprecated Use EPSG:3857.
+ */
+export declare const ESRI_102100: string;
 /**
  * ESRI:102101, NGO_1948_Norway_Zone_1. Norway - west of 3°30'W of Oslo (7°13'22.5"E of Greenwich). Within 1 cm of PROJ.
  *
@@ -40328,6 +44569,38 @@ export declare const ESRI_102108: string;
  */
 export declare const ESRI_102109: string;
 /**
+ * ESRI:102110, RGF_1993_Lambert_93. France - onshore and offshore, mainland and Corsica (France métropolitaine including Corsica). Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=46.5 +lon_0=3 +lat_1=44 +lat_2=49 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2154.
+ */
+export declare const ESRI_102110: string;
+/**
+ * ESRI:102111, Chatham_Islands_1979_Map_Grid. New Zealand - Chatham Islands group - onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=-44 +lon_0=-176.5 +k=1 +x_0=350000 +y_0=650000 +ellps=intl +towgs84=174.05,-25.49,112.57,0,0,0.554,0.2263 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5519.
+ */
+export declare const ESRI_102111: string;
+/**
+ * ESRI:102112, NZGD_2000_Chatham_Island_Circuit. New Zealand - Chatham Islands group - onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=-44 +lon_0=-176.5 +k=1 +x_0=400000 +y_0=800000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3764.
+ */
+export declare const ESRI_102112: string;
+/**
+ * ESRI:102113, WGS_1984_Web_Mercator. World between 85.06°S and 85.06°N. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=merc +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +R=6378137 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102113: string;
+/**
  * ESRI:102114, Old_Hawaiian_UTM_Zone_4N. United States (USA) - between 162°W and 156°W onshore - Hawaii. Up to 88.4 m from PROJ.
  *
  * `+proj=utm +zone=4 +ellps=clrk66 +towgs84=65,-290,-190 +units=m +no_defs`
@@ -40358,6 +44631,14 @@ export declare const ESRI_102117: string;
  */
 export declare const ESRI_102118: string;
 /**
+ * ESRI:102119, NAD_1927_Texas_Statewide_Mapping_System. United States (USA) - Texas. Up to 6.17 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=31.1666666666667 +lon_0=-100 +lat_1=27.4166666666667 +lat_2=34.9166666666667 +x_0=914400 +y_0=914400 +ellps=clrk66 +towgs84=-7,151,175 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:3080.
+ */
+export declare const ESRI_102119: string;
+/**
  * ESRI:102120, NAD_1927_Michigan_GeoRef_Feet_US. United States (USA) - Michigan. Up to 8.24 m from PROJ.
  *
  * `+proj=omerc +no_uoff +lat_0=45.3091666666667 +lonc=-86 +alpha=337.25556 +gamma=337.25556 +k=0.9996 +x_0=2546731.49596139 +y_0=-4354009.81600203 +ellps=clrk66 +towgs84=-9,161,179 +units=us-ft +no_defs`
@@ -40375,6 +44656,78 @@ export declare const ESRI_102121: string;
  * `+proj=omerc +no_uoff +lat_0=45.3091666666667 +lonc=-86 +alpha=337.25556 +gamma=337.25556 +k=0.9996 +x_0=2546731.496 +y_0=-4354009.816 +ellps=clrk66 +towgs84=-9,161,179 +units=m +no_defs`
  */
 export declare const ESRI_102122: string;
+/**
+ * ESRI:102123, NAD_1983_Michigan_GeoRef_Meters. United States (USA) - Michigan. Up to 1.18 m from PROJ.
+ *
+ * `+proj=omerc +no_uoff +lat_0=45.3091666666667 +lonc=-86 +alpha=337.25556 +gamma=337.25556 +k=0.9996 +x_0=2546731.496 +y_0=-4354009.816 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3078.
+ */
+export declare const ESRI_102123: string;
+/**
+ * ESRI:102124, NAD_1927_UTM_Zone_1N. United States (USA) - between 180°W and 174°W - Alaska and offshore continental shelf (OCS). Up to 40.6 m from PROJ.
+ *
+ * `+proj=utm +zone=1 +ellps=clrk66 +towgs84=-2,152,149 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26701.
+ */
+export declare const ESRI_102124: string;
+/**
+ * ESRI:102125, NAD_1927_UTM_Zone_2N. United States (USA) - between 174°W and 168°W - Alaska and offshore continental shelf (OCS). Up to 28.9 m from PROJ.
+ *
+ * `+proj=utm +zone=2 +ellps=clrk66 +towgs84=-2,152,149 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26702.
+ */
+export declare const ESRI_102125: string;
+/**
+ * ESRI:102126, NAD_1927_UTM_Zone_59N. United States (USA) - west of 174°E. Alaska and offshore continental shelf (OCS). Up to 24.4 m from PROJ.
+ *
+ * `+proj=utm +zone=59 +ellps=clrk66 +towgs84=2,204,105 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3370.
+ */
+export declare const ESRI_102126: string;
+/**
+ * ESRI:102127, NAD_1927_UTM_Zone_60N. United States (USA) - between 174°E and 180°E - Alaska and offshore continental shelf (OCS). Up to 30.9 m from PROJ.
+ *
+ * `+proj=utm +zone=60 +ellps=clrk66 +towgs84=2,204,105 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3371.
+ */
+export declare const ESRI_102127: string;
+/**
+ * ESRI:102128, NAD_1983_UTM_Zone_1N. United States (USA) - between 180°W and 174°W - Alaska and offshore continental shelf (OCS). Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=1 +ellps=GRS80 +towgs84=-2,0,4 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26901.
+ */
+export declare const ESRI_102128: string;
+/**
+ * ESRI:102129, NAD_1983_UTM_Zone_2N. United States (USA) - between 174°W and 168°W - Alaska and offshore continental shelf (OCS). Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=2 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26902.
+ */
+export declare const ESRI_102129: string;
+/**
+ * ESRI:102130, NAD_1983_UTM_Zone_59N. United States (USA) - west of 174°E. Alaska and offshore continental shelf (OCS). Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=59 +ellps=GRS80 +towgs84=-2,0,4 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3372.
+ */
+export declare const ESRI_102130: string;
+/**
+ * ESRI:102131, NAD_1983_UTM_Zone_60N. United States (USA) - between 174°E and 180°E - Alaska and offshore continental shelf (OCS). Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=60 +ellps=GRS80 +towgs84=-2,0,4 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3373.
+ */
+export declare const ESRI_102131: string;
 /**
  * ESRI:102132, NGO_1948_UTM_Zone_32N. Norway - onshore - 4.68~E to 12~E Within 1 cm of PROJ.
  *
@@ -40418,6 +44771,22 @@ export declare const ESRI_102137: string;
  */
 export declare const ESRI_102138: string;
 /**
+ * ESRI:102139, EUREF-FIN_TM35FIN. Finland - onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=35 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3067.
+ */
+export declare const ESRI_102139: string;
+/**
+ * ESRI:102140, Hong_Kong_1980_Grid. Hong Kong - onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=22.3121333333333 +lon_0=114.178555555556 +k=1 +x_0=836694.05 +y_0=819069.8 +ellps=intl +towgs84=-162.619,-276.959,-161.764,0.067753,-2.243648,-1.158828,-1.094246 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2326.
+ */
+export declare const ESRI_102140: string;
+/**
  * ESRI:102141, Hong_Kong_1980_UTM_Zone_49N. Hong Kong - onshore and offshore. Within 1 cm of PROJ.
  *
  * `+proj=utm +zone=49 +ellps=intl +towgs84=-162.619,-276.959,-161.764,0.067753,-2.243648,-1.158828,-1.094246 +units=m +no_defs`
@@ -40442,11 +44811,91 @@ export declare const ESRI_102143: string;
  */
 export declare const ESRI_102144: string;
 /**
+ * ESRI:102145, JGD_2000_UTM_Zone_51N. Japan - west of 126°E, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=51 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3097.
+ */
+export declare const ESRI_102145: string;
+/**
+ * ESRI:102146, JGD_2000_UTM_Zone_52N. Japan - between 126°E and 132°E, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=52 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3098.
+ */
+export declare const ESRI_102146: string;
+/**
+ * ESRI:102147, JGD_2000_UTM_Zone_53N. Japan - between 132°E and 138°E, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=53 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3099.
+ */
+export declare const ESRI_102147: string;
+/**
+ * ESRI:102148, JGD_2000_UTM_Zone_54N. Japan - between 138°E and 144°E, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=54 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3100.
+ */
+export declare const ESRI_102148: string;
+/**
+ * ESRI:102149, JGD_2000_UTM_Zone_55N. Japan - east of 144°E, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=55 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3101.
+ */
+export declare const ESRI_102149: string;
+/**
  * ESRI:102150, JGD_2000_UTM_Zone_56N. Japan - 150~E to 156~E Within 1 cm of PROJ.
  *
  * `+proj=utm +zone=56 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
  */
 export declare const ESRI_102150: string;
+/**
+ * ESRI:102151, Tokyo_UTM_Zone_51N. Japan - onshore west of 126°E. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=51 +ellps=bessel +towgs84=-146.414,507.337,680.507 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3092.
+ */
+export declare const ESRI_102151: string;
+/**
+ * ESRI:102152, Tokyo_UTM_Zone_52N. Japan - onshore between 126°E and 132°E. Up to 4.05 m from PROJ.
+ *
+ * `+proj=utm +zone=52 +ellps=bessel +towgs84=-148,507,685 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3093.
+ */
+export declare const ESRI_102152: string;
+/**
+ * ESRI:102153, Tokyo_UTM_Zone_53N. Japan - onshore between 132°E and 138°E. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=53 +ellps=bessel +towgs84=-146.414,507.337,680.507 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3094.
+ */
+export declare const ESRI_102153: string;
+/**
+ * ESRI:102154, Tokyo_UTM_Zone_54N. Japan - onshore between 138°E and 144°E. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=54 +ellps=bessel +towgs84=-146.414,507.337,680.507 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3095.
+ */
+export declare const ESRI_102154: string;
+/**
+ * ESRI:102155, Tokyo_UTM_Zone_55N. Japan - onshore east of 144°E. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=55 +ellps=bessel +towgs84=-146.414,507.337,680.507 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3096.
+ */
+export declare const ESRI_102155: string;
 /**
  * ESRI:102156, Tokyo_UTM_Zone_56N. Japan - 150~E to 156~E Within 1 cm of PROJ.
  *
@@ -40514,11 +44963,51 @@ export declare const ESRI_102165: string;
  */
 export declare const ESRI_102166: string;
 /**
+ * ESRI:102167, Porto_Santo_1936_UTM_Zone_28N. Portugal - Madeira, Porto Santo and Desertas islands - onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=28 +ellps=intl +towgs84=-499,-249,314 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2942.
+ */
+export declare const ESRI_102167: string;
+/**
  * ESRI:102168, Sao_Braz_UTM_Zone_26N. Portugal - eastern Azores onshore - Sao Miguel, Santa Maria, Formigas. Up to 0.0115 m from PROJ.
  *
  * `+proj=utm +zone=26 +ellps=intl +towgs84=-269.089,186.247,155.667,2.005,3.606,-0.366,0.097 +units=m +no_defs`
  */
 export declare const ESRI_102168: string;
+/**
+ * ESRI:102169, Selvagem_Grande_1938_UTM_Zone_28N. Portugal - Selvagens islands (Madeira province) - onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=28 +ellps=intl +towgs84=-289,-124,60 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2943.
+ */
+export declare const ESRI_102169: string;
+/**
+ * ESRI:102170, AGD_1966_VICGRID. Australia - Victoria. Up to 0.946 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=-37 +lon_0=145 +lat_1=-36 +lat_2=-38 +x_0=2500000 +y_0=4500000 +ellps=aust_SA +towgs84=-119.353,-48.301,139.484,0.415,0.26,0.437,-0.613 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3110.
+ */
+export declare const ESRI_102170: string;
+/**
+ * ESRI:102171, GDA_1994_VICGRID94. Australia - Victoria. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=-37 +lon_0=145 +lat_1=-36 +lat_2=-38 +x_0=2500000 +y_0=2500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3111.
+ */
+export declare const ESRI_102171: string;
+/**
+ * ESRI:102172, GDA_1994_South_Australia_Lambert. Australia - South Australia. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=-32 +lon_0=135 +lat_1=-28 +lat_2=-36 +x_0=1000000 +y_0=2000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3107.
+ */
+export declare const ESRI_102172: string;
 /**
  * ESRI:102173, ETRS_1989_UWPP_1992. Poland - onshore and offshore. Within 1 cm of PROJ.
  *
@@ -40562,6 +45051,118 @@ export declare const ESRI_102178: string;
  */
 export declare const ESRI_102179: string;
 /**
+ * ESRI:102180, NAD_1927_3TM_111. Canada - Alberta - east of 112°30'W. Up to 9.58 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-111 +k=0.9999 +x_0=0 +y_0=0 +ellps=clrk66 +towgs84=4,159,188 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3771.
+ */
+export declare const ESRI_102180: string;
+/**
+ * ESRI:102181, NAD_1927_3TM_114. Canada - Alberta - between 115°30'W and 112°30'W. Up to 8.17 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-114 +k=0.9999 +x_0=0 +y_0=0 +ellps=clrk66 +towgs84=-7,162,188 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3772.
+ */
+export declare const ESRI_102181: string;
+/**
+ * ESRI:102182, NAD_1927_3TM_117. Canada - Alberta - between 118°30'W and 115°30' W. Up to 9.46 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-117 +k=0.9999 +x_0=0 +y_0=0 +ellps=clrk66 +towgs84=-7,162,188 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3773.
+ */
+export declare const ESRI_102182: string;
+/**
+ * ESRI:102183, NAD_1927_3TM_120. Canada - Alberta - west of 118°30' W. Up to 8.09 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-120 +k=0.9999 +x_0=0 +y_0=0 +ellps=clrk66 +towgs84=-7,162,188 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3800.
+ */
+export declare const ESRI_102183: string;
+/**
+ * ESRI:102184, NAD_1983_10TM_AEP_Forest. Canada - Alberta. Up to 0.539 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-115 +k=0.9992 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3400.
+ */
+export declare const ESRI_102184: string;
+/**
+ * ESRI:102185, NAD_1983_10TM_AEP_Resource. Canada - Alberta. Up to 0.539 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-115 +k=0.9992 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3401.
+ */
+export declare const ESRI_102185: string;
+/**
+ * ESRI:102186, NAD_1983_3TM_111. Canada - Alberta - east of 112°30'W. Up to 1.12 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-111 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3775.
+ */
+export declare const ESRI_102186: string;
+/**
+ * ESRI:102187, NAD_1983_3TM_114. Canada - Alberta - between 115°30'W and 112°30'W. Up to 0.428 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-114 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3776.
+ */
+export declare const ESRI_102187: string;
+/**
+ * ESRI:102188, NAD_1983_3TM_117. Canada - Alberta - between 118°30'W and 115°30' W. Up to 1.01 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-117 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3777.
+ */
+export declare const ESRI_102188: string;
+/**
+ * ESRI:102189, NAD_1983_3TM_120. Canada - Alberta - west of 118°30' W. Up to 1.69 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-120 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3801.
+ */
+export declare const ESRI_102189: string;
+/**
+ * ESRI:102190, NAD_1983_BC_Environment_Albers. Canada - British Columbia. Up to 0.154 m from PROJ.
+ *
+ * `+proj=aea +lat_0=45 +lon_0=-126 +lat_1=50 +lat_2=58.5 +x_0=1000000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3005.
+ */
+export declare const ESRI_102190: string;
+/**
+ * ESRI:102191, Nord_Maroc. Morocco onshore north of 35 grads North (31°30'N). Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=37 +lat_0=37 +lon_0=-5.4 +k_0=0.999625769 +x_0=500000 +y_0=300000 +ellps=clrk80ign +towgs84=31,146,47 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26191.
+ */
+export declare const ESRI_102191: string;
+/**
+ * ESRI:102192, Sud_Maroc. Morocco onshore south of 35 grads North (31°30'N). Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=33 +lat_0=33 +lon_0=-5.4 +k_0=0.999615596 +x_0=500000 +y_0=300000 +ellps=clrk80ign +towgs84=31,146,47 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:26192.
+ */
+export declare const ESRI_102192: string;
+/**
+ * ESRI:102193, Sahara_Degree. Morocco south of 31 grads North (27°54'N). Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_1=26.1 +lat_0=26.1 +lon_0=-5.4 +k_0=0.9996 +x_0=1200000 +y_0=400000 +ellps=clrk80ign +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102193: string;
+/**
  * ESRI:102194, UWPP_1992. Poland - onshore and offshore. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
@@ -40592,17 +45193,129 @@ export declare const ESRI_102197: string;
  */
 export declare const ESRI_102198: string;
 /**
+ * ESRI:102199, Belge_Lambert_2008. Belgium - onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=50.797815 +lon_0=4.35921583333333 +lat_1=49.8333333333333 +lat_2=51.1666666666667 +x_0=649328 +y_0=665262 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3812.
+ */
+export declare const ESRI_102199: string;
+/**
+ * ESRI:102200, NAD_1983_HARN_UTM_Zone_2S. American Samoa - Tutuila, Aunu'u, Ofu, Olesega, Ta'u and Rose islands. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=2 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2195.
+ */
+export declare const ESRI_102200: string;
+/**
+ * ESRI:102201, NAD_1983_HARN_Guam_Map_Grid. Guam - onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=13.5 +lon_0=144.75 +k=1 +x_0=100000 +y_0=200000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4414.
+ */
+export declare const ESRI_102201: string;
+/**
+ * ESRI:102202, NAD_1983_HARN_UTM_Zone_4N. United States (USA) - between 162°W and 156°W onshore - Hawaii. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=4 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3750.
+ */
+export declare const ESRI_102202: string;
+/**
+ * ESRI:102203, NAD_1983_HARN_UTM_Zone_5N. United States (USA) - between 156°W and 150°W onshore - Hawaii. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=5 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3751.
+ */
+export declare const ESRI_102203: string;
+/**
  * ESRI:102204, Ain_el_Abd_1970_Aramco_Lambert_2. Saudi Arabia - onshore. Within 1 cm of PROJ.
  *
  * `+proj=lcc +lat_0=24 +lon_0=45 +lat_1=21 +lat_2=27 +x_0=1000000 +y_0=3000000 +ellps=intl +towgs84=-143,-236,7 +units=m +no_defs`
  */
 export declare const ESRI_102204: string;
 /**
+ * ESRI:102205, NAD_1983_HARN_UTM_Zone_11N. United States (USA) - between 120°W and 114°W - onshore - Arizona; California; Idaho; Montana; Nevada; Oregon; Utah; Washington. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=11 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3741.
+ */
+export declare const ESRI_102205: string;
+/**
+ * ESRI:102206, NAD_1983_HARN_UTM_Zone_12N. United States (USA) - between 114°W and 108°W - Arizona; Colorado; Idaho; Montana; New Mexico; Utah; Wyoming. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=12 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3742.
+ */
+export declare const ESRI_102206: string;
+/**
+ * ESRI:102207, NAD_1983_HARN_UTM_Zone_13N. United States (USA) - between 108°W and 102°W - Colorado; Montana; Nebraska; New Mexico; North Dakota; Oklahoma; South Dakota; Texas; Wyoming. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=13 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3743.
+ */
+export declare const ESRI_102207: string;
+/**
+ * ESRI:102208, NAD_1983_HARN_Maine_2000_East_Zone. United States (USA) - Maine east of approximately 68°25'W. The area is bounded by the following: Beginning at the point determined by the intersection of the Maine State line and the Fort Kent - Frenchville town line, thence continuing easterly and then southerly along the state line to the boundary of the State of Maine as determined by Maritime law, thence following the State boundary westerly to the intersection of the Knox and Hancock County line, thence northerly along the easterly boundary of the Maine 2000 Central Zone, as defined, to the point of beginning. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=43.8333333333333 +lon_0=-67.875 +k=0.99998 +x_0=700000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3075.
+ */
+export declare const ESRI_102208: string;
+/**
+ * ESRI:102209, NAD_1983_HARN_Maine_2000_Central_Zone. United States (USA) - Maine between approximately 69°40'W and 68°25'W. The area is bounded by the following: Beginning at the point determined by the intersection of the Maine State line and the County Line between Aroostook and Somerset Counties, thence northeasterly along the state line to the intersection of the Fort Kent - Frenchville town line, thence southerly along this town line to the intersection with the New Canada Plantation - T17 R5 WELS town line, thence continuing southerly along town lines to the northeast corner of Penobscot County, thence continuing southerly along the Penobscot County line to the intersection of the Woodville - Mattawamkeag town line (being determined by the Penobscot River), thence along the Penobscot River to the Enfield - Lincoln town line, thence southeasterly along the Enfield - Lincoln town line and the Enfield - Lowell town line to the Passadumkeag - Edinburg town line, thence south-southeasterly along town lines to the intersection of the Hancock County line, thence southerly along the county line to the intersection of the Otis - Mariaville town line, thence southerly along the Otis - Mariaville town line to the Ellsworth city line, thence southerly along the Ellsworth city line to the intersection of the Surry - Trenton town line, thence southerly along the easterly town lines of Surry, Blue Hill, Brooklin, Deer Isle, and Stonington to the Knox County line, thence following the Knox County line to the boundary of the State of Maine as determined by Maritime law, thence following the State boundary westerly to the intersection of the Sagadahoc - Lincoln county line, thence northerly along the easterly boundary of the Maine 2000 West Zone, as defined, to the point of beginning. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=43.5 +lon_0=-69.125 +k=0.99998 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3464.
+ */
+export declare const ESRI_102209: string;
+/**
+ * ESRI:102210, NAD_1983_HARN_Maine_2000_West_Zone. United States (USA) - Maine west of approximately 69°40'W. The area is bounded by the following: Beginning at the point determined by the intersection of the Maine State line and the County Line between Aroostook and Somerset Counties, thence following the Somerset County line Easterly to the Northwest corner of the Somerset and Piscataquis county line, thence Southerly along this county line to the northeast corner of the Athens town line, thence westerly along the town line between Brighton Plantation and Athens to the westerly corner of Athens, and continuing southerly to the southwest corner of the town of Athens where it meets the Cornville town line, thence westerly along the Cornville - Solon town line to the intersection of the Cornville - Madison town line, thence southerly and westerly following the Madison town line to the intersection of the Norridgewock - Skowhegan town line, thence southerly along the Skowhegan town line to the Fairfield town line, thence easterly along the Fairfield town line to the Clinton town line (being determined by the Kennebec River), thence southerly along the Kennebec River to the Augusta city line, thence easterly along the city line to the Windsor town line, thence southerly along the Augusta - Windsor town line to the northwest corner of the Lincoln County line, thence southerly along the westerly Lincoln county line to the boundary of the State of Maine as determined by Maritime law, thence following the State boundary on the westerly side of the state to the point of beginning. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.375 +k=0.99998 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3077.
+ */
+export declare const ESRI_102210: string;
+/**
+ * ESRI:102211, NAD_1983_HARN_UTM_Zone_18N. United States (USA) - between 78°W and 72°W - onshore - Connecticut; Delaware; District of Columbia (DC); Maryland; Massachusetts; New Hampshire; New Jersey; New York; North Carolina; Pennsylvania; Virginia; Vermont. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=18 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3748.
+ */
+export declare const ESRI_102211: string;
+/**
+ * ESRI:102212, NAD_1983_WyLAM. United States (USA) - Wyoming. Up to 0.77 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=41 +lon_0=-107.5 +lat_1=41 +lat_2=45 +x_0=500000 +y_0=200000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:32159.
+ */
+export declare const ESRI_102212: string;
+/**
  * ESRI:102213, NAD_1983_UTM_Zone_58N. Between 168°E and 174°E, northern hemisphere between equator and 84°N, onshore and offshore. Russian Federation; United States (USA) - Alaska. Within 1 cm of PROJ.
  *
  * `+proj=utm +zone=58 +ellps=GRS80 +towgs84=-2,0,4 +units=m +no_defs`
  */
 export declare const ESRI_102213: string;
+/**
+ * ESRI:102214, WGS_1984_Cape_Verde_Grid. Cape Verde - onshore and offshore. Includes Boa Vista, Brava, Fogo, Maio, Sal, Santo Antao, Sao Nicolau, Sao Tiago, Sao Vicente. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=15.8333333333333 +lon_0=-24 +lat_1=15 +lat_2=16.6666666666667 +x_0=161587.83 +y_0=128511.202 +datum=WGS84 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4826.
+ */
+export declare const ESRI_102214: string;
 /**
  * ESRI:102215, WGS_1984_Canada_Atlas_LCC. Canada - onshore and offshore - Alberta; British Columbia; Manitoba; New Brunswick; Newfoundland and Labrador; Northwest Territories; Nova Scotia; Nunavut; Ontario; Prince Edward Island; Quebec; Saskatchewan; Yukon. Within 1 cm of PROJ.
  *
@@ -40621,6 +45334,14 @@ export declare const ESRI_102216: string;
  * `+proj=tmerc +lat_0=0 +lon_0=-90 +k=0.9996 +x_0=520000 +y_0=-4480000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
  */
 export declare const ESRI_102217: string;
+/**
+ * ESRI:102218, NAD_1983_USFS_R6_Albers. United States (USA) - Oregon and Washington. Up to 1.29 m from PROJ.
+ *
+ * `+proj=aea +lat_0=34 +lon_0=-120 +lat_1=43 +lat_2=48 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:9674.
+ */
+export declare const ESRI_102218: string;
 /**
  * ESRI:102219, NAD_1983_Wisconsin_TM_US_Ft. United States (USA) - Wisconsin. Up to 0.504 m from PROJ.
  *
@@ -40652,6 +45373,22 @@ export declare const ESRI_102222: string;
  */
 export declare const ESRI_102223: string;
 /**
+ * ESRI:102229, NAD_1983_HARN_StatePlane_Alabama_East_FIPS_0101. United States (USA) - Alabama east of approximately 86°37'W - counties Barbour; Bullock; Calhoun; Chambers; Cherokee; Clay; Cleburne; Coffee; Coosa; Covington; Crenshaw; Dale; De Kalb; Elmore; Etowah; Geneva; Henry; Houston; Jackson; Lee; Macon; Madison; Marshall; Montgomery; Pike; Randolph; Russell; St Clair; Talladega; Tallapoosa. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=30.5 +lon_0=-85.8333333333333 +k=0.99996 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2759.
+ */
+export declare const ESRI_102229: string;
+/**
+ * ESRI:102230, NAD_1983_HARN_StatePlane_Alabama_West_FIPS_0102. United States (USA) - Alabama west of approximately 86°37'W - counties Autauga; Baldwin; Bibb; Blount; Butler; Chilton; Choctaw; Clarke; Colbert; Conecuh; Cullman; Dallas; Escambia; Fayette; Franklin; Greene; Hale; Jefferson; Lamar; Lauderdale; Lawrence; Limestone; Lowndes; Marengo; Marion; Mobile; Monroe; Morgan; Perry; Pickens; Shelby; Sumter; Tuscaloosa; Walker; Washington; Wilcox; Winston. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=30 +lon_0=-87.5 +k=0.999933333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2760.
+ */
+export declare const ESRI_102230: string;
+/**
  * ESRI:102231, Colombia_West_West_Zone. Colombia - mainland onshore west of 4°30'W of Bogota (approximately 78°35'W of Greenwich). Up to 0.0119 m from PROJ.
  *
  * `+proj=tmerc +lat_0=4.59904722222222 +lon_0=-80.0809166666667 +k=1 +x_0=1000000 +y_0=1000000 +ellps=intl +towgs84=-305.356,222.004,-30.023,9.690493859926,-1.031968196225,19.757394176828,6.325747 +units=m +no_defs`
@@ -40669,6 +45406,30 @@ export declare const ESRI_102232: string;
  * `+proj=tmerc +lat_0=4.68048611111111 +lon_0=-74.1465916666667 +k=1.00039980326544 +x_0=92334.879 +y_0=109320.965 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
  */
 export declare const ESRI_102233: string;
+/**
+ * ESRI:102234, NAD_1983_CSRS_UTM_Zone_14N. Canada between 102°W and 96°W, onshore and offshore south of 84°N - Manitoba, Nunavut, Saskatchewan. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=14 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3158.
+ */
+export declare const ESRI_102234: string;
+/**
+ * ESRI:102235, NAD_1983_CSRS_UTM_Zone_15N. Canada between 96°W and 90°W, onshore and offshore south of 84°N - Manitoba, Nunavut, Ontario. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=15 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3159.
+ */
+export declare const ESRI_102235: string;
+/**
+ * ESRI:102236, NAD_1983_CSRS_UTM_Zone_16N. Canada between 90°W and 84°W, onshore and offshore south of 84°N - Manitoba, Nunavut, Ontario. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=16 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3160.
+ */
+export declare const ESRI_102236: string;
 /**
  * ESRI:102237, Pohnpei_Az_Eq_1971. Federated States of Micronesia - onshore and offshore. Includes Caroline Islands, Yap, Truk, Ponape, Kosrae. Within 1 cm of PROJ.
  *
@@ -40694,11 +45455,491 @@ export declare const ESRI_102239: string;
  */
 export declare const ESRI_102240: string;
 /**
+ * ESRI:102241, NAD_1983_HARN_StatePlane_California_I_FIPS_0401. United States (USA) - California - counties of Del Norte; Humboldt; Lassen; Modoc; Plumas; Shasta; Siskiyou; Tehama; Trinity. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=39.3333333333333 +lon_0=-122 +lat_1=40 +lat_2=41.6666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2766.
+ */
+export declare const ESRI_102241: string;
+/**
+ * ESRI:102242, NAD_1983_HARN_StatePlane_California_II_FIPS_0402. United States (USA) - California - counties of Alpine; Amador; Butte; Colusa; El Dorado; Glenn; Lake; Mendocino; Napa; Nevada; Placer; Sacramento; Sierra; Solano; Sonoma; Sutter; Yolo; Yuba. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=37.6666666666667 +lon_0=-122 +lat_1=38.3333333333333 +lat_2=39.8333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2767.
+ */
+export declare const ESRI_102242: string;
+/**
+ * ESRI:102243, NAD_1983_HARN_StatePlane_California_III_FIPS_0403. United States (USA) - California - counties of Alameda; Calaveras; Contra Costa; Madera; Marin; Mariposa; Merced; Mono; San Francisco; San Joaquin; San Mateo; Santa Clara; Santa Cruz; Stanislaus; Tuolumne. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=36.5 +lon_0=-120.5 +lat_1=37.0666666666667 +lat_2=38.4333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2768.
+ */
+export declare const ESRI_102243: string;
+/**
+ * ESRI:102244, NAD_1983_HARN_StatePlane_California_IV_FIPS_0404. United States (USA) - California - counties of Fresno; Inyo; Kings; Monterey; San Benito; Tulare. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=35.3333333333333 +lon_0=-119 +lat_1=36 +lat_2=37.25 +x_0=2000000 +y_0=500000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2769.
+ */
+export declare const ESRI_102244: string;
+/**
+ * ESRI:102245, NAD_1983_HARN_StatePlane_California_V_FIPS_0405. United States (USA) - California - counties of Kern; Los Angeles; San Bernardino; San Luis Obispo; Santa Barbara; Ventura. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=33.5 +lon_0=-118 +lat_1=34.0333333333333 +lat_2=35.4666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2770.
+ */
+export declare const ESRI_102245: string;
+/**
+ * ESRI:102246, NAD_1983_HARN_StatePlane_California_VI_FIPS_0406. United States (USA) - California - counties of Imperial; Orange; Riverside; San Diego. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=32.1666666666667 +lon_0=-116.25 +lat_1=32.7833333333333 +lat_2=33.8833333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2771.
+ */
+export declare const ESRI_102246: string;
+/**
  * ESRI:102247, NAD_1983_CORS96_Alaska_Albers. United States (USA) - Alaska. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
  * `+proj=aea +lat_0=50 +lon_0=-154 +lat_1=55 +lat_2=65 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs`
  */
 export declare const ESRI_102247: string;
+/**
+ * ESRI:102248, NAD_1983_HARN_StatePlane_Arizona_East_FIPS_0201. United States (USA) - Arizona - counties Apache; Cochise; Gila; Graham; Greenlee; Navajo. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=31 +lon_0=-110.166666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2761.
+ */
+export declare const ESRI_102248: string;
+/**
+ * ESRI:102249, NAD_1983_HARN_StatePlane_Arizona_Central_FIPS_0202. United States (USA) - Arizona - counties Coconino; Maricopa; Pima; Pinal; Santa Cruz; Yavapai. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=31 +lon_0=-111.916666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2762.
+ */
+export declare const ESRI_102249: string;
+/**
+ * ESRI:102250, NAD_1983_HARN_StatePlane_Arizona_West_FIPS_0203. United States (USA) - Arizona - counties of La Paz; Mohave; Yuma. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=31 +lon_0=-113.75 +k=0.999933333333333 +x_0=213360 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2763.
+ */
+export declare const ESRI_102250: string;
+/**
+ * ESRI:102251, NAD_1983_HARN_StatePlane_Arkansas_North_FIPS_0301. United States (USA) - Arkansas - counties of Baxter; Benton; Boone; Carroll; Clay; Cleburne; Conway; Craighead; Crawford; Crittenden; Cross; Faulkner; Franklin; Fulton; Greene; Independence; Izard; Jackson; Johnson; Lawrence; Logan; Madison; Marion; Mississippi; Newton; Perry; Poinsett; Pope; Randolph; Scott; Searcy; Sebastian; Sharp; St Francis; Stone; Van Buren; Washington; White; Woodruff; Yell. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=34.3333333333333 +lon_0=-92 +lat_1=34.9333333333333 +lat_2=36.2333333333333 +x_0=400000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2764.
+ */
+export declare const ESRI_102251: string;
+/**
+ * ESRI:102252, NAD_1983_HARN_StatePlane_Arkansas_South_FIPS_0302. United States (USA) - Arkansas - counties Arkansas; Ashley; Bradley; Calhoun; Chicot; Clark; Cleveland; Columbia; Dallas; Desha; Drew; Garland; Grant; Hempstead; Hot Spring; Howard; Jefferson; Lafayette; Lee; Lincoln; Little River; Lonoke; Miller; Monroe; Montgomery; Nevada; Ouachita; Phillips; Pike; Polk; Prairie; Pulaski; Saline; Sevier; Union. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=32.6666666666667 +lon_0=-92 +lat_1=33.3 +lat_2=34.7666666666667 +x_0=400000 +y_0=400000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2765.
+ */
+export declare const ESRI_102252: string;
+/**
+ * ESRI:102253, NAD_1983_HARN_StatePlane_Colorado_North_FIPS_0501. United States (USA) - Colorado - counties Adams; Boulder; Gilpin; Grand; Jackson; Larimer; Logan; Moffat; Morgan; Phillips; Rio Blanco; Routt; Sedgwick; Washington; Weld; Yuma. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=39.3333333333333 +lon_0=-105.5 +lat_1=39.7166666666667 +lat_2=40.7833333333333 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2772.
+ */
+export declare const ESRI_102253: string;
+/**
+ * ESRI:102254, NAD_1983_HARN_StatePlane_Colorado_Central_FIPS_0502. United States (USA) - Colorado - counties Arapahoe; Chaffee; Cheyenne; Clear Creek; Delta; Denver; Douglas; Eagle; El Paso; Elbert; Fremont; Garfield; Gunnison; Jefferson; Kit Carson; Lake; Lincoln; Mesa; Park; Pitkin; Summit; Teller. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=37.8333333333333 +lon_0=-105.5 +lat_1=38.45 +lat_2=39.75 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2773.
+ */
+export declare const ESRI_102254: string;
+/**
+ * ESRI:102255, NAD_1983_HARN_StatePlane_Colorado_South_FIPS_0503. United States (USA) - Colorado - counties Alamosa; Archuleta; Baca; Bent; Conejos; Costilla; Crowley; Custer; Dolores; Hinsdale; Huerfano; Kiowa; La Plata; Las Animas; Mineral; Montezuma; Montrose; Otero; Ouray; Prowers; Pueblo; Rio Grande; Saguache; San Juan; San Miguel. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=36.6666666666667 +lon_0=-105.5 +lat_1=37.2333333333333 +lat_2=38.4333333333333 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2774.
+ */
+export declare const ESRI_102255: string;
+/**
+ * ESRI:102256, NAD_1983_HARN_StatePlane_Connecticut_FIPS_0600. United States (USA) - Connecticut. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=40.8333333333333 +lon_0=-72.75 +lat_1=41.2 +lat_2=41.8666666666667 +x_0=304800.6096 +y_0=152400.3048 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2775.
+ */
+export declare const ESRI_102256: string;
+/**
+ * ESRI:102257, NAD_1983_HARN_StatePlane_Delaware_FIPS_0700. United States (USA) - Delaware. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=38 +lon_0=-75.4166666666667 +k=0.999995 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2776.
+ */
+export declare const ESRI_102257: string;
+/**
+ * ESRI:102258, NAD_1983_HARN_StatePlane_Florida_East_FIPS_0901. United States (USA) - Florida - counties of Brevard; Broward; Clay; Collier; Dade; Duval; Flagler; Glades; Hendry; Highlands; Indian River; Lake; Martin; Monroe; Nassau; Okeechobee; Orange; Osceola; Palm Beach; Putnam; Seminole; St Johns; St Lucie; Volusia. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=24.3333333333333 +lon_0=-81 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2777.
+ */
+export declare const ESRI_102258: string;
+/**
+ * ESRI:102259, NAD_1983_HARN_StatePlane_Florida_West_FIPS_0902. United States (USA) - Florida - counties of Charlotte; Citrus; De Soto; Hardee; Hernando; Hillsborough; Lee; Levy; Manatee; Marion; Pasco; Pinellas; Polk; Sarasota; Sumter. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=24.3333333333333 +lon_0=-82 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2778.
+ */
+export declare const ESRI_102259: string;
+/**
+ * ESRI:102260, NAD_1983_HARN_StatePlane_Florida_North_FIPS_0903. United States (USA) - Florida - counties of Alachua; Baker; Bay; Bradford; Calhoun; Columbia; Dixie; Escambia; Franklin; Gadsden; Gilchrist; Gulf; Hamilton; Holmes; Jackson; Jefferson; Lafayette; Leon; Liberty; Madison; Okaloosa; Santa Rosa; Suwannee; Taylor; Union; Wakulla; Walton; Washington. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=29 +lon_0=-84.5 +lat_1=29.5833333333333 +lat_2=30.75 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2779.
+ */
+export declare const ESRI_102260: string;
+/**
+ * ESRI:102261, NAD_1983_HARN_StatePlane_Hawaii_1_FIPS_5101. United States (USA) - Hawaii - island of Hawaii - onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=18.8333333333333 +lon_0=-155.5 +k=0.999966666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2782.
+ */
+export declare const ESRI_102261: string;
+/**
+ * ESRI:102262, NAD_1983_HARN_StatePlane_Hawaii_2_FIPS_5102. United States (USA) - Hawaii - Maui; Kahoolawe; Lanai; Molokai - onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=20.3333333333333 +lon_0=-156.666666666667 +k=0.999966666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2783.
+ */
+export declare const ESRI_102262: string;
+/**
+ * ESRI:102263, NAD_1983_HARN_StatePlane_Hawaii_3_FIPS_5103. United States (USA) - Hawaii - Oahu - onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=21.1666666666667 +lon_0=-158 +k=0.99999 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2784.
+ */
+export declare const ESRI_102263: string;
+/**
+ * ESRI:102264, NAD_1983_HARN_StatePlane_Hawaii_4_FIPS_5104. United States (USA) - Hawaii - Kauai - onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=21.8333333333333 +lon_0=-159.5 +k=0.99999 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2785.
+ */
+export declare const ESRI_102264: string;
+/**
+ * ESRI:102265, NAD_1983_HARN_StatePlane_Hawaii_5_FIPS_5105. United States (USA) - Hawaii - Niihau - onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=21.6666666666667 +lon_0=-160.166666666667 +k=1 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2786.
+ */
+export declare const ESRI_102265: string;
+/**
+ * ESRI:102266, NAD_1983_HARN_StatePlane_Georgia_East_FIPS_1001. United States (USA) - Georgia - counties of Appling; Atkinson; Bacon; Baldwin; Brantley; Bryan; Bulloch; Burke; Camden; Candler; Charlton; Chatham; Clinch; Coffee; Columbia; Dodge; Echols; Effingham; Elbert; Emanuel; Evans; Franklin; Glascock; Glynn; Greene; Hancock; Hart; Jeff Davis; Jefferson; Jenkins; Johnson; Laurens; Liberty; Lincoln; Long; Madison; McDuffie; McIntosh; Montgomery; Oglethorpe; Pierce; Richmond; Screven; Stephens; Taliaferro; Tattnall; Telfair; Toombs; Treutlen; Ware; Warren; Washington; Wayne; Wheeler; Wilkes; Wilkinson. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=30 +lon_0=-82.1666666666667 +k=0.9999 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2780.
+ */
+export declare const ESRI_102266: string;
+/**
+ * ESRI:102267, NAD_1983_HARN_StatePlane_Georgia_West_FIPS_1002. United States (USA) - Georgia - counties of Baker; Banks; Barrow; Bartow; Ben Hill; Berrien; Bibb; Bleckley; Brooks; Butts; Calhoun; Carroll; Catoosa; Chattahoochee; Chattooga; Cherokee; Clarke; Clay; Clayton; Cobb; Colquitt; Cook; Coweta; Crawford; Crisp; Dade; Dawson; De Kalb; Decatur; Dooly; Dougherty; Douglas; Early; Fannin; Fayette; Floyd; Forsyth; Fulton; Gilmer; Gordon; Grady; Gwinnett; Habersham; Hall; Haralson; Harris; Heard; Henry; Houston; Irwin; Jackson; Jasper; Jones; Lamar; Lanier; Lee; Lowndes; Lumpkin; Macon; Marion; Meriwether; Miller; Mitchell; Monroe; Morgan; Murray; Muscogee; Newton; Oconee; Paulding; Peach; Pickens; Pike; Polk; Pulaski; Putnam; Quitman; Rabun; Randolph; Rockdale; Schley; Seminole; Spalding; Stewart; Sumter; Talbot; Taylor; Terrell; Thomas; Tift; Towns; Troup; Turner; Twiggs; Union; Upson; Walker; Walton; Webster; White; Whitfield; Wilcox; Worth. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=30 +lon_0=-84.1666666666667 +k=0.9999 +x_0=700000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2781.
+ */
+export declare const ESRI_102267: string;
+/**
+ * ESRI:102268, NAD_1983_HARN_StatePlane_Idaho_East_FIPS_1101. United States (USA) - Idaho - counties of Bannock; Bear Lake; Bingham; Bonneville; Caribou; Clark; Franklin; Fremont; Jefferson; Madison; Oneida; Power; Teton. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=41.6666666666667 +lon_0=-112.166666666667 +k=0.999947368421053 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2787.
+ */
+export declare const ESRI_102268: string;
+/**
+ * ESRI:102269, NAD_1983_HARN_StatePlane_Idaho_Central_FIPS_1102. United States (USA) - Idaho - counties of Blaine; Butte; Camas; Cassia; Custer; Gooding; Jerome; Lemhi; Lincoln; Minidoka; Twin Falls. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=41.6666666666667 +lon_0=-114 +k=0.999947368421053 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2788.
+ */
+export declare const ESRI_102269: string;
+/**
+ * ESRI:102270, NAD_1983_HARN_StatePlane_Idaho_West_FIPS_1103. United States (USA) - Idaho - counties of Ada; Adams; Benewah; Boise; Bonner; Boundary; Canyon; Clearwater; Elmore; Gem; Idaho; Kootenai; Latah; Lewis; Nez Perce; Owyhee; Payette; Shoshone; Valley; Washington. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=41.6666666666667 +lon_0=-115.75 +k=0.999933333333333 +x_0=800000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2789.
+ */
+export declare const ESRI_102270: string;
+/**
+ * ESRI:102271, NAD_1983_HARN_StatePlane_Illinois_East_FIPS_1201. United States (USA) - Illinois - counties of Boone; Champaign; Clark; Clay; Coles; Cook; Crawford; Cumberland; De Kalb; De Witt; Douglas; Du Page; Edgar; Edwards; Effingham; Fayette; Ford; Franklin; Gallatin; Grundy; Hamilton; Hardin; Iroquois; Jasper; Jefferson; Johnson; Kane; Kankakee; Kendall; La Salle; Lake; Lawrence; Livingston; Macon; Marion; Massac; McHenry; McLean; Moultrie; Piatt; Pope; Richland; Saline; Shelby; Vermilion; Wabash; Wayne; White; Will; Williamson. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=36.6666666666667 +lon_0=-88.3333333333333 +k=0.999975 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2790.
+ */
+export declare const ESRI_102271: string;
+/**
+ * ESRI:102272, NAD_1983_HARN_StatePlane_Illinois_West_FIPS_1202. United States (USA) - Illinois - counties of Adams; Alexander; Bond; Brown; Bureau; Calhoun; Carroll; Cass; Christian; Clinton; Fulton; Greene; Hancock; Henderson; Henry; Jackson; Jersey; Jo Daviess; Knox; Lee; Logan; Macoupin; Madison; Marshall; Mason; McDonough; Menard; Mercer; Monroe; Montgomery; Morgan; Ogle; Peoria; Perry; Pike; Pulaski; Putnam; Randolph; Rock Island; Sangamon; Schuyler; Scott; St Clair; Stark; Stephenson; Tazewell; Union; Warren; Washington; Whiteside; Winnebago; Woodford. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=36.6666666666667 +lon_0=-90.1666666666667 +k=0.999941176470588 +x_0=700000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2791.
+ */
+export declare const ESRI_102272: string;
+/**
+ * ESRI:102273, NAD_1983_HARN_StatePlane_Indiana_East_FIPS_1301. United States (USA) - Indiana - counties of Adams; Allen; Bartholomew; Blackford; Brown; Cass; Clark; De Kalb; Dearborn; Decatur; Delaware; Elkhart; Fayette; Floyd; Franklin; Fulton; Grant; Hamilton; Hancock; Harrison; Henry; Howard; Huntington; Jackson; Jay; Jefferson; Jennings; Johnson; Kosciusko; Lagrange; Madison; Marion; Marshall; Miami; Noble; Ohio; Randolph; Ripley; Rush; Scott; Shelby; St Joseph; Steuben; Switzerland; Tipton; Union; Wabash; Washington; Wayne; Wells; Whitley. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=37.5 +lon_0=-85.6666666666667 +k=0.999966666666667 +x_0=100000 +y_0=250000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2792.
+ */
+export declare const ESRI_102273: string;
+/**
+ * ESRI:102274, NAD_1983_HARN_StatePlane_Indiana_West_FIPS_1302. United States (USA) - Indiana - counties of Benton; Boone; Carroll; Clay; Clinton; Crawford; Daviess; Dubois; Fountain; Gibson; Greene; Hendricks; Jasper; Knox; La Porte; Lake; Lawrence; Martin; Monroe; Montgomery; Morgan; Newton; Orange; Owen; Parke; Perry; Pike; Porter; Posey; Pulaski; Putnam; Spencer; Starke; Sullivan; Tippecanoe; Vanderburgh; Vermillion; Vigo; Warren; Warrick; White. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=37.5 +lon_0=-87.0833333333333 +k=0.999966666666667 +x_0=900000 +y_0=250000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2793.
+ */
+export declare const ESRI_102274: string;
+/**
+ * ESRI:102275, NAD_1983_HARN_StatePlane_Iowa_North_FIPS_1401. United States (USA) - Iowa - counties of Allamakee; Benton; Black Hawk; Boone; Bremer; Buchanan; Buena Vista; Butler; Calhoun; Carroll; Cerro Gordo; Cherokee; Chickasaw; Clay; Clayton; Crawford; Delaware; Dickinson; Dubuque; Emmet; Fayette; Floyd; Franklin; Greene; Grundy; Hamilton; Hancock; Hardin; Howard; Humboldt; Ida; Jackson; Jones; Kossuth; Linn; Lyon; Marshall; Mitchell; Monona; O'Brien; Osceola; Palo Alto; Plymouth; Pocahontas; Sac; Sioux; Story; Tama; Webster; Winnebago; Winneshiek; Woodbury; Worth; Wright. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=41.5 +lon_0=-93.5 +lat_1=42.0666666666667 +lat_2=43.2666666666667 +x_0=1500000 +y_0=1000000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2794.
+ */
+export declare const ESRI_102275: string;
+/**
+ * ESRI:102276, NAD_1983_HARN_StatePlane_Iowa_South_FIPS_1402. United States (USA) - Iowa - counties of Adair; Adams; Appanoose; Audubon; Cass; Cedar; Clarke; Clinton; Dallas; Davis; Decatur; Des Moines; Fremont; Guthrie; Harrison; Henry; Iowa; Jasper; Jefferson; Johnson; Keokuk; Lee; Louisa; Lucas; Madison; Mahaska; Marion; Mills; Monroe; Montgomery; Muscatine; Page; Polk; Pottawattamie; Poweshiek; Ringgold; Scott; Shelby; Taylor; Union; Van Buren; Wapello; Warren; Washington; Wayne. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=40 +lon_0=-93.5 +lat_1=40.6166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2795.
+ */
+export declare const ESRI_102276: string;
+/**
+ * ESRI:102277, NAD_1983_HARN_StatePlane_Kansas_North_FIPS_1501. United States (USA) - Kansas - counties of Atchison; Brown; Cheyenne; Clay; Cloud; Decatur; Dickinson; Doniphan; Douglas; Ellis; Ellsworth; Geary; Gove; Graham; Jackson; Jefferson; Jewell; Johnson; Leavenworth; Lincoln; Logan; Marshall; Mitchell; Morris; Nemaha; Norton; Osborne; Ottawa; Phillips; Pottawatomie; Rawlins; Republic; Riley; Rooks; Russell; Saline; Shawnee; Sheridan; Sherman; Smith; Thomas; Trego; Wabaunsee; Wallace; Washington; Wyandotte. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=38.3333333333333 +lon_0=-98 +lat_1=38.7166666666667 +lat_2=39.7833333333333 +x_0=400000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2796.
+ */
+export declare const ESRI_102277: string;
+/**
+ * ESRI:102278, NAD_1983_HARN_StatePlane_Kansas_South_FIPS_1502. United States (USA) - Kansas - counties of Allen; Anderson; Barber; Barton; Bourbon; Butler; Chase; Chautauqua; Cherokee; Clark; Coffey; Comanche; Cowley; Crawford; Edwards; Elk; Finney; Ford; Franklin; Grant; Gray; Greeley; Greenwood; Hamilton; Harper; Harvey; Haskell; Hodgeman; Kearny; Kingman; Kiowa; Labette; Lane; Linn; Lyon; Marion; McPherson; Meade; Miami; Montgomery; Morton; Neosho; Ness; Osage; Pawnee; Pratt; Reno; Rice; Rush; Scott; Sedgwick; Seward; Stafford; Stanton; Stevens; Sumner; Wichita; Wilson; Woodson. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=36.6666666666667 +lon_0=-98.5 +lat_1=37.2666666666667 +lat_2=38.5666666666667 +x_0=400000 +y_0=400000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2797.
+ */
+export declare const ESRI_102278: string;
+/**
+ * ESRI:102279, NAD_1983_HARN_StatePlane_Kentucky_North_FIPS_1601. United States (USA) - Kentucky - counties of Anderson; Bath; Boone; Bourbon; Boyd; Bracken; Bullitt; Campbell; Carroll; Carter; Clark; Elliott; Fayette; Fleming; Franklin; Gallatin; Grant; Greenup; Harrison; Henry; Jefferson; Jessamine; Kenton; Lawrence; Lewis; Mason; Menifee; Montgomery; Morgan; Nicholas; Oldham; Owen; Pendleton; Robertson; Rowan; Scott; Shelby; Spencer; Trimble; Woodford. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=37.5 +lon_0=-84.25 +lat_1=37.9666666666667 +lat_2=38.9666666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2798.
+ */
+export declare const ESRI_102279: string;
+/**
+ * ESRI:102280, NAD_1983_HARN_StatePlane_Kentucky_South_FIPS_1602. United States (USA) - Kentucky - counties of Adair; Allen; Ballard; Barren; Bell; Boyle; Breathitt; Breckinridge; Butler; Caldwell; Calloway; Carlisle; Casey; Christian; Clay; Clinton; Crittenden; Cumberland; Daviess; Edmonson; Estill; Floyd; Fulton; Garrard; Graves; Grayson; Green; Hancock; Hardin; Harlan; Hart; Henderson; Hickman; Hopkins; Jackson; Johnson; Knott; Knox; Larue; Laurel; Lee; Leslie; Letcher; Lincoln; Livingston; Logan; Lyon; Madison; Magoffin; Marion; Marshall; Martin; McCracken; McCreary; McLean; Meade; Mercer; Metcalfe; Monroe; Muhlenberg; Nelson; Ohio; Owsley; Perry; Pike; Powell; Pulaski; Rockcastle; Russell; Simpson; Taylor; Todd; Trigg; Union; Warren; Washington; Wayne; Webster; Whitley; Wolfe. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=36.7333333333333 +lat_2=37.9333333333333 +x_0=500000 +y_0=500000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2799.
+ */
+export declare const ESRI_102280: string;
+/**
+ * ESRI:102281, NAD_1983_HARN_StatePlane_Louisiana_North_FIPS_1701. United States (USA) - Louisiana - counties of Avoyelles; Bienville; Bossier; Caddo; Caldwell; Catahoula; Claiborne; Concordia; De Soto; East Carroll; Franklin; Grant; Jackson; La Salle; Lincoln; Madison; Morehouse; Natchitoches; Ouachita; Rapides; Red River; Richland; Sabine; Tensas; Union; Vernon; Webster; West Carroll; Winn. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=30.5 +lon_0=-92.5 +lat_1=31.1666666666667 +lat_2=32.6666666666667 +x_0=1000000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2800.
+ */
+export declare const ESRI_102281: string;
+/**
+ * ESRI:102282, NAD_1983_HARN_StatePlane_Louisiana_South_FIPS_1702. United States (USA) - Louisiana - counties of Acadia; Allen; Ascension; Assumption; Beauregard; Calcasieu; Cameron; East Baton Rouge; East Feliciana; Evangeline; Iberia; Iberville; Jefferson; Jefferson Davis; Lafayette; LaFourche; Livingston; Orleans; Plaquemines; Pointe Coupee; St Bernard; St Charles; St Helena; St James; St John the Baptist; St Landry; St Martin; St Mary; St Tammany; Tangipahoa; Terrebonne; Vermilion; Washington; West Baton Rouge; West Feliciana. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=28.5 +lon_0=-91.3333333333333 +lat_1=29.3 +lat_2=30.7 +x_0=1000000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2801.
+ */
+export declare const ESRI_102282: string;
+/**
+ * ESRI:102283, NAD_1983_HARN_StatePlane_Maine_East_FIPS_1801. United States (USA) - Maine - counties of Aroostook; Hancock; Knox; Penobscot; Piscataquis; Waldo; Washington. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=43.6666666666667 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2802.
+ */
+export declare const ESRI_102283: string;
+/**
+ * ESRI:102284, NAD_1983_HARN_StatePlane_Maine_West_FIPS_1802. United States (USA) - Maine - counties of Androscoggin; Cumberland; Franklin; Kennebec; Lincoln; Oxford; Sagadahoc; Somerset; York. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.1666666666667 +k=0.999966666666667 +x_0=900000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2803.
+ */
+export declare const ESRI_102284: string;
+/**
+ * ESRI:102285, NAD_1983_HARN_StatePlane_Maryland_FIPS_1900. United States (USA) - Maryland - counties of Allegany; Anne Arundel; Baltimore; Calvert; Caroline; Carroll; Cecil; Charles; Dorchester; Frederick; Garrett; Harford; Howard; Kent; Montgomery; Prince Georges; Queen Annes; Somerset; St Marys; Talbot; Washington; Wicomico; Worcester. District of Columbia (DC). Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=37.6666666666667 +lon_0=-77 +lat_1=38.3 +lat_2=39.45 +x_0=400000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2804.
+ */
+export declare const ESRI_102285: string;
+/**
+ * ESRI:102286, NAD_1983_HARN_StatePlane_Massachusetts_Mainland_FIPS_2001. United States (USA) - Massachusetts onshore - counties of Barnstable; Berkshire; Bristol; Essex; Franklin; Hampden; Hampshire; Middlesex; Norfolk; Plymouth; Suffolk; Worcester. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=41 +lon_0=-71.5 +lat_1=41.7166666666667 +lat_2=42.6833333333333 +x_0=200000 +y_0=750000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2805.
+ */
+export declare const ESRI_102286: string;
+/**
+ * ESRI:102287, NAD_1983_HARN_StatePlane_Massachusetts_Island_FIPS_2002. United States (USA) - Massachusetts offshore - counties of Dukes; Nantucket. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=41 +lon_0=-70.5 +lat_1=41.2833333333333 +lat_2=41.4833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2806.
+ */
+export declare const ESRI_102287: string;
+/**
+ * ESRI:102288, NAD_1983_HARN_StatePlane_Michigan_North_FIPS_2111. United States (USA) - Michigan north of approximately 45°45'N - counties of Alger; Baraga; Chippewa; Delta; Dickinson; Gogebic; Houghton; Iron; Keweenaw; Luce; Mackinac; Marquette; Menominee; Ontonagon; Schoolcraft. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=44.7833333333333 +lon_0=-87 +lat_1=45.4833333333333 +lat_2=47.0833333333333 +x_0=8000000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2807.
+ */
+export declare const ESRI_102288: string;
+/**
+ * ESRI:102289, NAD_1983_HARN_StatePlane_Michigan_Central_FIPS_2112. United States (USA) - Michigan - counties of Alcona; Alpena; Antrim; Arenac; Benzie; Charlevoix; Cheboygan; Clare; Crawford; Emmet; Gladwin; Grand Traverse; Iosco; Kalkaska; Lake; Leelanau; Manistee; Mason; Missaukee; Montmorency; Ogemaw; Osceola; Oscoda; Otsego; Presque Isle; Roscommon; Wexford. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=43.3166666666667 +lon_0=-84.3666666666667 +lat_1=44.1833333333333 +lat_2=45.7 +x_0=6000000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2808.
+ */
+export declare const ESRI_102289: string;
+/**
+ * ESRI:102290, NAD_1983_HARN_StatePlane_Michigan_South_FIPS_2113. United States (USA) - Michigan - counties of Allegan; Barry; Bay; Berrien; Branch; Calhoun; Cass; Clinton; Eaton; Genesee; Gratiot; Hillsdale; Huron; Ingham; Ionia; Isabella; Jackson; Kalamazoo; Kent; Lapeer; Lenawee; Livingston; Macomb; Mecosta; Midland; Monroe; Montcalm; Muskegon; Newaygo; Oakland; Oceana; Ottawa; Saginaw; Sanilac; Shiawassee; St Clair; St Joseph; Tuscola; Van Buren; Washtenaw; Wayne. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=41.5 +lon_0=-84.3666666666667 +lat_1=42.1 +lat_2=43.6666666666667 +x_0=4000000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2809.
+ */
+export declare const ESRI_102290: string;
+/**
+ * ESRI:102291, NAD_1983_HARN_StatePlane_Minnesota_North_FIPS_2201. United States (USA) - Minnesota - counties of Beltrami; Clearwater; Cook; Itasca; Kittson; Koochiching; Lake; Lake of the Woods; Mahnomen; Marshall; Norman; Pennington; Polk; Red Lake; Roseau; St Louis. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=46.5 +lon_0=-93.1 +lat_1=47.0333333333333 +lat_2=48.6333333333333 +x_0=800000 +y_0=100000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2810.
+ */
+export declare const ESRI_102291: string;
+/**
+ * ESRI:102292, NAD_1983_HARN_StatePlane_Minnesota_Central_FIPS_2202. United States (USA) - Minnesota - counties of Aitkin; Becker; Benton; Carlton; Cass; Chisago; Clay; Crow Wing; Douglas; Grant; Hubbard; Isanti; Kanabec; Mille Lacs; Morrison; Otter Tail; Pine; Pope; Stearns; Stevens; Todd; Traverse; Wadena; Wilkin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=45 +lon_0=-94.25 +lat_1=45.6166666666667 +lat_2=47.05 +x_0=800000 +y_0=100000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2811.
+ */
+export declare const ESRI_102292: string;
+/**
+ * ESRI:102293, NAD_1983_HARN_StatePlane_Minnesota_South_FIPS_2203. United States (USA) - Minnesota - counties of Anoka; Big Stone; Blue Earth; Brown; Carver; Chippewa; Cottonwood; Dakota; Dodge; Faribault; Fillmore; Freeborn; Goodhue; Hennepin; Houston; Jackson; Kandiyohi; Lac Qui Parle; Le Sueur; Lincoln; Lyon; Martin; McLeod; Meeker; Mower; Murray; Nicollet; Nobles; Olmsted; Pipestone; Ramsey; Redwood; Renville; Rice; Rock; Scott; Sherburne; Sibley; Steele; Swift; Wabasha; Waseca; Washington; Watonwan; Winona; Wright; Yellow Medicine. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=43 +lon_0=-94 +lat_1=43.7833333333333 +lat_2=45.2166666666667 +x_0=800000 +y_0=100000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2812.
+ */
+export declare const ESRI_102293: string;
+/**
+ * ESRI:102294, NAD_1983_HARN_StatePlane_Mississippi_East_FIPS_2301. United States (USA) - Mississippi - counties of Alcorn; Attala; Benton; Calhoun; Chickasaw; Choctaw; Clarke; Clay; Covington; Forrest; George; Greene; Hancock; Harrison; Itawamba; Jackson; Jasper; Jones; Kemper; Lafayette; Lamar; Lauderdale; Leake; Lee; Lowndes; Marshall; Monroe; Neshoba; Newton; Noxubee; Oktibbeha; Pearl River; Perry; Pontotoc; Prentiss; Scott; Smith; Stone; Tippah; Tishomingo; Union; Wayne; Webster; Winston. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=29.5 +lon_0=-88.8333333333333 +k=0.99995 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2813.
+ */
+export declare const ESRI_102294: string;
+/**
+ * ESRI:102295, NAD_1983_HARN_StatePlane_Mississippi_West_FIPS_2302. United States (USA) - Mississippi - counties of Adams; Amite; Bolivar; Carroll; Claiborne; Coahoma; Copiah; De Soto; Franklin; Grenada; Hinds; Holmes; Humphreys; Issaquena; Jefferson; Jefferson Davis; Lawrence; Leflore; Lincoln; Madison; Marion; Montgomery; Panola; Pike; Quitman; Rankin; Sharkey; Simpson; Sunflower; Tallahatchie; Tate; Tunica; Walthall; Warren; Washington; Wilkinson; Yalobusha; Yazoo. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=29.5 +lon_0=-90.3333333333333 +k=0.99995 +x_0=700000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2814.
+ */
+export declare const ESRI_102295: string;
+/**
+ * ESRI:102296, NAD_1983_HARN_StatePlane_Missouri_East_FIPS_2401. United States (USA) - Missouri - counties of Bollinger; Butler; Cape Girardeau; Carter; Clark; Crawford; Dent; Dunklin; Franklin; Gasconade; Iron; Jefferson; Lewis; Lincoln; Madison; Marion; Mississippi; Montgomery; New Madrid; Oregon; Pemiscot; Perry; Pike; Ralls; Reynolds; Ripley; Scott; Shannon; St Charles; St Francois; St Louis; Ste. Genevieve; Stoddard; Warren; Washington; Wayne. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=35.8333333333333 +lon_0=-90.5 +k=0.999933333333333 +x_0=250000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2815.
+ */
+export declare const ESRI_102296: string;
+/**
+ * ESRI:102297, NAD_1983_HARN_StatePlane_Missouri_Central_FIPS_2402. United States (USA) - Missouri - counties of Adair; Audrain; Benton; Boone; Callaway; Camden; Carroll; Chariton; Christian; Cole; Cooper; Dallas; Douglas; Greene; Grundy; Hickory; Howard; Howell; Knox; Laclede; Linn; Livingston; Macon; Maries; Mercer; Miller; Moniteau; Monroe; Morgan; Osage; Ozark; Pettis; Phelps; Polk; Pulaski; Putnam; Randolph; Saline; Schuyler; Scotland; Shelby; Stone; Sullivan; Taney; Texas; Webster; Wright. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=35.8333333333333 +lon_0=-92.5 +k=0.999933333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2816.
+ */
+export declare const ESRI_102297: string;
+/**
+ * ESRI:102298, NAD_1983_HARN_StatePlane_Missouri_West_FIPS_2403. United States (USA) - Missouri - counties of Andrew; Atchison; Barry; Barton; Bates; Buchanan; Caldwell; Cass; Cedar; Clay; Clinton; Dade; Daviess; De Kalb; Gentry; Harrison; Henry; Holt; Jackson; Jasper; Johnson; Lafayette; Lawrence; McDonald; Newton; Nodaway; Platte; Ray; St Clair; Vernon; Worth. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=36.1666666666667 +lon_0=-94.5 +k=0.999941176470588 +x_0=850000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2817.
+ */
+export declare const ESRI_102298: string;
+/**
+ * ESRI:102300, NAD_1983_HARN_StatePlane_Montana_FIPS_2500. United States (USA) - Montana. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=44.25 +lon_0=-109.5 +lat_1=45 +lat_2=49 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2818.
+ */
+export declare const ESRI_102300: string;
+/**
+ * ESRI:102304, NAD_1983_HARN_StatePlane_Nebraska_FIPS_2600. United States (USA) - Nebraska. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=39.8333333333333 +lon_0=-100 +lat_1=40 +lat_2=43 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2819.
+ */
+export declare const ESRI_102304: string;
+/**
+ * ESRI:102305, CRTM05. Costa Rica - onshore and offshore east of 86°30'W. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +towgs84=-0.16959,0.35312,0.51846,0.03385,-0.16325,0.03446,0.03693 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5367.
+ */
+export declare const ESRI_102305: string;
 /**
  * ESRI:102306, Nepal_Nagarkot_TM. Nepal. Within 1 cm of PROJ.
  *
@@ -40706,11 +45947,171 @@ export declare const ESRI_102247: string;
  */
 export declare const ESRI_102306: string;
 /**
+ * ESRI:102307, NAD_1983_HARN_StatePlane_Nevada_East_FIPS_2701. United States (USA) - Nevada - counties of Clark; Elko; Eureka; Lincoln; White Pine. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=34.75 +lon_0=-115.583333333333 +k=0.9999 +x_0=200000 +y_0=8000000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2820.
+ */
+export declare const ESRI_102307: string;
+/**
+ * ESRI:102308, NAD_1983_HARN_StatePlane_Nevada_Central_FIPS_2702. United States (USA) - Nevada - counties of Lander; Nye. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=34.75 +lon_0=-116.666666666667 +k=0.9999 +x_0=500000 +y_0=6000000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2821.
+ */
+export declare const ESRI_102308: string;
+/**
+ * ESRI:102309, NAD_1983_HARN_StatePlane_Nevada_West_FIPS_2703. United States (USA) - Nevada - counties of Churchill; Douglas; Esmeralda; Humboldt; Lyon; Mineral; Pershing; Storey; Washoe. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=34.75 +lon_0=-118.583333333333 +k=0.9999 +x_0=800000 +y_0=4000000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2822.
+ */
+export declare const ESRI_102309: string;
+/**
+ * ESRI:102310, NAD_1983_HARN_StatePlane_New_Hampshire_FIPS_2800. United States (USA) - New Hampshire. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=42.5 +lon_0=-71.6666666666667 +k=0.999966666666667 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2823.
+ */
+export declare const ESRI_102310: string;
+/**
+ * ESRI:102311, NAD_1983_HARN_StatePlane_New_Jersey_FIPS_2900. United States (USA) - New Jersey. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2824.
+ */
+export declare const ESRI_102311: string;
+/**
+ * ESRI:102312, NAD_1983_HARN_StatePlane_New_Mexico_East_FIPS_3001. United States (USA) - New Mexico - counties of Chaves; Colfax; Curry; De Baca; Eddy; Guadalupe; Harding; Lea; Mora; Quay; Roosevelt; San Miguel; Union. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=31 +lon_0=-104.333333333333 +k=0.999909090909091 +x_0=165000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2825.
+ */
+export declare const ESRI_102312: string;
+/**
+ * ESRI:102313, NAD_1983_HARN_StatePlane_New_Mexico_Central_FIPS_3002. United States (USA) - New Mexico - counties of Bernalillo; Dona Ana; Lincoln; Los Alamos; Otero; Rio Arriba; Sandoval; Santa Fe; Socorro; Taos; Torrance; Valencia. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=31 +lon_0=-106.25 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2826.
+ */
+export declare const ESRI_102313: string;
+/**
+ * ESRI:102314, NAD_1983_HARN_StatePlane_New_Mexico_West_FIPS_3003. United States (USA) - New Mexico - counties of Catron; Cibola; Grant; Hidalgo; Luna; McKinley; San Juan; Sierra. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=31 +lon_0=-107.833333333333 +k=0.999916666666667 +x_0=830000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2827.
+ */
+export declare const ESRI_102314: string;
+/**
+ * ESRI:102315, NAD_1983_HARN_StatePlane_New_York_East_FIPS_3101. United States (USA) - New York mainland - counties of Albany; Clinton; Columbia; Delaware; Dutchess; Essex; Franklin; Fulton; Greene; Hamilton; Herkimer; Montgomery; Orange; Otsego; Putnam; Rensselaer; Rockland; Saratoga; Schenectady; Schoharie; St Lawrence; Sullivan; Ulster; Warren; Washington; Westchester. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2828.
+ */
+export declare const ESRI_102315: string;
+/**
+ * ESRI:102316, NAD_1983_HARN_StatePlane_New_York_Central_FIPS_3102. United States (USA) - New York - counties of Broome; Cayuga; Chemung; Chenango; Cortland; Jefferson; Lewis; Madison; Oneida; Onondaga; Ontario; Oswego; Schuyler; Seneca; Steuben; Tioga; Tompkins; Wayne; Yates. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=40 +lon_0=-76.5833333333333 +k=0.9999375 +x_0=250000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2829.
+ */
+export declare const ESRI_102316: string;
+/**
+ * ESRI:102317, NAD_1983_HARN_StatePlane_New_York_West_FIPS_3103. United States (USA) - New York - counties of Allegany; Cattaraugus; Chautauqua; Erie; Genesee; Livingston; Monroe; Niagara; Orleans; Wyoming. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2830.
+ */
+export declare const ESRI_102317: string;
+/**
+ * ESRI:102318, NAD_1983_HARN_StatePlane_New_York_Long_Island_FIPS_3104. United States (USA) - New York - counties of Bronx; Kings; Nassau; New York; Queens; Richmond; Suffolk. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=40.1666666666667 +lon_0=-74 +lat_1=40.6666666666667 +lat_2=41.0333333333333 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2831.
+ */
+export declare const ESRI_102318: string;
+/**
  * ESRI:102319, CGRS_1993_LTM. Cyprus - onshore. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=0 +lon_0=33 +k=0.99995 +x_0=200000 +y_0=-3500000 +ellps=WGS84 +towgs84=8.846,-4.394,-1.122,-0.00237,-0.146528,0.130428,0.783926 +units=m +no_defs`
  */
 export declare const ESRI_102319: string;
+/**
+ * ESRI:102320, NAD_1983_HARN_StatePlane_North_Dakota_North_FIPS_3301. United States (USA) - North Dakota - counties of Benson; Bottineau; Burke; Cavalier; Divide; Eddy; Foster; Grand Forks; Griggs; McHenry; McKenzie; McLean; Mountrial; Nelson; Pembina; Pierce; Ramsey; Renville; Rolette; Sheridan; Steele; Towner; Traill; Walsh; Ward; Wells; Williams. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=47 +lon_0=-100.5 +lat_1=47.4333333333333 +lat_2=48.7333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2832.
+ */
+export declare const ESRI_102320: string;
+/**
+ * ESRI:102321, NAD_1983_HARN_StatePlane_North_Dakota_South_FIPS_3302. United States (USA) - North Dakota - counties of Adams; Barnes; Billings; Bowman; Burleigh; Cass; Dickey; Dunn; Emmons; Golden Valley; Grant; Hettinger; Kidder; La Moure; Logan; McIntosh; Mercer; Morton; Oliver; Ransom; Richland; Sargent; Sioux; Slope; Stark; Stutsman. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=45.6666666666667 +lon_0=-100.5 +lat_1=46.1833333333333 +lat_2=47.4833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2833.
+ */
+export declare const ESRI_102321: string;
+/**
+ * ESRI:102322, NAD_1983_HARN_StatePlane_Ohio_North_FIPS_3401. United States (USA) - Ohio - counties of Allen;Ashland; Ashtabula; Auglaize; Carroll; Columbiana; Coshocton; Crawford; Cuyahoga; Defiance; Delaware; Erie; Fulton; Geauga; Hancock; Hardin; Harrison; Henry; Holmes; Huron; Jefferson; Knox; Lake; Logan; Lorain; Lucas; Mahoning; Marion; Medina; Mercer; Morrow; Ottawa; Paulding; Portage; Putnam; Richland; Sandusky; Seneca; Shelby; Stark; Summit; Trumbull; Tuscarawas; Union; Van Wert; Wayne; Williams; Wood; Wyandot. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=39.6666666666667 +lon_0=-82.5 +lat_1=40.4333333333333 +lat_2=41.7 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2834.
+ */
+export declare const ESRI_102322: string;
+/**
+ * ESRI:102323, NAD_1983_HARN_StatePlane_Ohio_South_FIPS_3402. United States (USA) - Ohio - counties of Adams; Athens; Belmont; Brown; Butler; Champaign; Clark; Clermont; Clinton; Darke; Fairfield; Fayette; Franklin; Gallia; Greene; Guernsey; Hamilton; Highland; Hocking; Jackson; Lawrence; Licking; Madison; Meigs; Miami; Monroe; Montgomery; Morgan; Muskingum; Noble; Perry; Pickaway; Pike; Preble; Ross; Scioto; Vinton; Warren; Washington. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=38 +lon_0=-82.5 +lat_1=38.7333333333333 +lat_2=40.0333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2835.
+ */
+export declare const ESRI_102323: string;
+/**
+ * ESRI:102324, NAD_1983_HARN_StatePlane_Oklahoma_North_FIPS_3501. United States (USA) - Oklahoma - counties of Adair; Alfalfa; Beaver; Blaine; Canadian; Cherokee; Cimarron; Craig; Creek; Custer; Delaware; Dewey; Ellis; Garfield; Grant; Harper; Kay; Kingfisher; Lincoln; Logan; Major; Mayes; Muskogee; Noble; Nowata; Okfuskee; Oklahoma; Okmulgee; Osage; Ottawa; Pawnee; Payne; Roger Mills; Rogers; Sequoyah; Texas; Tulsa; Wagoner; Washington; Woods; Woodward. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=35 +lon_0=-98 +lat_1=35.5666666666667 +lat_2=36.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2836.
+ */
+export declare const ESRI_102324: string;
+/**
+ * ESRI:102325, NAD_1983_HARN_StatePlane_Oklahoma_South_FIPS_3502. United States (USA) - Oklahoma - counties of Atoka; Beckham; Bryan; Caddo; Carter; Choctaw; Cleveland; Coal; Comanche; Cotton; Garvin; Grady; Greer; Harmon; Haskell; Hughes; Jackson; Jefferson; Johnston; Kiowa; Latimer; Le Flore; Love; Marshall; McClain; McCurtain; McIntosh; Murray; Pittsburg; Pontotoc; Pottawatomie; Pushmataha; Seminole; Stephens; Tillman; Washita. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=33.3333333333333 +lon_0=-98 +lat_1=33.9333333333333 +lat_2=35.2333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2837.
+ */
+export declare const ESRI_102325: string;
+/**
+ * ESRI:102326, NAD_1983_HARN_StatePlane_Oregon_North_FIPS_3601. United States (USA) - Oregon - counties of Baker; Benton; Clackamas; Clatsop; Columbia; Gilliam; Grant; Hood River; Jefferson; Lincoln; Linn; Marion; Morrow; Multnomah; Polk; Sherman; Tillamook; Umatilla; Union; Wallowa; Wasco; Washington; Wheeler; Yamhill. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=43.6666666666667 +lon_0=-120.5 +lat_1=44.3333333333333 +lat_2=46 +x_0=2500000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2838.
+ */
+export declare const ESRI_102326: string;
+/**
+ * ESRI:102327, NAD_1983_HARN_StatePlane_Oregon_South_FIPS_3602. United States (USA) - Oregon - counties of Coos; Crook; Curry; Deschutes; Douglas; Harney; Jackson; Josephine; Klamath; Lake; Lane; Malheur. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=41.6666666666667 +lon_0=-120.5 +lat_1=42.3333333333333 +lat_2=44 +x_0=1500000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2839.
+ */
+export declare const ESRI_102327: string;
 /**
  * ESRI:102328, ETRS_1989_UTM_Zone_32N_7stellen. Germany - west of 12~E Within 1 cm of PROJ.
  *
@@ -40724,6 +46125,238 @@ export declare const ESRI_102328: string;
  */
 export declare const ESRI_102329: string;
 /**
+ * ESRI:102330, NAD_1983_HARN_StatePlane_Rhode_Island_FIPS_3800. United States (USA) - Rhode Island. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=41.0833333333333 +lon_0=-71.5 +k=0.99999375 +x_0=100000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2840.
+ */
+export declare const ESRI_102330: string;
+/**
+ * ESRI:102331, PTRA08_UTM_Zone_25N. Portugal - west of 30°W - western Azores - Flores and Corvo islands and surrounding EEZ. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=25 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5014.
+ */
+export declare const ESRI_102331: string;
+/**
+ * ESRI:102332, PTRA08_UTM_Zone_26N. Portugal - between 30°W and 24°W - central and eastern Azores - Graciosa, Terceira, Sao Jorge, Pico, Faial; Sao Miguel and Santa Maria islands and surrounding EEZ. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=26 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5015.
+ */
+export declare const ESRI_102332: string;
+/**
+ * ESRI:102333, PTRA08_UTM_Zone_28N. Portugal - Madeira, Porto Santo, Desertas and Selvagens islands and surrounding EEZ east of 18°W. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=28 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5016.
+ */
+export declare const ESRI_102333: string;
+/**
+ * ESRI:102334, NAD_1983_HARN_StatePlane_South_Dakota_North_FIPS_4001. United States (USA) - South Dakota - counties of Beadle; Brookings; Brown; Butte; Campbell; Clark; Codington; Corson; Day; Deuel; Dewey; Edmunds; Faulk; Grant; Hamlin; Hand; Harding; Hyde; Kingsbury; Lawrence; Marshall; McPherson; Meade; Perkins; Potter; Roberts; Spink; Sully; Walworth; Ziebach. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=43.8333333333333 +lon_0=-100 +lat_1=44.4166666666667 +lat_2=45.6833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2841.
+ */
+export declare const ESRI_102334: string;
+/**
+ * ESRI:102335, NAD_1983_HARN_StatePlane_South_Dakota_South_FIPS_4002. United States (USA) - South Dakota - counties of Aurora; Bennett; Bon Homme; Brule; Buffalo; Charles Mix; Clay; Custer; Davison; Douglas; Fall River; Gregory; Haakon; Hanson; Hughes; Hutchinson; Jackson; Jerauld; Jones; Lake; Lincoln; Lyman; McCook; Mellette; Miner; Minnehaha; Moody; Pennington; Sanborn; Shannon; Stanley; Todd; Tripp; Turner; Union; Yankton. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=42.3333333333333 +lon_0=-100.333333333333 +lat_1=42.8333333333333 +lat_2=44.4 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2842.
+ */
+export declare const ESRI_102335: string;
+/**
+ * ESRI:102336, NAD_1983_HARN_StatePlane_Tennessee_FIPS_4100. United States (USA) - Tennessee. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=34.3333333333333 +lon_0=-86 +lat_1=35.25 +lat_2=36.4166666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2843.
+ */
+export declare const ESRI_102336: string;
+/**
+ * ESRI:102337, NAD_1983_HARN_StatePlane_Texas_North_FIPS_4201. United States (USA) - Texas - counties of: Armstrong; Briscoe; Carson; Castro; Childress; Collingsworth; Dallam; Deaf Smith; Donley; Gray; Hall; Hansford; Hartley; Hemphill; Hutchinson; Lipscomb; Moore; Ochiltree; Oldham; Parmer; Potter; Randall; Roberts; Sherman; Swisher; Wheeler. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=34 +lon_0=-101.5 +lat_1=34.65 +lat_2=36.1833333333333 +x_0=200000 +y_0=1000000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2844.
+ */
+export declare const ESRI_102337: string;
+/**
+ * ESRI:102338, NAD_1983_HARN_StatePlane_Texas_North_Central_FIPS_4202. United States (USA) - Texas - counties of: Andrews; Archer; Bailey; Baylor; Borden; Bowie; Callahan; Camp; Cass; Clay; Cochran; Collin; Cooke; Cottle; Crosby; Dallas; Dawson; Delta; Denton; Dickens; Eastland; Ellis; Erath; Fannin; Fisher; Floyd; Foard; Franklin; Gaines; Garza; Grayson; Gregg; Hale; Hardeman; Harrison; Haskell; Henderson; Hill; Hockley; Hood; Hopkins; Howard; Hunt; Jack; Johnson; Jones; Kaufman; Kent; King; Knox; Lamar; Lamb; Lubbock; Lynn; Marion; Martin; Mitchell; Montague; Morris; Motley; Navarro; Nolan; Palo Pinto; Panola; Parker; Rains; Red River; Rockwall; Rusk; Scurry; Shackelford; Smith; Somervell; Stephens; Stonewall; Tarrant; Taylor; Terry; Throckmorton; Titus; Upshur; Van Zandt; Wichita; Wilbarger; Wise; Wood; Yoakum; Young. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=31.6666666666667 +lon_0=-98.5 +lat_1=32.1333333333333 +lat_2=33.9666666666667 +x_0=600000 +y_0=2000000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2845.
+ */
+export declare const ESRI_102338: string;
+/**
+ * ESRI:102339, NAD_1983_HARN_StatePlane_Texas_Central_FIPS_4203. United States (USA) - Texas - counties of Anderson; Angelina; Bastrop; Bell; Blanco; Bosque; Brazos; Brown; Burleson; Burnet; Cherokee; Coke; Coleman; Comanche; Concho; Coryell; Crane; Crockett; Culberson; Ector; El Paso; Falls; Freestone; Gillespie; Glasscock; Grimes; Hamilton; Hardin; Houston; Hudspeth; Irion; Jasper; Jeff Davis; Kimble; Lampasas; Lee; Leon; Liberty; Limestone; Llano; Loving; Madison; Mason; McCulloch; McLennan; Menard; Midland; Milam; Mills; Montgomery; Nacogdoches; Newton; Orange; Pecos; Polk; Reagan; Reeves; Robertson; Runnels; Sabine; San Augustine; San Jacinto; San Saba; Schleicher; Shelby; Sterling; Sutton; Tom Green; Travis; Trinity; Tyler; Upton; Walker; Ward; Washington; Williamson; Winkler. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=29.6666666666667 +lon_0=-100.333333333333 +lat_1=30.1166666666667 +lat_2=31.8833333333333 +x_0=700000 +y_0=3000000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2846.
+ */
+export declare const ESRI_102339: string;
+/**
+ * ESRI:102340, NAD_1983_HARN_StatePlane_Texas_South_Central_FIPS_4204. United States (USA) - Texas - counties of Aransas; Atascosa; Austin; Bandera; Bee; Bexar; Brazoria; Brewster; Caldwell; Calhoun; Chambers; Colorado; Comal; De Witt; Dimmit; Edwards; Fayette; Fort Bend; Frio; Galveston; Goliad; Gonzales; Guadalupe; Harris; Hays; Jackson; Jefferson; Karnes; Kendall; Kerr; Kinney; La Salle; Lavaca; Live Oak; Matagorda; Maverick; McMullen; Medina; Presidio; Real; Refugio; Terrell; Uvalde; Val Verde; Victoria; Waller; Wharton; Wilson; Zavala. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=27.8333333333333 +lon_0=-99 +lat_1=28.3833333333333 +lat_2=30.2833333333333 +x_0=600000 +y_0=4000000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2847.
+ */
+export declare const ESRI_102340: string;
+/**
+ * ESRI:102341, NAD_1983_HARN_StatePlane_Texas_South_FIPS_4205. United States (USA) - Texas - counties of Brooks; Cameron; Duval; Hidalgo; Jim Hogg; Jim Wells; Kenedy; Kleberg; Nueces; San Patricio; Starr; Webb; Willacy; Zapata. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=25.6666666666667 +lon_0=-98.5 +lat_1=26.1666666666667 +lat_2=27.8333333333333 +x_0=300000 +y_0=5000000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2848.
+ */
+export declare const ESRI_102341: string;
+/**
+ * ESRI:102342, NAD_1983_HARN_StatePlane_Utah_North_FIPS_4301. United States (USA) - Utah - counties of Box Elder; Cache; Daggett; Davis; Morgan; Rich; Summit; Weber. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=40.3333333333333 +lon_0=-111.5 +lat_1=40.7166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=1000000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2849.
+ */
+export declare const ESRI_102342: string;
+/**
+ * ESRI:102343, NAD_1983_HARN_StatePlane_Utah_Central_FIPS_4302. United States (USA) - Utah - counties of Carbon; Duchesne; Emery; Grand; Juab; Millard; Salt Lake; Sanpete; Sevier; Tooele; Uintah; Utah; Wasatch. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=38.3333333333333 +lon_0=-111.5 +lat_1=39.0166666666667 +lat_2=40.65 +x_0=500000 +y_0=2000000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2850.
+ */
+export declare const ESRI_102343: string;
+/**
+ * ESRI:102344, NAD_1983_HARN_StatePlane_Utah_South_FIPS_4303. United States (USA) - Utah - counties of Beaver; Garfield; Iron; Kane; Piute; San Juan; Washington; Wayne. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=36.6666666666667 +lon_0=-111.5 +lat_1=37.2166666666667 +lat_2=38.35 +x_0=500000 +y_0=3000000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2851.
+ */
+export declare const ESRI_102344: string;
+/**
+ * ESRI:102345, NAD_1983_HARN_StatePlane_Vermont_FIPS_4400. United States (USA) - Vermont. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=42.5 +lon_0=-72.5 +k=0.999964285714286 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2852.
+ */
+export declare const ESRI_102345: string;
+/**
+ * ESRI:102346, NAD_1983_HARN_StatePlane_Virginia_North_FIPS_4501. United States (USA) - Virginia - counties of Arlington; Augusta; Bath; Caroline; Clarke; Culpeper; Fairfax; Fauquier; Frederick; Greene; Highland; King George; Loudoun; Madison; Orange; Page; Prince William; Rappahannock; Rockingham; Shenandoah; Spotsylvania; Stafford; Warren; Westmoreland. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=37.6666666666667 +lon_0=-78.5 +lat_1=38.0333333333333 +lat_2=39.2 +x_0=3500000 +y_0=2000000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2853.
+ */
+export declare const ESRI_102346: string;
+/**
+ * ESRI:102347, NAD_1983_HARN_StatePlane_Virginia_South_FIPS_4502. United States (USA) - Virginia - counties of Accomack; Albemarle; Alleghany; Amelia; Amherst; Appomattox; Bedford; Bland; Botetourt; Bristol; Brunswick; Buchanan; Buckingham; Campbell; Carroll; Charles City; Charlotte; Chesapeake; Chesterfield; Colonial Heights; Craig; Cumberland; Dickenson; Dinwiddie; Essex; Floyd; Fluvanna; Franklin; Giles; Gloucester; Goochland; Grayson; Greensville; Halifax; Hampton; Hanover; Henrico; Henry; Isle of Wight; James City; King and Queen; King William; Lancaster; Lee; Louisa; Lunenburg; Lynchburg; Mathews; Mecklenburg; Middlesex; Montgomery; Nelson; New Kent; Newport News; Norfolk; Northampton; Northumberland; Norton; Nottoway; Patrick; Petersburg; Pittsylvania; Portsmouth; Powhatan; Prince Edward; Prince George; Pulaski; Richmond; Roanoke; Rockbridge; Russell; Scott; Smyth; Southampton; Suffolk; Surry; Sussex; Tazewell; Washington; Wise; Wythe; York. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=36.3333333333333 +lon_0=-78.5 +lat_1=36.7666666666667 +lat_2=37.9666666666667 +x_0=3500000 +y_0=1000000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2854.
+ */
+export declare const ESRI_102347: string;
+/**
+ * ESRI:102348, NAD_1983_HARN_StatePlane_Washington_North_FIPS_4601. United States (USA) - Washington - counties of Chelan; Clallam; Douglas; Ferry; Grant north of approximately 47°30'N; Island; Jefferson; King; Kitsap; Lincoln; Okanogan; Pend Oreille; San Juan; Skagit; Snohomish; Spokane; Stevens; Whatcom. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=47 +lon_0=-120.833333333333 +lat_1=47.5 +lat_2=48.7333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2855.
+ */
+export declare const ESRI_102348: string;
+/**
+ * ESRI:102349, NAD_1983_HARN_StatePlane_Washington_South_FIPS_4602. United States (USA) - Washington - counties of Adams; Asotin; Benton; Clark; Columbia; Cowlitz; Franklin; Garfield; Grant south of approximately 47°30'N; Grays Harbor; Kittitas; Klickitat; Lewis; Mason; Pacific; Pierce; Skamania; Thurston; Wahkiakum; Walla Walla; Whitman; Yakima. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=45.3333333333333 +lon_0=-120.5 +lat_1=45.8333333333333 +lat_2=47.3333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2856.
+ */
+export declare const ESRI_102349: string;
+/**
+ * ESRI:102350, NAD_1983_HARN_StatePlane_West_Virginia_North_FIPS_4701. United States (USA) - West Virginia - counties of Barbour; Berkeley; Brooke; Doddridge; Grant; Hampshire; Hancock; Hardy; Harrison; Jefferson; Marion; Marshall; Mineral; Monongalia; Morgan; Ohio; Pleasants; Preston; Ritchie; Taylor; Tucker; Tyler; Wetzel; Wirt; Wood. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=38.5 +lon_0=-79.5 +lat_1=39 +lat_2=40.25 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2857.
+ */
+export declare const ESRI_102350: string;
+/**
+ * ESRI:102351, NAD_1983_HARN_StatePlane_West_Virginia_South_FIPS_4702. United States (USA) - West Virginia - counties of Boone; Braxton; Cabell; Calhoun; Clay; Fayette; Gilmer; Greenbrier; Jackson; Kanawha; Lewis; Lincoln; Logan; Mason; McDowell; Mercer; Mingo; Monroe; Nicholas; Pendleton; Pocahontas; Putnam; Raleigh; Randolph; Roane; Summers; Upshur; Wayne; Webster; Wyoming. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=37 +lon_0=-81 +lat_1=37.4833333333333 +lat_2=38.8833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2858.
+ */
+export declare const ESRI_102351: string;
+/**
+ * ESRI:102352, NAD_1983_HARN_StatePlane_Wisconsin_North_FIPS_4801. United States (USA) - Wisconsin - counties of Ashland; Bayfield; Burnett; Douglas; Florence; Forest; Iron; Oneida; Price; Sawyer; Vilas; Washburn. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=45.1666666666667 +lon_0=-90 +lat_1=45.5666666666667 +lat_2=46.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2859.
+ */
+export declare const ESRI_102352: string;
+/**
+ * ESRI:102353, NAD_1983_HARN_StatePlane_Wisconsin_Central_FIPS_4802. United States (USA) - Wisconsin - counties of Barron; Brown; Buffalo; Chippewa; Clark; Door; Dunn; Eau Claire; Jackson; Kewaunee; Langlade; Lincoln; Marathon; Marinette; Menominee; Oconto; Outagamie; Pepin; Pierce; Polk; Portage; Rusk; Shawano; St Croix; Taylor; Trempealeau; Waupaca; Wood. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=43.8333333333333 +lon_0=-90 +lat_1=44.25 +lat_2=45.5 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2860.
+ */
+export declare const ESRI_102353: string;
+/**
+ * ESRI:102354, NAD_1983_HARN_StatePlane_Wisconsin_South_FIPS_4803. United States (USA) - Wisconsin - counties of Adams; Calumet; Columbia; Crawford; Dane; Dodge; Fond Du Lac; Grant; Green; Green Lake; Iowa; Jefferson; Juneau; Kenosha; La Crosse; Lafayette; Manitowoc; Marquette; Milwaukee; Monroe; Ozaukee; Racine; Richland; Rock; Sauk; Sheboygan; Vernon; Walworth; Washington; Waukesha; Waushara; Winnebago. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=42 +lon_0=-90 +lat_1=42.7333333333333 +lat_2=44.0666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2861.
+ */
+export declare const ESRI_102354: string;
+/**
+ * ESRI:102355, NAD_1983_HARN_StatePlane_Wyoming_East_FIPS_4901. United States (USA) - Wyoming - counties of Albany; Campbell; Converse; Crook; Goshen; Laramie; Niobrara; Platte; Weston. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=40.5 +lon_0=-105.166666666667 +k=0.9999375 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2862.
+ */
+export declare const ESRI_102355: string;
+/**
+ * ESRI:102356, NAD_1983_HARN_StatePlane_Wyoming_East_Central_FIPS_4902. United States (USA) - Wyoming - counties of Big Horn; Carbon; Johnson; Natrona; Sheridan; Washakie. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=40.5 +lon_0=-107.333333333333 +k=0.9999375 +x_0=400000 +y_0=100000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2863.
+ */
+export declare const ESRI_102356: string;
+/**
+ * ESRI:102357, NAD_1983_HARN_StatePlane_Wyoming_West_Central_FIPS_4903. United States (USA) - Wyoming - counties of Fremont; Hot Springs; Park; Sweetwater. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=40.5 +lon_0=-108.75 +k=0.9999375 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2864.
+ */
+export declare const ESRI_102357: string;
+/**
+ * ESRI:102358, NAD_1983_HARN_StatePlane_Wyoming_West_FIPS_4904. United States (USA) - Wyoming - counties of Lincoln; Sublette; Teton; Uinta. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=40.5 +lon_0=-110.083333333333 +k=0.9999375 +x_0=800000 +y_0=100000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2865.
+ */
+export declare const ESRI_102358: string;
+/**
  * ESRI:102359, ETRS_1989_UTM_Zone_33N_7stellen. Germany - west of 12~E Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9996 +x_0=3500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
@@ -40735,6 +46368,30 @@ export declare const ESRI_102359: string;
  * `+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9996 +x_0=33500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
  */
 export declare const ESRI_102360: string;
+/**
+ * ESRI:102361, NAD_1983_HARN_StatePlane_Puerto_Rico_Virgin_Islands_FIPS_5200. Puerto Rico and US Virgin Islands - onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=17.8333333333333 +lon_0=-66.4333333333333 +lat_1=18.0333333333333 +lat_2=18.4333333333333 +x_0=200000 +y_0=200000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:2866.
+ */
+export declare const ESRI_102361: string;
+/**
+ * ESRI:102362, ETRS_1989_UTM_Zone_N32. Germany - onshore and offshore between 6°E and 12°E - Baden-Wurtemberg, Bayern, Bremen, Hamburg, Hessen, Mecklenburg-Vorpommern, Niedersachsen, Nordrhein-Westfalen, Rheinland-Pfalz, Saarland, Sachsen, Sachsen-Anhalt, Schleswig-Holstein, Thuringen. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=9 +k=0.9996 +x_0=32500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4647.
+ */
+export declare const ESRI_102362: string;
+/**
+ * ESRI:102363, NAD_1983_HARN_StatePlane_Kentucky_FIPS_1600. United States (USA) - Kentucky. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=37.0833333333333 +lat_2=38.6666666666667 +x_0=1500000 +y_0=1000000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3090.
+ */
+export declare const ESRI_102363: string;
 /**
  * ESRI:102364, NAD_1983_CORS96_UTM_Zone_59N. United States (USA) - west of 174°E. Alaska and offshore continental shelf (OCS). Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
@@ -40807,6 +46464,110 @@ export declare const ESRI_102374: string;
  * `+proj=lcc +lat_0=51 +lon_0=-176 +lat_1=51.8333333333333 +lat_2=53.8333333333333 +x_0=1000000 +y_0=0 +ellps=GRS80 +units=m +no_defs`
  */
 export declare const ESRI_102375: string;
+/**
+ * ESRI:102376, NAD_1983_CORS96_StatePlane_Oregon_North_FIPS_3601. United States (USA) - Oregon - counties of Baker; Benton; Clackamas; Clatsop; Columbia; Gilliam; Grant; Hood River; Jefferson; Lincoln; Linn; Marion; Morrow; Multnomah; Polk; Sherman; Tillamook; Umatilla; Union; Wallowa; Wasco; Washington; Wheeler; Yamhill. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=43.6666666666667 +lon_0=-120.5 +lat_1=44.3333333333333 +lat_2=46 +x_0=2500000 +y_0=0 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6884.
+ */
+export declare const ESRI_102376: string;
+/**
+ * ESRI:102377, NAD_1983_CORS96_StatePlane_Oregon_South_FIPS_3602. United States (USA) - Oregon - counties of Coos; Crook; Curry; Deschutes; Douglas; Harney; Jackson; Josephine; Klamath; Lake; Lane; Malheur. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=41.6666666666667 +lon_0=-120.5 +lat_1=42.3333333333333 +lat_2=44 +x_0=1500000 +y_0=0 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6886.
+ */
+export declare const ESRI_102377: string;
+/**
+ * ESRI:102378, NAD_1983_CORS96_StatePlane_Oregon_North_FIPS_3601_Ft_Intl. United States (USA) - Oregon - counties of Baker; Benton; Clackamas; Clatsop; Columbia; Gilliam; Grant; Hood River; Jefferson; Lincoln; Linn; Marion; Morrow; Multnomah; Polk; Sherman; Tillamook; Umatilla; Union; Wallowa; Wasco; Washington; Wheeler; Yamhill. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=43.6666666666667 +lon_0=-120.5 +lat_1=44.3333333333333 +lat_2=46 +x_0=2500000 +y_0=0 +ellps=GRS80 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6885.
+ */
+export declare const ESRI_102378: string;
+/**
+ * ESRI:102379, NAD_1983_CORS96_StatePlane_Oregon_South_FIPS_3602_Ft_Intl. United States (USA) - Oregon - counties of Coos; Crook; Curry; Deschutes; Douglas; Harney; Jackson; Josephine; Klamath; Lake; Lane; Malheur. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=41.6666666666667 +lon_0=-120.5 +lat_1=42.3333333333333 +lat_2=44 +x_0=1500000 +y_0=0 +ellps=GRS80 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6887.
+ */
+export declare const ESRI_102379: string;
+/**
+ * ESRI:102380, NAD_1983_CORS96_Oregon_Statewide_Lambert. United States (USA) - Oregon. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=41.75 +lon_0=-120.5 +lat_1=43 +lat_2=45.5 +x_0=400000 +y_0=0 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6867.
+ */
+export declare const ESRI_102380: string;
+/**
+ * ESRI:102381, NAD_1983_CORS96_Oregon_Statewide_Lambert_Ft_Intl. United States (USA) - Oregon. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=41.75 +lon_0=-120.5 +lat_1=43 +lat_2=45.5 +x_0=400000 +y_0=0 +ellps=GRS80 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6868.
+ */
+export declare const ESRI_102381: string;
+/**
+ * ESRI:102382, NAD_1983_2011_UTM_Zone_13N. United States (USA) - between 108°W and 102°W - Colorado; Montana; Nebraska; New Mexico; North Dakota; Oklahoma; South Dakota; Texas; Wyoming. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=13 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6342.
+ */
+export declare const ESRI_102382: string;
+/**
+ * ESRI:102383, NAD_1983_2011_UTM_Zone_14N. United States (USA) - between 102°W and 96°W onshore and offshore - Iowa; Kansas; Minnesota; Nebraska; North Dakota; Oklahoma; South Dakota; Texas. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=14 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6343.
+ */
+export declare const ESRI_102383: string;
+/**
+ * ESRI:102384, NAD_1983_2011_UTM_Zone_15N. United States (USA) - between 96°W and 90°W onshore and offshore - Arkansas; Illinois; Iowa; Kansas; Louisiana; Michigan; Minnesota; Mississippi; Missouri; Nebraska; Oklahoma; Tennessee; Texas; Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=15 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6344.
+ */
+export declare const ESRI_102384: string;
+/**
+ * ESRI:102385, NAD_1983_2011_UTM_Zone_16N. United States (USA) - between 90°W and 84°W onshore and offshore - Alabama; Arkansas; Florida; Georgia; Indiana; Illinois; Kentucky; Louisiana; Michigan; Minnesota; Mississippi; Missouri; North Carolina; Ohio; Tennessee; Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=16 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6345.
+ */
+export declare const ESRI_102385: string;
+/**
+ * ESRI:102386, NAD_1983_2011_UTM_Zone_17N. United States (USA) - between 84°W and 78°W onshore and offshore - Florida; Georgia; Kentucky; Maryland; Michigan; New York; North Carolina; Ohio; Pennsylvania; South Carolina; Tennessee; Virginia; West Virginia. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=17 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6346.
+ */
+export declare const ESRI_102386: string;
+/**
+ * ESRI:102387, NAD_1983_2011_UTM_Zone_18N. United States (USA) - between 78°W and 72°W onshore and offshore - Connecticut; Delaware; District of Columbia (DC); Maryland; Massachusetts; New Hampshire; New Jersey; New York; North Carolina; Pennsylvania; Virginia; Vermont. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=18 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6347.
+ */
+export declare const ESRI_102387: string;
+/**
+ * ESRI:102388, NAD_1983_2011_UTM_Zone_19N. United States (USA) - between 72°W and 66°W onshore and offshore - Connecticut; Maine; Massachusetts; New Hampshire; New York (Long Island); Rhode Island; Vermont. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=19 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6348.
+ */
+export declare const ESRI_102388: string;
 /**
  * ESRI:102389, NAD_1983_Fargo_Ground_Coordinate_System. USA - North Dakota - Fargo Up to 0.202 m from PROJ.
  *
@@ -40994,6 +46755,14 @@ export declare const ESRI_102418: string;
  */
 export declare const ESRI_102419: string;
 /**
+ * ESRI:102420, ISN_2004_Lambert_2004. Iceland - onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=65 +lon_0=-19 +lat_1=64.25 +lat_2=65.75 +x_0=1700000 +y_0=300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5325.
+ */
+export declare const ESRI_102420: string;
+/**
  * ESRI:102421, WGS_1984_ARC_System_Zone_01. ARC System - Zone 1 Within 1 cm of PROJ.
  *
  * `+proj=eqc +lat_ts=22.94791772 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs`
@@ -41102,11 +46871,51 @@ export declare const ESRI_102437: string;
  */
 export declare const ESRI_102438: string;
 /**
+ * ESRI:102439, WGS_1984_Australian_Centre_for_Remote_Sensing_Lambert. Australia - Australian Capital Territory; New South Wales; Northern Territory; Queensland; South Australia; Tasmania; Western Australia; Victoria. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=-27 +lon_0=132 +lat_1=-18 +lat_2=-36 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4462.
+ */
+export declare const ESRI_102439: string;
+/**
  * ESRI:102440, LKS_1992_Latvia_TM_0. Latvia - onshore and offshore. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9996 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
  */
 export declare const ESRI_102440: string;
+/**
+ * ESRI:102441, TWD_1967_TM_Taiwan. Taiwan, Republic of China - onshore - Taiwan Island. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=121 +k=0.9999 +x_0=250000 +y_0=0 +ellps=aust_SA +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3828.
+ */
+export declare const ESRI_102441: string;
+/**
+ * ESRI:102442, TWD_1967_TM_Penghu. Taiwan, Republic of China - onshore - Penghu (Pescadores) Islands. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=119 +k=0.9999 +x_0=250000 +y_0=0 +ellps=aust_SA +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3827.
+ */
+export declare const ESRI_102442: string;
+/**
+ * ESRI:102443, TWD_1997_TM_Taiwan. Taiwan, Republic of China - between 120°E and 122°E, onshore and offshore - Taiwan Island. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=121 +k=0.9999 +x_0=250000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3826.
+ */
+export declare const ESRI_102443: string;
+/**
+ * ESRI:102444, TWD_1997_TM_Penghu. Taiwan, Republic of China - between 118°E and 120°E, onshore and offshore - Penghu (Pescadores) Islands. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=119 +k=0.9999 +x_0=250000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3825.
+ */
+export declare const ESRI_102444: string;
 /**
  * ESRI:102445, NAD_1983_2011_StatePlane_Alaska_1_FIPS_5001_Feet. United States (USA) - Alaska - east of 141°W; i.e. Panhandle. Within 1 cm of PROJ.
  *
@@ -41131,6 +46940,14 @@ export declare const ESRI_102447: string;
  * `+proj=tmerc +lat_0=22.2123972222222 +lon_0=113.536469444444 +k=1 +x_0=20000 +y_0=20000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
  */
 export declare const ESRI_102448: string;
+/**
+ * ESRI:102449, NAD_1983_MA11_UTM_Zone_55N. Guam and Northern Mariana Islands; onshore and offshore east of 144°E. Up to 0.819 m from PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=55 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8693.
+ */
+export declare const ESRI_102449: string;
 /**
  * ESRI:102450, NGO_1948_Oslo_Baerum_Kommune. Norway - Baerum Kommune Within 1 cm of PROJ.
  *
@@ -41210,6 +47027,14 @@ export declare const ESRI_102461: string;
  */
 export declare const ESRI_102462: string;
 /**
+ * ESRI:102463, NAD_1983_HARN_StatePlane_Hawaii_3_FIPS_5103_Feet. United States (USA) - Hawaii - Oahu - onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=21.1666666666667 +lon_0=-158 +k=0.99999 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3760.
+ */
+export declare const ESRI_102463: string;
+/**
  * ESRI:102464, NAD_1983_HARN_StatePlane_Hawaii_4_FIPS_5104_Feet. United States (USA) - Hawaii - Kauai - onshore. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=21.8333333333333 +lon_0=-159.5 +k=0.99999 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
@@ -41221,6 +47046,38 @@ export declare const ESRI_102464: string;
  * `+proj=tmerc +lat_0=21.6666666666667 +lon_0=-160.166666666667 +k=1 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
  */
 export declare const ESRI_102465: string;
+/**
+ * ESRI:102466, NAD_1983_HARN_StatePlane_Minnesota_North_FIPS_2201_Feet. United States (USA) - Minnesota - counties of Beltrami; Clearwater; Cook; Itasca; Kittson; Koochiching; Lake; Lake of the Woods; Mahnomen; Marshall; Norman; Pennington; Polk; Red Lake; Roseau; St Louis. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=46.5 +lon_0=-93.1 +lat_1=47.0333333333333 +lat_2=48.6333333333333 +x_0=800000 +y_0=100000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:26857.
+ */
+export declare const ESRI_102466: string;
+/**
+ * ESRI:102467, NAD_1983_HARN_StatePlane_Minnesota_Central_FIPS_2202_Feet. United States (USA) - Minnesota - counties of Aitkin; Becker; Benton; Carlton; Cass; Chisago; Clay; Crow Wing; Douglas; Grant; Hubbard; Isanti; Kanabec; Mille Lacs; Morrison; Otter Tail; Pine; Pope; Stearns; Stevens; Todd; Traverse; Wadena; Wilkin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=45 +lon_0=-94.25 +lat_1=45.6166666666667 +lat_2=47.05 +x_0=800000 +y_0=100000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:26858.
+ */
+export declare const ESRI_102467: string;
+/**
+ * ESRI:102468, NAD_1983_HARN_StatePlane_Minnesota_South_FIPS_2203_Feet. United States (USA) - Minnesota - counties of Anoka; Big Stone; Blue Earth; Brown; Carver; Chippewa; Cottonwood; Dakota; Dodge; Faribault; Fillmore; Freeborn; Goodhue; Hennepin; Houston; Jackson; Kandiyohi; Lac Qui Parle; Le Sueur; Lincoln; Lyon; Martin; McLeod; Meeker; Mower; Murray; Nicollet; Nobles; Olmsted; Pipestone; Ramsey; Redwood; Renville; Rice; Rock; Scott; Sherburne; Sibley; Steele; Swift; Wabasha; Waseca; Washington; Watonwan; Winona; Wright; Yellow Medicine. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=43 +lon_0=-94 +lat_1=43.7833333333333 +lat_2=45.2166666666667 +x_0=800000 +y_0=100000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:26859.
+ */
+export declare const ESRI_102468: string;
+/**
+ * ESRI:102469, NAD_1983_HARN_Mississippi_TM. United States (USA) - Mississippi. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=32.5 +lon_0=-89.75 +k=0.9998335 +x_0=500000 +y_0=1300000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3815.
+ */
+export declare const ESRI_102469: string;
 /**
  * ESRI:102470, Cape_Lo15. Namibia - Walvis Bay. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
@@ -41342,6 +47199,14 @@ export declare const ESRI_102488: string;
  */
 export declare const ESRI_102489: string;
 /**
+ * ESRI:102490, GDBD2009_GEORSO. Brunei Darussalam - onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=omerc +no_uoff +lat_0=4 +lonc=115 +alpha=53.31580995 +gamma=53.130102354156 +k=0.99984 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:5247.
+ */
+export declare const ESRI_102490: string;
+/**
  * ESRI:102491, Nord_Algerie_Ancienne_Degree. Algeria - onshore north of 38.5 grads North (34°39'N). Within 1 cm of PROJ.
  *
  * `+proj=lcc +lat_1=36 +lat_0=36 +lon_0=2.7 +k_0=0.999625544 +x_0=500000 +y_0=300000 +ellps=clrk80ign +towgs84=-73,-247,227 +units=m +no_defs`
@@ -41353,6 +47218,46 @@ export declare const ESRI_102491: string;
  * `+proj=lcc +lat_1=33.3 +lat_0=33.3 +lon_0=2.7 +k_0=0.999625769 +x_0=500000 +y_0=300000 +ellps=clrk80ign +towgs84=-73,-247,227 +units=m +no_defs`
  */
 export declare const ESRI_102492: string;
+/**
+ * ESRI:102493, NAD_1983_PA11_UTM_Zone_4N. United States (USA) - between 162°W and 156°W onshore - Hawaii. Up to 0.0567 m from PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=4 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6634.
+ */
+export declare const ESRI_102493: string;
+/**
+ * ESRI:102494, NAD_1983_PA11_UTM_Zone_5N. United States (USA) - between 156°W and 150°W onshore - Hawaii. Up to 0.0497 m from PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=5 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6635.
+ */
+export declare const ESRI_102494: string;
+/**
+ * ESRI:102495, NAD_1983_MA11_Guam_Map_Grid. Guam - onshore. Up to 0.561 m from PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=13.5 +lon_0=144.75 +k=1 +x_0=100000 +y_0=200000 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6637.
+ */
+export declare const ESRI_102495: string;
+/**
+ * ESRI:102496, NAD_1983_PA11_UTM_Zone_2S. American Samoa - Tutuila, Aunu'u, Ofu, Olesega, Ta'u and Rose islands. Up to 0.288 m from PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=2 +south +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6636.
+ */
+export declare const ESRI_102496: string;
+/**
+ * ESRI:102497, GOES-16_East_ABI_Fixed_Grid_ITRF2000_incorrect_GCS. GOES-16 East Full disk Within 1 cm of PROJ.
+ *
+ * `+proj=geos +lon_0=-75 +h=35786023 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102497: string;
 /**
  * ESRI:102498, GOES-16_East_ABI_Fixed_Grid_ITRF2008. GOES-16 East Full disk Up to 1.52 m from PROJ.
  *
@@ -41366,6 +47271,206 @@ export declare const ESRI_102498: string;
  */
 export declare const ESRI_102499: string;
 /**
+ * ESRI:102500, OCRS_Baker_NAD_1983_CORS96_TM_Feet_Intl. United States (USA) - Oregon - Baker City area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.5 +lon_0=-117.833333333333 +k=1.00016 +x_0=40000 +y_0=0 +ellps=GRS80 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6785.
+ */
+export declare const ESRI_102500: string;
+/**
+ * ESRI:102501, OCRS_Bend-Burns_NAD_1983_CORS96_LCC_Feet_Intl. United States (USA) - Oregon - Bend-Burns area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_1=43.6666666666667 +lat_0=43.6666666666667 +lon_0=-119.75 +k_0=1.0002 +x_0=120000 +y_0=60000 +ellps=GRS80 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6797.
+ */
+export declare const ESRI_102501: string;
+/**
+ * ESRI:102502, OCRS_Bend-Klamath_Falls_NAD_1983_CORS96_TM_Feet_Intl. United States (USA) - Oregon - Bend-Klamath Falls area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=41.75 +lon_0=-121.75 +k=1.0002 +x_0=80000 +y_0=0 +ellps=GRS80 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6789.
+ */
+export declare const ESRI_102502: string;
+/**
+ * ESRI:102503, OCRS_Bend-Redmond-Prineville_NAD_1983_CORS96_LCC_Feet_Intl. United States (USA) - Oregon - Bend-Redmond-Prineville area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_1=44.6666666666667 +lat_0=44.6666666666667 +lon_0=-121.25 +k_0=1.00012 +x_0=80000 +y_0=130000 +ellps=GRS80 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6793.
+ */
+export declare const ESRI_102503: string;
+/**
+ * ESRI:102504, OCRS_Canyonville-Grants_Pass_NAD_1983_CORS96_TM_Feet_Intl. United States (USA) - Oregon - Canyonville-Grants Pass area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.5 +lon_0=-123.333333333333 +k=1.00007 +x_0=40000 +y_0=0 +ellps=GRS80 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6801.
+ */
+export declare const ESRI_102504: string;
+/**
+ * ESRI:102505, OCRS_Columbia_River_East_NAD_1983_CORS96_LCC_Feet_Intl. United States (USA) - Oregon - Columbia River area between approximately 122°03'W and 118°53'W. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_1=45.6666666666667 +lat_0=45.6666666666667 +lon_0=-120.5 +k_0=1.000008 +x_0=150000 +y_0=30000 +ellps=GRS80 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6805.
+ */
+export declare const ESRI_102505: string;
+/**
+ * ESRI:102506, OCRS_Columbia_River_West_NAD_1983_CORS96_OM_Feet_Intl. United States (USA) - Oregon - Columbia River area west of approximately 121°30'W. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=omerc +no_uoff +lat_0=45.9166666666667 +lonc=-123 +alpha=-65 +gamma=-65 +k=1 +x_0=7000000 +y_0=-3000000 +ellps=GRS80 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6809.
+ */
+export declare const ESRI_102506: string;
+/**
+ * ESRI:102507, OCRS_Cottage_Grove-Canyonville_NAD_1983_CORS96_TM_Feet_Intl. United States (USA) - Oregon - Cottage Grove-Canyonville area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.8333333333333 +lon_0=-123.333333333333 +k=1.000023 +x_0=50000 +y_0=0 +ellps=GRS80 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6813.
+ */
+export declare const ESRI_102507: string;
+/**
+ * ESRI:102508, OCRS_Dufur-Madras_NAD_1983_CORS96_TM_Feet_Intl. United States (USA) - Oregon - Dufur-Madras area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.5 +lon_0=-121 +k=1.00011 +x_0=80000 +y_0=0 +ellps=GRS80 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6817.
+ */
+export declare const ESRI_102508: string;
+/**
+ * ESRI:102509, OCRS_Eugene_NAD_1983_CORS96_TM_Feet_Intl. United States (USA) - Oregon - Eugene area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43.75 +lon_0=-123.166666666667 +k=1.000015 +x_0=50000 +y_0=0 +ellps=GRS80 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6821.
+ */
+export declare const ESRI_102509: string;
+/**
+ * ESRI:102510, OCRS_Grants_Pass-Ashland_NAD_1983_CORS96_TM_Feet_Intl. United States (USA) - Oregon - Grants Pass-Ashland area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=41.75 +lon_0=-123.333333333333 +k=1.000043 +x_0=50000 +y_0=0 +ellps=GRS80 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6825.
+ */
+export declare const ESRI_102510: string;
+/**
+ * ESRI:102511, OCRS_Gresham-Warm_Springs_NAD_1983_CORS96_TM_Feet_Intl. United States (USA) - Oregon - Gresham-Warm Springs area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=45 +lon_0=-122.333333333333 +k=1.00005 +x_0=10000 +y_0=0 +ellps=GRS80 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6829.
+ */
+export declare const ESRI_102511: string;
+/**
+ * ESRI:102512, OCRS_La_Grande_NAD_1983_CORS96_TM_Feet_Intl. United States (USA) - Oregon - La Grande area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=45 +lon_0=-118 +k=1.00013 +x_0=40000 +y_0=0 +ellps=GRS80 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6833.
+ */
+export declare const ESRI_102512: string;
+/**
+ * ESRI:102513, OCRS_Ontario_NAD_1983_CORS96_TM_Feet_Intl. United States (USA) - Oregon - Ontario area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43.25 +lon_0=-117 +k=1.0001 +x_0=80000 +y_0=0 +ellps=GRS80 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6837.
+ */
+export declare const ESRI_102513: string;
+/**
+ * ESRI:102514, OCRS_Oregon_Coast_NAD_1983_CORS96_OM_Feet_Intl. United States (USA) - Oregon - coastal area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=omerc +no_uoff +lat_0=44.75 +lonc=-124.05 +alpha=5 +gamma=5 +k=1 +x_0=-300000 +y_0=-4600000 +ellps=GRS80 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6841.
+ */
+export declare const ESRI_102514: string;
+/**
+ * ESRI:102515, OCRS_Pendleton-La_Grande_NAD_1983_CORS96_TM_Feet_Intl. United States (USA) - Oregon - Pendleton-La Grande area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=45.0833333333333 +lon_0=-118.333333333333 +k=1.000175 +x_0=30000 +y_0=0 +ellps=GRS80 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6849.
+ */
+export declare const ESRI_102515: string;
+/**
+ * ESRI:102516, OCRS_Pendleton_NAD_1983_CORS96_TM_Feet_Intl. United States (USA) - Oregon - Pendleton area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=45.25 +lon_0=-119.166666666667 +k=1.000045 +x_0=60000 +y_0=0 +ellps=GRS80 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6845.
+ */
+export declare const ESRI_102516: string;
+/**
+ * ESRI:102517, OCRS_Portland_NAD_1983_CORS96_LCC_Feet_Intl. United States (USA) - Oregon - Portland area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_1=45.5 +lat_0=45.5 +lon_0=-122.75 +k_0=1.000002 +x_0=100000 +y_0=50000 +ellps=GRS80 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6853.
+ */
+export declare const ESRI_102517: string;
+/**
+ * ESRI:102518, OCRS_Salem_NAD_1983_CORS96_TM_Feet_Intl. United States (USA) - Oregon - Salem area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.3333333333333 +lon_0=-123.083333333333 +k=1.00001 +x_0=50000 +y_0=0 +ellps=GRS80 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6857.
+ */
+export declare const ESRI_102518: string;
+/**
+ * ESRI:102519, OCRS_Santiam_Pass_NAD_1983_CORS96_TM_Feet_Intl. United States (USA) - Oregon - Sweet Home-Santiam Pass-Sisters area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.0833333333333 +lon_0=-122.5 +k=1.000155 +x_0=0 +y_0=0 +ellps=GRS80 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6861.
+ */
+export declare const ESRI_102519: string;
+/**
+ * ESRI:102520, NAD_1983_PA11_StatePlane_Hawaii_1_FIPS_5101. United States (USA) - Hawaii - island of Hawaii - onshore. Up to 0.0508 m from PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=18.8333333333333 +lon_0=-155.5 +k=0.999966666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6628.
+ */
+export declare const ESRI_102520: string;
+/**
+ * ESRI:102521, NAD_1983_PA11_StatePlane_Hawaii_2_FIPS_5102. United States (USA) - Hawaii - Maui; Kahoolawe; Lanai; Molokai - onshore. Up to 0.0297 m from PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=20.3333333333333 +lon_0=-156.666666666667 +k=0.999966666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6629.
+ */
+export declare const ESRI_102521: string;
+/**
+ * ESRI:102522, NAD_1983_PA11_StatePlane_Hawaii_3_FIPS_5103. United States (USA) - Hawaii - Oahu - onshore. Up to 0.0457 m from PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=21.1666666666667 +lon_0=-158 +k=0.99999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6630.
+ */
+export declare const ESRI_102522: string;
+/**
+ * ESRI:102523, NAD_1983_PA11_StatePlane_Hawaii_4_FIPS_5104. United States (USA) - Hawaii - Kauai - onshore. Up to 0.0262 m from PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=21.8333333333333 +lon_0=-159.5 +k=0.99999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6631.
+ */
+export declare const ESRI_102523: string;
+/**
+ * ESRI:102524, NAD_1983_PA11_StatePlane_Hawaii_5_FIPS_5105. United States (USA) - Hawaii - Niihau - onshore. Up to 0.0202 m from PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=21.6666666666667 +lon_0=-160.166666666667 +k=1 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6632.
+ */
+export declare const ESRI_102524: string;
+/**
  * ESRI:102525, NAD_1983_PA11_StatePlane_Hawaii_1_FIPS_5101_Feet. United States (USA) - Hawaii - island of Hawaii - onshore. Up to 0.0508 m from PROJ. The registry has no transformation to WGS 84.
  *
  * `+proj=tmerc +lat_0=18.8333333333333 +lon_0=-155.5 +k=0.999966666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs`
@@ -41378,6 +47483,14 @@ export declare const ESRI_102525: string;
  */
 export declare const ESRI_102526: string;
 /**
+ * ESRI:102527, NAD_1983_PA11_StatePlane_Hawaii_3_FIPS_5103_Feet. United States (USA) - Hawaii - Oahu - onshore. Up to 0.0457 m from PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=21.1666666666667 +lon_0=-158 +k=0.99999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6633.
+ */
+export declare const ESRI_102527: string;
+/**
  * ESRI:102528, NAD_1983_PA11_StatePlane_Hawaii_4_FIPS_5104_Feet. United States (USA) - Hawaii - Kauai - onshore. Up to 0.0262 m from PROJ. The registry has no transformation to WGS 84.
  *
  * `+proj=tmerc +lat_0=21.8333333333333 +lon_0=-159.5 +k=0.99999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs`
@@ -41389,6 +47502,166 @@ export declare const ESRI_102528: string;
  * `+proj=tmerc +lat_0=21.6666666666667 +lon_0=-160.166666666667 +k=1 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs`
  */
 export declare const ESRI_102529: string;
+/**
+ * ESRI:102530, OCRS_Baker_NAD_1983_CORS96_TM_Meters. United States (USA) - Oregon - Baker City area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.5 +lon_0=-117.833333333333 +k=1.00016 +x_0=40000 +y_0=0 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6784.
+ */
+export declare const ESRI_102530: string;
+/**
+ * ESRI:102531, OCRS_Bend-Burns_NAD_1983_CORS96_LCC_Meters. United States (USA) - Oregon - Bend-Burns area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_1=43.6666666666667 +lat_0=43.6666666666667 +lon_0=-119.75 +k_0=1.0002 +x_0=120000 +y_0=60000 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6796.
+ */
+export declare const ESRI_102531: string;
+/**
+ * ESRI:102532, OCRS_Bend-Klamath_Falls_NAD_1983_CORS96_TM_Meters. United States (USA) - Oregon - Bend-Klamath Falls area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=41.75 +lon_0=-121.75 +k=1.0002 +x_0=80000 +y_0=0 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6788.
+ */
+export declare const ESRI_102532: string;
+/**
+ * ESRI:102533, OCRS_Bend-Redmond-Prineville_NAD_1983_CORS96_LCC_Meters. United States (USA) - Oregon - Bend-Redmond-Prineville area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_1=44.6666666666667 +lat_0=44.6666666666667 +lon_0=-121.25 +k_0=1.00012 +x_0=80000 +y_0=130000 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6792.
+ */
+export declare const ESRI_102533: string;
+/**
+ * ESRI:102534, OCRS_Canyonville-Grants_Pass_NAD_1983_CORS96_TM_Meters. United States (USA) - Oregon - Canyonville-Grants Pass area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.5 +lon_0=-123.333333333333 +k=1.00007 +x_0=40000 +y_0=0 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6800.
+ */
+export declare const ESRI_102534: string;
+/**
+ * ESRI:102535, OCRS_Columbia_River_East_NAD_1983_CORS96_LCC_Meters. United States (USA) - Oregon - Columbia River area between approximately 122°03'W and 118°53'W. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_1=45.6666666666667 +lat_0=45.6666666666667 +lon_0=-120.5 +k_0=1.000008 +x_0=150000 +y_0=30000 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6804.
+ */
+export declare const ESRI_102535: string;
+/**
+ * ESRI:102536, OCRS_Columbia_River_West_NAD_1983_CORS96_OM_Meters. United States (USA) - Oregon - Columbia River area west of approximately 121°30'W. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=omerc +no_uoff +lat_0=45.9166666666667 +lonc=-123 +alpha=-65 +gamma=-65 +k=1 +x_0=7000000 +y_0=-3000000 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6808.
+ */
+export declare const ESRI_102536: string;
+/**
+ * ESRI:102537, OCRS_Cottage_Grove-Canyonville_NAD_1983_CORS96_TM_Meters. United States (USA) - Oregon - Cottage Grove-Canyonville area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.8333333333333 +lon_0=-123.333333333333 +k=1.000023 +x_0=50000 +y_0=0 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6812.
+ */
+export declare const ESRI_102537: string;
+/**
+ * ESRI:102538, OCRS_Dufur-Madras_NAD_1983_CORS96_TM_Meters. United States (USA) - Oregon - Dufur-Madras area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.5 +lon_0=-121 +k=1.00011 +x_0=80000 +y_0=0 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6816.
+ */
+export declare const ESRI_102538: string;
+/**
+ * ESRI:102539, OCRS_Eugene_NAD_1983_CORS96_TM_Meters. United States (USA) - Oregon - Eugene area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43.75 +lon_0=-123.166666666667 +k=1.000015 +x_0=50000 +y_0=0 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6820.
+ */
+export declare const ESRI_102539: string;
+/**
+ * ESRI:102540, OCRS_Grants_Pass-Ashland_NAD_1983_CORS96_TM_Meters. United States (USA) - Oregon - Grants Pass-Ashland area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=41.75 +lon_0=-123.333333333333 +k=1.000043 +x_0=50000 +y_0=0 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6824.
+ */
+export declare const ESRI_102540: string;
+/**
+ * ESRI:102541, OCRS_Gresham-Warm_Springs_NAD_1983_CORS96_TM_Meters. United States (USA) - Oregon - Gresham-Warm Springs area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=45 +lon_0=-122.333333333333 +k=1.00005 +x_0=10000 +y_0=0 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6828.
+ */
+export declare const ESRI_102541: string;
+/**
+ * ESRI:102542, OCRS_La_Grande_NAD_1983_CORS96_TM_Meters. United States (USA) - Oregon - La Grande area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=45 +lon_0=-118 +k=1.00013 +x_0=40000 +y_0=0 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6832.
+ */
+export declare const ESRI_102542: string;
+/**
+ * ESRI:102543, OCRS_Ontario_NAD_1983_CORS96_TM_Meters. United States (USA) - Oregon - Ontario area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43.25 +lon_0=-117 +k=1.0001 +x_0=80000 +y_0=0 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6836.
+ */
+export declare const ESRI_102543: string;
+/**
+ * ESRI:102544, OCRS_Oregon_Coast_NAD_1983_CORS96_OM_Meters. United States (USA) - Oregon - coastal area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=omerc +no_uoff +lat_0=44.75 +lonc=-124.05 +alpha=5 +gamma=5 +k=1 +x_0=-300000 +y_0=-4600000 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6840.
+ */
+export declare const ESRI_102544: string;
+/**
+ * ESRI:102545, OCRS_Pendleton-La_Grande_NAD_1983_CORS96_TM_Meters. United States (USA) - Oregon - Pendleton-La Grande area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=45.0833333333333 +lon_0=-118.333333333333 +k=1.000175 +x_0=30000 +y_0=0 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6848.
+ */
+export declare const ESRI_102545: string;
+/**
+ * ESRI:102546, OCRS_Pendleton_NAD_1983_CORS96_TM_Meters. United States (USA) - Oregon - Pendleton area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=45.25 +lon_0=-119.166666666667 +k=1.000045 +x_0=60000 +y_0=0 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6844.
+ */
+export declare const ESRI_102546: string;
+/**
+ * ESRI:102547, OCRS_Portland_NAD_1983_CORS96_LCC_Meters. United States (USA) - Oregon - Portland area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_1=45.5 +lat_0=45.5 +lon_0=-122.75 +k_0=1.000002 +x_0=100000 +y_0=50000 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6852.
+ */
+export declare const ESRI_102547: string;
+/**
+ * ESRI:102548, OCRS_Salem_NAD_1983_CORS96_TM_Meters. United States (USA) - Oregon - Salem area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.3333333333333 +lon_0=-123.083333333333 +k=1.00001 +x_0=50000 +y_0=0 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6856.
+ */
+export declare const ESRI_102548: string;
+/**
+ * ESRI:102549, OCRS_Santiam_Pass_NAD_1983_CORS96_TM_Meters. United States (USA) - Oregon - Sweet Home-Santiam Pass-Sisters area. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.0833333333333 +lon_0=-122.5 +k=1.000155 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6860.
+ */
+export declare const ESRI_102549: string;
 /**
  * ESRI:102550, ED_1950_Turkey_9. Türkiye (Turkey) - west of 28°30'E, onshore. Within 1 cm of PROJ.
  *
@@ -41431,6 +47704,46 @@ export declare const ESRI_102555: string;
  * `+proj=tmerc +lat_0=0 +lon_0=45 +k=0.9996 +x_0=15500000 +y_0=0 +ellps=intl +towgs84=-84.1,-101.8,-129.7,0,0,0.468,1.05 +units=m +no_defs`
  */
 export declare const ESRI_102556: string;
+/**
+ * ESRI:102557, Kyrg-06_TM_Zone_1. Kyrgyzstan - west of 70°01'E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=68.5166666666667 +k=1 +x_0=1300000 +y_0=14743.5 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:7692.
+ */
+export declare const ESRI_102557: string;
+/**
+ * ESRI:102558, Kyrg-06_TM_Zone_2. Kyrgyzstan - between 70°01'E and 73°01'E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=71.5166666666667 +k=1 +x_0=2300000 +y_0=14743.5 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:7693.
+ */
+export declare const ESRI_102558: string;
+/**
+ * ESRI:102559, Kyrg-06_TM_Zone_3. Kyrgyzstan - between 73°01'E and 76°01'E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=74.5166666666667 +k=1 +x_0=3300000 +y_0=14743.5 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:7694.
+ */
+export declare const ESRI_102559: string;
+/**
+ * ESRI:102560, Kyrg-06_TM_Zone_4. Kyrgyzstan - between 76°01'E and 79°01'E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=77.5166666666667 +k=1 +x_0=4300000 +y_0=14743.5 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:7695.
+ */
+export declare const ESRI_102560: string;
+/**
+ * ESRI:102561, Kyrg-06_TM_Zone_5. Kyrgyzstan - east of 79°01'E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=80.5166666666667 +k=1 +x_0=5300000 +y_0=14743.5 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:7696.
+ */
+export declare const ESRI_102561: string;
 /**
  * ESRI:102562, Hartebeesthoek94_Lo19_(E-N). South Africa - onshore between 18°E and 20°E. Within 1 cm of PROJ.
  *
@@ -41600,6 +47913,70 @@ export declare const ESRI_102588: string;
  */
 export declare const ESRI_102589: string;
 /**
+ * ESRI:102590, Tananarive_1925_Laborde_Grid. Madagascar - onshore. Up to 0.0209 m from PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=labrd +lat_0=-18.9 +lon_0=46.4372291666667 +azi=18.9 +k=0.9995 +x_0=400000 +y_0=800000 +ellps=intl +towgs84=-198.383,-240.517,-107.909 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8441.
+ */
+export declare const ESRI_102590: string;
+/**
+ * ESRI:102591, Nord_Algerie_Degree. Algeria - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_1=36 +lat_0=36 +lon_0=2.7 +k_0=0.999625544 +x_0=500135 +y_0=300090 +a=6378249.145 +rf=293.465 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102591: string;
+/**
+ * ESRI:102592, Sud_Algerie_Degree. Algeria - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_1=33.3 +lat_0=33.3 +lon_0=2.7 +k_0=0.999625769 +x_0=500135 +y_0=300090 +a=6378249.145 +rf=293.465 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102592: string;
+/**
+ * ESRI:102593, JGD_2011_UTM_Zone_51N. Japan - west of 126°E, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=51 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6688.
+ */
+export declare const ESRI_102593: string;
+/**
+ * ESRI:102594, JGD_2011_UTM_Zone_52N. Japan - between 126°E and 132°E, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=52 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6689.
+ */
+export declare const ESRI_102594: string;
+/**
+ * ESRI:102595, JGD_2011_UTM_Zone_53N. Japan - between 132°E and 138°E, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=53 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6690.
+ */
+export declare const ESRI_102595: string;
+/**
+ * ESRI:102596, JGD_2011_UTM_Zone_54N. Japan - between 138°E and 144°E, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=54 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6691.
+ */
+export declare const ESRI_102596: string;
+/**
+ * ESRI:102597, JGD_2011_UTM_Zone_55N. Japan - east of 144°E, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=55 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6692.
+ */
+export declare const ESRI_102597: string;
+/**
  * ESRI:102598, JGD_2011_UTM_Zone_56N. Japan - 150~E to 156~E Within 1 cm of PROJ.
  *
  * `+proj=utm +zone=56 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
@@ -41618,11 +47995,227 @@ export declare const ESRI_102599: string;
  */
 export declare const ESRI_102600: string;
 /**
+ * ESRI:102601, NAD_1983_Texas_Centric_Mapping_System_Albers. United States (USA) - Texas. Up to 1.26 m from PROJ.
+ *
+ * `+proj=aea +lat_0=18 +lon_0=-100 +lat_1=27.5 +lat_2=35 +x_0=1500000 +y_0=6000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3083.
+ */
+export declare const ESRI_102601: string;
+/**
+ * ESRI:102602, NAD_1983_Texas_Centric_Mapping_System_Lambert. United States (USA) - Texas. Up to 1.26 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=18 +lon_0=-100 +lat_1=27.5 +lat_2=35 +x_0=1500000 +y_0=5000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3082.
+ */
+export declare const ESRI_102602: string;
+/**
+ * ESRI:102603, NAD_1983_Texas_Statewide_Mapping_System. United States (USA) - Texas. Up to 1.26 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=31.1666666666667 +lon_0=-100 +lat_1=27.4166666666667 +lat_2=34.9166666666667 +x_0=1000000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3081.
+ */
+export declare const ESRI_102603: string;
+/**
  * ESRI:102604, NAD_1983_Georgia_Statewide_Lambert. United States (USA) - Georgia. Up to 0.523 m from PROJ.
  *
  * `+proj=lcc +lat_0=0 +lon_0=-83.5 +lat_1=31.4166666666667 +lat_2=34.2833333333333 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
  */
 export declare const ESRI_102604: string;
+/**
+ * ESRI:102605, NAD_1983_Idaho_TM. United States (USA) - Idaho. Up to 0.61 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=42 +lon_0=-114 +k=0.9996 +x_0=2500000 +y_0=1200000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8826.
+ */
+export declare const ESRI_102605: string;
+/**
+ * ESRI:102606, NAD_1983_Maine_2000_East_Zone. United States (USA) - Maine east of approximately 68°25'W. The area is bounded by the following: Beginning at the point determined by the intersection of the Maine State line and the Fort Kent - Frenchville town line, thence continuing easterly and then southerly along the state line to the boundary of the State of Maine as determined by Maritime law, thence following the State boundary westerly to the intersection of the Knox and Hancock County line, thence northerly along the easterly boundary of the Maine 2000 Central Zone, as defined, to the point of beginning. Up to 0.33 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=43.8333333333333 +lon_0=-67.875 +k=0.99998 +x_0=700000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3072.
+ */
+export declare const ESRI_102606: string;
+/**
+ * ESRI:102607, NAD_1983_Maine_2000_Central_Zone. United States (USA) - Maine between approximately 69°40'W and 68°25'W. The area is bounded by the following: Beginning at the point determined by the intersection of the Maine State line and the County Line between Aroostook and Somerset Counties, thence northeasterly along the state line to the intersection of the Fort Kent - Frenchville town line, thence southerly along this town line to the intersection with the New Canada Plantation - T17 R5 WELS town line, thence continuing southerly along town lines to the northeast corner of Penobscot County, thence continuing southerly along the Penobscot County line to the intersection of the Woodville - Mattawamkeag town line (being determined by the Penobscot River), thence along the Penobscot River to the Enfield - Lincoln town line, thence southeasterly along the Enfield - Lincoln town line and the Enfield - Lowell town line to the Passadumkeag - Edinburg town line, thence south-southeasterly along town lines to the intersection of the Hancock County line, thence southerly along the county line to the intersection of the Otis - Mariaville town line, thence southerly along the Otis - Mariaville town line to the Ellsworth city line, thence southerly along the Ellsworth city line to the intersection of the Surry - Trenton town line, thence southerly along the easterly town lines of Surry, Blue Hill, Brooklin, Deer Isle, and Stonington to the Knox County line, thence following the Knox County line to the boundary of the State of Maine as determined by Maritime law, thence following the State boundary westerly to the intersection of the Sagadahoc - Lincoln county line, thence northerly along the easterly boundary of the Maine 2000 West Zone, as defined, to the point of beginning. Up to 0.447 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=43.5 +lon_0=-69.125 +k=0.99998 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3463.
+ */
+export declare const ESRI_102607: string;
+/**
+ * ESRI:102608, NAD_1983_Maine_2000_West_Zone. United States (USA) - Maine west of approximately 69°40'W. The area is bounded by the following: Beginning at the point determined by the intersection of the Maine State line and the County Line between Aroostook and Somerset Counties, thence following the Somerset County line Easterly to the Northwest corner of the Somerset and Piscataquis county line, thence Southerly along this county line to the northeast corner of the Athens town line, thence westerly along the town line between Brighton Plantation and Athens to the westerly corner of Athens, and continuing southerly to the southwest corner of the town of Athens where it meets the Cornville town line, thence westerly along the Cornville - Solon town line to the intersection of the Cornville - Madison town line, thence southerly and westerly following the Madison town line to the intersection of the Norridgewock - Skowhegan town line, thence southerly along the Skowhegan town line to the Fairfield town line, thence easterly along the Fairfield town line to the Clinton town line (being determined by the Kennebec River), thence southerly along the Kennebec River to the Augusta city line, thence easterly along the city line to the Windsor town line, thence southerly along the Augusta - Windsor town line to the northwest corner of the Lincoln County line, thence southerly along the westerly Lincoln county line to the boundary of the State of Maine as determined by Maritime law, thence following the State boundary on the westerly side of the state to the point of beginning. Up to 0.343 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.375 +k=0.99998 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3074.
+ */
+export declare const ESRI_102608: string;
+/**
+ * ESRI:102609, NAD_1983_Mississippi_TM. United States (USA) - Mississippi. Up to 0.564 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=32.5 +lon_0=-89.75 +k=0.9998335 +x_0=500000 +y_0=1300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:3814.
+ */
+export declare const ESRI_102609: string;
+/**
+ * ESRI:102610, JGD_2011_Japan_Zone_1. Japan - onshore - Kyushu west of approximately 130°E - Nagasaki-ken; islands of Kagoshima-ken between 27°N and 32°N and between 128°18'E and 130°E (between 128°18'E and 30°13'E for Amami islands). Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=33 +lon_0=129.5 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6669.
+ */
+export declare const ESRI_102610: string;
+/**
+ * ESRI:102611, JGD_2011_Japan_Zone_2. Japan - onshore - Kyushu east of approximately 130°E - Fukuoka-ken; Saga-ken; Kumamoto-ken; Oita-ken; Miyazaki-ken; Kagoshima-ken (except for area within Japan Plane Rectangular Coordinate System zone I). Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=33 +lon_0=131 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6670.
+ */
+export declare const ESRI_102611: string;
+/**
+ * ESRI:102612, JGD_2011_Japan_Zone_3. Japan - onshore - Honshu west of approximately 133°15'E - Yamaguchi-ken; Shimane-ken; Hiroshima-ken. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=36 +lon_0=132.166666666667 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6671.
+ */
+export declare const ESRI_102612: string;
+/**
+ * ESRI:102613, JGD_2011_Japan_Zone_4. Japan - onshore - Shikoku - Kagawa-ken; Ehime-ken; Tokushima-ken; Kochi-ken. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=33 +lon_0=133.5 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6672.
+ */
+export declare const ESRI_102613: string;
+/**
+ * ESRI:102614, JGD_2011_Japan_Zone_5. Japan - onshore - Honshu between approximately 133°15'E and 135°10'E - Hyogo-ken; Tottori-ken; Okayama-ken. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=36 +lon_0=134.333333333333 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6673.
+ */
+export declare const ESRI_102614: string;
+/**
+ * ESRI:102615, JGD_2011_Japan_Zone_6. Japan - onshore - Honshu between approximately 135°10'E and 136°45'E - Kyoto-fu; Osaka-fu; Fukui-ken; Shiga-ken; Mie-ken; Nara-ken; Wakayama-ken. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=36 +lon_0=136 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6674.
+ */
+export declare const ESRI_102615: string;
+/**
+ * ESRI:102616, JGD_2011_Japan_Zone_7. Japan - onshore - Honshu between approximately 136°15'E and 137°45'E - Ishikawa-ken; Toyama-ken; Gifu-ken; Aichi-ken. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=36 +lon_0=137.166666666667 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6675.
+ */
+export declare const ESRI_102616: string;
+/**
+ * ESRI:102617, JGD_2011_Japan_Zone_8. Japan - onshore - Honshu between approximately 137°45'E and 139°E - Niigata-ken; Nagano-ken; Yamanashi-ken; Shizuoka-ken. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=36 +lon_0=138.5 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6676.
+ */
+export declare const ESRI_102617: string;
+/**
+ * ESRI:102618, JGD_2011_Japan_Zone_9. Japan - onshore - Honshu - Tokyo-to. (Excludes offshore island areas of Tokyo-to covered by Japan Plane Rectangular Coordinate System zones XIV, XVIII and XIX). Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=36 +lon_0=139.833333333333 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6677.
+ */
+export declare const ESRI_102618: string;
+/**
+ * ESRI:102619, JGD_2011_Japan_Zone_10. Japan - onshore - Honshu north of 38°N approximately - Aomori-ken; Akita-ken; Yamagata-ken; Iwate-ken; Miyagi-ken. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=40 +lon_0=140.833333333333 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6678.
+ */
+export declare const ESRI_102619: string;
+/**
+ * ESRI:102620, JGD_2011_Japan_Zone_11. Japan - onshore - Hokkaido west of approximately 141°E - Otaru city; Hakodate city; Date city; Usu-gun and Abuta-gun of Iburi-shicho; Hiyama-shicho; Shiribeshi-shicho; Oshima-shicho. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44 +lon_0=140.25 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6679.
+ */
+export declare const ESRI_102620: string;
+/**
+ * ESRI:102621, JGD_2011_Japan_Zone_12. Japan - onshore - Hokkaido between approximately 141°E and 143°E - Sapporo city; Asahikawa city; Wakkanai city; Rumoi city; Bibai city; Yubari city; Iwamizawa city; Tomakomai city; Muroran city; Shibetsu city; Nayoro city; Ashibetsu city; Akabira city; Mikasa city; Takikawa city; Sunagawa city; Ebetsu city; Chitose city; Utashinai city; Fukagawa city; Monbetsu city; Furano city; Noboribetsu city; Eniwa city; Ishikari-shicho; Monbetsu-gun of Abashiri-shicho; Kamikawa-shicho; Soya-shicho; Hidaka-shicho; Iburi-shicho (except Usu-gun and Abuta-gun); Sorachi-shicho; Rumoi-shicho. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44 +lon_0=142.25 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6680.
+ */
+export declare const ESRI_102621: string;
+/**
+ * ESRI:102622, JGD_2011_Japan_Zone_13. Japan - onshore - Hokkaido east of approximately 143°E - Kitami city; Obihiro city; Kushiro city; Abashiri city; Nemuro city; Nemuro-shicho; Kushiro-shicho; Abashiri-shicho (except Monbetsu-gun); Tokachi-shicho. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44 +lon_0=144.25 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6681.
+ */
+export declare const ESRI_102622: string;
+/**
+ * ESRI:102623, JGD_2011_Japan_Zone_14. Japan - onshore - Tokyo-to south of 28°N and between 140°30'E and 143°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=26 +lon_0=142 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6682.
+ */
+export declare const ESRI_102623: string;
+/**
+ * ESRI:102624, JGD_2011_Japan_Zone_15. Japan - onshore - Okinawa-ken between 126°E and 130°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=26 +lon_0=127.5 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6683.
+ */
+export declare const ESRI_102624: string;
+/**
+ * ESRI:102625, JGD_2011_Japan_Zone_16. Japan - onshore - Okinawa-ken west of 126°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=26 +lon_0=124 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6684.
+ */
+export declare const ESRI_102625: string;
+/**
+ * ESRI:102626, JGD_2011_Japan_Zone_17. Japan - onshore Okinawa-ken east of 130°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=26 +lon_0=131 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6685.
+ */
+export declare const ESRI_102626: string;
+/**
+ * ESRI:102627, JGD_2011_Japan_Zone_18. Japan - onshore - Tokyo-to south of 28°N and west of 140°30'E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=20 +lon_0=136 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6686.
+ */
+export declare const ESRI_102627: string;
+/**
+ * ESRI:102628, JGD_2011_Japan_Zone_19. Japan - onshore - Tokyo-to south of 28°N and east of 143°E - Minamitori-shima (Marcus Island). Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=26 +lon_0=154 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6687.
+ */
+export declare const ESRI_102628: string;
 /**
  * ESRI:102629, NAD_1983_StatePlane_Alabama_East_FIPS_0101_Feet. United States (USA) - Alabama east of approximately 86°37'W - counties Barbour; Bullock; Calhoun; Chambers; Cherokee; Clay; Cleburne; Coffee; Coosa; Covington; Crenshaw; Dale; De Kalb; Elmore; Etowah; Geneva; Henry; Houston; Jackson; Lee; Macon; Madison; Marshall; Montgomery; Pike; Randolph; Russell; St Clair; Talladega; Tallapoosa. Up to 0.407 m from PROJ.
  *
@@ -41696,6 +48289,62 @@ export declare const ESRI_102639: string;
  */
 export declare const ESRI_102640: string;
 /**
+ * ESRI:102641, NAD_1983_StatePlane_California_I_FIPS_0401_Feet. United States (USA) - California - counties of Del Norte; Humboldt; Lassen; Modoc; Plumas; Shasta; Siskiyou; Tehama; Trinity. Up to 1.12 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=39.3333333333333 +lon_0=-122 +lat_1=40 +lat_2=41.6666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2225.
+ */
+export declare const ESRI_102641: string;
+/**
+ * ESRI:102642, NAD_1983_StatePlane_California_II_FIPS_0402_Feet. United States (USA) - California - counties of Alpine; Amador; Butte; Colusa; El Dorado; Glenn; Lake; Mendocino; Napa; Nevada; Placer; Sacramento; Sierra; Solano; Sonoma; Sutter; Yolo; Yuba. Up to 1.14 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=37.6666666666667 +lon_0=-122 +lat_1=38.3333333333333 +lat_2=39.8333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2226.
+ */
+export declare const ESRI_102642: string;
+/**
+ * ESRI:102643, NAD_1983_StatePlane_California_III_FIPS_0403_Feet. United States (USA) - California - counties of Alameda; Calaveras; Contra Costa; Madera; Marin; Mariposa; Merced; Mono; San Francisco; San Joaquin; San Mateo; Santa Clara; Santa Cruz; Stanislaus; Tuolumne. Up to 1.17 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=36.5 +lon_0=-120.5 +lat_1=37.0666666666667 +lat_2=38.4333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2227.
+ */
+export declare const ESRI_102643: string;
+/**
+ * ESRI:102644, NAD_1983_StatePlane_California_IV_FIPS_0404_Feet. United States (USA) - California - counties of Fresno; Inyo; Kings; Monterey; San Benito; Tulare. Up to 0.884 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=35.3333333333333 +lon_0=-119 +lat_1=36 +lat_2=37.25 +x_0=2000000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2228.
+ */
+export declare const ESRI_102644: string;
+/**
+ * ESRI:102645, NAD_1983_StatePlane_California_V_FIPS_0405_Feet. United States (USA) - California - counties of Kern; Los Angeles; San Bernardino; San Luis Obispo; Santa Barbara; Ventura. Up to 0.498 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=33.5 +lon_0=-118 +lat_1=34.0333333333333 +lat_2=35.4666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2229.
+ */
+export declare const ESRI_102645: string;
+/**
+ * ESRI:102646, NAD_1983_StatePlane_California_VI_FIPS_0406_Feet. United States (USA) - California - counties of Imperial; Orange; Riverside; San Diego. Up to 0.475 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=32.1666666666667 +lon_0=-116.25 +lat_1=32.7833333333333 +lat_2=33.8833333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2230.
+ */
+export declare const ESRI_102646: string;
+/**
+ * ESRI:102647, NAD_1983_NSRS2007_StatePlane_Puerto_Rico_Virgin_Isls_FIPS_5200. Puerto Rico and US Virgin Islands - onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=17.8333333333333 +lon_0=-66.4333333333333 +lat_1=18.0333333333333 +lat_2=18.4333333333333 +x_0=200000 +y_0=200000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4437.
+ */
+export declare const ESRI_102647: string;
+/**
  * ESRI:102648, NAD_1983_StatePlane_Arizona_East_FIPS_0201_Feet. United States (USA) - Arizona - counties Apache; Cochise; Gila; Graham; Greenlee; Navajo. Up to 0.245 m from PROJ.
  *
  * `+proj=tmerc +lat_0=31 +lon_0=-110.166666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
@@ -41714,6 +48363,86 @@ export declare const ESRI_102649: string;
  */
 export declare const ESRI_102650: string;
 /**
+ * ESRI:102651, NAD_1983_StatePlane_Arkansas_North_FIPS_0301_Feet. United States (USA) - Arkansas - counties of Baxter; Benton; Boone; Carroll; Clay; Cleburne; Conway; Craighead; Crawford; Crittenden; Cross; Faulkner; Franklin; Fulton; Greene; Independence; Izard; Jackson; Johnson; Lawrence; Logan; Madison; Marion; Mississippi; Newton; Perry; Poinsett; Pope; Randolph; Scott; Searcy; Sebastian; Sharp; St Francis; Stone; Van Buren; Washington; White; Woodruff; Yell. Up to 0.454 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=34.3333333333333 +lon_0=-92 +lat_1=34.9333333333333 +lat_2=36.2333333333333 +x_0=400000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3433.
+ */
+export declare const ESRI_102651: string;
+/**
+ * ESRI:102652, NAD_1983_StatePlane_Arkansas_South_FIPS_0302_Feet. United States (USA) - Arkansas - counties Arkansas; Ashley; Bradley; Calhoun; Chicot; Clark; Cleveland; Columbia; Dallas; Desha; Drew; Garland; Grant; Hempstead; Hot Spring; Howard; Jefferson; Lafayette; Lee; Lincoln; Little River; Lonoke; Miller; Monroe; Montgomery; Nevada; Ouachita; Phillips; Pike; Polk; Prairie; Pulaski; Saline; Sevier; Union. Up to 0.436 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=32.6666666666667 +lon_0=-92 +lat_1=33.3 +lat_2=34.7666666666667 +x_0=400000 +y_0=400000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3434.
+ */
+export declare const ESRI_102652: string;
+/**
+ * ESRI:102653, NAD_1983_StatePlane_Colorado_North_FIPS_0501_Feet. United States (USA) - Colorado - counties Adams; Boulder; Gilpin; Grand; Jackson; Larimer; Logan; Moffat; Morgan; Phillips; Rio Blanco; Routt; Sedgwick; Washington; Weld; Yuma. Up to 0.444 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=39.3333333333333 +lon_0=-105.5 +lat_1=39.7166666666667 +lat_2=40.7833333333333 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2231.
+ */
+export declare const ESRI_102653: string;
+/**
+ * ESRI:102654, NAD_1983_StatePlane_Colorado_Central_FIPS_0502_Feet. United States (USA) - Colorado - counties Arapahoe; Chaffee; Cheyenne; Clear Creek; Delta; Denver; Douglas; Eagle; El Paso; Elbert; Fremont; Garfield; Gunnison; Jefferson; Kit Carson; Lake; Lincoln; Mesa; Park; Pitkin; Summit; Teller. Up to 0.511 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=37.8333333333333 +lon_0=-105.5 +lat_1=38.45 +lat_2=39.75 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2232.
+ */
+export declare const ESRI_102654: string;
+/**
+ * ESRI:102655, NAD_1983_StatePlane_Colorado_South_FIPS_0503_Feet. United States (USA) - Colorado - counties Alamosa; Archuleta; Baca; Bent; Conejos; Costilla; Crowley; Custer; Dolores; Hinsdale; Huerfano; Kiowa; La Plata; Las Animas; Mineral; Montezuma; Montrose; Otero; Ouray; Prowers; Pueblo; Rio Grande; Saguache; San Juan; San Miguel. Up to 0.554 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=36.6666666666667 +lon_0=-105.5 +lat_1=37.2333333333333 +lat_2=38.4333333333333 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2233.
+ */
+export declare const ESRI_102655: string;
+/**
+ * ESRI:102656, NAD_1983_StatePlane_Connecticut_FIPS_0600_Feet. United States (USA) - Connecticut. Up to 0.152 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=40.8333333333333 +lon_0=-72.75 +lat_1=41.2 +lat_2=41.8666666666667 +x_0=304800.6096 +y_0=152400.3048 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2234.
+ */
+export declare const ESRI_102656: string;
+/**
+ * ESRI:102657, NAD_1983_StatePlane_Delaware_FIPS_0700_Feet. United States (USA) - Delaware. Up to 0.629 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=38 +lon_0=-75.4166666666667 +k=0.999995 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2235.
+ */
+export declare const ESRI_102657: string;
+/**
+ * ESRI:102658, NAD_1983_StatePlane_Florida_East_FIPS_0901_Feet. United States (USA) - Florida - counties of Brevard; Broward; Clay; Collier; Dade; Duval; Flagler; Glades; Hendry; Highlands; Indian River; Lake; Martin; Monroe; Nassau; Okeechobee; Orange; Osceola; Palm Beach; Putnam; Seminole; St Johns; St Lucie; Volusia. Up to 0.483 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=24.3333333333333 +lon_0=-81 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2236.
+ */
+export declare const ESRI_102658: string;
+/**
+ * ESRI:102659, NAD_1983_StatePlane_Florida_West_FIPS_0902_Feet. United States (USA) - Florida - counties of Charlotte; Citrus; De Soto; Hardee; Hernando; Hillsborough; Lee; Levy; Manatee; Marion; Pasco; Pinellas; Polk; Sarasota; Sumter. Up to 0.615 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=24.3333333333333 +lon_0=-82 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2237.
+ */
+export declare const ESRI_102659: string;
+/**
+ * ESRI:102660, NAD_1983_StatePlane_Florida_North_FIPS_0903_Feet. United States (USA) - Florida - counties of Alachua; Baker; Bay; Bradford; Calhoun; Columbia; Dixie; Escambia; Franklin; Gadsden; Gilchrist; Gulf; Hamilton; Holmes; Jackson; Jefferson; Lafayette; Leon; Liberty; Madison; Okaloosa; Santa Rosa; Suwannee; Taylor; Union; Wakulla; Walton; Washington. Up to 0.607 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=29 +lon_0=-84.5 +lat_1=29.5833333333333 +lat_2=30.75 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2238.
+ */
+export declare const ESRI_102660: string;
+/**
  * ESRI:102661, NAD_1983_StatePlane_Hawaii_1_FIPS_5101_Feet. United States (USA) - Hawaii - island of Hawaii - onshore. Up to 2.59 m from PROJ.
  *
  * `+proj=tmerc +lat_0=18.8333333333333 +lon_0=-155.5 +k=0.999966666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=1,1,-1 +units=us-ft +no_defs`
@@ -41726,6 +48455,14 @@ export declare const ESRI_102661: string;
  */
 export declare const ESRI_102662: string;
 /**
+ * ESRI:102663, NAD_1983_StatePlane_Hawaii_3_FIPS_5103_Feet. United States (USA) - Hawaii - Oahu - onshore. Up to 2.23 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=21.1666666666667 +lon_0=-158 +k=0.99999 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=1,1,-1 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3759.
+ */
+export declare const ESRI_102663: string;
+/**
  * ESRI:102664, NAD_1983_StatePlane_Hawaii_4_FIPS_5104_Feet. United States (USA) - Hawaii - Kauai - onshore. Up to 2.86 m from PROJ.
  *
  * `+proj=tmerc +lat_0=21.8333333333333 +lon_0=-159.5 +k=0.99999 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=1,1,-1 +units=us-ft +no_defs`
@@ -41737,6 +48474,182 @@ export declare const ESRI_102664: string;
  * `+proj=tmerc +lat_0=21.6666666666667 +lon_0=-160.166666666667 +k=1 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=1,1,-1 +units=us-ft +no_defs`
  */
 export declare const ESRI_102665: string;
+/**
+ * ESRI:102666, NAD_1983_StatePlane_Georgia_East_FIPS_1001_Feet. United States (USA) - Georgia - counties of Appling; Atkinson; Bacon; Baldwin; Brantley; Bryan; Bulloch; Burke; Camden; Candler; Charlton; Chatham; Clinch; Coffee; Columbia; Dodge; Echols; Effingham; Elbert; Emanuel; Evans; Franklin; Glascock; Glynn; Greene; Hancock; Hart; Jeff Davis; Jefferson; Jenkins; Johnson; Laurens; Liberty; Lincoln; Long; Madison; McDuffie; McIntosh; Montgomery; Oglethorpe; Pierce; Richmond; Screven; Stephens; Taliaferro; Tattnall; Telfair; Toombs; Treutlen; Ware; Warren; Washington; Wayne; Wheeler; Wilkes; Wilkinson. Up to 0.666 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=30 +lon_0=-82.1666666666667 +k=0.9999 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2239.
+ */
+export declare const ESRI_102666: string;
+/**
+ * ESRI:102667, NAD_1983_StatePlane_Georgia_West_FIPS_1002_Feet. United States (USA) - Georgia - counties of Baker; Banks; Barrow; Bartow; Ben Hill; Berrien; Bibb; Bleckley; Brooks; Butts; Calhoun; Carroll; Catoosa; Chattahoochee; Chattooga; Cherokee; Clarke; Clay; Clayton; Cobb; Colquitt; Cook; Coweta; Crawford; Crisp; Dade; Dawson; De Kalb; Decatur; Dooly; Dougherty; Douglas; Early; Fannin; Fayette; Floyd; Forsyth; Fulton; Gilmer; Gordon; Grady; Gwinnett; Habersham; Hall; Haralson; Harris; Heard; Henry; Houston; Irwin; Jackson; Jasper; Jones; Lamar; Lanier; Lee; Lowndes; Lumpkin; Macon; Marion; Meriwether; Miller; Mitchell; Monroe; Morgan; Murray; Muscogee; Newton; Oconee; Paulding; Peach; Pickens; Pike; Polk; Pulaski; Putnam; Quitman; Rabun; Randolph; Rockdale; Schley; Seminole; Spalding; Stewart; Sumter; Talbot; Taylor; Terrell; Thomas; Tift; Towns; Troup; Turner; Twiggs; Union; Upson; Walker; Walton; Webster; White; Whitfield; Wilcox; Worth. Up to 0.405 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=30 +lon_0=-84.1666666666667 +k=0.9999 +x_0=700000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2240.
+ */
+export declare const ESRI_102667: string;
+/**
+ * ESRI:102668, NAD_1983_StatePlane_Idaho_East_FIPS_1101_Feet. United States (USA) - Idaho - counties of Bannock; Bear Lake; Bingham; Bonneville; Caribou; Clark; Franklin; Fremont; Jefferson; Madison; Oneida; Power; Teton. Up to 0.462 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=41.6666666666667 +lon_0=-112.166666666667 +k=0.999947368421053 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2241.
+ */
+export declare const ESRI_102668: string;
+/**
+ * ESRI:102669, NAD_1983_StatePlane_Idaho_Central_FIPS_1102_Feet. United States (USA) - Idaho - counties of Blaine; Butte; Camas; Cassia; Custer; Gooding; Jerome; Lemhi; Lincoln; Minidoka; Twin Falls. Up to 0.391 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=41.6666666666667 +lon_0=-114 +k=0.999947368421053 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2242.
+ */
+export declare const ESRI_102669: string;
+/**
+ * ESRI:102670, NAD_1983_StatePlane_Idaho_West_FIPS_1103_Feet. United States (USA) - Idaho - counties of Ada; Adams; Benewah; Boise; Bonner; Boundary; Canyon; Clearwater; Elmore; Gem; Idaho; Kootenai; Latah; Lewis; Nez Perce; Owyhee; Payette; Shoshone; Valley; Washington. Up to 0.385 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=41.6666666666667 +lon_0=-115.75 +k=0.999933333333333 +x_0=800000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2243.
+ */
+export declare const ESRI_102670: string;
+/**
+ * ESRI:102671, NAD_1983_StatePlane_Illinois_East_FIPS_1201_Feet. United States (USA) - Illinois - counties of Boone; Champaign; Clark; Clay; Coles; Cook; Crawford; Cumberland; De Kalb; De Witt; Douglas; Du Page; Edgar; Edwards; Effingham; Fayette; Ford; Franklin; Gallatin; Grundy; Hamilton; Hardin; Iroquois; Jasper; Jefferson; Johnson; Kane; Kankakee; Kendall; La Salle; Lake; Lawrence; Livingston; Macon; Marion; Massac; McHenry; McLean; Moultrie; Piatt; Pope; Richland; Saline; Shelby; Vermilion; Wabash; Wayne; White; Will; Williamson. Up to 0.393 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=36.6666666666667 +lon_0=-88.3333333333333 +k=0.999975 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3435.
+ */
+export declare const ESRI_102671: string;
+/**
+ * ESRI:102672, NAD_1983_StatePlane_Illinois_West_FIPS_1202_Feet. United States (USA) - Illinois - counties of Adams; Alexander; Bond; Brown; Bureau; Calhoun; Carroll; Cass; Christian; Clinton; Fulton; Greene; Hancock; Henderson; Henry; Jackson; Jersey; Jo Daviess; Knox; Lee; Logan; Macoupin; Madison; Marshall; Mason; McDonough; Menard; Mercer; Monroe; Montgomery; Morgan; Ogle; Peoria; Perry; Pike; Pulaski; Putnam; Randolph; Rock Island; Sangamon; Schuyler; Scott; St Clair; Stark; Stephenson; Tazewell; Union; Warren; Washington; Whiteside; Winnebago; Woodford. Up to 0.459 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=36.6666666666667 +lon_0=-90.1666666666667 +k=0.999941176470588 +x_0=700000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3436.
+ */
+export declare const ESRI_102672: string;
+/**
+ * ESRI:102673, NAD_1983_StatePlane_Indiana_East_FIPS_1301_Feet. United States (USA) - Indiana - counties of Adams; Allen; Bartholomew; Blackford; Brown; Cass; Clark; De Kalb; Dearborn; Decatur; Delaware; Elkhart; Fayette; Floyd; Franklin; Fulton; Grant; Hamilton; Hancock; Harrison; Henry; Howard; Huntington; Jackson; Jay; Jefferson; Jennings; Johnson; Kosciusko; Lagrange; Madison; Marion; Marshall; Miami; Noble; Ohio; Randolph; Ripley; Rush; Scott; Shelby; St Joseph; Steuben; Switzerland; Tipton; Union; Wabash; Washington; Wayne; Wells; Whitley. Up to 0.569 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=37.5 +lon_0=-85.6666666666667 +k=0.999966666666667 +x_0=100000 +y_0=250000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2965.
+ */
+export declare const ESRI_102673: string;
+/**
+ * ESRI:102674, NAD_1983_StatePlane_Indiana_West_FIPS_1302_Feet. United States (USA) - Indiana - counties of Benton; Boone; Carroll; Clay; Clinton; Crawford; Daviess; Dubois; Fountain; Gibson; Greene; Hendricks; Jasper; Knox; La Porte; Lake; Lawrence; Martin; Monroe; Montgomery; Morgan; Newton; Orange; Owen; Parke; Perry; Pike; Porter; Posey; Pulaski; Putnam; Spencer; Starke; Sullivan; Tippecanoe; Vanderburgh; Vermillion; Vigo; Warren; Warrick; White. Up to 0.364 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=37.5 +lon_0=-87.0833333333333 +k=0.999966666666667 +x_0=900000 +y_0=250000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2966.
+ */
+export declare const ESRI_102674: string;
+/**
+ * ESRI:102675, NAD_1983_StatePlane_Iowa_North_FIPS_1401_Feet. United States (USA) - Iowa - counties of Allamakee; Benton; Black Hawk; Boone; Bremer; Buchanan; Buena Vista; Butler; Calhoun; Carroll; Cerro Gordo; Cherokee; Chickasaw; Clay; Clayton; Crawford; Delaware; Dickinson; Dubuque; Emmet; Fayette; Floyd; Franklin; Greene; Grundy; Hamilton; Hancock; Hardin; Howard; Humboldt; Ida; Jackson; Jones; Kossuth; Linn; Lyon; Marshall; Mitchell; Monona; O'Brien; Osceola; Palo Alto; Plymouth; Pocahontas; Sac; Sioux; Story; Tama; Webster; Winnebago; Winneshiek; Woodbury; Worth; Wright. Up to 0.357 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=41.5 +lon_0=-93.5 +lat_1=42.0666666666667 +lat_2=43.2666666666667 +x_0=1500000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3417.
+ */
+export declare const ESRI_102675: string;
+/**
+ * ESRI:102676, NAD_1983_StatePlane_Iowa_South_FIPS_1402_Feet. United States (USA) - Iowa - counties of Adair; Adams; Appanoose; Audubon; Cass; Cedar; Clarke; Clinton; Dallas; Davis; Decatur; Des Moines; Fremont; Guthrie; Harrison; Henry; Iowa; Jasper; Jefferson; Johnson; Keokuk; Lee; Louisa; Lucas; Madison; Mahaska; Marion; Mills; Monroe; Montgomery; Muscatine; Page; Polk; Pottawattamie; Poweshiek; Ringgold; Scott; Shelby; Taylor; Union; Van Buren; Wapello; Warren; Washington; Wayne. Up to 0.416 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=40 +lon_0=-93.5 +lat_1=40.6166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3418.
+ */
+export declare const ESRI_102676: string;
+/**
+ * ESRI:102677, NAD_1983_StatePlane_Kansas_North_FIPS_1501_Feet. United States (USA) - Kansas - counties of Atchison; Brown; Cheyenne; Clay; Cloud; Decatur; Dickinson; Doniphan; Douglas; Ellis; Ellsworth; Geary; Gove; Graham; Jackson; Jefferson; Jewell; Johnson; Leavenworth; Lincoln; Logan; Marshall; Mitchell; Morris; Nemaha; Norton; Osborne; Ottawa; Phillips; Pottawatomie; Rawlins; Republic; Riley; Rooks; Russell; Saline; Shawnee; Sheridan; Sherman; Smith; Thomas; Trego; Wabaunsee; Wallace; Washington; Wyandotte. Up to 0.315 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=38.3333333333333 +lon_0=-98 +lat_1=38.7166666666667 +lat_2=39.7833333333333 +x_0=400000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3419.
+ */
+export declare const ESRI_102677: string;
+/**
+ * ESRI:102678, NAD_1983_StatePlane_Kansas_South_FIPS_1502_Feet. United States (USA) - Kansas - counties of Allen; Anderson; Barber; Barton; Bourbon; Butler; Chase; Chautauqua; Cherokee; Clark; Coffey; Comanche; Cowley; Crawford; Edwards; Elk; Finney; Ford; Franklin; Grant; Gray; Greeley; Greenwood; Hamilton; Harper; Harvey; Haskell; Hodgeman; Kearny; Kingman; Kiowa; Labette; Lane; Linn; Lyon; Marion; McPherson; Meade; Miami; Montgomery; Morton; Neosho; Ness; Osage; Pawnee; Pratt; Reno; Rice; Rush; Scott; Sedgwick; Seward; Stafford; Stanton; Stevens; Sumner; Wichita; Wilson; Woodson. Up to 0.567 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=36.6666666666667 +lon_0=-98.5 +lat_1=37.2666666666667 +lat_2=38.5666666666667 +x_0=400000 +y_0=400000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3420.
+ */
+export declare const ESRI_102678: string;
+/**
+ * ESRI:102679, NAD_1983_StatePlane_Kentucky_North_FIPS_1601_Feet. United States (USA) - Kentucky - counties of Anderson; Bath; Boone; Bourbon; Boyd; Bracken; Bullitt; Campbell; Carroll; Carter; Clark; Elliott; Fayette; Fleming; Franklin; Gallatin; Grant; Greenup; Harrison; Henry; Jefferson; Jessamine; Kenton; Lawrence; Lewis; Mason; Menifee; Montgomery; Morgan; Nicholas; Oldham; Owen; Pendleton; Robertson; Rowan; Scott; Shelby; Spencer; Trimble; Woodford. Up to 0.424 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=37.5 +lon_0=-84.25 +lat_1=37.9666666666667 +lat_2=38.9666666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2246.
+ */
+export declare const ESRI_102679: string;
+/**
+ * ESRI:102680, NAD_1983_StatePlane_Kentucky_South_FIPS_1602_Feet. United States (USA) - Kentucky - counties of Adair; Allen; Ballard; Barren; Bell; Boyle; Breathitt; Breckinridge; Butler; Caldwell; Calloway; Carlisle; Casey; Christian; Clay; Clinton; Crittenden; Cumberland; Daviess; Edmonson; Estill; Floyd; Fulton; Garrard; Graves; Grayson; Green; Hancock; Hardin; Harlan; Hart; Henderson; Hickman; Hopkins; Jackson; Johnson; Knott; Knox; Larue; Laurel; Lee; Leslie; Letcher; Lincoln; Livingston; Logan; Lyon; Madison; Magoffin; Marion; Marshall; Martin; McCracken; McCreary; McLean; Meade; Mercer; Metcalfe; Monroe; Muhlenberg; Nelson; Ohio; Owsley; Perry; Pike; Powell; Pulaski; Rockcastle; Russell; Simpson; Taylor; Todd; Trigg; Union; Warren; Washington; Wayne; Webster; Whitley; Wolfe. Up to 0.341 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=36.7333333333333 +lat_2=37.9333333333333 +x_0=500000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2247.
+ */
+export declare const ESRI_102680: string;
+/**
+ * ESRI:102681, NAD_1983_StatePlane_Louisiana_North_FIPS_1701_Feet. United States (USA) - Louisiana - counties of Avoyelles; Bienville; Bossier; Caddo; Caldwell; Catahoula; Claiborne; Concordia; De Soto; East Carroll; Franklin; Grant; Jackson; La Salle; Lincoln; Madison; Morehouse; Natchitoches; Ouachita; Rapides; Red River; Richland; Sabine; Tensas; Union; Vernon; Webster; West Carroll; Winn. Up to 0.632 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=30.5 +lon_0=-92.5 +lat_1=31.1666666666667 +lat_2=32.6666666666667 +x_0=1000000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3451.
+ */
+export declare const ESRI_102681: string;
+/**
+ * ESRI:102682, NAD_1983_StatePlane_Louisiana_South_FIPS_1702_Feet. United States (USA) - Louisiana - counties of Acadia; Allen; Ascension; Assumption; Beauregard; Calcasieu; Cameron; East Baton Rouge; East Feliciana; Evangeline; Iberia; Iberville; Jefferson; Jefferson Davis; Lafayette; LaFourche; Livingston; Orleans; Plaquemines; Pointe Coupee; St Bernard; St Charles; St Helena; St James; St John the Baptist; St Landry; St Martin; St Mary; St Tammany; Tangipahoa; Terrebonne; Vermilion; Washington; West Baton Rouge; West Feliciana. Up to 0.985 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=28.5 +lon_0=-91.3333333333333 +lat_1=29.3 +lat_2=30.7 +x_0=1000000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3452.
+ */
+export declare const ESRI_102682: string;
+/**
+ * ESRI:102683, NAD_1983_StatePlane_Maine_East_FIPS_1801_Feet. United States (USA) - Maine - counties of Aroostook; Hancock; Knox; Penobscot; Piscataquis; Waldo; Washington. Up to 0.48 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=43.6666666666667 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:26847.
+ */
+export declare const ESRI_102683: string;
+/**
+ * ESRI:102684, NAD_1983_StatePlane_Maine_West_FIPS_1802_Feet. United States (USA) - Maine - counties of Androscoggin; Cumberland; Franklin; Kennebec; Lincoln; Oxford; Sagadahoc; Somerset; York. Up to 0.354 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.1666666666667 +k=0.999966666666667 +x_0=900000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:26848.
+ */
+export declare const ESRI_102684: string;
+/**
+ * ESRI:102685, NAD_1983_StatePlane_Maryland_FIPS_1900_Feet. United States (USA) - Maryland - counties of Allegany; Anne Arundel; Baltimore; Calvert; Caroline; Carroll; Cecil; Charles; Dorchester; Frederick; Garrett; Harford; Howard; Kent; Montgomery; Prince Georges; Queen Annes; Somerset; St Marys; Talbot; Washington; Wicomico; Worcester. District of Columbia (DC). Up to 0.786 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=37.6666666666667 +lon_0=-77 +lat_1=38.3 +lat_2=39.45 +x_0=400000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2248.
+ */
+export declare const ESRI_102685: string;
+/**
+ * ESRI:102686, NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001_Feet. United States (USA) - Massachusetts onshore - counties of Barnstable; Berkshire; Bristol; Essex; Franklin; Hampden; Hampshire; Middlesex; Norfolk; Plymouth; Suffolk; Worcester. Up to 0.181 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=41 +lon_0=-71.5 +lat_1=41.7166666666667 +lat_2=42.6833333333333 +x_0=200000 +y_0=750000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2249.
+ */
+export declare const ESRI_102686: string;
+/**
+ * ESRI:102687, NAD_1983_StatePlane_Massachusetts_Island_FIPS_2002_Feet. United States (USA) - Massachusetts offshore - counties of Dukes; Nantucket. Up to 0.158 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=41 +lon_0=-70.5 +lat_1=41.2833333333333 +lat_2=41.4833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2250.
+ */
+export declare const ESRI_102687: string;
 /**
  * ESRI:102688, NAD_1983_StatePlane_Michigan_North_FIPS_2111_Feet. United States (USA) - Michigan north of approximately 45°45'N - counties of Alger; Baraga; Chippewa; Delta; Dickinson; Gogebic; Houghton; Iron; Keweenaw; Luce; Mackinac; Marquette; Menominee; Ontonagon; Schoolcraft. Up to 0.758 m from PROJ.
  *
@@ -41755,6 +48668,46 @@ export declare const ESRI_102689: string;
  * `+proj=lcc +lat_0=41.5 +lon_0=-84.3666666666667 +lat_1=42.1 +lat_2=43.6666666666667 +x_0=4000000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
  */
 export declare const ESRI_102690: string;
+/**
+ * ESRI:102691, NAD_1983_StatePlane_Minnesota_North_FIPS_2201_Feet. United States (USA) - Minnesota - counties of Beltrami; Clearwater; Cook; Itasca; Kittson; Koochiching; Lake; Lake of the Woods; Mahnomen; Marshall; Norman; Pennington; Polk; Red Lake; Roseau; St Louis. Up to 1.15 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=46.5 +lon_0=-93.1 +lat_1=47.0333333333333 +lat_2=48.6333333333333 +x_0=800000 +y_0=100000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:26849.
+ */
+export declare const ESRI_102691: string;
+/**
+ * ESRI:102692, NAD_1983_StatePlane_Minnesota_Central_FIPS_2202_Feet. United States (USA) - Minnesota - counties of Aitkin; Becker; Benton; Carlton; Cass; Chisago; Clay; Crow Wing; Douglas; Grant; Hubbard; Isanti; Kanabec; Mille Lacs; Morrison; Otter Tail; Pine; Pope; Stearns; Stevens; Todd; Traverse; Wadena; Wilkin. Up to 0.411 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=45 +lon_0=-94.25 +lat_1=45.6166666666667 +lat_2=47.05 +x_0=800000 +y_0=100000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:26850.
+ */
+export declare const ESRI_102692: string;
+/**
+ * ESRI:102693, NAD_1983_StatePlane_Minnesota_South_FIPS_2203_Feet. United States (USA) - Minnesota - counties of Anoka; Big Stone; Blue Earth; Brown; Carver; Chippewa; Cottonwood; Dakota; Dodge; Faribault; Fillmore; Freeborn; Goodhue; Hennepin; Houston; Jackson; Kandiyohi; Lac Qui Parle; Le Sueur; Lincoln; Lyon; Martin; McLeod; Meeker; Mower; Murray; Nicollet; Nobles; Olmsted; Pipestone; Ramsey; Redwood; Renville; Rice; Rock; Scott; Sherburne; Sibley; Steele; Swift; Wabasha; Waseca; Washington; Watonwan; Winona; Wright; Yellow Medicine. Up to 0.436 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=43 +lon_0=-94 +lat_1=43.7833333333333 +lat_2=45.2166666666667 +x_0=800000 +y_0=100000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:26851.
+ */
+export declare const ESRI_102693: string;
+/**
+ * ESRI:102694, NAD_1983_StatePlane_Mississippi_East_FIPS_2301_Feet. United States (USA) - Mississippi - counties of Alcorn; Attala; Benton; Calhoun; Chickasaw; Choctaw; Clarke; Clay; Covington; Forrest; George; Greene; Hancock; Harrison; Itawamba; Jackson; Jasper; Jones; Kemper; Lafayette; Lamar; Lauderdale; Leake; Lee; Lowndes; Marshall; Monroe; Neshoba; Newton; Noxubee; Oktibbeha; Pearl River; Perry; Pontotoc; Prentiss; Scott; Smith; Stone; Tippah; Tishomingo; Union; Wayne; Webster; Winston. Up to 0.688 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=29.5 +lon_0=-88.8333333333333 +k=0.99995 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2254.
+ */
+export declare const ESRI_102694: string;
+/**
+ * ESRI:102695, NAD_1983_StatePlane_Mississippi_West_FIPS_2302_Feet. United States (USA) - Mississippi - counties of Adams; Amite; Bolivar; Carroll; Claiborne; Coahoma; Copiah; De Soto; Franklin; Grenada; Hinds; Holmes; Humphreys; Issaquena; Jefferson; Jefferson Davis; Lawrence; Leflore; Lincoln; Madison; Marion; Montgomery; Panola; Pike; Quitman; Rankin; Sharkey; Simpson; Sunflower; Tallahatchie; Tate; Tunica; Walthall; Warren; Washington; Wilkinson; Yalobusha; Yazoo. Up to 0.51 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=29.5 +lon_0=-90.3333333333333 +k=0.99995 +x_0=700000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2255.
+ */
+export declare const ESRI_102695: string;
 /**
  * ESRI:102696, NAD_1983_StatePlane_Missouri_East_FIPS_2401_Feet. United States (USA) - Missouri - counties of Bollinger; Butler; Cape Girardeau; Carter; Clark; Crawford; Dent; Dunklin; Franklin; Gasconade; Iron; Jefferson; Lewis; Lincoln; Madison; Marion; Mississippi; Montgomery; New Madrid; Oregon; Pemiscot; Perry; Pike; Ralls; Reynolds; Ripley; Scott; Shannon; St Charles; St Francois; St Louis; Ste. Genevieve; Stoddard; Warren; Washington; Wayne. Up to 0.478 m from PROJ.
  *
@@ -41804,11 +48757,131 @@ export declare const ESRI_102702: string;
  */
 export declare const ESRI_102703: string;
 /**
+ * ESRI:102704, NAD_1983_StatePlane_Nebraska_FIPS_2600_Feet. United States (USA) - Nebraska. Up to 0.463 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=39.8333333333333 +lon_0=-100 +lat_1=40 +lat_2=43 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:26852.
+ */
+export declare const ESRI_102704: string;
+/**
  * ESRI:102705, NAD_1983_Nebraska_Lancaster_County_FtUS. US - Nebraska - Lancaster County Up to 0.343 m from PROJ.
  *
  * `+proj=tmerc +lat_0=40.25 +lon_0=-96.6880555555556 +k=1.000054615 +x_0=50000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
  */
 export declare const ESRI_102705: string;
+/**
+ * ESRI:102706, Palestine_1923_Palestine_Grid_TM. Israel - onshore; Jordan; Palestine - onshore. Up to 0.0135 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=31.7340969444445 +lon_0=35.2120805555556 +k=1 +x_0=170251.555 +y_0=126867.909 +a=6378300.789 +b=6356566.435 +towgs84=-275.7224,94.7824,340.8944,-8.001,-4.42,-11.821,1 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:7142.
+ */
+export declare const ESRI_102706: string;
+/**
+ * ESRI:102707, NAD_1983_StatePlane_Nevada_East_FIPS_2701_Feet. United States (USA) - Nevada - counties of Clark; Elko; Eureka; Lincoln; White Pine. Up to 0.27 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=34.75 +lon_0=-115.583333333333 +k=0.9999 +x_0=200000 +y_0=8000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3421.
+ */
+export declare const ESRI_102707: string;
+/**
+ * ESRI:102708, NAD_1983_StatePlane_Nevada_Central_FIPS_2702_Feet. United States (USA) - Nevada - counties of Lander; Nye. Up to 0.418 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=34.75 +lon_0=-116.666666666667 +k=0.9999 +x_0=500000 +y_0=6000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3422.
+ */
+export declare const ESRI_102708: string;
+/**
+ * ESRI:102709, NAD_1983_StatePlane_Nevada_West_FIPS_2703_Feet. United States (USA) - Nevada - counties of Churchill; Douglas; Esmeralda; Humboldt; Lyon; Mineral; Pershing; Storey; Washoe. Up to 1.21 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=34.75 +lon_0=-118.583333333333 +k=0.9999 +x_0=800000 +y_0=4000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3423.
+ */
+export declare const ESRI_102709: string;
+/**
+ * ESRI:102710, NAD_1983_StatePlane_New_Hampshire_FIPS_2800_Feet. United States (USA) - New Hampshire. Up to 0.319 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=42.5 +lon_0=-71.6666666666667 +k=0.999966666666667 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3437.
+ */
+export declare const ESRI_102710: string;
+/**
+ * ESRI:102711, NAD_1983_StatePlane_New_Jersey_FIPS_2900_Feet. United States (USA) - New Jersey. Up to 0.729 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3424.
+ */
+export declare const ESRI_102711: string;
+/**
+ * ESRI:102712, NAD_1983_StatePlane_New_Mexico_East_FIPS_3001_Feet. United States (USA) - New Mexico - counties of Chaves; Colfax; Curry; De Baca; Eddy; Guadalupe; Harding; Lea; Mora; Quay; Roosevelt; San Miguel; Union. Up to 0.336 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=31 +lon_0=-104.333333333333 +k=0.999909090909091 +x_0=165000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2257.
+ */
+export declare const ESRI_102712: string;
+/**
+ * ESRI:102713, NAD_1983_StatePlane_New_Mexico_Central_FIPS_3002_Feet. United States (USA) - New Mexico - counties of Bernalillo; Dona Ana; Lincoln; Los Alamos; Otero; Rio Arriba; Sandoval; Santa Fe; Socorro; Taos; Torrance; Valencia. Up to 0.322 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=31 +lon_0=-106.25 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2258.
+ */
+export declare const ESRI_102713: string;
+/**
+ * ESRI:102714, NAD_1983_StatePlane_New_Mexico_West_FIPS_3003_Feet. United States (USA) - New Mexico - counties of Catron; Cibola; Grant; Hidalgo; Luna; McKinley; San Juan; Sierra. Up to 0.244 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=31 +lon_0=-107.833333333333 +k=0.999916666666667 +x_0=830000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2259.
+ */
+export declare const ESRI_102714: string;
+/**
+ * ESRI:102715, NAD_1983_StatePlane_New_York_East_FIPS_3101_Feet. United States (USA) - New York mainland - counties of Albany; Clinton; Columbia; Delaware; Dutchess; Essex; Franklin; Fulton; Greene; Hamilton; Herkimer; Montgomery; Orange; Otsego; Putnam; Rensselaer; Rockland; Saratoga; Schenectady; Schoharie; St Lawrence; Sullivan; Ulster; Warren; Washington; Westchester. Up to 0.233 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2260.
+ */
+export declare const ESRI_102715: string;
+/**
+ * ESRI:102716, NAD_1983_StatePlane_New_York_Central_FIPS_3102_Feet. United States (USA) - New York - counties of Broome; Cayuga; Chemung; Chenango; Cortland; Jefferson; Lewis; Madison; Oneida; Onondaga; Ontario; Oswego; Schuyler; Seneca; Steuben; Tioga; Tompkins; Wayne; Yates. Up to 0.281 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=40 +lon_0=-76.5833333333333 +k=0.9999375 +x_0=250000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2261.
+ */
+export declare const ESRI_102716: string;
+/**
+ * ESRI:102717, NAD_1983_StatePlane_New_York_West_FIPS_3103_Feet. United States (USA) - New York - counties of Allegany; Cattaraugus; Chautauqua; Erie; Genesee; Livingston; Monroe; Niagara; Orleans; Wyoming. Up to 0.333 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2262.
+ */
+export declare const ESRI_102717: string;
+/**
+ * ESRI:102718, NAD_1983_StatePlane_New_York_Long_Island_FIPS_3104_Feet. United States (USA) - New York - counties of Bronx; Kings; Nassau; New York; Queens; Richmond; Suffolk. Up to 0.218 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=40.1666666666667 +lon_0=-74 +lat_1=40.6666666666667 +lat_2=41.0333333333333 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2263.
+ */
+export declare const ESRI_102718: string;
+/**
+ * ESRI:102719, NAD_1983_StatePlane_North_Carolina_FIPS_3200_Feet. United States (USA) - North Carolina. Up to 0.739 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=33.75 +lon_0=-79 +lat_1=34.3333333333333 +lat_2=36.1666666666667 +x_0=609601.22 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2264.
+ */
+export declare const ESRI_102719: string;
 /**
  * ESRI:102720, NAD_1983_StatePlane_North_Dakota_North_FIPS_3301_Feet. United States (USA) - North Dakota - counties of Benson; Bottineau; Burke; Cavalier; Divide; Eddy; Foster; Grand Forks; Griggs; McHenry; McKenzie; McLean; Mountrial; Nelson; Pembina; Pierce; Ramsey; Renville; Rolette; Sheridan; Steele; Towner; Traill; Walsh; Ward; Wells; Williams. Up to 0.381 m from PROJ.
  *
@@ -41822,6 +48895,38 @@ export declare const ESRI_102720: string;
  */
 export declare const ESRI_102721: string;
 /**
+ * ESRI:102722, NAD_1983_StatePlane_Ohio_North_FIPS_3401_Feet. United States (USA) - Ohio - counties of Allen;Ashland; Ashtabula; Auglaize; Carroll; Columbiana; Coshocton; Crawford; Cuyahoga; Defiance; Delaware; Erie; Fulton; Geauga; Hancock; Hardin; Harrison; Henry; Holmes; Huron; Jefferson; Knox; Lake; Logan; Lorain; Lucas; Mahoning; Marion; Medina; Mercer; Morrow; Ottawa; Paulding; Portage; Putnam; Richland; Sandusky; Seneca; Shelby; Stark; Summit; Trumbull; Tuscarawas; Union; Van Wert; Wayne; Williams; Wood; Wyandot. Up to 0.676 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=39.6666666666667 +lon_0=-82.5 +lat_1=40.4333333333333 +lat_2=41.7 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3734.
+ */
+export declare const ESRI_102722: string;
+/**
+ * ESRI:102723, NAD_1983_StatePlane_Ohio_South_FIPS_3402_Feet. United States (USA) - Ohio - counties of Adams; Athens; Belmont; Brown; Butler; Champaign; Clark; Clermont; Clinton; Darke; Fairfield; Fayette; Franklin; Gallia; Greene; Guernsey; Hamilton; Highland; Hocking; Jackson; Lawrence; Licking; Madison; Meigs; Miami; Monroe; Montgomery; Morgan; Muskingum; Noble; Perry; Pickaway; Pike; Preble; Ross; Scioto; Vinton; Warren; Washington. Up to 0.323 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=38 +lon_0=-82.5 +lat_1=38.7333333333333 +lat_2=40.0333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3735.
+ */
+export declare const ESRI_102723: string;
+/**
+ * ESRI:102724, NAD_1983_StatePlane_Oklahoma_North_FIPS_3501_Feet. United States (USA) - Oklahoma - counties of Adair; Alfalfa; Beaver; Blaine; Canadian; Cherokee; Cimarron; Craig; Creek; Custer; Delaware; Dewey; Ellis; Garfield; Grant; Harper; Kay; Kingfisher; Lincoln; Logan; Major; Mayes; Muskogee; Noble; Nowata; Okfuskee; Oklahoma; Okmulgee; Osage; Ottawa; Pawnee; Payne; Roger Mills; Rogers; Sequoyah; Texas; Tulsa; Wagoner; Washington; Woods; Woodward. Up to 0.789 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=35 +lon_0=-98 +lat_1=35.5666666666667 +lat_2=36.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2267.
+ */
+export declare const ESRI_102724: string;
+/**
+ * ESRI:102725, NAD_1983_StatePlane_Oklahoma_South_FIPS_3502_Feet. United States (USA) - Oklahoma - counties of Atoka; Beckham; Bryan; Caddo; Carter; Choctaw; Cleveland; Coal; Comanche; Cotton; Garvin; Grady; Greer; Harmon; Haskell; Hughes; Jackson; Jefferson; Johnston; Kiowa; Latimer; Le Flore; Love; Marshall; McClain; McCurtain; McIntosh; Murray; Pittsburg; Pontotoc; Pottawatomie; Pushmataha; Seminole; Stephens; Tillman; Washita. Up to 0.54 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=33.3333333333333 +lon_0=-98 +lat_1=33.9333333333333 +lat_2=35.2333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2268.
+ */
+export declare const ESRI_102725: string;
+/**
  * ESRI:102726, NAD_1983_StatePlane_Oregon_North_FIPS_3601_Feet. United States (USA) - Oregon - counties of Baker; Benton; Clackamas; Clatsop; Columbia; Gilliam; Grant; Hood River; Jefferson; Lincoln; Linn; Marion; Morrow; Multnomah; Polk; Sherman; Tillamook; Umatilla; Union; Wallowa; Wasco; Washington; Wheeler; Yamhill. Up to 0.901 m from PROJ.
  *
  * `+proj=lcc +lat_0=43.6666666666667 +lon_0=-120.5 +lat_1=44.3333333333333 +lat_2=46 +x_0=2500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
@@ -41833,6 +48938,30 @@ export declare const ESRI_102726: string;
  * `+proj=lcc +lat_0=41.6666666666667 +lon_0=-120.5 +lat_1=42.3333333333333 +lat_2=44 +x_0=1500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
  */
 export declare const ESRI_102727: string;
+/**
+ * ESRI:102728, NAD_1983_StatePlane_Pennsylvania_North_FIPS_3701_Feet. United States (USA) - Pennsylvania - counties of Bradford; Cameron; Carbon; Centre; Clarion; Clearfield; Clinton; Columbia; Crawford; Elk; Erie; Forest; Jefferson; Lackawanna; Luzerne; Lycoming; McKean; Mercer; Monroe; Montour; Northumberland; Pike; Potter; Sullivan; Susquehanna; Tioga; Union; Venango; Warren; Wayne; Wyoming. Up to 0.18 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=40.1666666666667 +lon_0=-77.75 +lat_1=40.8833333333333 +lat_2=41.95 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2271.
+ */
+export declare const ESRI_102728: string;
+/**
+ * ESRI:102729, NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702_Feet. United States (USA) - Pennsylvania - counties of Adams; Allegheny; Armstrong; Beaver; Bedford; Berks; Blair; Bucks; Butler; Cambria; Chester; Cumberland; Dauphin; Delaware; Fayette; Franklin; Fulton; Greene; Huntingdon; Indiana; Juniata; Lancaster; Lawrence; Lebanon; Lehigh; Mifflin; Montgomery; Northampton; Perry; Philadelphia; Schuylkill; Snyder; Somerset; Washington; Westmoreland; York. Up to 0.36 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=39.3333333333333 +lon_0=-77.75 +lat_1=39.9333333333333 +lat_2=40.9666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2272.
+ */
+export declare const ESRI_102729: string;
+/**
+ * ESRI:102730, NAD_1983_StatePlane_Rhode_Island_FIPS_3800_Feet. United States (USA) - Rhode Island. Up to 0.12 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=41.0833333333333 +lon_0=-71.5 +k=0.99999375 +x_0=100000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3438.
+ */
+export declare const ESRI_102730: string;
 /**
  * ESRI:102731, PANAMA_ITRF08_UTM_17N. Panama - UTM Zone 17N Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
@@ -41852,6 +48981,206 @@ export declare const ESRI_102732: string;
  */
 export declare const ESRI_102733: string;
 /**
+ * ESRI:102734, NAD_1983_StatePlane_South_Dakota_North_FIPS_4001_Feet. United States (USA) - South Dakota - counties of Beadle; Brookings; Brown; Butte; Campbell; Clark; Codington; Corson; Day; Deuel; Dewey; Edmunds; Faulk; Grant; Hamlin; Hand; Harding; Hyde; Kingsbury; Lawrence; Marshall; McPherson; Meade; Perkins; Potter; Roberts; Spink; Sully; Walworth; Ziebach. Up to 0.588 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=43.8333333333333 +lon_0=-100 +lat_1=44.4166666666667 +lat_2=45.6833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:4457.
+ */
+export declare const ESRI_102734: string;
+/**
+ * ESRI:102735, NAD_1983_StatePlane_South_Dakota_South_FIPS_4002_Feet. United States (USA) - South Dakota - counties of Aurora; Bennett; Bon Homme; Brule; Buffalo; Charles Mix; Clay; Custer; Davison; Douglas; Fall River; Gregory; Haakon; Hanson; Hughes; Hutchinson; Jackson; Jerauld; Jones; Lake; Lincoln; Lyman; McCook; Mellette; Miner; Minnehaha; Moody; Pennington; Sanborn; Shannon; Stanley; Todd; Tripp; Turner; Union; Yankton. Up to 0.596 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=42.3333333333333 +lon_0=-100.333333333333 +lat_1=42.8333333333333 +lat_2=44.4 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3455.
+ */
+export declare const ESRI_102735: string;
+/**
+ * ESRI:102736, NAD_1983_StatePlane_Tennessee_FIPS_4100_Feet. United States (USA) - Tennessee. Up to 0.254 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=34.3333333333333 +lon_0=-86 +lat_1=35.25 +lat_2=36.4166666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2274.
+ */
+export declare const ESRI_102736: string;
+/**
+ * ESRI:102737, NAD_1983_StatePlane_Texas_North_FIPS_4201_Feet. United States (USA) - Texas - counties of: Armstrong; Briscoe; Carson; Castro; Childress; Collingsworth; Dallam; Deaf Smith; Donley; Gray; Hall; Hansford; Hartley; Hemphill; Hutchinson; Lipscomb; Moore; Ochiltree; Oldham; Parmer; Potter; Randall; Roberts; Sherman; Swisher; Wheeler. Up to 0.445 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=34 +lon_0=-101.5 +lat_1=34.65 +lat_2=36.1833333333333 +x_0=200000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2275.
+ */
+export declare const ESRI_102737: string;
+/**
+ * ESRI:102738, NAD_1983_StatePlane_Texas_North_Central_FIPS_4202_Feet. United States (USA) - Texas - counties of: Andrews; Archer; Bailey; Baylor; Borden; Bowie; Callahan; Camp; Cass; Clay; Cochran; Collin; Cooke; Cottle; Crosby; Dallas; Dawson; Delta; Denton; Dickens; Eastland; Ellis; Erath; Fannin; Fisher; Floyd; Foard; Franklin; Gaines; Garza; Grayson; Gregg; Hale; Hardeman; Harrison; Haskell; Henderson; Hill; Hockley; Hood; Hopkins; Howard; Hunt; Jack; Johnson; Jones; Kaufman; Kent; King; Knox; Lamar; Lamb; Lubbock; Lynn; Marion; Martin; Mitchell; Montague; Morris; Motley; Navarro; Nolan; Palo Pinto; Panola; Parker; Rains; Red River; Rockwall; Rusk; Scurry; Shackelford; Smith; Somervell; Stephens; Stonewall; Tarrant; Taylor; Terry; Throckmorton; Titus; Upshur; Van Zandt; Wichita; Wilbarger; Wise; Wood; Yoakum; Young. Up to 0.606 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=31.6666666666667 +lon_0=-98.5 +lat_1=32.1333333333333 +lat_2=33.9666666666667 +x_0=600000 +y_0=2000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2276.
+ */
+export declare const ESRI_102738: string;
+/**
+ * ESRI:102739, NAD_1983_StatePlane_Texas_Central_FIPS_4203_Feet. United States (USA) - Texas - counties of Anderson; Angelina; Bastrop; Bell; Blanco; Bosque; Brazos; Brown; Burleson; Burnet; Cherokee; Coke; Coleman; Comanche; Concho; Coryell; Crane; Crockett; Culberson; Ector; El Paso; Falls; Freestone; Gillespie; Glasscock; Grimes; Hamilton; Hardin; Houston; Hudspeth; Irion; Jasper; Jeff Davis; Kimble; Lampasas; Lee; Leon; Liberty; Limestone; Llano; Loving; Madison; Mason; McCulloch; McLennan; Menard; Midland; Milam; Mills; Montgomery; Nacogdoches; Newton; Orange; Pecos; Polk; Reagan; Reeves; Robertson; Runnels; Sabine; San Augustine; San Jacinto; San Saba; Schleicher; Shelby; Sterling; Sutton; Tom Green; Travis; Trinity; Tyler; Upton; Walker; Ward; Washington; Williamson; Winkler. Up to 1.02 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=29.6666666666667 +lon_0=-100.333333333333 +lat_1=30.1166666666667 +lat_2=31.8833333333333 +x_0=700000 +y_0=3000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2277.
+ */
+export declare const ESRI_102739: string;
+/**
+ * ESRI:102740, NAD_1983_StatePlane_Texas_South_Central_FIPS_4204_Feet. United States (USA) - Texas - counties of Aransas; Atascosa; Austin; Bandera; Bee; Bexar; Brazoria; Brewster; Caldwell; Calhoun; Chambers; Colorado; Comal; De Witt; Dimmit; Edwards; Fayette; Fort Bend; Frio; Galveston; Goliad; Gonzales; Guadalupe; Harris; Hays; Jackson; Jefferson; Karnes; Kendall; Kerr; Kinney; La Salle; Lavaca; Live Oak; Matagorda; Maverick; McMullen; Medina; Presidio; Real; Refugio; Terrell; Uvalde; Val Verde; Victoria; Waller; Wharton; Wilson; Zavala. Up to 0.719 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=27.8333333333333 +lon_0=-99 +lat_1=28.3833333333333 +lat_2=30.2833333333333 +x_0=600000 +y_0=4000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2278.
+ */
+export declare const ESRI_102740: string;
+/**
+ * ESRI:102741, NAD_1983_StatePlane_Texas_South_FIPS_4205_Feet. United States (USA) - Texas - counties of Brooks; Cameron; Duval; Hidalgo; Jim Hogg; Jim Wells; Kenedy; Kleberg; Nueces; San Patricio; Starr; Webb; Willacy; Zapata. Up to 1.39 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=25.6666666666667 +lon_0=-98.5 +lat_1=26.1666666666667 +lat_2=27.8333333333333 +x_0=300000 +y_0=5000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2279.
+ */
+export declare const ESRI_102741: string;
+/**
+ * ESRI:102742, NAD_1983_StatePlane_Utah_North_FIPS_4301_Feet. United States (USA) - Utah - counties of Box Elder; Cache; Daggett; Davis; Morgan; Rich; Summit; Weber. Up to 0.671 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=40.3333333333333 +lon_0=-111.5 +lat_1=40.7166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3560.
+ */
+export declare const ESRI_102742: string;
+/**
+ * ESRI:102743, NAD_1983_StatePlane_Utah_Central_FIPS_4302_Feet. United States (USA) - Utah - counties of Carbon; Duchesne; Emery; Grand; Juab; Millard; Salt Lake; Sanpete; Sevier; Tooele; Uintah; Utah; Wasatch. Up to 1 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=38.3333333333333 +lon_0=-111.5 +lat_1=39.0166666666667 +lat_2=40.65 +x_0=500000 +y_0=2000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3566.
+ */
+export declare const ESRI_102743: string;
+/**
+ * ESRI:102744, NAD_1983_StatePlane_Utah_South_FIPS_4303_Feet. United States (USA) - Utah - counties of Beaver; Garfield; Iron; Kane; Piute; San Juan; Washington; Wayne. Up to 0.354 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=36.6666666666667 +lon_0=-111.5 +lat_1=37.2166666666667 +lat_2=38.35 +x_0=500000 +y_0=3000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3567.
+ */
+export declare const ESRI_102744: string;
+/**
+ * ESRI:102745, NAD_1983_StatePlane_Vermont_FIPS_4400_Feet. United States (USA) - Vermont. Up to 0.523 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=42.5 +lon_0=-72.5 +k=0.999964285714286 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:5646.
+ */
+export declare const ESRI_102745: string;
+/**
+ * ESRI:102746, NAD_1983_StatePlane_Virginia_North_FIPS_4501_Feet. United States (USA) - Virginia - counties of Arlington; Augusta; Bath; Caroline; Clarke; Culpeper; Fairfax; Fauquier; Frederick; Greene; Highland; King George; Loudoun; Madison; Orange; Page; Prince William; Rappahannock; Rockingham; Shenandoah; Spotsylvania; Stafford; Warren; Westmoreland. Up to 0.419 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=37.6666666666667 +lon_0=-78.5 +lat_1=38.0333333333333 +lat_2=39.2 +x_0=3500000 +y_0=2000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2283.
+ */
+export declare const ESRI_102746: string;
+/**
+ * ESRI:102747, NAD_1983_StatePlane_Virginia_South_FIPS_4502_Feet. United States (USA) - Virginia - counties of Accomack; Albemarle; Alleghany; Amelia; Amherst; Appomattox; Bedford; Bland; Botetourt; Bristol; Brunswick; Buchanan; Buckingham; Campbell; Carroll; Charles City; Charlotte; Chesapeake; Chesterfield; Colonial Heights; Craig; Cumberland; Dickenson; Dinwiddie; Essex; Floyd; Fluvanna; Franklin; Giles; Gloucester; Goochland; Grayson; Greensville; Halifax; Hampton; Hanover; Henrico; Henry; Isle of Wight; James City; King and Queen; King William; Lancaster; Lee; Louisa; Lunenburg; Lynchburg; Mathews; Mecklenburg; Middlesex; Montgomery; Nelson; New Kent; Newport News; Norfolk; Northampton; Northumberland; Norton; Nottoway; Patrick; Petersburg; Pittsylvania; Portsmouth; Powhatan; Prince Edward; Prince George; Pulaski; Richmond; Roanoke; Rockbridge; Russell; Scott; Smyth; Southampton; Suffolk; Surry; Sussex; Tazewell; Washington; Wise; Wythe; York. Up to 0.915 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=36.3333333333333 +lon_0=-78.5 +lat_1=36.7666666666667 +lat_2=37.9666666666667 +x_0=3500000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2284.
+ */
+export declare const ESRI_102747: string;
+/**
+ * ESRI:102748, NAD_1983_StatePlane_Washington_North_FIPS_4601_Feet. United States (USA) - Washington - counties of Chelan; Clallam; Douglas; Ferry; Grant north of approximately 47°30'N; Island; Jefferson; King; Kitsap; Lincoln; Okanogan; Pend Oreille; San Juan; Skagit; Snohomish; Spokane; Stevens; Whatcom. Up to 0.358 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=47 +lon_0=-120.833333333333 +lat_1=47.5 +lat_2=48.7333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2285.
+ */
+export declare const ESRI_102748: string;
+/**
+ * ESRI:102749, NAD_1983_StatePlane_Washington_South_FIPS_4602_Feet. United States (USA) - Washington - counties of Adams; Asotin; Benton; Clark; Columbia; Cowlitz; Franklin; Garfield; Grant south of approximately 47°30'N; Grays Harbor; Kittitas; Klickitat; Lewis; Mason; Pacific; Pierce; Skamania; Thurston; Wahkiakum; Walla Walla; Whitman; Yakima. Up to 0.75 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=45.3333333333333 +lon_0=-120.5 +lat_1=45.8333333333333 +lat_2=47.3333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2286.
+ */
+export declare const ESRI_102749: string;
+/**
+ * ESRI:102750, NAD_1983_StatePlane_West_Virginia_North_FIPS_4701_Feet. United States (USA) - West Virginia - counties of Barbour; Berkeley; Brooke; Doddridge; Grant; Hampshire; Hancock; Hardy; Harrison; Jefferson; Marion; Marshall; Mineral; Monongalia; Morgan; Ohio; Pleasants; Preston; Ritchie; Taylor; Tucker; Tyler; Wetzel; Wirt; Wood. Up to 0.318 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=38.5 +lon_0=-79.5 +lat_1=39 +lat_2=40.25 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:26853.
+ */
+export declare const ESRI_102750: string;
+/**
+ * ESRI:102751, NAD_1983_StatePlane_West_Virginia_South_FIPS_4702_Feet. United States (USA) - West Virginia - counties of Boone; Braxton; Cabell; Calhoun; Clay; Fayette; Gilmer; Greenbrier; Jackson; Kanawha; Lewis; Lincoln; Logan; Mason; McDowell; Mercer; Mingo; Monroe; Nicholas; Pendleton; Pocahontas; Putnam; Raleigh; Randolph; Roane; Summers; Upshur; Wayne; Webster; Wyoming. Up to 0.434 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=37 +lon_0=-81 +lat_1=37.4833333333333 +lat_2=38.8833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:26854.
+ */
+export declare const ESRI_102751: string;
+/**
+ * ESRI:102752, NAD_1983_StatePlane_Wisconsin_North_FIPS_4801_Feet. United States (USA) - Wisconsin - counties of Ashland; Bayfield; Burnett; Douglas; Florence; Forest; Iron; Oneida; Price; Sawyer; Vilas; Washburn. Up to 0.287 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=45.1666666666667 +lon_0=-90 +lat_1=45.5666666666667 +lat_2=46.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2287.
+ */
+export declare const ESRI_102752: string;
+/**
+ * ESRI:102753, NAD_1983_StatePlane_Wisconsin_Central_FIPS_4802_Feet. United States (USA) - Wisconsin - counties of Barron; Brown; Buffalo; Chippewa; Clark; Door; Dunn; Eau Claire; Jackson; Kewaunee; Langlade; Lincoln; Marathon; Marinette; Menominee; Oconto; Outagamie; Pepin; Pierce; Polk; Portage; Rusk; Shawano; St Croix; Taylor; Trempealeau; Waupaca; Wood. Up to 0.354 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=43.8333333333333 +lon_0=-90 +lat_1=44.25 +lat_2=45.5 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2288.
+ */
+export declare const ESRI_102753: string;
+/**
+ * ESRI:102754, NAD_1983_StatePlane_Wisconsin_South_FIPS_4803_Feet. United States (USA) - Wisconsin - counties of Adams; Calumet; Columbia; Crawford; Dane; Dodge; Fond Du Lac; Grant; Green; Green Lake; Iowa; Jefferson; Juneau; Kenosha; La Crosse; Lafayette; Manitowoc; Marquette; Milwaukee; Monroe; Ozaukee; Racine; Richland; Rock; Sauk; Sheboygan; Vernon; Walworth; Washington; Waukesha; Waushara; Winnebago. Up to 0.602 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=42 +lon_0=-90 +lat_1=42.7333333333333 +lat_2=44.0666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:2289.
+ */
+export declare const ESRI_102754: string;
+/**
+ * ESRI:102755, NAD_1983_StatePlane_Wyoming_East_FIPS_4901_Feet. United States (USA) - Wyoming - counties of Albany; Campbell; Converse; Crook; Goshen; Laramie; Niobrara; Platte; Weston. Up to 0.918 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=40.5 +lon_0=-105.166666666667 +k=0.9999375 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3736.
+ */
+export declare const ESRI_102755: string;
+/**
+ * ESRI:102756, NAD_1983_StatePlane_Wyoming_East_Central_FIPS_4902_Feet. United States (USA) - Wyoming - counties of Big Horn; Carbon; Johnson; Natrona; Sheridan; Washakie. Up to 0.905 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=40.5 +lon_0=-107.333333333333 +k=0.9999375 +x_0=400000 +y_0=100000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3737.
+ */
+export declare const ESRI_102756: string;
+/**
+ * ESRI:102757, NAD_1983_StatePlane_Wyoming_West_Central_FIPS_4903_Feet. United States (USA) - Wyoming - counties of Fremont; Hot Springs; Park; Sweetwater. Up to 0.656 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=40.5 +lon_0=-108.75 +k=0.9999375 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3738.
+ */
+export declare const ESRI_102757: string;
+/**
+ * ESRI:102758, NAD_1983_StatePlane_Wyoming_West_FIPS_4904_Feet. United States (USA) - Wyoming - counties of Lincoln; Sublette; Teton; Uinta. Up to 0.728 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=40.5 +lon_0=-110.083333333333 +k=0.9999375 +x_0=800000 +y_0=100000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3739.
+ */
+export declare const ESRI_102758: string;
+/**
  * ESRI:102759, WGS_1984_California_Teale_Albers_Ft_Intl. United States (USA) - California. Within 1 cm of PROJ.
  *
  * `+proj=aea +lat_0=0 +lon_0=-120 +lat_1=34 +lat_2=40.5 +x_0=0 +y_0=-1219200 +datum=WGS84 +units=ft +no_defs`
@@ -41870,11 +49199,1379 @@ export declare const ESRI_102760: string;
  */
 export declare const ESRI_102761: string;
 /**
+ * ESRI:102762, Katanga_1955_Katanga_Lambert. The Democratic Republic of the Congo (Zaire) - Katanga. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=-9 +lon_0=26 +lat_1=-6.5 +lat_2=-11.5 +x_0=500000 +y_0=500000 +ellps=clrk66 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4415.
+ */
+export declare const ESRI_102762: string;
+/**
+ * ESRI:102763, NAD_1983_StatePlane_Kentucky_FIPS_1600_Feet. United States (USA) - Kentucky. Up to 0.344 m from PROJ.
+ *
+ * `+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=37.0833333333333 +lat_2=38.6666666666667 +x_0=1500000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:3089.
+ */
+export declare const ESRI_102763: string;
+/**
+ * ESRI:102764, Pulkovo_1942_Adj_1983_3_Degree_GK_Zone_7. Hungary and Slovakia - between 19°30'E and 22°30'E. Up to 1.04 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=21 +k=1 +x_0=7500000 +y_0=0 +ellps=krass +towgs84=26,-121,-78 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4417.
+ */
+export declare const ESRI_102764: string;
+/**
+ * ESRI:102765, Pulkovo_1942_Adj_1983_3_Degree_GK_Zone_8. Hungary and Slovakia - east of 22°30'E. Up to 1.06 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=24 +k=1 +x_0=8500000 +y_0=0 +ellps=krass +towgs84=28,-121,-77 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4434.
+ */
+export declare const ESRI_102765: string;
+/**
  * ESRI:102766, NAD_1983_StatePlane_Guam_FIPS_5400_Feet. Guam - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
  * `+proj=poly +lat_0=13.4724663527778 +lon_0=144.748750705556 +x_0=50000 +y_0=50000 +ellps=GRS80 +units=us-ft +no_defs`
  */
 export declare const ESRI_102766: string;
+/**
+ * ESRI:102767, MAGNA_Leticia_Amazonas_1994. Colombia - Leticia city. Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=-4.19768404722222 +lon_0=-69.9428110583333 +x_0=25978.217 +y_0=27501.365 +h_0=89.7 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6255.
+ */
+export declare const ESRI_102767: string;
+/**
+ * ESRI:102768, MAGNA_Medellin_Antioquia_2010. Colombia - Medellin - Antioquia Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=6.22920888888889 +lon_0=-75.5648869444444 +x_0=835378.647 +y_0=1180816.875 +h_0=1510 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6257.
+ */
+export declare const ESRI_102768: string;
+/**
+ * ESRI:102769, MAGNA_Arauca_2007. Colombia - Arauca - Arauca Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=7.08760639166667 +lon_0=-70.7583096555555 +x_0=1035263.443 +y_0=1275526.621 +h_0=100 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6244.
+ */
+export declare const ESRI_102769: string;
+/**
+ * ESRI:102770, MAGNA_Barranquilla_Atlantico_1997. Colombia - Barranquilla - Atlantico Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=10.9231830833333 +lon_0=-74.8343313333333 +x_0=917264.406 +y_0=1699839.935 +h_0=100 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6246.
+ */
+export declare const ESRI_102770: string;
+/**
+ * ESRI:102771, MAGNA_Bogota_DC_2005. Colombia - Bogota D.C. - Bogota D.C. Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=4.68048611111111 +lon_0=-74.1465916666667 +x_0=92334.879 +y_0=109320.965 +h_0=2550 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6247.
+ */
+export declare const ESRI_102771: string;
+/**
+ * ESRI:102772, MAGNA_Cartagena_Bolivar_2005. Colombia - Cartagena_Bolivar Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=10.3970475 +lon_0=-75.5112069444444 +x_0=842981.41 +y_0=1641887.09 +h_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6250.
+ */
+export declare const ESRI_102772: string;
+/**
+ * ESRI:102773, MAGNA_Tunja_Boyaca_1997. Colombia - Tunja - Boyaca Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=5.53419473888889 +lon_0=-73.3519389 +x_0=1080514.91 +y_0=1103772.028 +h_0=2800 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6272.
+ */
+export declare const ESRI_102773: string;
+/**
+ * ESRI:102774, MAGNA_Manizales_Caldas_2011. Colombia - Manizales - Caldas Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=5.06815388888889 +lon_0=-75.5110947222222 +x_0=1173727.04 +y_0=1052391.13 +h_0=2100 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6256.
+ */
+export declare const ESRI_102774: string;
+/**
+ * ESRI:102775, MAGNA_Florencia_Caqueta_2007. Colombia - Florencia - Caqueta Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=1.62101229444444 +lon_0=-75.6191176027778 +x_0=1162300.348 +y_0=671068.716 +h_0=300 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6252.
+ */
+export declare const ESRI_102775: string;
+/**
+ * ESRI:102776, MAGNA_Yopal_Casanare_2006. Colombia - Yopal - Casanare Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=5.35392722222222 +lon_0=-72.4200402777778 +x_0=851184.177 +y_0=1083954.137 +h_0=300 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6275.
+ */
+export declare const ESRI_102776: string;
+/**
+ * ESRI:102777, MAGNA_Popayan_Cauca_2006. Colombia - Popayan - Cauca Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=2.45615988333333 +lon_0=-76.6060916361111 +x_0=1052430.525 +y_0=763366.548 +h_0=1740 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6264.
+ */
+export declare const ESRI_102777: string;
+/**
+ * ESRI:102778, MAGNA_Valledupar_Cesar_2011. Colombia - Valledupar - Cesar Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=10.4472611111111 +lon_0=-73.2465713888889 +x_0=1090979.66 +y_0=1647208.93 +h_0=200 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6273.
+ */
+export declare const ESRI_102778: string;
+/**
+ * ESRI:102779, MAGNA_Quibdo_Choco_2011. Colombia - Quibdo - Choco Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=5.69424766111111 +lon_0=-76.6507538583333 +x_0=1047273.617 +y_0=1121443.09 +h_0=44 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6266.
+ */
+export declare const ESRI_102779: string;
+/**
+ * ESRI:102780, MAGNA_Monteria_Cordoba_2006. Colombia - Monteria - Cordoba Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=8.77308575555556 +lon_0=-75.8795533305556 +x_0=1131814.934 +y_0=1462131.119 +h_0=15 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6260.
+ */
+export declare const ESRI_102780: string;
+/**
+ * ESRI:102781, MAGNA_Inirida_Guainia_2008. Colombia - Inirida - Guainia Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=3.84543818333333 +lon_0=-67.9052320888889 +x_0=1019177.687 +y_0=491791.326 +h_0=96 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6254.
+ */
+export declare const ESRI_102781: string;
+/**
+ * ESRI:102782, MAGNA_San_Jose_del_Guaviare_2011. Colombia - San Jose del Guaviare - Guaviare Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=2.56407894166667 +lon_0=-72.640033325 +x_0=1159876.62 +y_0=775380.342 +h_0=185 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6269.
+ */
+export declare const ESRI_102782: string;
+/**
+ * ESRI:102783, MAGNA_Neiva_Huila_2006. Colombia - Neiva - Huila Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=2.94241505555556 +lon_0=-75.2964367222222 +x_0=864476.923 +y_0=817199.827 +h_0=430 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6261.
+ */
+export declare const ESRI_102783: string;
+/**
+ * ESRI:102784, MAGNA_Riohacha_La_Guajira_2006. Colombia - Riohacha - La Guajira Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=11.5369133277778 +lon_0=-72.9027688694444 +x_0=1128154.73 +y_0=1767887.914 +h_0=6 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6267.
+ */
+export declare const ESRI_102784: string;
+/**
+ * ESRI:102785, MAGNA_Santa_Marta_Magdalena_2007. Colombia - Santa Marta - Magdalena Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=11.2196430555556 +lon_0=-74.2250052777778 +x_0=983892.409 +y_0=1732533.518 +h_0=29 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6270.
+ */
+export declare const ESRI_102785: string;
+/**
+ * ESRI:102786, MAGNA_Villavicencio_Meta_2011. Colombia - Villavicencio - Meta Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=4.1553751 +lon_0=-73.6244859861111 +x_0=1050678.757 +y_0=950952.124 +h_0=427.19 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6274.
+ */
+export declare const ESRI_102786: string;
+/**
+ * ESRI:102787, MAGNA_Pasto_Narino_2008. Colombia - Pasto - Narino Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=1.20098951388889 +lon_0=-77.2531256333333 +x_0=980469.695 +y_0=624555.332 +h_0=2530 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6262.
+ */
+export declare const ESRI_102787: string;
+/**
+ * ESRI:102788, MAGNA_Cucuta_Norte_de_Santander_2011. Colombia - Cucuta - Norte de Santander Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=7.88893673611111 +lon_0=-72.50287095 +x_0=842805.406 +y_0=1364404.57 +h_0=308 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6251.
+ */
+export declare const ESRI_102788: string;
+/**
+ * ESRI:102789, MAGNA_Mocoa_Putumayo_2011. Colombia - Mocoa - Putumayo Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=1.14002335833333 +lon_0=-76.6510212194444 +x_0=1047467.388 +y_0=617828.474 +h_0=655.2 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6259.
+ */
+export declare const ESRI_102789: string;
+/**
+ * ESRI:102790, MAGNA_Armenia_Quindio_2006. Colombia - Armenia - Quindio Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=4.532325 +lon_0=-75.6734891666667 +x_0=1155824.666 +y_0=993087.465 +h_0=1470 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6245.
+ */
+export declare const ESRI_102790: string;
+/**
+ * ESRI:102791, MAGNA_Pereira_Risaralda_2007. Colombia - Pereira - Risaralda Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=4.81359361111111 +lon_0=-75.6939513888889 +x_0=1153492.012 +y_0=1024195.255 +h_0=1500 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6263.
+ */
+export declare const ESRI_102791: string;
+/**
+ * ESRI:102792, MAGNA_San_Andres_2007. Colombia - San_Andres - San_Andres Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=12.523794325 +lon_0=-81.72937595 +x_0=820439.298 +y_0=1877357.828 +h_0=6 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6268.
+ */
+export declare const ESRI_102792: string;
+/**
+ * ESRI:102793, MAGNA_Bucaramanga_Santander_2008. Colombia - Bucaramanga - Santander Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=7.07888714166667 +lon_0=-73.1973432222222 +x_0=1097241.305 +y_0=1274642.278 +h_0=931 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6248.
+ */
+export declare const ESRI_102793: string;
+/**
+ * ESRI:102794, MAGNA_Sucre_2006. Colombia - Sucre - Sucre Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=8.81055036666667 +lon_0=-74.722466825 +x_0=929043.607 +y_0=1466125.658 +h_0=20 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6271.
+ */
+export declare const ESRI_102794: string;
+/**
+ * ESRI:102795, MAGNA_Ibague_Tolima_2007. Colombia - Ibague - Tolima Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=4.41941282777778 +lon_0=-75.1799259333333 +x_0=877634.33 +y_0=980541.348 +h_0=1100 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6253.
+ */
+export declare const ESRI_102795: string;
+/**
+ * ESRI:102796, MAGNA_Cali_Valle_del_Cauca_2009. Colombia - Cali - Valle del Cauca Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=3.44188333333333 +lon_0=-76.5205625 +x_0=1061900.18 +y_0=872364.63 +h_0=1000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6249.
+ */
+export declare const ESRI_102796: string;
+/**
+ * ESRI:102797, MAGNA_Mitu_Vaupes_2011. Colombia - Mitu - Vaupes Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=1.24996936666667 +lon_0=-70.2354616555556 +x_0=1093717.398 +y_0=629997.236 +h_0=170 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6258.
+ */
+export declare const ESRI_102797: string;
+/**
+ * ESRI:102798, MAGNA_Puerto_Carreno_Vichada_2011. Colombia - Puerto - Carreno - Vichada Within 1 cm of PROJ. proj4js 2.22.0 can't read it.
+ *
+ * `+proj=col_urban +lat_0=6.18072141388889 +lon_0=-67.5007502472222 +x_0=1063834.703 +y_0=1175257.481 +h_0=51.58 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6265.
+ */
+export declare const ESRI_102798: string;
+/**
+ * ESRI:102799, OSGB36_Highways_England_A1H1. UK - Highways England - A1 Up to 3.69 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.99926 +x_0=261910.5587 +y_0=70975.76209 +ellps=airy +towgs84=371,-111,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102799: string;
+/**
+ * ESRI:102800, OSGB36_Highways_England_A2H1. UK - Highways England - A2 Up to 3.58 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999314 +x_0=252927.2844 +y_0=70979.59363 +ellps=airy +towgs84=371,-111,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102800: string;
+/**
+ * ESRI:102801, OSGB36_Highways_England_A3H1. UK - Highways England - A3 Up to 3.48 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999365 +x_0=243942.3084 +y_0=70983.21269 +ellps=airy +towgs84=371,-111,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102801: string;
+/**
+ * ESRI:102802, OSGB36_Highways_England_A3H2. UK - Highways England - A3 Up to 3.48 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.99939 +x_0=243948.4072 +y_0=70984.98734 +ellps=airy +towgs84=371,-111,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102802: string;
+/**
+ * ESRI:102803, OSGB36_Highways_England_A4H1. UK - Highways England - A4 Up to 3.39 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999415 +x_0=234956.1813 +y_0=70986.76115 +ellps=airy +towgs84=371,-111,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102803: string;
+/**
+ * ESRI:102804, OSGB36_Highways_England_A5H1. UK - Highways England - A5 Up to 3.25 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999465 +x_0=225969.1556 +y_0=70990.30995 +ellps=airy +towgs84=371,-111,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102804: string;
+/**
+ * ESRI:102805, OSGB36_Highways_England_A5H2. UK - Highways England - A5 Up to 3.25 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.99949 +x_0=225974.8051 +y_0=70992.08478 +ellps=airy +towgs84=371,-111,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102805: string;
+/**
+ * ESRI:102806, OSGB36_Highways_England_A6H1. UK - Highways England - A6 Up to 3.18 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999516 +x_0=215981.5338 +y_0=70993.93011 +ellps=airy +towgs84=371,-111,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102806: string;
+/**
+ * ESRI:102807, OSGB36_Highways_England_A6H2. UK - Highways England - A6 Up to 3.18 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999541 +x_0=215986.9336 +y_0=70995.70502 +ellps=airy +towgs84=371,-111,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102807: string;
+/**
+ * ESRI:102808, OSGB36_Highways_England_A7H1. UK - Highways England - A7 Up to 3.1 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999564 +x_0=205992.2754 +y_0=70997.33764 +ellps=airy +towgs84=371,-111,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102808: string;
+/**
+ * ESRI:102809, OSGB36_Highways_England_A7H2. UK - Highways England - A7 Up to 3.1 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999589 +x_0=205997.4254 +y_0=70999.11264 +ellps=airy +towgs84=371,-111,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102809: string;
+/**
+ * ESRI:102810, OSGB36_Highways_England_A8H1. UK - Highways England - A8 Up to 3.14 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999613 +x_0=196002.254 +y_0=71000.81651 +ellps=airy +towgs84=371,-111,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102810: string;
+/**
+ * ESRI:102811, OSGB36_Highways_England_A8H2. UK - Highways England - A8 Up to 3.14 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999638 +x_0=196007.1543 +y_0=71002.5916 +ellps=airy +towgs84=371,-111,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102811: string;
+/**
+ * ESRI:102812, OSGB36_Highways_England_A9H1. UK - Highways England - A9 Up to 3.06 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999662 +x_0=185011.1931 +y_0=71004.29572 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102812: string;
+/**
+ * ESRI:102813, OSGB36_Highways_England_A9H2. UK - Highways England - A9 Up to 3.06 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999687 +x_0=185015.8185 +y_0=71006.07089 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102813: string;
+/**
+ * ESRI:102814, OSGB36_Highways_England_A10H1. UK - Highways England - A10 Up to 2.83 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999713 +x_0=173019.2914 +y_0=71007.91729 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102814: string;
+/**
+ * ESRI:102815, OSGB36_Highways_England_A10H2. UK - Highways England - A10 Up to 2.83 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999738 +x_0=173023.6171 +y_0=71009.69256 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102815: string;
+/**
+ * ESRI:102816, OSGB36_Highways_England_A11H1. UK - Highways England - A11 Up to 2.64 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999767 +x_0=159026.3186 +y_0=71011.75231 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102816: string;
+/**
+ * ESRI:102817, OSGB36_Highways_England_A11H2. UK - Highways England - A11 Up to 2.64 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999792 +x_0=159030.2944 +y_0=71013.52767 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102817: string;
+/**
+ * ESRI:102818, OSGB36_Highways_England_A11H3. UK - Highways England - A11 Up to 2.64 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999817 +x_0=159034.2704 +y_0=71015.30312 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102818: string;
+/**
+ * ESRI:102819, OSGB36_Highways_England_A12H1. UK - Highways England - A12 Up to 2.65 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999817 +x_0=144031.0383 +y_0=71015.30362 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102819: string;
+/**
+ * ESRI:102820, OSGB36_Highways_England_A12H2. UK - Highways England - A12 Up to 2.65 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999842 +x_0=144034.6392 +y_0=71017.07907 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102820: string;
+/**
+ * ESRI:102821, OSGB36_Highways_England_A12H3. UK - Highways England - A12 Up to 2.65 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999867 +x_0=144038.2403 +y_0=71018.8546 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102821: string;
+/**
+ * ESRI:102822, OSGB36_Highways_England_A13H1. UK - Highways England - A13 Up to 1.97 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999865 +x_0=128033.7365 +y_0=71018.71321 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102822: string;
+/**
+ * ESRI:102823, OSGB36_Highways_England_A13H2. UK - Highways England - A13 Up to 1.97 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.99989 +x_0=128036.9375 +y_0=71020.48874 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102823: string;
+/**
+ * ESRI:102824, OSGB36_Highways_England_A14H1. UK - Highways England - A14 Up to 2.34 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999914 +x_0=111034.6979 +y_0=71022.19417 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102824: string;
+/**
+ * ESRI:102825, OSGB36_Highways_England_A14H2. UK - Highways England - A14 Up to 2.34 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999939 +x_0=111037.4739 +y_0=71023.96979 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102825: string;
+/**
+ * ESRI:102826, OSGB36_Highways_England_A15H1. UK - Highways England - A15 Up to 1.22 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999967 +x_0=88032.17537 +y_0=71025.95967 +ellps=airy +towgs84=370,-108,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102826: string;
+/**
+ * ESRI:102827, OSGB36_Highways_England_A15H2. UK - Highways England - A15 Up to 1.22 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999992 +x_0=88034.37626 +y_0=71027.73539 +ellps=airy +towgs84=370,-108,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102827: string;
+/**
+ * ESRI:102828, OSGB36_Highways_England_A16H1. UK - Highways England - A16 Up to 0.92 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000012 +x_0=54022.17583 +y_0=71029.15712 +ellps=airy +towgs84=370.936,-108.938,435.682 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102828: string;
+/**
+ * ESRI:102829, OSGB36_Highways_England_A16H2. UK - Highways England - A16 Up to 0.92 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000037 +x_0=54023.52644 +y_0=71030.93291 +ellps=airy +towgs84=370.936,-108.938,435.682 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102829: string;
+/**
+ * ESRI:102830, OSGB36_Highways_England_A17H1. UK - Highways England - A17 Up to 1.64 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999981 +x_0=-24009.11135 +y_0=71026.9544 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102830: string;
+/**
+ * ESRI:102831, OSGB36_Highways_England_A17H2. UK - Highways England - A17 Up to 1.64 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000006 +x_0=-24009.7116 +y_0=71028.73014 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102831: string;
+/**
+ * ESRI:102832, OSGB36_Highways_England_A18H1. UK - Highways England - A18 Up to 1.76 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999928 +x_0=-58018.94296 +y_0=71023.18879 +ellps=airy +towgs84=371,-111,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102832: string;
+/**
+ * ESRI:102833, OSGB36_Highways_England_A18H2. UK - Highways England - A18 Up to 1.76 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999953 +x_0=-58020.39349 +y_0=71024.96444 +ellps=airy +towgs84=371,-111,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102833: string;
+/**
+ * ESRI:102834, OSGB36_Highways_England_A19H1. UK - Highways England - A19 Up to 1.87 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999874 +x_0=-88023.98625 +y_0=71019.35254 +ellps=airy +towgs84=371,-111,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102834: string;
+/**
+ * ESRI:102835, OSGB36_Highways_England_A19H2. UK - Highways England - A19 Up to 1.87 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999899 +x_0=-88026.18693 +y_0=71021.12809 +ellps=airy +towgs84=371,-111,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102835: string;
+/**
+ * ESRI:102836, OSGB36_Highways_England_A20H1. UK - Highways England - A20 Up to 1.94 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999826 +x_0=-105023.5775 +y_0=71015.94289 +ellps=airy +towgs84=371,-111,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102836: string;
+/**
+ * ESRI:102837, OSGB36_Highways_England_A20H2. UK - Highways England - A20 Up to 1.94 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999851 +x_0=-105026.2032 +y_0=71017.71836 +ellps=airy +towgs84=371,-111,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102837: string;
+/**
+ * ESRI:102838, OSGB36_Highways_England_A21H1. UK - Highways England - A21 Up to 1.96 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999771 +x_0=-122020.6823 +y_0=71012.0364 +ellps=airy +towgs84=371,-111,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102838: string;
+/**
+ * ESRI:102839, OSGB36_Highways_England_A21H2. UK - Highways England - A21 Up to 1.96 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999796 +x_0=-122023.7329 +y_0=71013.81177 +ellps=airy +towgs84=371,-111,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102839: string;
+/**
+ * ESRI:102840, OSGB36_Highways_England_A22H1. UK - Highways England - A22 Up to 2.01 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999708 +x_0=-139014.8049 +y_0=71007.56222 +ellps=airy +towgs84=371,-111,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102840: string;
+/**
+ * ESRI:102841, OSGB36_Highways_England_A22H2. UK - Highways England - A22 Up to 2.01 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999733 +x_0=-139018.2804 +y_0=71009.33748 +ellps=airy +towgs84=371,-111,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102841: string;
+/**
+ * ESRI:102842, OSGB36_Highways_England_A23H1. UK - Highways England - A23 Up to 2.16 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999656 +x_0=-156008.5024 +y_0=71003.86967 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102842: string;
+/**
+ * ESRI:102843, OSGB36_Highways_England_A23H2. UK - Highways England - A23 Up to 2.16 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999681 +x_0=-156012.4027 +y_0=71005.64484 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102843: string;
+/**
+ * ESRI:102844, OSGB36_Highways_England_A24H1. UK - Highways England - A24 Up to 2.28 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999613 +x_0=-165001.8975 +y_0=71000.81651 +ellps=airy +towgs84=371,-111,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102844: string;
+/**
+ * ESRI:102845, OSGB36_Highways_England_A24H2. UK - Highways England - A24 Up to 2.28 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999638 +x_0=-165006.0227 +y_0=71002.5916 +ellps=airy +towgs84=371,-111,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102845: string;
+/**
+ * ESRI:102846, OSGB36_Highways_England_A25H1. UK - Highways England - A25 Up to 2.38 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999565 +x_0=-175993.5763 +y_0=70997.40864 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102846: string;
+/**
+ * ESRI:102847, OSGB36_Highways_England_A25H2. UK - Highways England - A25 Up to 2.38 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.99959 +x_0=-175997.9763 +y_0=70999.18364 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102847: string;
+/**
+ * ESRI:102848, OSGB36_Highways_England_A26H1. UK - Highways England - A26 Up to 2.52 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999517 +x_0=-185984.2846 +y_0=70994.00109 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102848: string;
+/**
+ * ESRI:102849, OSGB36_Highways_England_A26H2. UK - Highways England - A26 Up to 2.52 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999542 +x_0=-185988.9343 +y_0=70995.77601 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102849: string;
+/**
+ * ESRI:102850, OSGB36_Highways_England_A27H1. UK - Highways England - A27 Up to 2.53 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999467 +x_0=-195973.6419 +y_0=70990.45191 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102850: string;
+/**
+ * ESRI:102851, OSGB36_Highways_England_A27H2. UK - Highways England - A27 Up to 2.53 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999492 +x_0=-195978.5414 +y_0=70992.22674 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102851: string;
+/**
+ * ESRI:102852, OSGB36_Highways_England_A28H1. UK - Highways England - A28 Up to 2.55 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999416 +x_0=-205961.7946 +y_0=70986.83212 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102852: string;
+/**
+ * ESRI:102853, OSGB36_Highways_England_A28H2. UK - Highways England - A28 Up to 2.55 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999441 +x_0=-205966.9438 +y_0=70988.60686 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102853: string;
+/**
+ * ESRI:102854, OSGB36_Highways_England_A29H1. UK - Highways England - A29 Up to 2.51 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999366 +x_0=-214949.3801 +y_0=70983.28366 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102854: string;
+/**
+ * ESRI:102855, OSGB36_Highways_England_A30H1. UK - Highways England - A30 Up to 2.57 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999314 +x_0=-223935.6193 +y_0=70979.59363 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102855: string;
+/**
+ * ESRI:102856, OSGB36_Highways_England_B15H1. UK - Highways England - B15 Up to 1.79 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999967 +x_0=88032.17537 +y_0=111040.5848 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102856: string;
+/**
+ * ESRI:102857, OSGB36_Highways_England_B15H2. UK - Highways England - B15 Up to 1.79 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999992 +x_0=88034.37626 +y_0=111043.361 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102857: string;
+/**
+ * ESRI:102858, OSGB36_Highways_England_B15H3. UK - Highways England - B15 Up to 1.79 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000017 +x_0=88036.57726 +y_0=111046.1372 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102858: string;
+/**
+ * ESRI:102859, OSGB36_Highways_England_B16H1. UK - Highways England - B16 Up to 1.97 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000012 +x_0=54022.17583 +y_0=111045.5837 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102859: string;
+/**
+ * ESRI:102860, OSGB36_Highways_England_B16H2. UK - Highways England - B16 Up to 1.97 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000037 +x_0=54023.52644 +y_0=111048.3599 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102860: string;
+/**
+ * ESRI:102861, OSGB36_Highways_England_B16H3. UK - Highways England - B16 Up to 1.97 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000062 +x_0=54024.87711 +y_0=111051.1363 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102861: string;
+/**
+ * ESRI:102862, OSGB36_Highways_England_B16H4. UK - Highways England - B16 Up to 1.97 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000087 +x_0=54026.22785 +y_0=111053.9128 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102862: string;
+/**
+ * ESRI:102863, OSGB36_Highways_England_B17H1. UK - Highways England - B17 Up to 2.27 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999981 +x_0=-24009.11135 +y_0=111042.14 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102863: string;
+/**
+ * ESRI:102864, OSGB36_Highways_England_B17H2. UK - Highways England - B17 Up to 2.27 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000006 +x_0=-24009.7116 +y_0=111044.9161 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102864: string;
+/**
+ * ESRI:102865, OSGB36_Highways_England_B18H1. UK - Highways England - B18 Up to 2.26 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999928 +x_0=-58018.94296 +y_0=111036.2529 +ellps=airy +towgs84=371,-112,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102865: string;
+/**
+ * ESRI:102866, OSGB36_Highways_England_B18H2. UK - Highways England - B18 Up to 2.26 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999953 +x_0=-58020.39349 +y_0=111039.0289 +ellps=airy +towgs84=371,-112,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102866: string;
+/**
+ * ESRI:102867, OSGB36_Highways_England_B19H1. UK - Highways England - B19 Up to 2.4 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999874 +x_0=-88023.98625 +y_0=111030.2554 +ellps=airy +towgs84=371,-112,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102867: string;
+/**
+ * ESRI:102868, OSGB36_Highways_England_B20H1. UK - Highways England - B20 Up to 2.51 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999826 +x_0=-105023.5775 +y_0=111024.9248 +ellps=airy +towgs84=371,-112,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102868: string;
+/**
+ * ESRI:102869, OSGB36_Highways_England_B21H1. UK - Highways England - B21 Up to 1.37 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999771 +x_0=-122020.6823 +y_0=111018.8175 +ellps=airy +towgs84=371,-111,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102869: string;
+/**
+ * ESRI:102870, OSGB36_Highways_England_B22H1. UK - Highways England - B22 Up to 1.36 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999709 +x_0=-139014.9439 +y_0=111011.9337 +ellps=airy +towgs84=371,-112,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102870: string;
+/**
+ * ESRI:102871, OSGB36_Highways_England_B23H1. UK - Highways England - B23 Up to 1.4 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999656 +x_0=-156008.5024 +y_0=111006.0498 +ellps=airy +towgs84=371,-112,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102871: string;
+/**
+ * ESRI:102872, OSGB36_Highways_England_B24H1. UK - Highways England - B24 Up to 1.48 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999614 +x_0=-165002.0625 +y_0=111001.3875 +ellps=airy +towgs84=371,-112,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102872: string;
+/**
+ * ESRI:102873, OSGB36_Highways_England_B25H1. UK - Highways England - B25 Up to 1.52 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999565 +x_0=-175993.5763 +y_0=110995.9487 +ellps=airy +towgs84=371,-112,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102873: string;
+/**
+ * ESRI:102874, OSGB36_Highways_England_B26H1. UK - Highways England - B26 Up to 1.64 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999517 +x_0=-185984.2846 +y_0=110990.6214 +ellps=airy +towgs84=371,-112,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102874: string;
+/**
+ * ESRI:102875, OSGB36_Highways_England_B27H1. UK - Highways England - B27 Up to 1.87 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999467 +x_0=-195973.6419 +y_0=110985.0727 +ellps=airy +towgs84=371,-112,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102875: string;
+/**
+ * ESRI:102876, OSGB36_Highways_England_B28H1. UK - Highways England - B28 Up to 2.06 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999416 +x_0=-205961.7946 +y_0=110979.4136 +ellps=airy +towgs84=371,-112,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102876: string;
+/**
+ * ESRI:102877, OSGB36_Highways_England_B29H1. UK - Highways England - B29 Up to 2.26 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999367 +x_0=-214949.595 +y_0=110973.9769 +ellps=airy +towgs84=371,-112,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102877: string;
+/**
+ * ESRI:102878, OSGB36_Highways_England_B30H1. UK - Highways England - B30 Up to 2.4 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999315 +x_0=-223935.8432 +y_0=110968.208 +ellps=airy +towgs84=371,-112,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102878: string;
+/**
+ * ESRI:102879, OSGB36_Highways_England_B31H1. UK - Highways England - B31 Up to 2.72 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999261 +x_0=-232920.6915 +y_0=110962.2179 +ellps=airy +towgs84=371,-112,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102879: string;
+/**
+ * ESRI:102880, OSGB36_Highways_England_B32H1. UK - Highways England - B32 Up to 2.88 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999206 +x_0=-241904.3281 +y_0=110956.1174 +ellps=airy +towgs84=371,-112,434 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102880: string;
+/**
+ * ESRI:102881, OSGB36_Highways_England_C13H1. UK - Highways England - C13 Up to 1.21 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999866 +x_0=128033.8646 +y_0=126033.3354 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102881: string;
+/**
+ * ESRI:102882, OSGB36_Highways_England_C14H1. UK - Highways England - C14 Up to 1.2 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999914 +x_0=111034.6979 +y_0=126039.3868 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102882: string;
+/**
+ * ESRI:102883, OSGB36_Highways_England_C14H2. UK - Highways England - C14 Up to 1.2 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999939 +x_0=111037.4739 +y_0=126042.5379 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102883: string;
+/**
+ * ESRI:102884, OSGB36_Highways_England_C14H3. UK - Highways England - C14 Up to 1.2 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999964 +x_0=111040.25 +y_0=126045.6892 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102884: string;
+/**
+ * ESRI:102885, OSGB36_Highways_England_C14H4. UK - Highways England - C14 Up to 1.2 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999989 +x_0=111043.0263 +y_0=126048.8406 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102885: string;
+/**
+ * ESRI:102886, OSGB36_Highways_England_C15H1. UK - Highways England - C15 Up to 1.26 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999967 +x_0=88032.17537 +y_0=126046.0693 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102886: string;
+/**
+ * ESRI:102887, OSGB36_Highways_England_C15H2. UK - Highways England - C15 Up to 1.26 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999992 +x_0=88034.37626 +y_0=126049.2206 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102887: string;
+/**
+ * ESRI:102888, OSGB36_Highways_England_C15H3. UK - Highways England - C15 Up to 1.26 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000017 +x_0=88036.57726 +y_0=126052.372 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102888: string;
+/**
+ * ESRI:102889, OSGB36_Highways_England_C15H4. UK - Highways England - C15 Up to 1.26 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000042 +x_0=88038.77836 +y_0=126055.5236 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102889: string;
+/**
+ * ESRI:102890, OSGB36_Highways_England_C15H5. UK - Highways England - C15 Up to 1.26 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000067 +x_0=88040.97958 +y_0=126058.6753 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102890: string;
+/**
+ * ESRI:102891, OSGB36_Highways_England_C16H1. UK - Highways England - C16 Up to 1.6 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000012 +x_0=54022.17583 +y_0=126051.7436 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102891: string;
+/**
+ * ESRI:102892, OSGB36_Highways_England_C16H2. UK - Highways England - C16 Up to 1.6 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000037 +x_0=54023.52644 +y_0=126054.895 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102892: string;
+/**
+ * ESRI:102893, OSGB36_Highways_England_C16H3. UK - Highways England - C16 Up to 1.6 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000062 +x_0=54024.87711 +y_0=126058.0466 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102893: string;
+/**
+ * ESRI:102894, OSGB36_Highways_England_C16H4. UK - Highways England - C16 Up to 1.6 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000087 +x_0=54026.22785 +y_0=126061.1983 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102894: string;
+/**
+ * ESRI:102895, OSGB36_Highways_England_C17H1. UK - Highways England - C17 Up to 1.97 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999981 +x_0=-24009.11135 +y_0=126047.8346 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102895: string;
+/**
+ * ESRI:102896, OSGB36_Highways_England_C17H2. UK - Highways England - C17 Up to 1.97 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000006 +x_0=-24009.7116 +y_0=126050.9859 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102896: string;
+/**
+ * ESRI:102897, OSGB36_Highways_England_C18H1. UK - Highways England - C18 Up to 2.29 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999928 +x_0=-58018.94296 +y_0=126041.1519 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102897: string;
+/**
+ * ESRI:102898, OSGB36_Highways_England_C18H2. UK - Highways England - C18 Up to 2.29 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999953 +x_0=-58020.39349 +y_0=126044.3031 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102898: string;
+/**
+ * ESRI:102899, OSGB36_Highways_England_C19H1. UK - Highways England - C19 Up to 2.4 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999874 +x_0=-88023.98625 +y_0=126034.3439 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102899: string;
+/**
+ * ESRI:102900, OSGB36_Highways_England_C19H2. UK - Highways England - C19 Up to 2.4 m from PROJ.
+ *
+ * `+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999899 +x_0=-88026.18693 +y_0=126037.4949 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_102900: string;
+/**
+ * ESRI:102901, NAD_1983_(2011)_ICS_Aurora_(US_Feet). United States (USA) - Illinois - counties of Boone, Dekalb, Kane, Kendall and McHenry. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=41.25 +lon_0=-88.5 +k=1.00003 +x_0=1150012.7000254 +y_0=149961.8999238 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23303.
+ */
+export declare const ESRI_102901: string;
+/**
+ * ESRI:102902, NAD_1983_(2011)_ICS_Freeport_(US_Feet). United States (USA) - Illinois - counties of Carroll, Jo Daviess and Stephenson. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=42.2 +lat_0=42.2 +lon_0=-89.95 +k_0=1.000029 +x_0=549860.2997206 +y_0=230124.460248921 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23301.
+ */
+export declare const ESRI_102902: string;
+/**
+ * ESRI:102903, NAD_1983_(2011)_ICS_Chicago_(US_Feet). United States (USA) - Illinois - counties of Cook, DuPage and Lake. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=41.25 +lon_0=-87.8 +k=1.000023 +x_0=1449936.499873 +y_0=149961.8999238 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23304.
+ */
+export declare const ESRI_102903: string;
+/**
+ * ESRI:102904, NAD_1983_(2011)_ICS_Rockford_(US_Feet). United States (USA) - Illinois - counties of Lee, Ogle and Winnebago. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=41.25 +lon_0=-89.25 +k=1.000029 +x_0=860147.320294641 +y_0=149961.8999238 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23302.
+ */
+export declare const ESRI_102904: string;
+/**
+ * ESRI:102905, NAD_1983_(2011)_ICS_Moline_(US_Feet). United States (USA) - Illinois - Rock Island county. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=41.55 +lat_0=41.55 +lon_0=-90.6 +k_0=1.000024 +x_0=1749860.2997206 +y_0=230124.460248921 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23305.
+ */
+export declare const ESRI_102905: string;
+/**
+ * ESRI:102906, NAD_1983_(2011)_ICS_Ottawa_(US_Feet). United States (USA) - Illinois - counties of Bureau, Grundy, LaSalle and Putnam. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=41.3 +lat_0=41.3 +lon_0=-89.05 +k_0=1.000023 +x_0=2360071.12014224 +y_0=230124.460248921 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23307.
+ */
+export declare const ESRI_102906: string;
+/**
+ * ESRI:102907, NAD_1983_(2011)_ICS_Sterling_(US_Feet). United States (USA) - Illinois - counties of Henry and Whiteside. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=41.55 +lat_0=41.55 +lon_0=-90.05 +k_0=1.00002 +x_0=2050088.9001778 +y_0=230124.460248921 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23306.
+ */
+export declare const ESRI_102907: string;
+/**
+ * ESRI:102908, NAD_1983_(2011)_ICS_Joliet_(US_Feet). United States (USA) - Illinois - counties of Kankakee and Will. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=40.55 +lon_0=-88 +k=1.000022 +x_0=2649936.499873 +y_0=149961.8999238 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23308.
+ */
+export declare const ESRI_102908: string;
+/**
+ * ESRI:102909, NAD_1983_(2011)_ICS_Eureka_(US_Feet). United States (USA) - Illinois - counties of Marshall and Woodford. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=37.45 +lon_0=-89.3 +k=1.000025 +x_0=840030.48006096 +y_0=130149.860299721 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23312.
+ */
+export declare const ESRI_102909: string;
+/**
+ * ESRI:102910, NAD_1983_(2011)_ICS_Pontiac_(US_Feet). United States (USA) - Illinois - Livingston county. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=40.9 +lat_0=40.9 +lon_0=-88.55 +k_0=1.000025 +x_0=1449936.499873 +y_0=530048.26009652 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23314.
+ */
+export declare const ESRI_102910: string;
+/**
+ * ESRI:102911, NAD_1983_(2011)_ICS_Monmouth_(US_Feet). United States (USA) - Illinois - counties of Henderson, Mercer and Warren. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=40.2 +lon_0=-90.85 +k=1.000024 +x_0=2949860.2997206 +y_0=149961.8999238 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23309.
+ */
+export declare const ESRI_102911: string;
+/**
+ * ESRI:102912, NAD_1983_(2011)_ICS_Watseka_(US_Feet). United States (USA) - Illinois - counties of Ford and Iroquois. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=40.75 +lat_0=40.75 +lon_0=-87.95 +k_0=1.000024 +x_0=1749860.2997206 +y_0=530048.26009652 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23315.
+ */
+export declare const ESRI_102912: string;
+/**
+ * ESRI:102913, NAD_1983_(2011)_ICS_Peoria_(US_Feet). United States (USA) - Illinois - counties of Peoria and Tazewell. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=37.4 +lon_0=-89.65 +k=1.000023 +x_0=420015.24003048 +y_0=189585.979171958 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23311.
+ */
+export declare const ESRI_102913: string;
+/**
+ * ESRI:102914, NAD_1983_(2011)_ICS_Bloomington_(US_Feet). United States (USA) - Illinois - McLean county. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=40.5 +lat_0=40.5 +lon_0=-88.85 +k_0=1.000031 +x_0=1150012.7000254 +y_0=530048.26009652 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23313.
+ */
+export declare const ESRI_102914: string;
+/**
+ * ESRI:102915, NAD_1983_(2011)_ICS_Galesburg_(US_Feet). United States (USA) - Illinois - counties of Fulton, Knox and Stark. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=37.25 +lon_0=-90.1 +k=1.000023 +x_0=70104.1402082804 +y_0=149961.8999238 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23310.
+ */
+export declare const ESRI_102915: string;
+/**
+ * ESRI:102916, NAD_1983_(2011)_ICS_Champaign_(US_Feet). United States (USA) - Illinois - counties of Champaign and Vermilion. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=40.15 +lat_0=40.15 +lon_0=-88 +k_0=1.000026 +x_0=99974.5999491999 +y_0=860147.320294641 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23320.
+ */
+export declare const ESRI_102916: string;
+/**
+ * ESRI:102917, NAD_1983_(2011)_ICS_Decatur_(US_Feet). United States (USA) - Illinois - counties of Dewitt, Macon, Moultrie, Piatt and Shelby. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=36.3 +lon_0=-88.8 +k=1.000024 +x_0=2949860.2997206 +y_0=149961.8999238 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23319.
+ */
+export declare const ESRI_102917: string;
+/**
+ * ESRI:102918, NAD_1983_(2011)_ICS_Quincy_(US_Feet). United States (USA) - Illinois - counties of Adams and Hancock. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=36.75 +lon_0=-91.25 +k=1.000023 +x_0=2050088.9001778 +y_0=149961.8999238 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23316.
+ */
+export declare const ESRI_102918: string;
+/**
+ * ESRI:102919, NAD_1983_(2011)_ICS_Lincoln_(US_Feet). United States (USA) - Illinois - counties of Cass, Logan, Mason and Menard. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=40.15 +lat_0=40.15 +lon_0=-89.8 +k_0=1.000018 +x_0=2670053.34010668 +y_0=530048.26009652 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23318.
+ */
+export declare const ESRI_102919: string;
+/**
+ * ESRI:102920, NAD_1983_(2011)_ICS_Macomb_(US_Feet). United States (USA) - Illinois - counties of Brown, McDonough and Schuyler. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=36.8 +lon_0=-90.6 +k=1.000024 +x_0=2350012.7000254 +y_0=149961.8999238 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23317.
+ */
+export declare const ESRI_102920: string;
+/**
+ * ESRI:102921, NAD_1983_(2011)_ICS_Springfield_(US_Feet). United States (USA) - Illinois - Sangamon county. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=39.75 +lat_0=39.75 +lon_0=-89.65 +k_0=1.000022 +x_0=709880.61976124 +y_0=879959.35991872 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23322.
+ */
+export declare const ESRI_102921: string;
+/**
+ * ESRI:102922, NAD_1983_(2011)_ICS_Jacksonville_(US_Feet). United States (USA) - Illinois - counties of Morgan, Pike and Scott. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=39.65 +lat_0=39.65 +lon_0=-90.6 +k_0=1.000023 +x_0=380086.36017272 +y_0=860147.320294641 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23321.
+ */
+export declare const ESRI_102922: string;
+/**
+ * ESRI:102923, NAD_1983_(2011)_ICS_Taylorville_(US_Feet). United States (USA) - Illinois - counties of Christian and Montgomery. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=33.15 +lon_0=-89.4 +k=1.000023 +x_0=2050088.9001778 +y_0=149961.8999238 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23326.
+ */
+export declare const ESRI_102923: string;
+/**
+ * ESRI:102924, NAD_1983_(2011)_ICS_Charleston_(US_Feet). United States (USA) - Illinois - counties of Coles, Douglas and Edgar. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=39.65 +lat_0=39.65 +lon_0=-88 +k_0=1.000024 +x_0=1150012.7000254 +y_0=840030.48006096 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23323.
+ */
+export declare const ESRI_102924: string;
+/**
+ * ESRI:102925, NAD_1983_(2011)_ICS_Carlinville_(US_Feet). United States (USA) - Illinois - counties of Greene and Macoupin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=39.3 +lat_0=39.3 +lon_0=-90.15 +k_0=1.00002 +x_0=1749860.2997206 +y_0=840030.48006096 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23325.
+ */
+export declare const ESRI_102925: string;
+/**
+ * ESRI:102926, NAD_1983_(2011)_ICS_Robinson_(US_Feet). United States (USA) - Illinois - counties of Clark, Crawford, Cumberland and Jasper. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=39.1 +lat_0=39.1 +lon_0=-88 +k_0=1.000017 +x_0=2649936.499873 +y_0=840030.48006096 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23328.
+ */
+export declare const ESRI_102926: string;
+/**
+ * ESRI:102927, NAD_1983_(2011)_ICS_Jerseyville_(US_Feet). United States (USA) - Illinois - counties of Calhoun and Jersey. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=32.85 +lon_0=-90.5 +k=1.000019 +x_0=1449936.499873 +y_0=149961.8999238 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23324.
+ */
+export declare const ESRI_102927: string;
+/**
+ * ESRI:102928, NAD_1983_(2011)_ICS_Effingham_(US_Feet). United States (USA) - Illinois - counties of Bond, Effingham and Fayette. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=38.95 +lat_0=38.95 +lon_0=-89 +k_0=1.000019 +x_0=2350012.7000254 +y_0=840030.48006096 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23327.
+ */
+export declare const ESRI_102928: string;
+/**
+ * ESRI:102929, NAD_1983_(2011)_ICS_Belleville_(US_Feet). United States (USA) - Illinois - counties of Madison, Monroe and St Clair. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=32.35 +lon_0=-90 +k=1.000016 +x_0=2949860.2997206 +y_0=149961.8999238 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23329.
+ */
+export declare const ESRI_102929: string;
+/**
+ * ESRI:102930, NAD_1983_(2011)_ICS_Olney_(US_Feet). United States (USA) - Illinois - counties of Clay, Edwards, Lawrence, Richland, Wabash and Wayne. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=38.55 +lat_0=38.55 +lon_0=-88.15 +k_0=1.000013 +x_0=380086.36017272 +y_0=1150012.7000254 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23331.
+ */
+export declare const ESRI_102930: string;
+/**
+ * ESRI:102931, NAD_1983_(2011)_ICS_Mount_Vernon_(US_Feet). United States (USA) - Illinois - counties of Clinton, Jefferson, Marion and Washington. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=38.45 +lat_0=38.45 +lon_0=-89.15 +k_0=1.000015 +x_0=99974.5999491999 +y_0=1150012.7000254 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23330.
+ */
+export declare const ESRI_102931: string;
+/**
+ * ESRI:102932, NAD_1983_(2011)_ICS_Carbondale_(US_Feet). United States (USA) - Illinois - counties of Franklin, Gallatin, Hamilton, Jackson, Perry,  Randolph, Saline, White and Williamson. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=37.9 +lat_0=37.9 +lon_0=-88.95 +k_0=1.000012 +x_0=729997.45999492 +y_0=1150012.7000254 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23332.
+ */
+export declare const ESRI_102932: string;
+/**
+ * ESRI:102933, NAD_1983_(2011)_ICS_Metropolis_(US_Feet). United States (USA) - Illinois - counties of Alexander, Hardin, Johnson, Massac, Pope, Pulaski and Union. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=37.2 +lat_0=37.2 +lon_0=-88.9 +k_0=1.00001 +x_0=1110083.82016764 +y_0=1170129.54025908 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:23333.
+ */
+export declare const ESRI_102933: string;
 /**
  * ESRI:102934, Cassini_Bangladesh_Zone_01_Dinajpur. Bangladesh - Dinajpur Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
@@ -42044,17 +50741,1633 @@ export declare const ESRI_102960: string;
  */
 export declare const ESRI_102961: string;
 /**
+ * ESRI:102962, NAD_1983_2011_California_Teale_Albers. United States (USA) - California. Within 1 cm of PROJ.
+ *
+ * `+proj=aea +lat_0=0 +lon_0=-120 +lat_1=34 +lat_2=40.5 +x_0=0 +y_0=-4000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6414.
+ */
+export declare const ESRI_102962: string;
+/**
+ * ESRI:102963, NAD_1983_2011_Mississippi_TM. United States (USA) - Mississippi. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=32.5 +lon_0=-89.75 +k=0.9998335 +x_0=500000 +y_0=1300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6508.
+ */
+export declare const ESRI_102963: string;
+/**
  * ESRI:102964, GGRS87_TM87_(Kastellorizo). Greece - Kastellorizo Within 1 cm of PROJ.
  *
  * `+proj=utm +zone=35 +ellps=GRS80 +towgs84=-199.87,74.79,246.62 +units=m +no_defs`
  */
 export declare const ESRI_102964: string;
 /**
+ * ESRI:102965, NAD_1983_2011_Contiguous_USA_Albers. United States (USA) - conterminous (contiguous) lower 48 states (CONUS) - onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=aea +lat_0=23 +lon_0=-96 +lat_1=29.5 +lat_2=45.5 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6350.
+ */
+export declare const ESRI_102965: string;
+/**
+ * ESRI:102966, NAD_1983_2011_Alaska_Albers. United States (USA) - Alaska. Within 1 cm of PROJ.
+ *
+ * `+proj=aea +lat_0=50 +lon_0=-154 +lat_1=55 +lat_2=65 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6393.
+ */
+export declare const ESRI_102966: string;
+/**
+ * ESRI:102967, NAD_1983_2011_Florida_GDL_Albers. United States (USA) - Florida. Within 1 cm of PROJ.
+ *
+ * `+proj=aea +lat_0=24 +lon_0=-84 +lat_1=24 +lat_2=31.5 +x_0=400000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6439.
+ */
+export declare const ESRI_102967: string;
+/**
+ * ESRI:102968, NAD_1983_2011_Michigan_GeoRef_Meters. United States (USA) - Michigan. Within 1 cm of PROJ.
+ *
+ * `+proj=omerc +no_uoff +lat_0=45.3091666666667 +lonc=-86 +alpha=337.25556 +gamma=337.25556 +k=0.9996 +x_0=2546731.496 +y_0=-4354009.816 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6497.
+ */
+export declare const ESRI_102968: string;
+/**
+ * ESRI:102969, NAD_1983_2011_Oregon_Statewide_Lambert. United States (USA) - Oregon. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=41.75 +lon_0=-120.5 +lat_1=43 +lat_2=45.5 +x_0=400000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6556.
+ */
+export declare const ESRI_102969: string;
+/**
+ * ESRI:102970, NAD_1983_2011_Oregon_Statewide_Lambert_Ft_Intl. United States (USA) - Oregon. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=41.75 +lon_0=-120.5 +lat_1=43 +lat_2=45.5 +x_0=400000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6557.
+ */
+export declare const ESRI_102970: string;
+/**
+ * ESRI:102971, NAD_1983_2011_Texas_Centric_Mapping_System_Albers. United States (USA) - Texas. Within 1 cm of PROJ.
+ *
+ * `+proj=aea +lat_0=18 +lon_0=-100 +lat_1=27.5 +lat_2=35 +x_0=1500000 +y_0=6000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6579.
+ */
+export declare const ESRI_102971: string;
+/**
+ * ESRI:102972, NAD_1983_2011_Texas_Centric_Mapping_System_Lambert. United States (USA) - Texas. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=18 +lon_0=-100 +lat_1=27.5 +lat_2=35 +x_0=1500000 +y_0=5000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6580.
+ */
+export declare const ESRI_102972: string;
+/**
+ * ESRI:102973, NAD_1983_2011_Wisconsin_TM. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=-90 +k=0.9996 +x_0=520000 +y_0=-4480000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6610.
+ */
+export declare const ESRI_102973: string;
+/**
  * ESRI:102974, NAD_1983_2011_Wisconsin_TM_US_Ft. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=0 +lon_0=-90 +k=0.9996 +x_0=520000 +y_0=-4480000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
  */
 export declare const ESRI_102974: string;
+/**
+ * ESRI:102975, NAD_1983_2011_StatePlane_Alabama_East_FIPS_0101. United States (USA) - Alabama east of approximately 86°37'W - counties Barbour; Bullock; Calhoun; Chambers; Cherokee; Clay; Cleburne; Coffee; Coosa; Covington; Crenshaw; Dale; De Kalb; Elmore; Etowah; Geneva; Henry; Houston; Jackson; Lee; Macon; Madison; Marshall; Montgomery; Pike; Randolph; Russell; St Clair; Talladega; Tallapoosa. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=30.5 +lon_0=-85.8333333333333 +k=0.99996 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6355.
+ */
+export declare const ESRI_102975: string;
+/**
+ * ESRI:102976, NAD_1983_2011_StatePlane_Alabama_West_FIPS_0102. United States (USA) - Alabama west of approximately 86°37'W - counties Autauga; Baldwin; Bibb; Blount; Butler; Chilton; Choctaw; Clarke; Colbert; Conecuh; Cullman; Dallas; Escambia; Fayette; Franklin; Greene; Hale; Jefferson; Lamar; Lauderdale; Lawrence; Limestone; Lowndes; Marengo; Marion; Mobile; Monroe; Morgan; Perry; Pickens; Shelby; Sumter; Tuscaloosa; Walker; Washington; Wilcox; Winston. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=30 +lon_0=-87.5 +k=0.999933333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6356.
+ */
+export declare const ESRI_102976: string;
+/**
+ * ESRI:102977, NAD_1983_2011_StatePlane_Alaska_1_FIPS_5001. United States (USA) - Alaska - east of 141°W; i.e. Panhandle. Within 1 cm of PROJ.
+ *
+ * `+proj=omerc +no_uoff +lat_0=57 +lonc=-133.666666666667 +alpha=-36.8698976458333 +gamma=-36.8698976458333 +k=0.9999 +x_0=5000000 +y_0=-5000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6394.
+ */
+export declare const ESRI_102977: string;
+/**
+ * ESRI:102978, NAD_1983_2011_StatePlane_Alaska_2_FIPS_5002. United States (USA) - Alaska - between 144°W and 141°W, onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=54 +lon_0=-142 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6395.
+ */
+export declare const ESRI_102978: string;
+/**
+ * ESRI:102979, NAD_1983_2011_StatePlane_Alaska_3_FIPS_5003. United States (USA) - Alaska - between 148°W and 144°W. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=54 +lon_0=-146 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6396.
+ */
+export declare const ESRI_102979: string;
+/**
+ * ESRI:102980, NAD_1983_2011_StatePlane_Alaska_4_FIPS_5004. United States (USA) - Alaska - between 152°W and 148°W, onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=54 +lon_0=-150 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6397.
+ */
+export declare const ESRI_102980: string;
+/**
+ * ESRI:102981, NAD_1983_2011_StatePlane_Alaska_5_FIPS_5005. United States (USA) - Alaska - between 156°W and 152°W. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=54 +lon_0=-154 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6398.
+ */
+export declare const ESRI_102981: string;
+/**
+ * ESRI:102982, NAD_1983_2011_StatePlane_Alaska_6_FIPS_5006. United States (USA) - Alaska - between 160°W and 156°W, onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=54 +lon_0=-158 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6399.
+ */
+export declare const ESRI_102982: string;
+/**
+ * ESRI:102983, NAD_1983_2011_StatePlane_Alaska_7_FIPS_5007. United States (USA) - Alaska - between 164°W and 160°W, onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=54 +lon_0=-162 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6400.
+ */
+export declare const ESRI_102983: string;
+/**
+ * ESRI:102984, NAD_1983_2011_StatePlane_Alaska_8_FIPS_5008. United States (USA) - Alaska onshore north of 54°30'N and between 168°W and 164°W. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=54 +lon_0=-166 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6401.
+ */
+export declare const ESRI_102984: string;
+/**
+ * ESRI:102985, NAD_1983_2011_StatePlane_Alaska_9_FIPS_5009. United States (USA) - Alaska onshore north of 54°30'N and west of 168°W. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=54 +lon_0=-170 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6402.
+ */
+export declare const ESRI_102985: string;
+/**
+ * ESRI:102986, NAD_1983_2011_StatePlane_Alaska_10_FIPS_5010. United States (USA) - Alaska - Aleutian Islands onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=51 +lon_0=-176 +lat_1=51.8333333333333 +lat_2=53.8333333333333 +x_0=1000000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6403.
+ */
+export declare const ESRI_102986: string;
+/**
+ * ESRI:102987, NAD_1983_2011_StatePlane_Arizona_East_FIPS_0201. United States (USA) - Arizona - counties Apache; Cochise; Gila; Graham; Greenlee; Navajo. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=31 +lon_0=-110.166666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6406.
+ */
+export declare const ESRI_102987: string;
+/**
+ * ESRI:102988, NAD_1983_2011_StatePlane_Arizona_Central_FIPS_0202. United States (USA) - Arizona - counties Coconino; Maricopa; Pima; Pinal; Santa Cruz; Yavapai. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=31 +lon_0=-111.916666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6404.
+ */
+export declare const ESRI_102988: string;
+/**
+ * ESRI:102989, NAD_1983_2011_StatePlane_Arizona_West_FIPS_0203. United States (USA) - Arizona - counties of La Paz; Mohave; Yuma. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=31 +lon_0=-113.75 +k=0.999933333333333 +x_0=213360 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6408.
+ */
+export declare const ESRI_102989: string;
+/**
+ * ESRI:102990, NAD_1983_2011_StatePlane_Arizona_East_FIPS_0201_Ft_Intl. United States (USA) - Arizona - counties Apache; Cochise; Gila; Graham; Greenlee; Navajo. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=31 +lon_0=-110.166666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6407.
+ */
+export declare const ESRI_102990: string;
+/**
+ * ESRI:102991, NAD_1983_2011_StatePlane_Arizona_Central_FIPS_0202_Ft_Intl. United States (USA) - Arizona - counties Coconino; Maricopa; Pima; Pinal; Santa Cruz; Yavapai. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=31 +lon_0=-111.916666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6405.
+ */
+export declare const ESRI_102991: string;
+/**
+ * ESRI:102992, NAD_1983_2011_StatePlane_Arizona_West_FIPS_0203_Ft_Intl. United States (USA) - Arizona - counties of La Paz; Mohave; Yuma. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=31 +lon_0=-113.75 +k=0.999933333333333 +x_0=213360 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6409.
+ */
+export declare const ESRI_102992: string;
+/**
+ * ESRI:102993, NAD_1983_2011_StatePlane_Arkansas_North_FIPS_0301. United States (USA) - Arkansas - counties of Baxter; Benton; Boone; Carroll; Clay; Cleburne; Conway; Craighead; Crawford; Crittenden; Cross; Faulkner; Franklin; Fulton; Greene; Independence; Izard; Jackson; Johnson; Lawrence; Logan; Madison; Marion; Mississippi; Newton; Perry; Poinsett; Pope; Randolph; Scott; Searcy; Sebastian; Sharp; St Francis; Stone; Van Buren; Washington; White; Woodruff; Yell. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=34.3333333333333 +lon_0=-92 +lat_1=34.9333333333333 +lat_2=36.2333333333333 +x_0=400000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6410.
+ */
+export declare const ESRI_102993: string;
+/**
+ * ESRI:102994, NAD_1983_2011_StatePlane_Arkansas_South_FIPS_0302. United States (USA) - Arkansas - counties Arkansas; Ashley; Bradley; Calhoun; Chicot; Clark; Cleveland; Columbia; Dallas; Desha; Drew; Garland; Grant; Hempstead; Hot Spring; Howard; Jefferson; Lafayette; Lee; Lincoln; Little River; Lonoke; Miller; Monroe; Montgomery; Nevada; Ouachita; Phillips; Pike; Polk; Prairie; Pulaski; Saline; Sevier; Union. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=32.6666666666667 +lon_0=-92 +lat_1=33.3 +lat_2=34.7666666666667 +x_0=400000 +y_0=400000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6412.
+ */
+export declare const ESRI_102994: string;
+/**
+ * ESRI:102995, NAD_1983_2011_StatePlane_Arkansas_North_FIPS_0301_Ft_US. United States (USA) - Arkansas - counties of Baxter; Benton; Boone; Carroll; Clay; Cleburne; Conway; Craighead; Crawford; Crittenden; Cross; Faulkner; Franklin; Fulton; Greene; Independence; Izard; Jackson; Johnson; Lawrence; Logan; Madison; Marion; Mississippi; Newton; Perry; Poinsett; Pope; Randolph; Scott; Searcy; Sebastian; Sharp; St Francis; Stone; Van Buren; Washington; White; Woodruff; Yell. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=34.3333333333333 +lon_0=-92 +lat_1=34.9333333333333 +lat_2=36.2333333333333 +x_0=400000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6411.
+ */
+export declare const ESRI_102995: string;
+/**
+ * ESRI:102996, NAD_1983_2011_StatePlane_Arkansas_South_FIPS_0302_Ft_US. United States (USA) - Arkansas - counties Arkansas; Ashley; Bradley; Calhoun; Chicot; Clark; Cleveland; Columbia; Dallas; Desha; Drew; Garland; Grant; Hempstead; Hot Spring; Howard; Jefferson; Lafayette; Lee; Lincoln; Little River; Lonoke; Miller; Monroe; Montgomery; Nevada; Ouachita; Phillips; Pike; Polk; Prairie; Pulaski; Saline; Sevier; Union. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=32.6666666666667 +lon_0=-92 +lat_1=33.3 +lat_2=34.7666666666667 +x_0=400000 +y_0=400000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6413.
+ */
+export declare const ESRI_102996: string;
+/**
+ * ESRI:102997, NAD_1983_2011_StatePlane_California_I_FIPS_0401. United States (USA) - California - counties of Del Norte; Humboldt; Lassen; Modoc; Plumas; Shasta; Siskiyou; Tehama; Trinity. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=39.3333333333333 +lon_0=-122 +lat_1=40 +lat_2=41.6666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6415.
+ */
+export declare const ESRI_102997: string;
+/**
+ * ESRI:102998, NAD_1983_2011_StatePlane_California_II_FIPS_0402. United States (USA) - California - counties of Alpine; Amador; Butte; Colusa; El Dorado; Glenn; Lake; Mendocino; Napa; Nevada; Placer; Sacramento; Sierra; Solano; Sonoma; Sutter; Yolo; Yuba. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=37.6666666666667 +lon_0=-122 +lat_1=38.3333333333333 +lat_2=39.8333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6417.
+ */
+export declare const ESRI_102998: string;
+/**
+ * ESRI:102999, NAD_1983_2011_StatePlane_California_III_FIPS_0403. United States (USA) - California - counties of Alameda; Calaveras; Contra Costa; Madera; Marin; Mariposa; Merced; Mono; San Francisco; San Joaquin; San Mateo; Santa Clara; Santa Cruz; Stanislaus; Tuolumne. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=36.5 +lon_0=-120.5 +lat_1=37.0666666666667 +lat_2=38.4333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6419.
+ */
+export declare const ESRI_102999: string;
+/**
+ * ESRI:103000, NAD_1983_2011_StatePlane_California_IV_FIPS_0404. United States (USA) - California - counties of Fresno; Inyo; Kings; Monterey; San Benito; Tulare. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=35.3333333333333 +lon_0=-119 +lat_1=36 +lat_2=37.25 +x_0=2000000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6421.
+ */
+export declare const ESRI_103000: string;
+/**
+ * ESRI:103001, NAD_1983_2011_StatePlane_California_V_FIPS_0405. United States (USA) - California - counties of Kern; Los Angeles; San Bernardino; San Luis Obispo; Santa Barbara; Ventura. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=33.5 +lon_0=-118 +lat_1=34.0333333333333 +lat_2=35.4666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6423.
+ */
+export declare const ESRI_103001: string;
+/**
+ * ESRI:103002, NAD_1983_2011_StatePlane_California_VI_FIPS_0406. United States (USA) - California - counties of Imperial; Orange; Riverside; San Diego. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=32.1666666666667 +lon_0=-116.25 +lat_1=32.7833333333333 +lat_2=33.8833333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6425.
+ */
+export declare const ESRI_103002: string;
+/**
+ * ESRI:103003, NAD_1983_2011_StatePlane_California_I_FIPS_0401_Ft_US. United States (USA) - California - counties of Del Norte; Humboldt; Lassen; Modoc; Plumas; Shasta; Siskiyou; Tehama; Trinity. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=39.3333333333333 +lon_0=-122 +lat_1=40 +lat_2=41.6666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6416.
+ */
+export declare const ESRI_103003: string;
+/**
+ * ESRI:103004, NAD_1983_2011_StatePlane_California_II_FIPS_0402_Ft_US. United States (USA) - California - counties of Alpine; Amador; Butte; Colusa; El Dorado; Glenn; Lake; Mendocino; Napa; Nevada; Placer; Sacramento; Sierra; Solano; Sonoma; Sutter; Yolo; Yuba. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=37.6666666666667 +lon_0=-122 +lat_1=38.3333333333333 +lat_2=39.8333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6418.
+ */
+export declare const ESRI_103004: string;
+/**
+ * ESRI:103005, NAD_1983_2011_StatePlane_California_III_FIPS_0403_Ft_US. United States (USA) - California - counties of Alameda; Calaveras; Contra Costa; Madera; Marin; Mariposa; Merced; Mono; San Francisco; San Joaquin; San Mateo; Santa Clara; Santa Cruz; Stanislaus; Tuolumne. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=36.5 +lon_0=-120.5 +lat_1=37.0666666666667 +lat_2=38.4333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6420.
+ */
+export declare const ESRI_103005: string;
+/**
+ * ESRI:103006, NAD_1983_2011_StatePlane_California_IV_FIPS_0404_Ft_US. United States (USA) - California - counties of Fresno; Inyo; Kings; Monterey; San Benito; Tulare. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=35.3333333333333 +lon_0=-119 +lat_1=36 +lat_2=37.25 +x_0=2000000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6422.
+ */
+export declare const ESRI_103006: string;
+/**
+ * ESRI:103007, NAD_1983_2011_StatePlane_California_V_FIPS_0405_Ft_US. United States (USA) - California - counties of Kern; Los Angeles; San Bernardino; San Luis Obispo; Santa Barbara; Ventura. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=33.5 +lon_0=-118 +lat_1=34.0333333333333 +lat_2=35.4666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6424.
+ */
+export declare const ESRI_103007: string;
+/**
+ * ESRI:103008, NAD_1983_2011_StatePlane_California_VI_FIPS_0406_Ft_US. United States (USA) - California - counties of Imperial; Orange; Riverside; San Diego. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=32.1666666666667 +lon_0=-116.25 +lat_1=32.7833333333333 +lat_2=33.8833333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6426.
+ */
+export declare const ESRI_103008: string;
+/**
+ * ESRI:103009, NAD_1983_2011_StatePlane_Colorado_North_FIPS_0501. United States (USA) - Colorado - counties Adams; Boulder; Gilpin; Grand; Jackson; Larimer; Logan; Moffat; Morgan; Phillips; Rio Blanco; Routt; Sedgwick; Washington; Weld; Yuma. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=39.3333333333333 +lon_0=-105.5 +lat_1=39.7166666666667 +lat_2=40.7833333333333 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6429.
+ */
+export declare const ESRI_103009: string;
+/**
+ * ESRI:103010, NAD_1983_2011_StatePlane_Colorado_Central_FIPS_0502. United States (USA) - Colorado - counties Arapahoe; Chaffee; Cheyenne; Clear Creek; Delta; Denver; Douglas; Eagle; El Paso; Elbert; Fremont; Garfield; Gunnison; Jefferson; Kit Carson; Lake; Lincoln; Mesa; Park; Pitkin; Summit; Teller. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=37.8333333333333 +lon_0=-105.5 +lat_1=38.45 +lat_2=39.75 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6427.
+ */
+export declare const ESRI_103010: string;
+/**
+ * ESRI:103011, NAD_1983_2011_StatePlane_Colorado_South_FIPS_0503. United States (USA) - Colorado - counties Alamosa; Archuleta; Baca; Bent; Conejos; Costilla; Crowley; Custer; Dolores; Hinsdale; Huerfano; Kiowa; La Plata; Las Animas; Mineral; Montezuma; Montrose; Otero; Ouray; Prowers; Pueblo; Rio Grande; Saguache; San Juan; San Miguel. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=36.6666666666667 +lon_0=-105.5 +lat_1=37.2333333333333 +lat_2=38.4333333333333 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6431.
+ */
+export declare const ESRI_103011: string;
+/**
+ * ESRI:103012, NAD_1983_2011_StatePlane_Colorado_North_FIPS_0501_Ft_US. United States (USA) - Colorado - counties Adams; Boulder; Gilpin; Grand; Jackson; Larimer; Logan; Moffat; Morgan; Phillips; Rio Blanco; Routt; Sedgwick; Washington; Weld; Yuma. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=39.3333333333333 +lon_0=-105.5 +lat_1=39.7166666666667 +lat_2=40.7833333333333 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6430.
+ */
+export declare const ESRI_103012: string;
+/**
+ * ESRI:103013, NAD_1983_2011_StatePlane_Colorado_Central_FIPS_0502_Ft_US. United States (USA) - Colorado - counties Arapahoe; Chaffee; Cheyenne; Clear Creek; Delta; Denver; Douglas; Eagle; El Paso; Elbert; Fremont; Garfield; Gunnison; Jefferson; Kit Carson; Lake; Lincoln; Mesa; Park; Pitkin; Summit; Teller. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=37.8333333333333 +lon_0=-105.5 +lat_1=38.45 +lat_2=39.75 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6428.
+ */
+export declare const ESRI_103013: string;
+/**
+ * ESRI:103014, NAD_1983_2011_StatePlane_Colorado_South_FIPS_0503_Ft_US. United States (USA) - Colorado - counties Alamosa; Archuleta; Baca; Bent; Conejos; Costilla; Crowley; Custer; Dolores; Hinsdale; Huerfano; Kiowa; La Plata; Las Animas; Mineral; Montezuma; Montrose; Otero; Ouray; Prowers; Pueblo; Rio Grande; Saguache; San Juan; San Miguel. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=36.6666666666667 +lon_0=-105.5 +lat_1=37.2333333333333 +lat_2=38.4333333333333 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6432.
+ */
+export declare const ESRI_103014: string;
+/**
+ * ESRI:103015, NAD_1983_2011_StatePlane_Connecticut_FIPS_0600. United States (USA) - Connecticut. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=40.8333333333333 +lon_0=-72.75 +lat_1=41.2 +lat_2=41.8666666666667 +x_0=304800.6096 +y_0=152400.3048 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6433.
+ */
+export declare const ESRI_103015: string;
+/**
+ * ESRI:103016, NAD_1983_2011_StatePlane_Connecticut_FIPS_0600_Ft_US. United States (USA) - Connecticut. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=40.8333333333333 +lon_0=-72.75 +lat_1=41.2 +lat_2=41.8666666666667 +x_0=304800.6096 +y_0=152400.3048 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6434.
+ */
+export declare const ESRI_103016: string;
+/**
+ * ESRI:103017, NAD_1983_2011_StatePlane_Delaware_FIPS_0700. United States (USA) - Delaware. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=38 +lon_0=-75.4166666666667 +k=0.999995 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6435.
+ */
+export declare const ESRI_103017: string;
+/**
+ * ESRI:103018, NAD_1983_2011_StatePlane_Delaware_FIPS_0700_Ft_US. United States (USA) - Delaware. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=38 +lon_0=-75.4166666666667 +k=0.999995 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6436.
+ */
+export declare const ESRI_103018: string;
+/**
+ * ESRI:103019, NAD_1983_2011_StatePlane_Florida_East_FIPS_0901. United States (USA) - Florida - counties of Brevard; Broward; Clay; Collier; Dade; Duval; Flagler; Glades; Hendry; Highlands; Indian River; Lake; Martin; Monroe; Nassau; Okeechobee; Orange; Osceola; Palm Beach; Putnam; Seminole; St Johns; St Lucie; Volusia. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=24.3333333333333 +lon_0=-81 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6437.
+ */
+export declare const ESRI_103019: string;
+/**
+ * ESRI:103020, NAD_1983_2011_StatePlane_Florida_West_FIPS_0902. United States (USA) - Florida - counties of Charlotte; Citrus; De Soto; Hardee; Hernando; Hillsborough; Lee; Levy; Manatee; Marion; Pasco; Pinellas; Polk; Sarasota; Sumter. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=24.3333333333333 +lon_0=-82 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6442.
+ */
+export declare const ESRI_103020: string;
+/**
+ * ESRI:103021, NAD_1983_2011_StatePlane_Florida_North_FIPS_0903. United States (USA) - Florida - counties of Alachua; Baker; Bay; Bradford; Calhoun; Columbia; Dixie; Escambia; Franklin; Gadsden; Gilchrist; Gulf; Hamilton; Holmes; Jackson; Jefferson; Lafayette; Leon; Liberty; Madison; Okaloosa; Santa Rosa; Suwannee; Taylor; Union; Wakulla; Walton; Washington. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=29 +lon_0=-84.5 +lat_1=29.5833333333333 +lat_2=30.75 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6440.
+ */
+export declare const ESRI_103021: string;
+/**
+ * ESRI:103022, NAD_1983_2011_StatePlane_Florida_East_FIPS_0901_Ft_US. United States (USA) - Florida - counties of Brevard; Broward; Clay; Collier; Dade; Duval; Flagler; Glades; Hendry; Highlands; Indian River; Lake; Martin; Monroe; Nassau; Okeechobee; Orange; Osceola; Palm Beach; Putnam; Seminole; St Johns; St Lucie; Volusia. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=24.3333333333333 +lon_0=-81 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6438.
+ */
+export declare const ESRI_103022: string;
+/**
+ * ESRI:103023, NAD_1983_2011_StatePlane_Florida_West_FIPS_0902_Ft_US. United States (USA) - Florida - counties of Charlotte; Citrus; De Soto; Hardee; Hernando; Hillsborough; Lee; Levy; Manatee; Marion; Pasco; Pinellas; Polk; Sarasota; Sumter. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=24.3333333333333 +lon_0=-82 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6443.
+ */
+export declare const ESRI_103023: string;
+/**
+ * ESRI:103024, NAD_1983_2011_StatePlane_Florida_North_FIPS_0903_Ft_US. United States (USA) - Florida - counties of Alachua; Baker; Bay; Bradford; Calhoun; Columbia; Dixie; Escambia; Franklin; Gadsden; Gilchrist; Gulf; Hamilton; Holmes; Jackson; Jefferson; Lafayette; Leon; Liberty; Madison; Okaloosa; Santa Rosa; Suwannee; Taylor; Union; Wakulla; Walton; Washington. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=29 +lon_0=-84.5 +lat_1=29.5833333333333 +lat_2=30.75 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6441.
+ */
+export declare const ESRI_103024: string;
+/**
+ * ESRI:103025, NAD_1983_2011_StatePlane_Georgia_East_FIPS_1001. United States (USA) - Georgia - counties of Appling; Atkinson; Bacon; Baldwin; Brantley; Bryan; Bulloch; Burke; Camden; Candler; Charlton; Chatham; Clinch; Coffee; Columbia; Dodge; Echols; Effingham; Elbert; Emanuel; Evans; Franklin; Glascock; Glynn; Greene; Hancock; Hart; Jeff Davis; Jefferson; Jenkins; Johnson; Laurens; Liberty; Lincoln; Long; Madison; McDuffie; McIntosh; Montgomery; Oglethorpe; Pierce; Richmond; Screven; Stephens; Taliaferro; Tattnall; Telfair; Toombs; Treutlen; Ware; Warren; Washington; Wayne; Wheeler; Wilkes; Wilkinson. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=30 +lon_0=-82.1666666666667 +k=0.9999 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6444.
+ */
+export declare const ESRI_103025: string;
+/**
+ * ESRI:103026, NAD_1983_2011_StatePlane_Georgia_West_FIPS_1002. United States (USA) - Georgia - counties of Baker; Banks; Barrow; Bartow; Ben Hill; Berrien; Bibb; Bleckley; Brooks; Butts; Calhoun; Carroll; Catoosa; Chattahoochee; Chattooga; Cherokee; Clarke; Clay; Clayton; Cobb; Colquitt; Cook; Coweta; Crawford; Crisp; Dade; Dawson; De Kalb; Decatur; Dooly; Dougherty; Douglas; Early; Fannin; Fayette; Floyd; Forsyth; Fulton; Gilmer; Gordon; Grady; Gwinnett; Habersham; Hall; Haralson; Harris; Heard; Henry; Houston; Irwin; Jackson; Jasper; Jones; Lamar; Lanier; Lee; Lowndes; Lumpkin; Macon; Marion; Meriwether; Miller; Mitchell; Monroe; Morgan; Murray; Muscogee; Newton; Oconee; Paulding; Peach; Pickens; Pike; Polk; Pulaski; Putnam; Quitman; Rabun; Randolph; Rockdale; Schley; Seminole; Spalding; Stewart; Sumter; Talbot; Taylor; Terrell; Thomas; Tift; Towns; Troup; Turner; Twiggs; Union; Upson; Walker; Walton; Webster; White; Whitfield; Wilcox; Worth. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=30 +lon_0=-84.1666666666667 +k=0.9999 +x_0=700000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6446.
+ */
+export declare const ESRI_103026: string;
+/**
+ * ESRI:103027, NAD_1983_2011_StatePlane_Georgia_East_FIPS_1001_Ft_US. United States (USA) - Georgia - counties of Appling; Atkinson; Bacon; Baldwin; Brantley; Bryan; Bulloch; Burke; Camden; Candler; Charlton; Chatham; Clinch; Coffee; Columbia; Dodge; Echols; Effingham; Elbert; Emanuel; Evans; Franklin; Glascock; Glynn; Greene; Hancock; Hart; Jeff Davis; Jefferson; Jenkins; Johnson; Laurens; Liberty; Lincoln; Long; Madison; McDuffie; McIntosh; Montgomery; Oglethorpe; Pierce; Richmond; Screven; Stephens; Taliaferro; Tattnall; Telfair; Toombs; Treutlen; Ware; Warren; Washington; Wayne; Wheeler; Wilkes; Wilkinson. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=30 +lon_0=-82.1666666666667 +k=0.9999 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6445.
+ */
+export declare const ESRI_103027: string;
+/**
+ * ESRI:103028, NAD_1983_2011_StatePlane_Georgia_West_FIPS_1002_Ft_US. United States (USA) - Georgia - counties of Baker; Banks; Barrow; Bartow; Ben Hill; Berrien; Bibb; Bleckley; Brooks; Butts; Calhoun; Carroll; Catoosa; Chattahoochee; Chattooga; Cherokee; Clarke; Clay; Clayton; Cobb; Colquitt; Cook; Coweta; Crawford; Crisp; Dade; Dawson; De Kalb; Decatur; Dooly; Dougherty; Douglas; Early; Fannin; Fayette; Floyd; Forsyth; Fulton; Gilmer; Gordon; Grady; Gwinnett; Habersham; Hall; Haralson; Harris; Heard; Henry; Houston; Irwin; Jackson; Jasper; Jones; Lamar; Lanier; Lee; Lowndes; Lumpkin; Macon; Marion; Meriwether; Miller; Mitchell; Monroe; Morgan; Murray; Muscogee; Newton; Oconee; Paulding; Peach; Pickens; Pike; Polk; Pulaski; Putnam; Quitman; Rabun; Randolph; Rockdale; Schley; Seminole; Spalding; Stewart; Sumter; Talbot; Taylor; Terrell; Thomas; Tift; Towns; Troup; Turner; Twiggs; Union; Upson; Walker; Walton; Webster; White; Whitfield; Wilcox; Worth. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=30 +lon_0=-84.1666666666667 +k=0.9999 +x_0=700000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6447.
+ */
+export declare const ESRI_103028: string;
+/**
+ * ESRI:103029, NAD_1983_2011_StatePlane_Idaho_East_FIPS_1101. United States (USA) - Idaho - counties of Bannock; Bear Lake; Bingham; Bonneville; Caribou; Clark; Franklin; Fremont; Jefferson; Madison; Oneida; Power; Teton. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=41.6666666666667 +lon_0=-112.166666666667 +k=0.999947368421053 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6450.
+ */
+export declare const ESRI_103029: string;
+/**
+ * ESRI:103030, NAD_1983_2011_StatePlane_Idaho_Central_FIPS_1102. United States (USA) - Idaho - counties of Blaine; Butte; Camas; Cassia; Custer; Gooding; Jerome; Lemhi; Lincoln; Minidoka; Twin Falls. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=41.6666666666667 +lon_0=-114 +k=0.999947368421053 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6448.
+ */
+export declare const ESRI_103030: string;
+/**
+ * ESRI:103031, NAD_1983_2011_StatePlane_Idaho_West_FIPS_1103. United States (USA) - Idaho - counties of Ada; Adams; Benewah; Boise; Bonner; Boundary; Canyon; Clearwater; Elmore; Gem; Idaho; Kootenai; Latah; Lewis; Nez Perce; Owyhee; Payette; Shoshone; Valley; Washington. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=41.6666666666667 +lon_0=-115.75 +k=0.999933333333333 +x_0=800000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6452.
+ */
+export declare const ESRI_103031: string;
+/**
+ * ESRI:103032, NAD_1983_2011_StatePlane_Idaho_East_FIPS_1101_Ft_US. United States (USA) - Idaho - counties of Bannock; Bear Lake; Bingham; Bonneville; Caribou; Clark; Franklin; Fremont; Jefferson; Madison; Oneida; Power; Teton. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=41.6666666666667 +lon_0=-112.166666666667 +k=0.999947368421053 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6451.
+ */
+export declare const ESRI_103032: string;
+/**
+ * ESRI:103033, NAD_1983_2011_StatePlane_Idaho_Central_FIPS_1102_Ft_US. United States (USA) - Idaho - counties of Blaine; Butte; Camas; Cassia; Custer; Gooding; Jerome; Lemhi; Lincoln; Minidoka; Twin Falls. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=41.6666666666667 +lon_0=-114 +k=0.999947368421053 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6449.
+ */
+export declare const ESRI_103033: string;
+/**
+ * ESRI:103034, NAD_1983_2011_StatePlane_Idaho_West_FIPS_1103_Ft_US. United States (USA) - Idaho - counties of Ada; Adams; Benewah; Boise; Bonner; Boundary; Canyon; Clearwater; Elmore; Gem; Idaho; Kootenai; Latah; Lewis; Nez Perce; Owyhee; Payette; Shoshone; Valley; Washington. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=41.6666666666667 +lon_0=-115.75 +k=0.999933333333333 +x_0=800000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6453.
+ */
+export declare const ESRI_103034: string;
+/**
+ * ESRI:103035, NAD_1983_2011_StatePlane_Illinois_East_FIPS_1201. United States (USA) - Illinois - counties of Boone; Champaign; Clark; Clay; Coles; Cook; Crawford; Cumberland; De Kalb; De Witt; Douglas; Du Page; Edgar; Edwards; Effingham; Fayette; Ford; Franklin; Gallatin; Grundy; Hamilton; Hardin; Iroquois; Jasper; Jefferson; Johnson; Kane; Kankakee; Kendall; La Salle; Lake; Lawrence; Livingston; Macon; Marion; Massac; McHenry; McLean; Moultrie; Piatt; Pope; Richland; Saline; Shelby; Vermilion; Wabash; Wayne; White; Will; Williamson. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=36.6666666666667 +lon_0=-88.3333333333333 +k=0.999975 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6454.
+ */
+export declare const ESRI_103035: string;
+/**
+ * ESRI:103036, NAD_1983_2011_StatePlane_Illinois_West_FIPS_1202. United States (USA) - Illinois - counties of Adams; Alexander; Bond; Brown; Bureau; Calhoun; Carroll; Cass; Christian; Clinton; Fulton; Greene; Hancock; Henderson; Henry; Jackson; Jersey; Jo Daviess; Knox; Lee; Logan; Macoupin; Madison; Marshall; Mason; McDonough; Menard; Mercer; Monroe; Montgomery; Morgan; Ogle; Peoria; Perry; Pike; Pulaski; Putnam; Randolph; Rock Island; Sangamon; Schuyler; Scott; St Clair; Stark; Stephenson; Tazewell; Union; Warren; Washington; Whiteside; Winnebago; Woodford. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=36.6666666666667 +lon_0=-90.1666666666667 +k=0.999941176470588 +x_0=700000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6456.
+ */
+export declare const ESRI_103036: string;
+/**
+ * ESRI:103037, NAD_1983_2011_StatePlane_Illinois_East_FIPS_1201_Ft_US. United States (USA) - Illinois - counties of Boone; Champaign; Clark; Clay; Coles; Cook; Crawford; Cumberland; De Kalb; De Witt; Douglas; Du Page; Edgar; Edwards; Effingham; Fayette; Ford; Franklin; Gallatin; Grundy; Hamilton; Hardin; Iroquois; Jasper; Jefferson; Johnson; Kane; Kankakee; Kendall; La Salle; Lake; Lawrence; Livingston; Macon; Marion; Massac; McHenry; McLean; Moultrie; Piatt; Pope; Richland; Saline; Shelby; Vermilion; Wabash; Wayne; White; Will; Williamson. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=36.6666666666667 +lon_0=-88.3333333333333 +k=0.999975 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6455.
+ */
+export declare const ESRI_103037: string;
+/**
+ * ESRI:103038, NAD_1983_2011_StatePlane_Illinois_West_FIPS_1202_Ft_US. United States (USA) - Illinois - counties of Adams; Alexander; Bond; Brown; Bureau; Calhoun; Carroll; Cass; Christian; Clinton; Fulton; Greene; Hancock; Henderson; Henry; Jackson; Jersey; Jo Daviess; Knox; Lee; Logan; Macoupin; Madison; Marshall; Mason; McDonough; Menard; Mercer; Monroe; Montgomery; Morgan; Ogle; Peoria; Perry; Pike; Pulaski; Putnam; Randolph; Rock Island; Sangamon; Schuyler; Scott; St Clair; Stark; Stephenson; Tazewell; Union; Warren; Washington; Whiteside; Winnebago; Woodford. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=36.6666666666667 +lon_0=-90.1666666666667 +k=0.999941176470588 +x_0=700000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6457.
+ */
+export declare const ESRI_103038: string;
+/**
+ * ESRI:103039, NAD_1983_2011_StatePlane_Indiana_East_FIPS_1301. United States (USA) - Indiana - counties of Adams; Allen; Bartholomew; Blackford; Brown; Cass; Clark; De Kalb; Dearborn; Decatur; Delaware; Elkhart; Fayette; Floyd; Franklin; Fulton; Grant; Hamilton; Hancock; Harrison; Henry; Howard; Huntington; Jackson; Jay; Jefferson; Jennings; Johnson; Kosciusko; Lagrange; Madison; Marion; Marshall; Miami; Noble; Ohio; Randolph; Ripley; Rush; Scott; Shelby; St Joseph; Steuben; Switzerland; Tipton; Union; Wabash; Washington; Wayne; Wells; Whitley. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=37.5 +lon_0=-85.6666666666667 +k=0.999966666666667 +x_0=100000 +y_0=250000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6458.
+ */
+export declare const ESRI_103039: string;
+/**
+ * ESRI:103040, NAD_1983_2011_StatePlane_Indiana_West_FIPS_1302. United States (USA) - Indiana - counties of Benton; Boone; Carroll; Clay; Clinton; Crawford; Daviess; Dubois; Fountain; Gibson; Greene; Hendricks; Jasper; Knox; La Porte; Lake; Lawrence; Martin; Monroe; Montgomery; Morgan; Newton; Orange; Owen; Parke; Perry; Pike; Porter; Posey; Pulaski; Putnam; Spencer; Starke; Sullivan; Tippecanoe; Vanderburgh; Vermillion; Vigo; Warren; Warrick; White. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=37.5 +lon_0=-87.0833333333333 +k=0.999966666666667 +x_0=900000 +y_0=250000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6460.
+ */
+export declare const ESRI_103040: string;
+/**
+ * ESRI:103041, NAD_1983_2011_StatePlane_Indiana_East_FIPS_1301_Ft_US. United States (USA) - Indiana - counties of Adams; Allen; Bartholomew; Blackford; Brown; Cass; Clark; De Kalb; Dearborn; Decatur; Delaware; Elkhart; Fayette; Floyd; Franklin; Fulton; Grant; Hamilton; Hancock; Harrison; Henry; Howard; Huntington; Jackson; Jay; Jefferson; Jennings; Johnson; Kosciusko; Lagrange; Madison; Marion; Marshall; Miami; Noble; Ohio; Randolph; Ripley; Rush; Scott; Shelby; St Joseph; Steuben; Switzerland; Tipton; Union; Wabash; Washington; Wayne; Wells; Whitley. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=37.5 +lon_0=-85.6666666666667 +k=0.999966666666667 +x_0=100000 +y_0=250000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6459.
+ */
+export declare const ESRI_103041: string;
+/**
+ * ESRI:103042, NAD_1983_2011_StatePlane_Indiana_West_FIPS_1302_Ft_US. United States (USA) - Indiana - counties of Benton; Boone; Carroll; Clay; Clinton; Crawford; Daviess; Dubois; Fountain; Gibson; Greene; Hendricks; Jasper; Knox; La Porte; Lake; Lawrence; Martin; Monroe; Montgomery; Morgan; Newton; Orange; Owen; Parke; Perry; Pike; Porter; Posey; Pulaski; Putnam; Spencer; Starke; Sullivan; Tippecanoe; Vanderburgh; Vermillion; Vigo; Warren; Warrick; White. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=37.5 +lon_0=-87.0833333333333 +k=0.999966666666667 +x_0=900000 +y_0=250000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6461.
+ */
+export declare const ESRI_103042: string;
+/**
+ * ESRI:103043, NAD_1983_2011_StatePlane_Iowa_North_FIPS_1401. United States (USA) - Iowa - counties of Allamakee; Benton; Black Hawk; Boone; Bremer; Buchanan; Buena Vista; Butler; Calhoun; Carroll; Cerro Gordo; Cherokee; Chickasaw; Clay; Clayton; Crawford; Delaware; Dickinson; Dubuque; Emmet; Fayette; Floyd; Franklin; Greene; Grundy; Hamilton; Hancock; Hardin; Howard; Humboldt; Ida; Jackson; Jones; Kossuth; Linn; Lyon; Marshall; Mitchell; Monona; O'Brien; Osceola; Palo Alto; Plymouth; Pocahontas; Sac; Sioux; Story; Tama; Webster; Winnebago; Winneshiek; Woodbury; Worth; Wright. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=41.5 +lon_0=-93.5 +lat_1=42.0666666666667 +lat_2=43.2666666666667 +x_0=1500000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6462.
+ */
+export declare const ESRI_103043: string;
+/**
+ * ESRI:103044, NAD_1983_2011_StatePlane_Iowa_South_FIPS_1402. United States (USA) - Iowa - counties of Adair; Adams; Appanoose; Audubon; Cass; Cedar; Clarke; Clinton; Dallas; Davis; Decatur; Des Moines; Fremont; Guthrie; Harrison; Henry; Iowa; Jasper; Jefferson; Johnson; Keokuk; Lee; Louisa; Lucas; Madison; Mahaska; Marion; Mills; Monroe; Montgomery; Muscatine; Page; Polk; Pottawattamie; Poweshiek; Ringgold; Scott; Shelby; Taylor; Union; Van Buren; Wapello; Warren; Washington; Wayne. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=40 +lon_0=-93.5 +lat_1=40.6166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6464.
+ */
+export declare const ESRI_103044: string;
+/**
+ * ESRI:103045, NAD_1983_2011_StatePlane_Iowa_North_FIPS_1401_Ft_US. United States (USA) - Iowa - counties of Allamakee; Benton; Black Hawk; Boone; Bremer; Buchanan; Buena Vista; Butler; Calhoun; Carroll; Cerro Gordo; Cherokee; Chickasaw; Clay; Clayton; Crawford; Delaware; Dickinson; Dubuque; Emmet; Fayette; Floyd; Franklin; Greene; Grundy; Hamilton; Hancock; Hardin; Howard; Humboldt; Ida; Jackson; Jones; Kossuth; Linn; Lyon; Marshall; Mitchell; Monona; O'Brien; Osceola; Palo Alto; Plymouth; Pocahontas; Sac; Sioux; Story; Tama; Webster; Winnebago; Winneshiek; Woodbury; Worth; Wright. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=41.5 +lon_0=-93.5 +lat_1=42.0666666666667 +lat_2=43.2666666666667 +x_0=1500000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6463.
+ */
+export declare const ESRI_103045: string;
+/**
+ * ESRI:103046, NAD_1983_2011_StatePlane_Iowa_South_FIPS_1402_Ft_US. United States (USA) - Iowa - counties of Adair; Adams; Appanoose; Audubon; Cass; Cedar; Clarke; Clinton; Dallas; Davis; Decatur; Des Moines; Fremont; Guthrie; Harrison; Henry; Iowa; Jasper; Jefferson; Johnson; Keokuk; Lee; Louisa; Lucas; Madison; Mahaska; Marion; Mills; Monroe; Montgomery; Muscatine; Page; Polk; Pottawattamie; Poweshiek; Ringgold; Scott; Shelby; Taylor; Union; Van Buren; Wapello; Warren; Washington; Wayne. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=40 +lon_0=-93.5 +lat_1=40.6166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6465.
+ */
+export declare const ESRI_103046: string;
+/**
+ * ESRI:103047, NAD_1983_2011_StatePlane_Kansas_North_FIPS_1501. United States (USA) - Kansas - counties of Atchison; Brown; Cheyenne; Clay; Cloud; Decatur; Dickinson; Doniphan; Douglas; Ellis; Ellsworth; Geary; Gove; Graham; Jackson; Jefferson; Jewell; Johnson; Leavenworth; Lincoln; Logan; Marshall; Mitchell; Morris; Nemaha; Norton; Osborne; Ottawa; Phillips; Pottawatomie; Rawlins; Republic; Riley; Rooks; Russell; Saline; Shawnee; Sheridan; Sherman; Smith; Thomas; Trego; Wabaunsee; Wallace; Washington; Wyandotte. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=38.3333333333333 +lon_0=-98 +lat_1=38.7166666666667 +lat_2=39.7833333333333 +x_0=400000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6466.
+ */
+export declare const ESRI_103047: string;
+/**
+ * ESRI:103048, NAD_1983_2011_StatePlane_Kansas_South_FIPS_1502. United States (USA) - Kansas - counties of Allen; Anderson; Barber; Barton; Bourbon; Butler; Chase; Chautauqua; Cherokee; Clark; Coffey; Comanche; Cowley; Crawford; Edwards; Elk; Finney; Ford; Franklin; Grant; Gray; Greeley; Greenwood; Hamilton; Harper; Harvey; Haskell; Hodgeman; Kearny; Kingman; Kiowa; Labette; Lane; Linn; Lyon; Marion; McPherson; Meade; Miami; Montgomery; Morton; Neosho; Ness; Osage; Pawnee; Pratt; Reno; Rice; Rush; Scott; Sedgwick; Seward; Stafford; Stanton; Stevens; Sumner; Wichita; Wilson; Woodson. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=36.6666666666667 +lon_0=-98.5 +lat_1=37.2666666666667 +lat_2=38.5666666666667 +x_0=400000 +y_0=400000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6468.
+ */
+export declare const ESRI_103048: string;
+/**
+ * ESRI:103049, NAD_1983_2011_StatePlane_Kansas_North_FIPS_1501_Ft_US. United States (USA) - Kansas - counties of Atchison; Brown; Cheyenne; Clay; Cloud; Decatur; Dickinson; Doniphan; Douglas; Ellis; Ellsworth; Geary; Gove; Graham; Jackson; Jefferson; Jewell; Johnson; Leavenworth; Lincoln; Logan; Marshall; Mitchell; Morris; Nemaha; Norton; Osborne; Ottawa; Phillips; Pottawatomie; Rawlins; Republic; Riley; Rooks; Russell; Saline; Shawnee; Sheridan; Sherman; Smith; Thomas; Trego; Wabaunsee; Wallace; Washington; Wyandotte. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=38.3333333333333 +lon_0=-98 +lat_1=38.7166666666667 +lat_2=39.7833333333333 +x_0=400000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6467.
+ */
+export declare const ESRI_103049: string;
+/**
+ * ESRI:103050, NAD_1983_2011_StatePlane_Kansas_South_FIPS_1502_Ft_US. United States (USA) - Kansas - counties of Allen; Anderson; Barber; Barton; Bourbon; Butler; Chase; Chautauqua; Cherokee; Clark; Coffey; Comanche; Cowley; Crawford; Edwards; Elk; Finney; Ford; Franklin; Grant; Gray; Greeley; Greenwood; Hamilton; Harper; Harvey; Haskell; Hodgeman; Kearny; Kingman; Kiowa; Labette; Lane; Linn; Lyon; Marion; McPherson; Meade; Miami; Montgomery; Morton; Neosho; Ness; Osage; Pawnee; Pratt; Reno; Rice; Rush; Scott; Sedgwick; Seward; Stafford; Stanton; Stevens; Sumner; Wichita; Wilson; Woodson. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=36.6666666666667 +lon_0=-98.5 +lat_1=37.2666666666667 +lat_2=38.5666666666667 +x_0=400000 +y_0=400000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6469.
+ */
+export declare const ESRI_103050: string;
+/**
+ * ESRI:103051, NAD_1983_2011_StatePlane_Kentucky_North_FIPS_1601. United States (USA) - Kentucky - counties of Anderson; Bath; Boone; Bourbon; Boyd; Bracken; Bullitt; Campbell; Carroll; Carter; Clark; Elliott; Fayette; Fleming; Franklin; Gallatin; Grant; Greenup; Harrison; Henry; Jefferson; Jessamine; Kenton; Lawrence; Lewis; Mason; Menifee; Montgomery; Morgan; Nicholas; Oldham; Owen; Pendleton; Robertson; Rowan; Scott; Shelby; Spencer; Trimble; Woodford. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=37.5 +lon_0=-84.25 +lat_1=37.9666666666667 +lat_2=38.9666666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6470.
+ */
+export declare const ESRI_103051: string;
+/**
+ * ESRI:103052, NAD_1983_2011_StatePlane_Kentucky_North_FIPS_1601_Ft_US. United States (USA) - Kentucky - counties of Anderson; Bath; Boone; Bourbon; Boyd; Bracken; Bullitt; Campbell; Carroll; Carter; Clark; Elliott; Fayette; Fleming; Franklin; Gallatin; Grant; Greenup; Harrison; Henry; Jefferson; Jessamine; Kenton; Lawrence; Lewis; Mason; Menifee; Montgomery; Morgan; Nicholas; Oldham; Owen; Pendleton; Robertson; Rowan; Scott; Shelby; Spencer; Trimble; Woodford. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=37.5 +lon_0=-84.25 +lat_1=37.9666666666667 +lat_2=38.9666666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6471.
+ */
+export declare const ESRI_103052: string;
+/**
+ * ESRI:103053, NAD_1983_2011_StatePlane_Kentucky_FIPS_1600. United States (USA) - Kentucky. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=37.0833333333333 +lat_2=38.6666666666667 +x_0=1500000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6472.
+ */
+export declare const ESRI_103053: string;
+/**
+ * ESRI:103054, NAD_1983_2011_StatePlane_Kentucky_FIPS_1600_Ft_US. United States (USA) - Kentucky. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=37.0833333333333 +lat_2=38.6666666666667 +x_0=1500000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6473.
+ */
+export declare const ESRI_103054: string;
+/**
+ * ESRI:103055, NAD_1983_2011_StatePlane_Kentucky_South_FIPS_1602. United States (USA) - Kentucky - counties of Adair; Allen; Ballard; Barren; Bell; Boyle; Breathitt; Breckinridge; Butler; Caldwell; Calloway; Carlisle; Casey; Christian; Clay; Clinton; Crittenden; Cumberland; Daviess; Edmonson; Estill; Floyd; Fulton; Garrard; Graves; Grayson; Green; Hancock; Hardin; Harlan; Hart; Henderson; Hickman; Hopkins; Jackson; Johnson; Knott; Knox; Larue; Laurel; Lee; Leslie; Letcher; Lincoln; Livingston; Logan; Lyon; Madison; Magoffin; Marion; Marshall; Martin; McCracken; McCreary; McLean; Meade; Mercer; Metcalfe; Monroe; Muhlenberg; Nelson; Ohio; Owsley; Perry; Pike; Powell; Pulaski; Rockcastle; Russell; Simpson; Taylor; Todd; Trigg; Union; Warren; Washington; Wayne; Webster; Whitley; Wolfe. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=36.7333333333333 +lat_2=37.9333333333333 +x_0=500000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6474.
+ */
+export declare const ESRI_103055: string;
+/**
+ * ESRI:103056, NAD_1983_2011_StatePlane_Kentucky_South_FIPS_1602_Ft_US. United States (USA) - Kentucky - counties of Adair; Allen; Ballard; Barren; Bell; Boyle; Breathitt; Breckinridge; Butler; Caldwell; Calloway; Carlisle; Casey; Christian; Clay; Clinton; Crittenden; Cumberland; Daviess; Edmonson; Estill; Floyd; Fulton; Garrard; Graves; Grayson; Green; Hancock; Hardin; Harlan; Hart; Henderson; Hickman; Hopkins; Jackson; Johnson; Knott; Knox; Larue; Laurel; Lee; Leslie; Letcher; Lincoln; Livingston; Logan; Lyon; Madison; Magoffin; Marion; Marshall; Martin; McCracken; McCreary; McLean; Meade; Mercer; Metcalfe; Monroe; Muhlenberg; Nelson; Ohio; Owsley; Perry; Pike; Powell; Pulaski; Rockcastle; Russell; Simpson; Taylor; Todd; Trigg; Union; Warren; Washington; Wayne; Webster; Whitley; Wolfe. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=36.7333333333333 +lat_2=37.9333333333333 +x_0=500000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6475.
+ */
+export declare const ESRI_103056: string;
+/**
+ * ESRI:103057, NAD_1983_2011_StatePlane_Louisiana_North_FIPS_1701. United States (USA) - Louisiana - counties of Avoyelles; Bienville; Bossier; Caddo; Caldwell; Catahoula; Claiborne; Concordia; De Soto; East Carroll; Franklin; Grant; Jackson; La Salle; Lincoln; Madison; Morehouse; Natchitoches; Ouachita; Rapides; Red River; Richland; Sabine; Tensas; Union; Vernon; Webster; West Carroll; Winn. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=30.5 +lon_0=-92.5 +lat_1=31.1666666666667 +lat_2=32.6666666666667 +x_0=1000000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6476.
+ */
+export declare const ESRI_103057: string;
+/**
+ * ESRI:103058, NAD_1983_2011_StatePlane_Louisiana_South_FIPS_1702. United States (USA) - Louisiana - counties of Acadia; Allen; Ascension; Assumption; Beauregard; Calcasieu; Cameron; East Baton Rouge; East Feliciana; Evangeline; Iberia; Iberville; Jefferson; Jefferson Davis; Lafayette; LaFourche; Livingston; Orleans; Plaquemines; Pointe Coupee; St Bernard; St Charles; St Helena; St James; St John the Baptist; St Landry; St Martin; St Mary; St Tammany; Tangipahoa; Terrebonne; Vermilion; Washington; West Baton Rouge; West Feliciana. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=28.5 +lon_0=-91.3333333333333 +lat_1=29.3 +lat_2=30.7 +x_0=1000000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6478.
+ */
+export declare const ESRI_103058: string;
+/**
+ * ESRI:103059, NAD_1983_2011_StatePlane_Louisiana_North_FIPS_1701_Ft_US. United States (USA) - Louisiana - counties of Avoyelles; Bienville; Bossier; Caddo; Caldwell; Catahoula; Claiborne; Concordia; De Soto; East Carroll; Franklin; Grant; Jackson; La Salle; Lincoln; Madison; Morehouse; Natchitoches; Ouachita; Rapides; Red River; Richland; Sabine; Tensas; Union; Vernon; Webster; West Carroll; Winn. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=30.5 +lon_0=-92.5 +lat_1=31.1666666666667 +lat_2=32.6666666666667 +x_0=1000000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6477.
+ */
+export declare const ESRI_103059: string;
+/**
+ * ESRI:103060, NAD_1983_2011_StatePlane_Louisiana_South_FIPS_1702_Ft_US. United States (USA) - Louisiana - counties of Acadia; Allen; Ascension; Assumption; Beauregard; Calcasieu; Cameron; East Baton Rouge; East Feliciana; Evangeline; Iberia; Iberville; Jefferson; Jefferson Davis; Lafayette; LaFourche; Livingston; Orleans; Plaquemines; Pointe Coupee; St Bernard; St Charles; St Helena; St James; St John the Baptist; St Landry; St Martin; St Mary; St Tammany; Tangipahoa; Terrebonne; Vermilion; Washington; West Baton Rouge; West Feliciana. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=28.5 +lon_0=-91.3333333333333 +lat_1=29.3 +lat_2=30.7 +x_0=1000000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6479.
+ */
+export declare const ESRI_103060: string;
+/**
+ * ESRI:103061, NAD_1983_2011_StatePlane_Maine_East_FIPS_1801. United States (USA) - Maine - counties of Aroostook; Hancock; Knox; Penobscot; Piscataquis; Waldo; Washington. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=43.6666666666667 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6483.
+ */
+export declare const ESRI_103061: string;
+/**
+ * ESRI:103062, NAD_1983_2011_StatePlane_Maine_West_FIPS_1802. United States (USA) - Maine - counties of Androscoggin; Cumberland; Franklin; Kennebec; Lincoln; Oxford; Sagadahoc; Somerset; York. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.1666666666667 +k=0.999966666666667 +x_0=900000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6485.
+ */
+export declare const ESRI_103062: string;
+/**
+ * ESRI:103063, NAD_1983_2011_StatePlane_Maine_East_FIPS_1801_Ft_US. United States (USA) - Maine - counties of Aroostook; Hancock; Knox; Penobscot; Piscataquis; Waldo; Washington. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=43.6666666666667 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6484.
+ */
+export declare const ESRI_103063: string;
+/**
+ * ESRI:103064, NAD_1983_2011_StatePlane_Maine_West_FIPS_1802_Ft_US. United States (USA) - Maine - counties of Androscoggin; Cumberland; Franklin; Kennebec; Lincoln; Oxford; Sagadahoc; Somerset; York. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.1666666666667 +k=0.999966666666667 +x_0=900000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6486.
+ */
+export declare const ESRI_103064: string;
+/**
+ * ESRI:103065, NAD_1983_2011_Maine_2000_East_Zone. United States (USA) - Maine east of approximately 68°25'W. The area is bounded by the following: Beginning at the point determined by the intersection of the Maine State line and the Fort Kent - Frenchville town line, thence continuing easterly and then southerly along the state line to the boundary of the State of Maine as determined by Maritime law, thence following the State boundary westerly to the intersection of the Knox and Hancock County line, thence northerly along the easterly boundary of the Maine 2000 Central Zone, as defined, to the point of beginning. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=43.8333333333333 +lon_0=-67.875 +k=0.99998 +x_0=700000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6481.
+ */
+export declare const ESRI_103065: string;
+/**
+ * ESRI:103066, NAD_1983_2011_Maine_2000_Central_Zone. United States (USA) - Maine between approximately 69°40'W and 68°25'W. The area is bounded by the following: Beginning at the point determined by the intersection of the Maine State line and the County Line between Aroostook and Somerset Counties, thence northeasterly along the state line to the intersection of the Fort Kent - Frenchville town line, thence southerly along this town line to the intersection with the New Canada Plantation - T17 R5 WELS town line, thence continuing southerly along town lines to the northeast corner of Penobscot County, thence continuing southerly along the Penobscot County line to the intersection of the Woodville - Mattawamkeag town line (being determined by the Penobscot River), thence along the Penobscot River to the Enfield - Lincoln town line, thence southeasterly along the Enfield - Lincoln town line and the Enfield - Lowell town line to the Passadumkeag - Edinburg town line, thence south-southeasterly along town lines to the intersection of the Hancock County line, thence southerly along the county line to the intersection of the Otis - Mariaville town line, thence southerly along the Otis - Mariaville town line to the Ellsworth city line, thence southerly along the Ellsworth city line to the intersection of the Surry - Trenton town line, thence southerly along the easterly town lines of Surry, Blue Hill, Brooklin, Deer Isle, and Stonington to the Knox County line, thence following the Knox County line to the boundary of the State of Maine as determined by Maritime law, thence following the State boundary westerly to the intersection of the Sagadahoc - Lincoln county line, thence northerly along the easterly boundary of the Maine 2000 West Zone, as defined, to the point of beginning. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=43.5 +lon_0=-69.125 +k=0.99998 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6480.
+ */
+export declare const ESRI_103066: string;
+/**
+ * ESRI:103067, NAD_1983_2011_Maine_2000_West_Zone. United States (USA) - Maine west of approximately 69°40'W. The area is bounded by the following: Beginning at the point determined by the intersection of the Maine State line and the County Line between Aroostook and Somerset Counties, thence following the Somerset County line Easterly to the Northwest corner of the Somerset and Piscataquis county line, thence Southerly along this county line to the northeast corner of the Athens town line, thence westerly along the town line between Brighton Plantation and Athens to the westerly corner of Athens, and continuing southerly to the southwest corner of the town of Athens where it meets the Cornville town line, thence westerly along the Cornville - Solon town line to the intersection of the Cornville - Madison town line, thence southerly and westerly following the Madison town line to the intersection of the Norridgewock - Skowhegan town line, thence southerly along the Skowhegan town line to the Fairfield town line, thence easterly along the Fairfield town line to the Clinton town line (being determined by the Kennebec River), thence southerly along the Kennebec River to the Augusta city line, thence easterly along the city line to the Windsor town line, thence southerly along the Augusta - Windsor town line to the northwest corner of the Lincoln County line, thence southerly along the westerly Lincoln county line to the boundary of the State of Maine as determined by Maritime law, thence following the State boundary on the westerly side of the state to the point of beginning. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.375 +k=0.99998 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6482.
+ */
+export declare const ESRI_103067: string;
+/**
+ * ESRI:103068, NAD_1983_2011_StatePlane_Maryland_FIPS_1900. United States (USA) - Maryland - counties of Allegany; Anne Arundel; Baltimore; Calvert; Caroline; Carroll; Cecil; Charles; Dorchester; Frederick; Garrett; Harford; Howard; Kent; Montgomery; Prince Georges; Queen Annes; Somerset; St Marys; Talbot; Washington; Wicomico; Worcester. District of Columbia (DC). Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=37.6666666666667 +lon_0=-77 +lat_1=38.3 +lat_2=39.45 +x_0=400000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6487.
+ */
+export declare const ESRI_103068: string;
+/**
+ * ESRI:103069, NAD_1983_2011_StatePlane_Maryland_FIPS_1900_Ft_US. United States (USA) - Maryland - counties of Allegany; Anne Arundel; Baltimore; Calvert; Caroline; Carroll; Cecil; Charles; Dorchester; Frederick; Garrett; Harford; Howard; Kent; Montgomery; Prince Georges; Queen Annes; Somerset; St Marys; Talbot; Washington; Wicomico; Worcester. District of Columbia (DC). Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=37.6666666666667 +lon_0=-77 +lat_1=38.3 +lat_2=39.45 +x_0=400000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6488.
+ */
+export declare const ESRI_103069: string;
+/**
+ * ESRI:103070, NAD_1983_2011_StatePlane_Massachusetts_Mainland_FIPS_2001. United States (USA) - Massachusetts onshore - counties of Barnstable; Berkshire; Bristol; Essex; Franklin; Hampden; Hampshire; Middlesex; Norfolk; Plymouth; Suffolk; Worcester. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=41 +lon_0=-71.5 +lat_1=41.7166666666667 +lat_2=42.6833333333333 +x_0=200000 +y_0=750000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6491.
+ */
+export declare const ESRI_103070: string;
+/**
+ * ESRI:103071, NAD_1983_2011_StatePlane_Massachusetts_Island_FIPS_2002. United States (USA) - Massachusetts offshore - counties of Dukes; Nantucket. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=41 +lon_0=-70.5 +lat_1=41.2833333333333 +lat_2=41.4833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6489.
+ */
+export declare const ESRI_103071: string;
+/**
+ * ESRI:103072, NAD_1983_2011_StatePlane_Massachusetts_Mnld_FIPS_2001_FtUS. United States (USA) - Massachusetts onshore - counties of Barnstable; Berkshire; Bristol; Essex; Franklin; Hampden; Hampshire; Middlesex; Norfolk; Plymouth; Suffolk; Worcester. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=41 +lon_0=-71.5 +lat_1=41.7166666666667 +lat_2=42.6833333333333 +x_0=200000 +y_0=750000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6492.
+ */
+export declare const ESRI_103072: string;
+/**
+ * ESRI:103073, NAD_1983_2011_StatePlane_Massachusetts_Isl_FIPS_2002_FtUS. United States (USA) - Massachusetts offshore - counties of Dukes; Nantucket. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=41 +lon_0=-70.5 +lat_1=41.2833333333333 +lat_2=41.4833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6490.
+ */
+export declare const ESRI_103073: string;
+/**
+ * ESRI:103074, NAD_1983_2011_StatePlane_Michigan_North_FIPS_2111. United States (USA) - Michigan north of approximately 45°45'N - counties of Alger; Baraga; Chippewa; Delta; Dickinson; Gogebic; Houghton; Iron; Keweenaw; Luce; Mackinac; Marquette; Menominee; Ontonagon; Schoolcraft. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=44.7833333333333 +lon_0=-87 +lat_1=45.4833333333333 +lat_2=47.0833333333333 +x_0=8000000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6495.
+ */
+export declare const ESRI_103074: string;
+/**
+ * ESRI:103075, NAD_1983_2011_StatePlane_Michigan_Central_FIPS_2112. United States (USA) - Michigan - counties of Alcona; Alpena; Antrim; Arenac; Benzie; Charlevoix; Cheboygan; Clare; Crawford; Emmet; Gladwin; Grand Traverse; Iosco; Kalkaska; Lake; Leelanau; Manistee; Mason; Missaukee; Montmorency; Ogemaw; Osceola; Oscoda; Otsego; Presque Isle; Roscommon; Wexford. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=43.3166666666667 +lon_0=-84.3666666666667 +lat_1=44.1833333333333 +lat_2=45.7 +x_0=6000000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6493.
+ */
+export declare const ESRI_103075: string;
+/**
+ * ESRI:103076, NAD_1983_2011_StatePlane_Michigan_South_FIPS_2113. United States (USA) - Michigan - counties of Allegan; Barry; Bay; Berrien; Branch; Calhoun; Cass; Clinton; Eaton; Genesee; Gratiot; Hillsdale; Huron; Ingham; Ionia; Isabella; Jackson; Kalamazoo; Kent; Lapeer; Lenawee; Livingston; Macomb; Mecosta; Midland; Monroe; Montcalm; Muskegon; Newaygo; Oakland; Oceana; Ottawa; Saginaw; Sanilac; Shiawassee; St Clair; St Joseph; Tuscola; Van Buren; Washtenaw; Wayne. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=41.5 +lon_0=-84.3666666666667 +lat_1=42.1 +lat_2=43.6666666666667 +x_0=4000000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6498.
+ */
+export declare const ESRI_103076: string;
+/**
+ * ESRI:103077, NAD_1983_2011_StatePlane_Michigan_North_FIPS_2111_Ft_Intl. United States (USA) - Michigan north of approximately 45°45'N - counties of Alger; Baraga; Chippewa; Delta; Dickinson; Gogebic; Houghton; Iron; Keweenaw; Luce; Mackinac; Marquette; Menominee; Ontonagon; Schoolcraft. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=44.7833333333333 +lon_0=-87 +lat_1=45.4833333333333 +lat_2=47.0833333333333 +x_0=8000000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6496.
+ */
+export declare const ESRI_103077: string;
+/**
+ * ESRI:103078, NAD_1983_2011_StatePlane_Michigan_Central_FIPS_2112_Ft_Intl. United States (USA) - Michigan - counties of Alcona; Alpena; Antrim; Arenac; Benzie; Charlevoix; Cheboygan; Clare; Crawford; Emmet; Gladwin; Grand Traverse; Iosco; Kalkaska; Lake; Leelanau; Manistee; Mason; Missaukee; Montmorency; Ogemaw; Osceola; Oscoda; Otsego; Presque Isle; Roscommon; Wexford. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=43.3166666666667 +lon_0=-84.3666666666667 +lat_1=44.1833333333333 +lat_2=45.7 +x_0=6000000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6494.
+ */
+export declare const ESRI_103078: string;
+/**
+ * ESRI:103079, NAD_1983_2011_StatePlane_Michigan_South_FIPS_2113_Ft_Intl. United States (USA) - Michigan - counties of Allegan; Barry; Bay; Berrien; Branch; Calhoun; Cass; Clinton; Eaton; Genesee; Gratiot; Hillsdale; Huron; Ingham; Ionia; Isabella; Jackson; Kalamazoo; Kent; Lapeer; Lenawee; Livingston; Macomb; Mecosta; Midland; Monroe; Montcalm; Muskegon; Newaygo; Oakland; Oceana; Ottawa; Saginaw; Sanilac; Shiawassee; St Clair; St Joseph; Tuscola; Van Buren; Washtenaw; Wayne. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=41.5 +lon_0=-84.3666666666667 +lat_1=42.1 +lat_2=43.6666666666667 +x_0=4000000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6499.
+ */
+export declare const ESRI_103079: string;
+/**
+ * ESRI:103080, NAD_1983_2011_StatePlane_Minnesota_North_FIPS_2201. United States (USA) - Minnesota - counties of Beltrami; Clearwater; Cook; Itasca; Kittson; Koochiching; Lake; Lake of the Woods; Mahnomen; Marshall; Norman; Pennington; Polk; Red Lake; Roseau; St Louis. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=46.5 +lon_0=-93.1 +lat_1=47.0333333333333 +lat_2=48.6333333333333 +x_0=800000 +y_0=100000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6502.
+ */
+export declare const ESRI_103080: string;
+/**
+ * ESRI:103081, NAD_1983_2011_StatePlane_Minnesota_Central_FIPS_2202. United States (USA) - Minnesota - counties of Aitkin; Becker; Benton; Carlton; Cass; Chisago; Clay; Crow Wing; Douglas; Grant; Hubbard; Isanti; Kanabec; Mille Lacs; Morrison; Otter Tail; Pine; Pope; Stearns; Stevens; Todd; Traverse; Wadena; Wilkin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=45 +lon_0=-94.25 +lat_1=45.6166666666667 +lat_2=47.05 +x_0=800000 +y_0=100000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6500.
+ */
+export declare const ESRI_103081: string;
+/**
+ * ESRI:103082, NAD_1983_2011_StatePlane_Minnesota_South_FIPS_2203. United States (USA) - Minnesota - counties of Anoka; Big Stone; Blue Earth; Brown; Carver; Chippewa; Cottonwood; Dakota; Dodge; Faribault; Fillmore; Freeborn; Goodhue; Hennepin; Houston; Jackson; Kandiyohi; Lac Qui Parle; Le Sueur; Lincoln; Lyon; Martin; McLeod; Meeker; Mower; Murray; Nicollet; Nobles; Olmsted; Pipestone; Ramsey; Redwood; Renville; Rice; Rock; Scott; Sherburne; Sibley; Steele; Swift; Wabasha; Waseca; Washington; Watonwan; Winona; Wright; Yellow Medicine. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=43 +lon_0=-94 +lat_1=43.7833333333333 +lat_2=45.2166666666667 +x_0=800000 +y_0=100000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6504.
+ */
+export declare const ESRI_103082: string;
+/**
+ * ESRI:103083, NAD_1983_2011_StatePlane_Minnesota_North_FIPS_2201_Ft_US. United States (USA) - Minnesota - counties of Beltrami; Clearwater; Cook; Itasca; Kittson; Koochiching; Lake; Lake of the Woods; Mahnomen; Marshall; Norman; Pennington; Polk; Red Lake; Roseau; St Louis. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=46.5 +lon_0=-93.1 +lat_1=47.0333333333333 +lat_2=48.6333333333333 +x_0=800000 +y_0=100000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6503.
+ */
+export declare const ESRI_103083: string;
+/**
+ * ESRI:103084, NAD_1983_2011_StatePlane_Minnesota_Central_FIPS_2202_Ft_US. United States (USA) - Minnesota - counties of Aitkin; Becker; Benton; Carlton; Cass; Chisago; Clay; Crow Wing; Douglas; Grant; Hubbard; Isanti; Kanabec; Mille Lacs; Morrison; Otter Tail; Pine; Pope; Stearns; Stevens; Todd; Traverse; Wadena; Wilkin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=45 +lon_0=-94.25 +lat_1=45.6166666666667 +lat_2=47.05 +x_0=800000 +y_0=100000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6501.
+ */
+export declare const ESRI_103084: string;
+/**
+ * ESRI:103085, NAD_1983_2011_StatePlane_Minnesota_South_FIPS_2203_Ft_US. United States (USA) - Minnesota - counties of Anoka; Big Stone; Blue Earth; Brown; Carver; Chippewa; Cottonwood; Dakota; Dodge; Faribault; Fillmore; Freeborn; Goodhue; Hennepin; Houston; Jackson; Kandiyohi; Lac Qui Parle; Le Sueur; Lincoln; Lyon; Martin; McLeod; Meeker; Mower; Murray; Nicollet; Nobles; Olmsted; Pipestone; Ramsey; Redwood; Renville; Rice; Rock; Scott; Sherburne; Sibley; Steele; Swift; Wabasha; Waseca; Washington; Watonwan; Winona; Wright; Yellow Medicine. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=43 +lon_0=-94 +lat_1=43.7833333333333 +lat_2=45.2166666666667 +x_0=800000 +y_0=100000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6505.
+ */
+export declare const ESRI_103085: string;
+/**
+ * ESRI:103086, NAD_1983_2011_StatePlane_Mississippi_East_FIPS_2301. United States (USA) - Mississippi - counties of Alcorn; Attala; Benton; Calhoun; Chickasaw; Choctaw; Clarke; Clay; Covington; Forrest; George; Greene; Hancock; Harrison; Itawamba; Jackson; Jasper; Jones; Kemper; Lafayette; Lamar; Lauderdale; Leake; Lee; Lowndes; Marshall; Monroe; Neshoba; Newton; Noxubee; Oktibbeha; Pearl River; Perry; Pontotoc; Prentiss; Scott; Smith; Stone; Tippah; Tishomingo; Union; Wayne; Webster; Winston. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=29.5 +lon_0=-88.8333333333333 +k=0.99995 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6506.
+ */
+export declare const ESRI_103086: string;
+/**
+ * ESRI:103087, NAD_1983_2011_StatePlane_Mississippi_West_FIPS_2302. United States (USA) - Mississippi - counties of Adams; Amite; Bolivar; Carroll; Claiborne; Coahoma; Copiah; De Soto; Franklin; Grenada; Hinds; Holmes; Humphreys; Issaquena; Jefferson; Jefferson Davis; Lawrence; Leflore; Lincoln; Madison; Marion; Montgomery; Panola; Pike; Quitman; Rankin; Sharkey; Simpson; Sunflower; Tallahatchie; Tate; Tunica; Walthall; Warren; Washington; Wilkinson; Yalobusha; Yazoo. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=29.5 +lon_0=-90.3333333333333 +k=0.99995 +x_0=700000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6509.
+ */
+export declare const ESRI_103087: string;
+/**
+ * ESRI:103088, NAD_1983_2011_StatePlane_Mississippi_East_FIPS_2301_Ft_US. United States (USA) - Mississippi - counties of Alcorn; Attala; Benton; Calhoun; Chickasaw; Choctaw; Clarke; Clay; Covington; Forrest; George; Greene; Hancock; Harrison; Itawamba; Jackson; Jasper; Jones; Kemper; Lafayette; Lamar; Lauderdale; Leake; Lee; Lowndes; Marshall; Monroe; Neshoba; Newton; Noxubee; Oktibbeha; Pearl River; Perry; Pontotoc; Prentiss; Scott; Smith; Stone; Tippah; Tishomingo; Union; Wayne; Webster; Winston. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=29.5 +lon_0=-88.8333333333333 +k=0.99995 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6507.
+ */
+export declare const ESRI_103088: string;
+/**
+ * ESRI:103089, NAD_1983_2011_StatePlane_Mississippi_West_FIPS_2302_Ft_US. United States (USA) - Mississippi - counties of Adams; Amite; Bolivar; Carroll; Claiborne; Coahoma; Copiah; De Soto; Franklin; Grenada; Hinds; Holmes; Humphreys; Issaquena; Jefferson; Jefferson Davis; Lawrence; Leflore; Lincoln; Madison; Marion; Montgomery; Panola; Pike; Quitman; Rankin; Sharkey; Simpson; Sunflower; Tallahatchie; Tate; Tunica; Walthall; Warren; Washington; Wilkinson; Yalobusha; Yazoo. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=29.5 +lon_0=-90.3333333333333 +k=0.99995 +x_0=700000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6510.
+ */
+export declare const ESRI_103089: string;
+/**
+ * ESRI:103090, NAD_1983_2011_StatePlane_Missouri_East_FIPS_2401. United States (USA) - Missouri - counties of Bollinger; Butler; Cape Girardeau; Carter; Clark; Crawford; Dent; Dunklin; Franklin; Gasconade; Iron; Jefferson; Lewis; Lincoln; Madison; Marion; Mississippi; Montgomery; New Madrid; Oregon; Pemiscot; Perry; Pike; Ralls; Reynolds; Ripley; Scott; Shannon; St Charles; St Francois; St Louis; Ste. Genevieve; Stoddard; Warren; Washington; Wayne. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=35.8333333333333 +lon_0=-90.5 +k=0.999933333333333 +x_0=250000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6512.
+ */
+export declare const ESRI_103090: string;
+/**
+ * ESRI:103091, NAD_1983_2011_StatePlane_Missouri_Central_FIPS_2402. United States (USA) - Missouri - counties of Adair; Audrain; Benton; Boone; Callaway; Camden; Carroll; Chariton; Christian; Cole; Cooper; Dallas; Douglas; Greene; Grundy; Hickory; Howard; Howell; Knox; Laclede; Linn; Livingston; Macon; Maries; Mercer; Miller; Moniteau; Monroe; Morgan; Osage; Ozark; Pettis; Phelps; Polk; Pulaski; Putnam; Randolph; Saline; Schuyler; Scotland; Shelby; Stone; Sullivan; Taney; Texas; Webster; Wright. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=35.8333333333333 +lon_0=-92.5 +k=0.999933333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6511.
+ */
+export declare const ESRI_103091: string;
+/**
+ * ESRI:103092, NAD_1983_2011_StatePlane_Missouri_West_FIPS_2403. United States (USA) - Missouri - counties of Andrew; Atchison; Barry; Barton; Bates; Buchanan; Caldwell; Cass; Cedar; Clay; Clinton; Dade; Daviess; De Kalb; Gentry; Harrison; Henry; Holt; Jackson; Jasper; Johnson; Lafayette; Lawrence; McDonald; Newton; Nodaway; Platte; Ray; St Clair; Vernon; Worth. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=36.1666666666667 +lon_0=-94.5 +k=0.999941176470588 +x_0=850000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6513.
+ */
+export declare const ESRI_103092: string;
+/**
+ * ESRI:103093, NAD_1983_2011_StatePlane_Montana_FIPS_2500. United States (USA) - Montana. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=44.25 +lon_0=-109.5 +lat_1=45 +lat_2=49 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6514.
+ */
+export declare const ESRI_103093: string;
+/**
+ * ESRI:103094, NAD_1983_2011_StatePlane_Montana_FIPS_2500_Ft_Intl. United States (USA) - Montana. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=44.25 +lon_0=-109.5 +lat_1=45 +lat_2=49 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6515.
+ */
+export declare const ESRI_103094: string;
+/**
+ * ESRI:103095, NAD_1983_2011_StatePlane_Nebraska_FIPS_2600. United States (USA) - Nebraska. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=39.8333333333333 +lon_0=-100 +lat_1=40 +lat_2=43 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6516.
+ */
+export declare const ESRI_103095: string;
+/**
+ * ESRI:103096, NAD_1983_2011_StatePlane_Nebraska_FIPS_2600_Ft_US. United States (USA) - Nebraska. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=39.8333333333333 +lon_0=-100 +lat_1=40 +lat_2=43 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6880.
+ */
+export declare const ESRI_103096: string;
+/**
+ * ESRI:103097, NAD_1983_2011_StatePlane_Nevada_East_FIPS_2701. United States (USA) - Nevada - counties of Clark; Elko; Eureka; Lincoln; White Pine. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=34.75 +lon_0=-115.583333333333 +k=0.9999 +x_0=200000 +y_0=8000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6520.
+ */
+export declare const ESRI_103097: string;
+/**
+ * ESRI:103098, NAD_1983_2011_StatePlane_Nevada_Central_FIPS_2702. United States (USA) - Nevada - counties of Lander; Nye. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=34.75 +lon_0=-116.666666666667 +k=0.9999 +x_0=500000 +y_0=6000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6518.
+ */
+export declare const ESRI_103098: string;
+/**
+ * ESRI:103099, NAD_1983_2011_StatePlane_Nevada_West_FIPS_2703. United States (USA) - Nevada - counties of Churchill; Douglas; Esmeralda; Humboldt; Lyon; Mineral; Pershing; Storey; Washoe. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=34.75 +lon_0=-118.583333333333 +k=0.9999 +x_0=800000 +y_0=4000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6522.
+ */
+export declare const ESRI_103099: string;
+/**
+ * ESRI:103100, NAD_1983_2011_StatePlane_Nevada_East_FIPS_2701_Ft_US. United States (USA) - Nevada - counties of Clark; Elko; Eureka; Lincoln; White Pine. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=34.75 +lon_0=-115.583333333333 +k=0.9999 +x_0=200000 +y_0=8000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6521.
+ */
+export declare const ESRI_103100: string;
+/**
+ * ESRI:103101, NAD_1983_2011_StatePlane_Nevada_Central_FIPS_2702_Ft_US. United States (USA) - Nevada - counties of Lander; Nye. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=34.75 +lon_0=-116.666666666667 +k=0.9999 +x_0=500000 +y_0=6000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6519.
+ */
+export declare const ESRI_103101: string;
+/**
+ * ESRI:103102, NAD_1983_2011_StatePlane_Nevada_West_FIPS_2703_Ft_US. United States (USA) - Nevada - counties of Churchill; Douglas; Esmeralda; Humboldt; Lyon; Mineral; Pershing; Storey; Washoe. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=34.75 +lon_0=-118.583333333333 +k=0.9999 +x_0=800000 +y_0=4000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6523.
+ */
+export declare const ESRI_103102: string;
+/**
+ * ESRI:103103, NAD_1983_2011_StatePlane_New_Hampshire_FIPS_2800. United States (USA) - New Hampshire. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=42.5 +lon_0=-71.6666666666667 +k=0.999966666666667 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6524.
+ */
+export declare const ESRI_103103: string;
+/**
+ * ESRI:103104, NAD_1983_2011_StatePlane_New_Hampshire_FIPS_2800_Ft_US. United States (USA) - New Hampshire. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=42.5 +lon_0=-71.6666666666667 +k=0.999966666666667 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6525.
+ */
+export declare const ESRI_103104: string;
+/**
+ * ESRI:103105, NAD_1983_2011_StatePlane_New_Jersey_FIPS_2900. United States (USA) - New Jersey. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6526.
+ */
+export declare const ESRI_103105: string;
+/**
+ * ESRI:103106, NAD_1983_2011_StatePlane_New_Jersey_FIPS_2900_Ft_US. United States (USA) - New Jersey. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6527.
+ */
+export declare const ESRI_103106: string;
+/**
+ * ESRI:103107, NAD_1983_2011_StatePlane_New_Mexico_East_FIPS_3001. United States (USA) - New Mexico - counties of Chaves; Colfax; Curry; De Baca; Eddy; Guadalupe; Harding; Lea; Mora; Quay; Roosevelt; San Miguel; Union. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=31 +lon_0=-104.333333333333 +k=0.999909090909091 +x_0=165000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6530.
+ */
+export declare const ESRI_103107: string;
+/**
+ * ESRI:103108, NAD_1983_2011_StatePlane_New_Mexico_Central_FIPS_3002. United States (USA) - New Mexico - counties of Bernalillo; Dona Ana; Lincoln; Los Alamos; Otero; Rio Arriba; Sandoval; Santa Fe; Socorro; Taos; Torrance; Valencia. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=31 +lon_0=-106.25 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6528.
+ */
+export declare const ESRI_103108: string;
+/**
+ * ESRI:103109, NAD_1983_2011_StatePlane_New_Mexico_West_FIPS_3003. United States (USA) - New Mexico - counties of Catron; Cibola; Grant; Hidalgo; Luna; McKinley; San Juan; Sierra. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=31 +lon_0=-107.833333333333 +k=0.999916666666667 +x_0=830000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6532.
+ */
+export declare const ESRI_103109: string;
+/**
+ * ESRI:103110, NAD_1983_2011_StatePlane_New_Mexico_East_FIPS_3001_Ft_US. United States (USA) - New Mexico - counties of Chaves; Colfax; Curry; De Baca; Eddy; Guadalupe; Harding; Lea; Mora; Quay; Roosevelt; San Miguel; Union. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=31 +lon_0=-104.333333333333 +k=0.999909090909091 +x_0=165000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6531.
+ */
+export declare const ESRI_103110: string;
+/**
+ * ESRI:103111, NAD_1983_2011_StatePlane_New_Mexico_Central_FIPS_3002_Ft_US. United States (USA) - New Mexico - counties of Bernalillo; Dona Ana; Lincoln; Los Alamos; Otero; Rio Arriba; Sandoval; Santa Fe; Socorro; Taos; Torrance; Valencia. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=31 +lon_0=-106.25 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6529.
+ */
+export declare const ESRI_103111: string;
+/**
+ * ESRI:103112, NAD_1983_2011_StatePlane_New_Mexico_West_FIPS_3003_Ft_US. United States (USA) - New Mexico - counties of Catron; Cibola; Grant; Hidalgo; Luna; McKinley; San Juan; Sierra. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=31 +lon_0=-107.833333333333 +k=0.999916666666667 +x_0=830000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6533.
+ */
+export declare const ESRI_103112: string;
+/**
+ * ESRI:103113, NAD_1983_2011_StatePlane_New_York_East_FIPS_3101. United States (USA) - New York mainland - counties of Albany; Clinton; Columbia; Delaware; Dutchess; Essex; Franklin; Fulton; Greene; Hamilton; Herkimer; Montgomery; Orange; Otsego; Putnam; Rensselaer; Rockland; Saratoga; Schenectady; Schoharie; St Lawrence; Sullivan; Ulster; Warren; Washington; Westchester. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6536.
+ */
+export declare const ESRI_103113: string;
+/**
+ * ESRI:103114, NAD_1983_2011_StatePlane_New_York_Central_FIPS_3102. United States (USA) - New York - counties of Broome; Cayuga; Chemung; Chenango; Cortland; Jefferson; Lewis; Madison; Oneida; Onondaga; Ontario; Oswego; Schuyler; Seneca; Steuben; Tioga; Tompkins; Wayne; Yates. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=40 +lon_0=-76.5833333333333 +k=0.9999375 +x_0=250000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6534.
+ */
+export declare const ESRI_103114: string;
+/**
+ * ESRI:103115, NAD_1983_2011_StatePlane_New_York_West_FIPS_3103. United States (USA) - New York - counties of Allegany; Cattaraugus; Chautauqua; Erie; Genesee; Livingston; Monroe; Niagara; Orleans; Wyoming. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6540.
+ */
+export declare const ESRI_103115: string;
+/**
+ * ESRI:103116, NAD_1983_2011_StatePlane_New_York_Long_Island_FIPS_3104. United States (USA) - New York - counties of Bronx; Kings; Nassau; New York; Queens; Richmond; Suffolk. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=40.1666666666667 +lon_0=-74 +lat_1=40.6666666666667 +lat_2=41.0333333333333 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6538.
+ */
+export declare const ESRI_103116: string;
+/**
+ * ESRI:103117, NAD_1983_2011_StatePlane_New_York_East_FIPS_3101_Ft_US. United States (USA) - New York mainland - counties of Albany; Clinton; Columbia; Delaware; Dutchess; Essex; Franklin; Fulton; Greene; Hamilton; Herkimer; Montgomery; Orange; Otsego; Putnam; Rensselaer; Rockland; Saratoga; Schenectady; Schoharie; St Lawrence; Sullivan; Ulster; Warren; Washington; Westchester. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6537.
+ */
+export declare const ESRI_103117: string;
+/**
+ * ESRI:103118, NAD_1983_2011_StatePlane_New_York_Central_FIPS_3102_Ft_US. United States (USA) - New York - counties of Broome; Cayuga; Chemung; Chenango; Cortland; Jefferson; Lewis; Madison; Oneida; Onondaga; Ontario; Oswego; Schuyler; Seneca; Steuben; Tioga; Tompkins; Wayne; Yates. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=40 +lon_0=-76.5833333333333 +k=0.9999375 +x_0=250000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6535.
+ */
+export declare const ESRI_103118: string;
+/**
+ * ESRI:103119, NAD_1983_2011_StatePlane_New_York_West_FIPS_3103_Ft_US. United States (USA) - New York - counties of Allegany; Cattaraugus; Chautauqua; Erie; Genesee; Livingston; Monroe; Niagara; Orleans; Wyoming. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6541.
+ */
+export declare const ESRI_103119: string;
+/**
+ * ESRI:103120, NAD_1983_2011_StatePlane_New_York_Long_Isl_FIPS_3104_Ft_US. United States (USA) - New York - counties of Bronx; Kings; Nassau; New York; Queens; Richmond; Suffolk. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=40.1666666666667 +lon_0=-74 +lat_1=40.6666666666667 +lat_2=41.0333333333333 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6539.
+ */
+export declare const ESRI_103120: string;
+/**
+ * ESRI:103121, NAD_1983_2011_StatePlane_North_Carolina_FIPS_3200. United States (USA) - North Carolina. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=33.75 +lon_0=-79 +lat_1=34.3333333333333 +lat_2=36.1666666666667 +x_0=609601.219202438 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6542.
+ */
+export declare const ESRI_103121: string;
+/**
+ * ESRI:103122, NAD_1983_2011_StatePlane_North_Carolina_FIPS_3200_Ft_US. United States (USA) - North Carolina. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=33.75 +lon_0=-79 +lat_1=34.3333333333333 +lat_2=36.1666666666667 +x_0=609601.219202438 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6543.
+ */
+export declare const ESRI_103122: string;
+/**
+ * ESRI:103123, NAD_1983_2011_StatePlane_North_Dakota_North_FIPS_3301. United States (USA) - North Dakota - counties of Benson; Bottineau; Burke; Cavalier; Divide; Eddy; Foster; Grand Forks; Griggs; McHenry; McKenzie; McLean; Mountrial; Nelson; Pembina; Pierce; Ramsey; Renville; Rolette; Sheridan; Steele; Towner; Traill; Walsh; Ward; Wells; Williams. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=47 +lon_0=-100.5 +lat_1=47.4333333333333 +lat_2=48.7333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6544.
+ */
+export declare const ESRI_103123: string;
+/**
+ * ESRI:103124, NAD_1983_2011_StatePlane_North_Dakota_South_FIPS_3302. United States (USA) - North Dakota - counties of Adams; Barnes; Billings; Bowman; Burleigh; Cass; Dickey; Dunn; Emmons; Golden Valley; Grant; Hettinger; Kidder; La Moure; Logan; McIntosh; Mercer; Morton; Oliver; Ransom; Richland; Sargent; Sioux; Slope; Stark; Stutsman. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=45.6666666666667 +lon_0=-100.5 +lat_1=46.1833333333333 +lat_2=47.4833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6546.
+ */
+export declare const ESRI_103124: string;
+/**
+ * ESRI:103125, NAD_1983_2011_StatePlane_North_Dakota_North_FIPS_3301_FtI. United States (USA) - North Dakota - counties of Benson; Bottineau; Burke; Cavalier; Divide; Eddy; Foster; Grand Forks; Griggs; McHenry; McKenzie; McLean; Mountrial; Nelson; Pembina; Pierce; Ramsey; Renville; Rolette; Sheridan; Steele; Towner; Traill; Walsh; Ward; Wells; Williams. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=47 +lon_0=-100.5 +lat_1=47.4333333333333 +lat_2=48.7333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6545.
+ */
+export declare const ESRI_103125: string;
+/**
+ * ESRI:103126, NAD_1983_2011_StatePlane_North_Dakota_South_FIPS_3302_FtI. United States (USA) - North Dakota - counties of Adams; Barnes; Billings; Bowman; Burleigh; Cass; Dickey; Dunn; Emmons; Golden Valley; Grant; Hettinger; Kidder; La Moure; Logan; McIntosh; Mercer; Morton; Oliver; Ransom; Richland; Sargent; Sioux; Slope; Stark; Stutsman. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=45.6666666666667 +lon_0=-100.5 +lat_1=46.1833333333333 +lat_2=47.4833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6547.
+ */
+export declare const ESRI_103126: string;
+/**
+ * ESRI:103127, NAD_1983_2011_StatePlane_Ohio_North_FIPS_3401. United States (USA) - Ohio - counties of Allen;Ashland; Ashtabula; Auglaize; Carroll; Columbiana; Coshocton; Crawford; Cuyahoga; Defiance; Delaware; Erie; Fulton; Geauga; Hancock; Hardin; Harrison; Henry; Holmes; Huron; Jefferson; Knox; Lake; Logan; Lorain; Lucas; Mahoning; Marion; Medina; Mercer; Morrow; Ottawa; Paulding; Portage; Putnam; Richland; Sandusky; Seneca; Shelby; Stark; Summit; Trumbull; Tuscarawas; Union; Van Wert; Wayne; Williams; Wood; Wyandot. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=39.6666666666667 +lon_0=-82.5 +lat_1=40.4333333333333 +lat_2=41.7 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6548.
+ */
+export declare const ESRI_103127: string;
+/**
+ * ESRI:103128, NAD_1983_2011_StatePlane_Ohio_South_FIPS_3402. United States (USA) - Ohio - counties of Adams; Athens; Belmont; Brown; Butler; Champaign; Clark; Clermont; Clinton; Darke; Fairfield; Fayette; Franklin; Gallia; Greene; Guernsey; Hamilton; Highland; Hocking; Jackson; Lawrence; Licking; Madison; Meigs; Miami; Monroe; Montgomery; Morgan; Muskingum; Noble; Perry; Pickaway; Pike; Preble; Ross; Scioto; Vinton; Warren; Washington. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=38 +lon_0=-82.5 +lat_1=38.7333333333333 +lat_2=40.0333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6550.
+ */
+export declare const ESRI_103128: string;
+/**
+ * ESRI:103129, NAD_1983_2011_StatePlane_Ohio_North_FIPS_3401_Ft_US. United States (USA) - Ohio - counties of Allen;Ashland; Ashtabula; Auglaize; Carroll; Columbiana; Coshocton; Crawford; Cuyahoga; Defiance; Delaware; Erie; Fulton; Geauga; Hancock; Hardin; Harrison; Henry; Holmes; Huron; Jefferson; Knox; Lake; Logan; Lorain; Lucas; Mahoning; Marion; Medina; Mercer; Morrow; Ottawa; Paulding; Portage; Putnam; Richland; Sandusky; Seneca; Shelby; Stark; Summit; Trumbull; Tuscarawas; Union; Van Wert; Wayne; Williams; Wood; Wyandot. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=39.6666666666667 +lon_0=-82.5 +lat_1=40.4333333333333 +lat_2=41.7 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6549.
+ */
+export declare const ESRI_103129: string;
+/**
+ * ESRI:103130, NAD_1983_2011_StatePlane_Ohio_South_FIPS_3402_Ft_US. United States (USA) - Ohio - counties of Adams; Athens; Belmont; Brown; Butler; Champaign; Clark; Clermont; Clinton; Darke; Fairfield; Fayette; Franklin; Gallia; Greene; Guernsey; Hamilton; Highland; Hocking; Jackson; Lawrence; Licking; Madison; Meigs; Miami; Monroe; Montgomery; Morgan; Muskingum; Noble; Perry; Pickaway; Pike; Preble; Ross; Scioto; Vinton; Warren; Washington. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=38 +lon_0=-82.5 +lat_1=38.7333333333333 +lat_2=40.0333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6551.
+ */
+export declare const ESRI_103130: string;
+/**
+ * ESRI:103131, NAD_1983_2011_StatePlane_Oklahoma_North_FIPS_3501. United States (USA) - Oklahoma - counties of Adair; Alfalfa; Beaver; Blaine; Canadian; Cherokee; Cimarron; Craig; Creek; Custer; Delaware; Dewey; Ellis; Garfield; Grant; Harper; Kay; Kingfisher; Lincoln; Logan; Major; Mayes; Muskogee; Noble; Nowata; Okfuskee; Oklahoma; Okmulgee; Osage; Ottawa; Pawnee; Payne; Roger Mills; Rogers; Sequoyah; Texas; Tulsa; Wagoner; Washington; Woods; Woodward. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=35 +lon_0=-98 +lat_1=35.5666666666667 +lat_2=36.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6552.
+ */
+export declare const ESRI_103131: string;
+/**
+ * ESRI:103132, NAD_1983_2011_StatePlane_Oklahoma_South_FIPS_3502. United States (USA) - Oklahoma - counties of Atoka; Beckham; Bryan; Caddo; Carter; Choctaw; Cleveland; Coal; Comanche; Cotton; Garvin; Grady; Greer; Harmon; Haskell; Hughes; Jackson; Jefferson; Johnston; Kiowa; Latimer; Le Flore; Love; Marshall; McClain; McCurtain; McIntosh; Murray; Pittsburg; Pontotoc; Pottawatomie; Pushmataha; Seminole; Stephens; Tillman; Washita. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=33.3333333333333 +lon_0=-98 +lat_1=33.9333333333333 +lat_2=35.2333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6554.
+ */
+export declare const ESRI_103132: string;
+/**
+ * ESRI:103133, NAD_1983_2011_StatePlane_Oklahoma_North_FIPS_3501_Ft_US. United States (USA) - Oklahoma - counties of Adair; Alfalfa; Beaver; Blaine; Canadian; Cherokee; Cimarron; Craig; Creek; Custer; Delaware; Dewey; Ellis; Garfield; Grant; Harper; Kay; Kingfisher; Lincoln; Logan; Major; Mayes; Muskogee; Noble; Nowata; Okfuskee; Oklahoma; Okmulgee; Osage; Ottawa; Pawnee; Payne; Roger Mills; Rogers; Sequoyah; Texas; Tulsa; Wagoner; Washington; Woods; Woodward. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=35 +lon_0=-98 +lat_1=35.5666666666667 +lat_2=36.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6553.
+ */
+export declare const ESRI_103133: string;
+/**
+ * ESRI:103134, NAD_1983_2011_StatePlane_Oklahoma_South_FIPS_3502_Ft_US. United States (USA) - Oklahoma - counties of Atoka; Beckham; Bryan; Caddo; Carter; Choctaw; Cleveland; Coal; Comanche; Cotton; Garvin; Grady; Greer; Harmon; Haskell; Hughes; Jackson; Jefferson; Johnston; Kiowa; Latimer; Le Flore; Love; Marshall; McClain; McCurtain; McIntosh; Murray; Pittsburg; Pontotoc; Pottawatomie; Pushmataha; Seminole; Stephens; Tillman; Washita. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=33.3333333333333 +lon_0=-98 +lat_1=33.9333333333333 +lat_2=35.2333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6555.
+ */
+export declare const ESRI_103134: string;
+/**
+ * ESRI:103135, NAD_1983_2011_StatePlane_Oregon_North_FIPS_3601. United States (USA) - Oregon - counties of Baker; Benton; Clackamas; Clatsop; Columbia; Gilliam; Grant; Hood River; Jefferson; Lincoln; Linn; Marion; Morrow; Multnomah; Polk; Sherman; Tillamook; Umatilla; Union; Wallowa; Wasco; Washington; Wheeler; Yamhill. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=43.6666666666667 +lon_0=-120.5 +lat_1=44.3333333333333 +lat_2=46 +x_0=2500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6558.
+ */
+export declare const ESRI_103135: string;
+/**
+ * ESRI:103136, NAD_1983_2011_StatePlane_Oregon_South_FIPS_3602. United States (USA) - Oregon - counties of Coos; Crook; Curry; Deschutes; Douglas; Harney; Jackson; Josephine; Klamath; Lake; Lane; Malheur. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=41.6666666666667 +lon_0=-120.5 +lat_1=42.3333333333333 +lat_2=44 +x_0=1500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6560.
+ */
+export declare const ESRI_103136: string;
+/**
+ * ESRI:103137, NAD_1983_2011_StatePlane_Oregon_North_FIPS_3601_Ft_Intl. United States (USA) - Oregon - counties of Baker; Benton; Clackamas; Clatsop; Columbia; Gilliam; Grant; Hood River; Jefferson; Lincoln; Linn; Marion; Morrow; Multnomah; Polk; Sherman; Tillamook; Umatilla; Union; Wallowa; Wasco; Washington; Wheeler; Yamhill. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=43.6666666666667 +lon_0=-120.5 +lat_1=44.3333333333333 +lat_2=46 +x_0=2500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6559.
+ */
+export declare const ESRI_103137: string;
+/**
+ * ESRI:103138, NAD_1983_2011_StatePlane_Oregon_South_FIPS_3602_Ft_Intl. United States (USA) - Oregon - counties of Coos; Crook; Curry; Deschutes; Douglas; Harney; Jackson; Josephine; Klamath; Lake; Lane; Malheur. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=41.6666666666667 +lon_0=-120.5 +lat_1=42.3333333333333 +lat_2=44 +x_0=1500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6561.
+ */
+export declare const ESRI_103138: string;
+/**
+ * ESRI:103139, NAD_1983_2011_StatePlane_Pennsylvania_North_FIPS_3701. United States (USA) - Pennsylvania - counties of Bradford; Cameron; Carbon; Centre; Clarion; Clearfield; Clinton; Columbia; Crawford; Elk; Erie; Forest; Jefferson; Lackawanna; Luzerne; Lycoming; McKean; Mercer; Monroe; Montour; Northumberland; Pike; Potter; Sullivan; Susquehanna; Tioga; Union; Venango; Warren; Wayne; Wyoming. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=40.1666666666667 +lon_0=-77.75 +lat_1=40.8833333333333 +lat_2=41.95 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6562.
+ */
+export declare const ESRI_103139: string;
+/**
+ * ESRI:103140, NAD_1983_2011_StatePlane_Pennsylvania_North_FIPS_3701_Ft_US. United States (USA) - Pennsylvania - counties of Bradford; Cameron; Carbon; Centre; Clarion; Clearfield; Clinton; Columbia; Crawford; Elk; Erie; Forest; Jefferson; Lackawanna; Luzerne; Lycoming; McKean; Mercer; Monroe; Montour; Northumberland; Pike; Potter; Sullivan; Susquehanna; Tioga; Union; Venango; Warren; Wayne; Wyoming. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=40.1666666666667 +lon_0=-77.75 +lat_1=40.8833333333333 +lat_2=41.95 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6563.
+ */
+export declare const ESRI_103140: string;
+/**
+ * ESRI:103141, NAD_1983_2011_StatePlane_Pennsylvania_South_FIPS_3702. United States (USA) - Pennsylvania - counties of Adams; Allegheny; Armstrong; Beaver; Bedford; Berks; Blair; Bucks; Butler; Cambria; Chester; Cumberland; Dauphin; Delaware; Fayette; Franklin; Fulton; Greene; Huntingdon; Indiana; Juniata; Lancaster; Lawrence; Lebanon; Lehigh; Mifflin; Montgomery; Northampton; Perry; Philadelphia; Schuylkill; Snyder; Somerset; Washington; Westmoreland; York. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=39.3333333333333 +lon_0=-77.75 +lat_1=39.9333333333333 +lat_2=40.9666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6564.
+ */
+export declare const ESRI_103141: string;
+/**
+ * ESRI:103142, NAD_1983_2011_StatePlane_Pennsylvania_South_FIPS_3702_Ft_US. United States (USA) - Pennsylvania - counties of Adams; Allegheny; Armstrong; Beaver; Bedford; Berks; Blair; Bucks; Butler; Cambria; Chester; Cumberland; Dauphin; Delaware; Fayette; Franklin; Fulton; Greene; Huntingdon; Indiana; Juniata; Lancaster; Lawrence; Lebanon; Lehigh; Mifflin; Montgomery; Northampton; Perry; Philadelphia; Schuylkill; Snyder; Somerset; Washington; Westmoreland; York. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=39.3333333333333 +lon_0=-77.75 +lat_1=39.9333333333333 +lat_2=40.9666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6565.
+ */
+export declare const ESRI_103142: string;
+/**
+ * ESRI:103143, NAD_1983_2011_StatePlane_Rhode_Island_FIPS_3800. United States (USA) - Rhode Island. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=41.0833333333333 +lon_0=-71.5 +k=0.99999375 +x_0=100000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6567.
+ */
+export declare const ESRI_103143: string;
+/**
+ * ESRI:103144, NAD_1983_2011_StatePlane_Rhode_Island_FIPS_3800_Ft_US. United States (USA) - Rhode Island. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=41.0833333333333 +lon_0=-71.5 +k=0.99999375 +x_0=100000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6568.
+ */
+export declare const ESRI_103144: string;
+/**
+ * ESRI:103145, NAD_1983_2011_StatePlane_South_Carolina_FIPS_3900. United States (USA) - South Carolina. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=31.8333333333333 +lon_0=-81 +lat_1=32.5 +lat_2=34.8333333333333 +x_0=609600 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6569.
+ */
+export declare const ESRI_103145: string;
+/**
+ * ESRI:103146, NAD_1983_2011_StatePlane_South_Carolina_FIPS_3900_Ft_Intl. United States (USA) - South Carolina. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=31.8333333333333 +lon_0=-81 +lat_1=32.5 +lat_2=34.8333333333333 +x_0=609600 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs`
+ *
+ * @deprecated Use EPSG:6570.
+ */
+export declare const ESRI_103146: string;
+/**
+ * ESRI:103147, NAD_1983_2011_StatePlane_South_Dakota_North_FIPS_4001. United States (USA) - South Dakota - counties of Beadle; Brookings; Brown; Butte; Campbell; Clark; Codington; Corson; Day; Deuel; Dewey; Edmunds; Faulk; Grant; Hamlin; Hand; Harding; Hyde; Kingsbury; Lawrence; Marshall; McPherson; Meade; Perkins; Potter; Roberts; Spink; Sully; Walworth; Ziebach. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=43.8333333333333 +lon_0=-100 +lat_1=44.4166666666667 +lat_2=45.6833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6571.
+ */
+export declare const ESRI_103147: string;
+/**
+ * ESRI:103148, NAD_1983_2011_StatePlane_South_Dakota_South_FIPS_4002. United States (USA) - South Dakota - counties of Aurora; Bennett; Bon Homme; Brule; Buffalo; Charles Mix; Clay; Custer; Davison; Douglas; Fall River; Gregory; Haakon; Hanson; Hughes; Hutchinson; Jackson; Jerauld; Jones; Lake; Lincoln; Lyman; McCook; Mellette; Miner; Minnehaha; Moody; Pennington; Sanborn; Shannon; Stanley; Todd; Tripp; Turner; Union; Yankton. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=42.3333333333333 +lon_0=-100.333333333333 +lat_1=42.8333333333333 +lat_2=44.4 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6573.
+ */
+export declare const ESRI_103148: string;
+/**
+ * ESRI:103149, NAD_1983_2011_StatePlane_South_Dakota_North_FIPS_4001_Ft_US. United States (USA) - South Dakota - counties of Beadle; Brookings; Brown; Butte; Campbell; Clark; Codington; Corson; Day; Deuel; Dewey; Edmunds; Faulk; Grant; Hamlin; Hand; Harding; Hyde; Kingsbury; Lawrence; Marshall; McPherson; Meade; Perkins; Potter; Roberts; Spink; Sully; Walworth; Ziebach. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=43.8333333333333 +lon_0=-100 +lat_1=44.4166666666667 +lat_2=45.6833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6572.
+ */
+export declare const ESRI_103149: string;
+/**
+ * ESRI:103150, NAD_1983_2011_StatePlane_South_Dakota_South_FIPS_4002_Ft_US. United States (USA) - South Dakota - counties of Aurora; Bennett; Bon Homme; Brule; Buffalo; Charles Mix; Clay; Custer; Davison; Douglas; Fall River; Gregory; Haakon; Hanson; Hughes; Hutchinson; Jackson; Jerauld; Jones; Lake; Lincoln; Lyman; McCook; Mellette; Miner; Minnehaha; Moody; Pennington; Sanborn; Shannon; Stanley; Todd; Tripp; Turner; Union; Yankton. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=42.3333333333333 +lon_0=-100.333333333333 +lat_1=42.8333333333333 +lat_2=44.4 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6574.
+ */
+export declare const ESRI_103150: string;
+/**
+ * ESRI:103151, NAD_1983_2011_StatePlane_Tennessee_FIPS_4100. United States (USA) - Tennessee. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=34.3333333333333 +lon_0=-86 +lat_1=35.25 +lat_2=36.4166666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6575.
+ */
+export declare const ESRI_103151: string;
+/**
+ * ESRI:103152, NAD_1983_2011_StatePlane_Tennessee_FIPS_4100_Ft_US. United States (USA) - Tennessee. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=34.3333333333333 +lon_0=-86 +lat_1=35.25 +lat_2=36.4166666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6576.
+ */
+export declare const ESRI_103152: string;
+/**
+ * ESRI:103153, NAD_1983_2011_StatePlane_Texas_North_FIPS_4201. United States (USA) - Texas - counties of: Armstrong; Briscoe; Carson; Castro; Childress; Collingsworth; Dallam; Deaf Smith; Donley; Gray; Hall; Hansford; Hartley; Hemphill; Hutchinson; Lipscomb; Moore; Ochiltree; Oldham; Parmer; Potter; Randall; Roberts; Sherman; Swisher; Wheeler. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=34 +lon_0=-101.5 +lat_1=34.65 +lat_2=36.1833333333333 +x_0=200000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6581.
+ */
+export declare const ESRI_103153: string;
+/**
+ * ESRI:103154, NAD_1983_2011_StatePlane_Texas_North_Central_FIPS_4202. United States (USA) - Texas - counties of: Andrews; Archer; Bailey; Baylor; Borden; Bowie; Callahan; Camp; Cass; Clay; Cochran; Collin; Cooke; Cottle; Crosby; Dallas; Dawson; Delta; Denton; Dickens; Eastland; Ellis; Erath; Fannin; Fisher; Floyd; Foard; Franklin; Gaines; Garza; Grayson; Gregg; Hale; Hardeman; Harrison; Haskell; Henderson; Hill; Hockley; Hood; Hopkins; Howard; Hunt; Jack; Johnson; Jones; Kaufman; Kent; King; Knox; Lamar; Lamb; Lubbock; Lynn; Marion; Martin; Mitchell; Montague; Morris; Motley; Navarro; Nolan; Palo Pinto; Panola; Parker; Rains; Red River; Rockwall; Rusk; Scurry; Shackelford; Smith; Somervell; Stephens; Stonewall; Tarrant; Taylor; Terry; Throckmorton; Titus; Upshur; Van Zandt; Wichita; Wilbarger; Wise; Wood; Yoakum; Young. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=31.6666666666667 +lon_0=-98.5 +lat_1=32.1333333333333 +lat_2=33.9666666666667 +x_0=600000 +y_0=2000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6583.
+ */
+export declare const ESRI_103154: string;
+/**
+ * ESRI:103155, NAD_1983_2011_StatePlane_Texas_Central_FIPS_4203. United States (USA) - Texas - counties of Anderson; Angelina; Bastrop; Bell; Blanco; Bosque; Brazos; Brown; Burleson; Burnet; Cherokee; Coke; Coleman; Comanche; Concho; Coryell; Crane; Crockett; Culberson; Ector; El Paso; Falls; Freestone; Gillespie; Glasscock; Grimes; Hamilton; Hardin; Houston; Hudspeth; Irion; Jasper; Jeff Davis; Kimble; Lampasas; Lee; Leon; Liberty; Limestone; Llano; Loving; Madison; Mason; McCulloch; McLennan; Menard; Midland; Milam; Mills; Montgomery; Nacogdoches; Newton; Orange; Pecos; Polk; Reagan; Reeves; Robertson; Runnels; Sabine; San Augustine; San Jacinto; San Saba; Schleicher; Shelby; Sterling; Sutton; Tom Green; Travis; Trinity; Tyler; Upton; Walker; Ward; Washington; Williamson; Winkler. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=29.6666666666667 +lon_0=-100.333333333333 +lat_1=30.1166666666667 +lat_2=31.8833333333333 +x_0=700000 +y_0=3000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6577.
+ */
+export declare const ESRI_103155: string;
+/**
+ * ESRI:103156, NAD_1983_2011_StatePlane_Texas_South_Central_FIPS_4204. United States (USA) - Texas - counties of Aransas; Atascosa; Austin; Bandera; Bee; Bexar; Brazoria; Brewster; Caldwell; Calhoun; Chambers; Colorado; Comal; De Witt; Dimmit; Edwards; Fayette; Fort Bend; Frio; Galveston; Goliad; Gonzales; Guadalupe; Harris; Hays; Jackson; Jefferson; Karnes; Kendall; Kerr; Kinney; La Salle; Lavaca; Live Oak; Matagorda; Maverick; McMullen; Medina; Presidio; Real; Refugio; Terrell; Uvalde; Val Verde; Victoria; Waller; Wharton; Wilson; Zavala. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=27.8333333333333 +lon_0=-99 +lat_1=28.3833333333333 +lat_2=30.2833333333333 +x_0=600000 +y_0=4000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6587.
+ */
+export declare const ESRI_103156: string;
+/**
+ * ESRI:103157, NAD_1983_2011_StatePlane_Texas_South_FIPS_4205. United States (USA) - Texas - counties of Brooks; Cameron; Duval; Hidalgo; Jim Hogg; Jim Wells; Kenedy; Kleberg; Nueces; San Patricio; Starr; Webb; Willacy; Zapata. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=25.6666666666667 +lon_0=-98.5 +lat_1=26.1666666666667 +lat_2=27.8333333333333 +x_0=300000 +y_0=5000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6585.
+ */
+export declare const ESRI_103157: string;
+/**
+ * ESRI:103158, NAD_1983_2011_StatePlane_Texas_North_FIPS_4201_Ft_US. United States (USA) - Texas - counties of: Armstrong; Briscoe; Carson; Castro; Childress; Collingsworth; Dallam; Deaf Smith; Donley; Gray; Hall; Hansford; Hartley; Hemphill; Hutchinson; Lipscomb; Moore; Ochiltree; Oldham; Parmer; Potter; Randall; Roberts; Sherman; Swisher; Wheeler. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=34 +lon_0=-101.5 +lat_1=34.65 +lat_2=36.1833333333333 +x_0=200000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6582.
+ */
+export declare const ESRI_103158: string;
+/**
+ * ESRI:103159, NAD_1983_2011_StatePlane_Texas_North_Central_FIPS_4202_FtUS. United States (USA) - Texas - counties of: Andrews; Archer; Bailey; Baylor; Borden; Bowie; Callahan; Camp; Cass; Clay; Cochran; Collin; Cooke; Cottle; Crosby; Dallas; Dawson; Delta; Denton; Dickens; Eastland; Ellis; Erath; Fannin; Fisher; Floyd; Foard; Franklin; Gaines; Garza; Grayson; Gregg; Hale; Hardeman; Harrison; Haskell; Henderson; Hill; Hockley; Hood; Hopkins; Howard; Hunt; Jack; Johnson; Jones; Kaufman; Kent; King; Knox; Lamar; Lamb; Lubbock; Lynn; Marion; Martin; Mitchell; Montague; Morris; Motley; Navarro; Nolan; Palo Pinto; Panola; Parker; Rains; Red River; Rockwall; Rusk; Scurry; Shackelford; Smith; Somervell; Stephens; Stonewall; Tarrant; Taylor; Terry; Throckmorton; Titus; Upshur; Van Zandt; Wichita; Wilbarger; Wise; Wood; Yoakum; Young. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=31.6666666666667 +lon_0=-98.5 +lat_1=32.1333333333333 +lat_2=33.9666666666667 +x_0=600000 +y_0=2000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6584.
+ */
+export declare const ESRI_103159: string;
+/**
+ * ESRI:103160, NAD_1983_2011_StatePlane_Texas_Central_FIPS_4203_Ft_US. United States (USA) - Texas - counties of Anderson; Angelina; Bastrop; Bell; Blanco; Bosque; Brazos; Brown; Burleson; Burnet; Cherokee; Coke; Coleman; Comanche; Concho; Coryell; Crane; Crockett; Culberson; Ector; El Paso; Falls; Freestone; Gillespie; Glasscock; Grimes; Hamilton; Hardin; Houston; Hudspeth; Irion; Jasper; Jeff Davis; Kimble; Lampasas; Lee; Leon; Liberty; Limestone; Llano; Loving; Madison; Mason; McCulloch; McLennan; Menard; Midland; Milam; Mills; Montgomery; Nacogdoches; Newton; Orange; Pecos; Polk; Reagan; Reeves; Robertson; Runnels; Sabine; San Augustine; San Jacinto; San Saba; Schleicher; Shelby; Sterling; Sutton; Tom Green; Travis; Trinity; Tyler; Upton; Walker; Ward; Washington; Williamson; Winkler. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=29.6666666666667 +lon_0=-100.333333333333 +lat_1=30.1166666666667 +lat_2=31.8833333333333 +x_0=700000 +y_0=3000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6578.
+ */
+export declare const ESRI_103160: string;
+/**
+ * ESRI:103161, NAD_1983_2011_StatePlane_Texas_South_Central_FIPS_4204_FtUS. United States (USA) - Texas - counties of Aransas; Atascosa; Austin; Bandera; Bee; Bexar; Brazoria; Brewster; Caldwell; Calhoun; Chambers; Colorado; Comal; De Witt; Dimmit; Edwards; Fayette; Fort Bend; Frio; Galveston; Goliad; Gonzales; Guadalupe; Harris; Hays; Jackson; Jefferson; Karnes; Kendall; Kerr; Kinney; La Salle; Lavaca; Live Oak; Matagorda; Maverick; McMullen; Medina; Presidio; Real; Refugio; Terrell; Uvalde; Val Verde; Victoria; Waller; Wharton; Wilson; Zavala. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=27.8333333333333 +lon_0=-99 +lat_1=28.3833333333333 +lat_2=30.2833333333333 +x_0=600000 +y_0=4000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6588.
+ */
+export declare const ESRI_103161: string;
+/**
+ * ESRI:103162, NAD_1983_2011_StatePlane_Texas_South_FIPS_4205_Ft_US. United States (USA) - Texas - counties of Brooks; Cameron; Duval; Hidalgo; Jim Hogg; Jim Wells; Kenedy; Kleberg; Nueces; San Patricio; Starr; Webb; Willacy; Zapata. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=25.6666666666667 +lon_0=-98.5 +lat_1=26.1666666666667 +lat_2=27.8333333333333 +x_0=300000 +y_0=5000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6586.
+ */
+export declare const ESRI_103162: string;
+/**
+ * ESRI:103163, NAD_1983_2011_StatePlane_Utah_North_FIPS_4301. United States (USA) - Utah - counties of Box Elder; Cache; Daggett; Davis; Morgan; Rich; Summit; Weber. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=40.3333333333333 +lon_0=-111.5 +lat_1=40.7166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6620.
+ */
+export declare const ESRI_103163: string;
+/**
+ * ESRI:103164, NAD_1983_2011_StatePlane_Utah_Central_FIPS_4302. United States (USA) - Utah - counties of Carbon; Duchesne; Emery; Grand; Juab; Millard; Salt Lake; Sanpete; Sevier; Tooele; Uintah; Utah; Wasatch. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=38.3333333333333 +lon_0=-111.5 +lat_1=39.0166666666667 +lat_2=40.65 +x_0=500000 +y_0=2000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6619.
+ */
+export declare const ESRI_103164: string;
+/**
+ * ESRI:103165, NAD_1983_2011_StatePlane_Utah_South_FIPS_4303. United States (USA) - Utah - counties of Beaver; Garfield; Iron; Kane; Piute; San Juan; Washington; Wayne. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=36.6666666666667 +lon_0=-111.5 +lat_1=37.2166666666667 +lat_2=38.35 +x_0=500000 +y_0=3000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6621.
+ */
+export declare const ESRI_103165: string;
 /**
  * ESRI:103166, NAD_1983_2011_StatePlane_Utah_North_FIPS_4301_Ft_Intl. United States (USA) - Utah - counties of Box Elder; Cache; Daggett; Davis; Morgan; Rich; Summit; Weber. Within 1 cm of PROJ.
  *
@@ -42073,6 +52386,414 @@ export declare const ESRI_103167: string;
  * `+proj=lcc +lat_0=36.6666666666667 +lon_0=-111.5 +lat_1=37.2166666666667 +lat_2=38.35 +x_0=500000 +y_0=3000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs`
  */
 export declare const ESRI_103168: string;
+/**
+ * ESRI:103169, NAD_1983_2011_StatePlane_Utah_North_FIPS_4301_Ft_US. United States (USA) - Utah - counties of Box Elder; Cache; Daggett; Davis; Morgan; Rich; Summit; Weber. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=40.3333333333333 +lon_0=-111.5 +lat_1=40.7166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6626.
+ */
+export declare const ESRI_103169: string;
+/**
+ * ESRI:103170, NAD_1983_2011_StatePlane_Utah_Central_FIPS_4302_Ft_US. United States (USA) - Utah - counties of Carbon; Duchesne; Emery; Grand; Juab; Millard; Salt Lake; Sanpete; Sevier; Tooele; Uintah; Utah; Wasatch. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=38.3333333333333 +lon_0=-111.5 +lat_1=39.0166666666667 +lat_2=40.65 +x_0=500000 +y_0=2000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6625.
+ */
+export declare const ESRI_103170: string;
+/**
+ * ESRI:103171, NAD_1983_2011_StatePlane_Utah_South_FIPS_4303_Ft_US. United States (USA) - Utah - counties of Beaver; Garfield; Iron; Kane; Piute; San Juan; Washington; Wayne. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=36.6666666666667 +lon_0=-111.5 +lat_1=37.2166666666667 +lat_2=38.35 +x_0=500000 +y_0=3000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6627.
+ */
+export declare const ESRI_103171: string;
+/**
+ * ESRI:103172, NAD_1983_2011_StatePlane_Vermont_FIPS_4400. United States (USA) - Vermont. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=42.5 +lon_0=-72.5 +k=0.999964285714286 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6589.
+ */
+export declare const ESRI_103172: string;
+/**
+ * ESRI:103173, NAD_1983_2011_StatePlane_Vermont_FIPS_4400_Ft_US. United States (USA) - Vermont. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=42.5 +lon_0=-72.5 +k=0.999964285714286 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6590.
+ */
+export declare const ESRI_103173: string;
+/**
+ * ESRI:103174, NAD_1983_2011_StatePlane_Virginia_North_FIPS_4501. United States (USA) - Virginia - counties of Arlington; Augusta; Bath; Caroline; Clarke; Culpeper; Fairfax; Fauquier; Frederick; Greene; Highland; King George; Loudoun; Madison; Orange; Page; Prince William; Rappahannock; Rockingham; Shenandoah; Spotsylvania; Stafford; Warren; Westmoreland. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=37.6666666666667 +lon_0=-78.5 +lat_1=38.0333333333333 +lat_2=39.2 +x_0=3500000 +y_0=2000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6592.
+ */
+export declare const ESRI_103174: string;
+/**
+ * ESRI:103175, NAD_1983_2011_StatePlane_Virginia_South_FIPS_4502. United States (USA) - Virginia - counties of Accomack; Albemarle; Alleghany; Amelia; Amherst; Appomattox; Bedford; Bland; Botetourt; Bristol; Brunswick; Buchanan; Buckingham; Campbell; Carroll; Charles City; Charlotte; Chesapeake; Chesterfield; Colonial Heights; Craig; Cumberland; Dickenson; Dinwiddie; Essex; Floyd; Fluvanna; Franklin; Giles; Gloucester; Goochland; Grayson; Greensville; Halifax; Hampton; Hanover; Henrico; Henry; Isle of Wight; James City; King and Queen; King William; Lancaster; Lee; Louisa; Lunenburg; Lynchburg; Mathews; Mecklenburg; Middlesex; Montgomery; Nelson; New Kent; Newport News; Norfolk; Northampton; Northumberland; Norton; Nottoway; Patrick; Petersburg; Pittsylvania; Portsmouth; Powhatan; Prince Edward; Prince George; Pulaski; Richmond; Roanoke; Rockbridge; Russell; Scott; Smyth; Southampton; Suffolk; Surry; Sussex; Tazewell; Washington; Wise; Wythe; York. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=36.3333333333333 +lon_0=-78.5 +lat_1=36.7666666666667 +lat_2=37.9666666666667 +x_0=3500000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6594.
+ */
+export declare const ESRI_103175: string;
+/**
+ * ESRI:103176, NAD_1983_2011_StatePlane_Virginia_North_FIPS_4501_Ft_US. United States (USA) - Virginia - counties of Arlington; Augusta; Bath; Caroline; Clarke; Culpeper; Fairfax; Fauquier; Frederick; Greene; Highland; King George; Loudoun; Madison; Orange; Page; Prince William; Rappahannock; Rockingham; Shenandoah; Spotsylvania; Stafford; Warren; Westmoreland. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=37.6666666666667 +lon_0=-78.5 +lat_1=38.0333333333333 +lat_2=39.2 +x_0=3500000 +y_0=2000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6593.
+ */
+export declare const ESRI_103176: string;
+/**
+ * ESRI:103177, NAD_1983_2011_StatePlane_Virginia_South_FIPS_4502_Ft_US. United States (USA) - Virginia - counties of Accomack; Albemarle; Alleghany; Amelia; Amherst; Appomattox; Bedford; Bland; Botetourt; Bristol; Brunswick; Buchanan; Buckingham; Campbell; Carroll; Charles City; Charlotte; Chesapeake; Chesterfield; Colonial Heights; Craig; Cumberland; Dickenson; Dinwiddie; Essex; Floyd; Fluvanna; Franklin; Giles; Gloucester; Goochland; Grayson; Greensville; Halifax; Hampton; Hanover; Henrico; Henry; Isle of Wight; James City; King and Queen; King William; Lancaster; Lee; Louisa; Lunenburg; Lynchburg; Mathews; Mecklenburg; Middlesex; Montgomery; Nelson; New Kent; Newport News; Norfolk; Northampton; Northumberland; Norton; Nottoway; Patrick; Petersburg; Pittsylvania; Portsmouth; Powhatan; Prince Edward; Prince George; Pulaski; Richmond; Roanoke; Rockbridge; Russell; Scott; Smyth; Southampton; Suffolk; Surry; Sussex; Tazewell; Washington; Wise; Wythe; York. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=36.3333333333333 +lon_0=-78.5 +lat_1=36.7666666666667 +lat_2=37.9666666666667 +x_0=3500000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6595.
+ */
+export declare const ESRI_103177: string;
+/**
+ * ESRI:103178, NAD_1983_2011_StatePlane_Washington_North_FIPS_4601. United States (USA) - Washington - counties of Chelan; Clallam; Douglas; Ferry; Grant north of approximately 47°30'N; Island; Jefferson; King; Kitsap; Lincoln; Okanogan; Pend Oreille; San Juan; Skagit; Snohomish; Spokane; Stevens; Whatcom. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=47 +lon_0=-120.833333333333 +lat_1=47.5 +lat_2=48.7333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6596.
+ */
+export declare const ESRI_103178: string;
+/**
+ * ESRI:103179, NAD_1983_2011_StatePlane_Washington_South_FIPS_4602. United States (USA) - Washington - counties of Adams; Asotin; Benton; Clark; Columbia; Cowlitz; Franklin; Garfield; Grant south of approximately 47°30'N; Grays Harbor; Kittitas; Klickitat; Lewis; Mason; Pacific; Pierce; Skamania; Thurston; Wahkiakum; Walla Walla; Whitman; Yakima. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=45.3333333333333 +lon_0=-120.5 +lat_1=45.8333333333333 +lat_2=47.3333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6598.
+ */
+export declare const ESRI_103179: string;
+/**
+ * ESRI:103180, NAD_1983_2011_StatePlane_Washington_North_FIPS_4601_Ft_US. United States (USA) - Washington - counties of Chelan; Clallam; Douglas; Ferry; Grant north of approximately 47°30'N; Island; Jefferson; King; Kitsap; Lincoln; Okanogan; Pend Oreille; San Juan; Skagit; Snohomish; Spokane; Stevens; Whatcom. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=47 +lon_0=-120.833333333333 +lat_1=47.5 +lat_2=48.7333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6597.
+ */
+export declare const ESRI_103180: string;
+/**
+ * ESRI:103181, NAD_1983_2011_StatePlane_Washington_South_FIPS_4602_Ft_US. United States (USA) - Washington - counties of Adams; Asotin; Benton; Clark; Columbia; Cowlitz; Franklin; Garfield; Grant south of approximately 47°30'N; Grays Harbor; Kittitas; Klickitat; Lewis; Mason; Pacific; Pierce; Skamania; Thurston; Wahkiakum; Walla Walla; Whitman; Yakima. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=45.3333333333333 +lon_0=-120.5 +lat_1=45.8333333333333 +lat_2=47.3333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6599.
+ */
+export declare const ESRI_103181: string;
+/**
+ * ESRI:103182, NAD_1983_2011_StatePlane_West_Virginia_North_FIPS_4701. United States (USA) - West Virginia - counties of Barbour; Berkeley; Brooke; Doddridge; Grant; Hampshire; Hancock; Hardy; Harrison; Jefferson; Marion; Marshall; Mineral; Monongalia; Morgan; Ohio; Pleasants; Preston; Ritchie; Taylor; Tucker; Tyler; Wetzel; Wirt; Wood. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=38.5 +lon_0=-79.5 +lat_1=39 +lat_2=40.25 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6600.
+ */
+export declare const ESRI_103182: string;
+/**
+ * ESRI:103183, NAD_1983_2011_StatePlane_West_Virginia_South_FIPS_4702. United States (USA) - West Virginia - counties of Boone; Braxton; Cabell; Calhoun; Clay; Fayette; Gilmer; Greenbrier; Jackson; Kanawha; Lewis; Lincoln; Logan; Mason; McDowell; Mercer; Mingo; Monroe; Nicholas; Pendleton; Pocahontas; Putnam; Raleigh; Randolph; Roane; Summers; Upshur; Wayne; Webster; Wyoming. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=37 +lon_0=-81 +lat_1=37.4833333333333 +lat_2=38.8833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6602.
+ */
+export declare const ESRI_103183: string;
+/**
+ * ESRI:103184, NAD_1983_2011_StatePlane_West_Virginia_North_FIPS_4701_FtUS. United States (USA) - West Virginia - counties of Barbour; Berkeley; Brooke; Doddridge; Grant; Hampshire; Hancock; Hardy; Harrison; Jefferson; Marion; Marshall; Mineral; Monongalia; Morgan; Ohio; Pleasants; Preston; Ritchie; Taylor; Tucker; Tyler; Wetzel; Wirt; Wood. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=38.5 +lon_0=-79.5 +lat_1=39 +lat_2=40.25 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6601.
+ */
+export declare const ESRI_103184: string;
+/**
+ * ESRI:103185, NAD_1983_2011_StatePlane_West_Virginia_South_FIPS_4702_FtUS. United States (USA) - West Virginia - counties of Boone; Braxton; Cabell; Calhoun; Clay; Fayette; Gilmer; Greenbrier; Jackson; Kanawha; Lewis; Lincoln; Logan; Mason; McDowell; Mercer; Mingo; Monroe; Nicholas; Pendleton; Pocahontas; Putnam; Raleigh; Randolph; Roane; Summers; Upshur; Wayne; Webster; Wyoming. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=37 +lon_0=-81 +lat_1=37.4833333333333 +lat_2=38.8833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6603.
+ */
+export declare const ESRI_103185: string;
+/**
+ * ESRI:103186, NAD_1983_2011_StatePlane_Wisconsin_North_FIPS_4801. United States (USA) - Wisconsin - counties of Ashland; Bayfield; Burnett; Douglas; Florence; Forest; Iron; Oneida; Price; Sawyer; Vilas; Washburn. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=45.1666666666667 +lon_0=-90 +lat_1=45.5666666666667 +lat_2=46.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6606.
+ */
+export declare const ESRI_103186: string;
+/**
+ * ESRI:103187, NAD_1983_2011_StatePlane_Wisconsin_Central_FIPS_4802. United States (USA) - Wisconsin - counties of Barron; Brown; Buffalo; Chippewa; Clark; Door; Dunn; Eau Claire; Jackson; Kewaunee; Langlade; Lincoln; Marathon; Marinette; Menominee; Oconto; Outagamie; Pepin; Pierce; Polk; Portage; Rusk; Shawano; St Croix; Taylor; Trempealeau; Waupaca; Wood. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=43.8333333333333 +lon_0=-90 +lat_1=44.25 +lat_2=45.5 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6879.
+ */
+export declare const ESRI_103187: string;
+/**
+ * ESRI:103188, NAD_1983_2011_StatePlane_Wisconsin_South_FIPS_4803. United States (USA) - Wisconsin - counties of Adams; Calumet; Columbia; Crawford; Dane; Dodge; Fond Du Lac; Grant; Green; Green Lake; Iowa; Jefferson; Juneau; Kenosha; La Crosse; Lafayette; Manitowoc; Marquette; Milwaukee; Monroe; Ozaukee; Racine; Richland; Rock; Sauk; Sheboygan; Vernon; Walworth; Washington; Waukesha; Waushara; Winnebago. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=42 +lon_0=-90 +lat_1=42.7333333333333 +lat_2=44.0666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6608.
+ */
+export declare const ESRI_103188: string;
+/**
+ * ESRI:103189, NAD_1983_2011_StatePlane_Wisconsin_North_FIPS_4801_Ft_US. United States (USA) - Wisconsin - counties of Ashland; Bayfield; Burnett; Douglas; Florence; Forest; Iron; Oneida; Price; Sawyer; Vilas; Washburn. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=45.1666666666667 +lon_0=-90 +lat_1=45.5666666666667 +lat_2=46.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6607.
+ */
+export declare const ESRI_103189: string;
+/**
+ * ESRI:103190, NAD_1983_2011_StatePlane_Wisconsin_Central_FIPS_4802_Ft_US. United States (USA) - Wisconsin - counties of Barron; Brown; Buffalo; Chippewa; Clark; Door; Dunn; Eau Claire; Jackson; Kewaunee; Langlade; Lincoln; Marathon; Marinette; Menominee; Oconto; Outagamie; Pepin; Pierce; Polk; Portage; Rusk; Shawano; St Croix; Taylor; Trempealeau; Waupaca; Wood. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=43.8333333333333 +lon_0=-90 +lat_1=44.25 +lat_2=45.5 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6605.
+ */
+export declare const ESRI_103190: string;
+/**
+ * ESRI:103191, NAD_1983_2011_StatePlane_Wisconsin_South_FIPS_4803_Ft_US. United States (USA) - Wisconsin - counties of Adams; Calumet; Columbia; Crawford; Dane; Dodge; Fond Du Lac; Grant; Green; Green Lake; Iowa; Jefferson; Juneau; Kenosha; La Crosse; Lafayette; Manitowoc; Marquette; Milwaukee; Monroe; Ozaukee; Racine; Richland; Rock; Sauk; Sheboygan; Vernon; Walworth; Washington; Waukesha; Waushara; Winnebago. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=42 +lon_0=-90 +lat_1=42.7333333333333 +lat_2=44.0666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6609.
+ */
+export declare const ESRI_103191: string;
+/**
+ * ESRI:103192, NAD_1983_2011_StatePlane_Wyoming_East_FIPS_4901. United States (USA) - Wyoming - counties of Albany; Campbell; Converse; Crook; Goshen; Laramie; Niobrara; Platte; Weston. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=40.5 +lon_0=-105.166666666667 +k=0.9999375 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6611.
+ */
+export declare const ESRI_103192: string;
+/**
+ * ESRI:103193, NAD_1983_2011_StatePlane_Wyoming_East_Central_FIPS_4902. United States (USA) - Wyoming - counties of Big Horn; Carbon; Johnson; Natrona; Sheridan; Washakie. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=40.5 +lon_0=-107.333333333333 +k=0.9999375 +x_0=400000 +y_0=100000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6613.
+ */
+export declare const ESRI_103193: string;
+/**
+ * ESRI:103194, NAD_1983_2011_StatePlane_Wyoming_West_Central_FIPS_4903. United States (USA) - Wyoming - counties of Fremont; Hot Springs; Park; Sweetwater. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=40.5 +lon_0=-108.75 +k=0.9999375 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6617.
+ */
+export declare const ESRI_103194: string;
+/**
+ * ESRI:103195, NAD_1983_2011_StatePlane_Wyoming_West_FIPS_4904. United States (USA) - Wyoming - counties of Lincoln; Sublette; Teton; Uinta. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=40.5 +lon_0=-110.083333333333 +k=0.9999375 +x_0=800000 +y_0=100000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6615.
+ */
+export declare const ESRI_103195: string;
+/**
+ * ESRI:103196, NAD_1983_2011_StatePlane_Wyoming_East_FIPS_4901_Ft_US. United States (USA) - Wyoming - counties of Albany; Campbell; Converse; Crook; Goshen; Laramie; Niobrara; Platte; Weston. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=40.5 +lon_0=-105.166666666667 +k=0.9999375 +x_0=200000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6612.
+ */
+export declare const ESRI_103196: string;
+/**
+ * ESRI:103197, NAD_1983_2011_StatePlane_Wyoming_E_Central_FIPS_4902_Ft_US. United States (USA) - Wyoming - counties of Big Horn; Carbon; Johnson; Natrona; Sheridan; Washakie. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=40.5 +lon_0=-107.333333333333 +k=0.9999375 +x_0=400000 +y_0=100000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6614.
+ */
+export declare const ESRI_103197: string;
+/**
+ * ESRI:103198, NAD_1983_2011_StatePlane_Wyoming_W_Central_FIPS_4903_Ft_US. United States (USA) - Wyoming - counties of Fremont; Hot Springs; Park; Sweetwater. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=40.5 +lon_0=-108.75 +k=0.9999375 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6618.
+ */
+export declare const ESRI_103198: string;
+/**
+ * ESRI:103199, NAD_1983_2011_StatePlane_Wyoming_West_FIPS_4904_Ft_US. United States (USA) - Wyoming - counties of Lincoln; Sublette; Teton; Uinta. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=40.5 +lon_0=-110.083333333333 +k=0.9999375 +x_0=800000 +y_0=100000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:6616.
+ */
+export declare const ESRI_103199: string;
+/**
+ * ESRI:103200, NAD_1983_2011_StatePlane_Puerto_Rico_Virgin_Isls_FIPS_5200. Puerto Rico and US Virgin Islands - onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_0=17.8333333333333 +lon_0=-66.4333333333333 +lat_1=18.0333333333333 +lat_2=18.4333333333333 +x_0=200000 +y_0=200000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:6566.
+ */
+export declare const ESRI_103200: string;
+/**
+ * ESRI:103201, RGRDC_2005_Congo_TM_Zone_12. The Democratic Republic of the Congo (Zaire) - west of 13°E onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=12 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4048.
+ */
+export declare const ESRI_103201: string;
+/**
+ * ESRI:103202, RGRDC_2005_Congo_TM_Zone_14. The Democratic Republic of the Congo (Zaire) - between 13°E to 15°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=14 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4049.
+ */
+export declare const ESRI_103202: string;
+/**
+ * ESRI:103203, RGRDC_2005_Congo_TM_Zone_16. The Democratic Republic of the Congo (Zaire) - south of a line through Bandundu, Seke and Pweto and between 15°E and 17°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=16 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4050.
+ */
+export declare const ESRI_103203: string;
+/**
+ * ESRI:103204, RGRDC_2005_Congo_TM_Zone_18. The Democratic Republic of the Congo (Zaire) - south of a line through Bandundu, Seke and Pweto and between 17°E and 19°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=18 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4051.
+ */
+export declare const ESRI_103204: string;
+/**
+ * ESRI:103205, RGRDC_2005_Congo_TM_Zone_20. The Democratic Republic of the Congo (Zaire) - south of a line through Bandundu, Seke and Pweto and between 19°E and 21°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=20 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4056.
+ */
+export declare const ESRI_103205: string;
+/**
+ * ESRI:103206, RGRDC_2005_Congo_TM_Zone_22. The Democratic Republic of the Congo (Zaire) - south of a line through Bandundu, Seke and Pweto and between 21°E and 23°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=22 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4057.
+ */
+export declare const ESRI_103206: string;
+/**
+ * ESRI:103207, RGRDC_2005_Congo_TM_Zone_24. The Democratic Republic of the Congo (Zaire) - south of a line through Bandundu, Seke and Pweto and between 23°E and 25°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4058.
+ */
+export declare const ESRI_103207: string;
+/**
+ * ESRI:103208, RGRDC_2005_Congo_TM_Zone_26. The Democratic Republic of the Congo (Zaire) - south of a line through Bandundu, Seke and Pweto and between 25°E and 27°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=26 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4059.
+ */
+export declare const ESRI_103208: string;
+/**
+ * ESRI:103209, RGRDC_2005_Congo_TM_Zone_28. The Democratic Republic of the Congo (Zaire) - south of a line through Bandundu, Seke and Pweto and between 27°E and 29°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=28 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4060.
+ */
+export declare const ESRI_103209: string;
+/**
+ * ESRI:103210, RGRDC_2005_UTM_Zone_33S. The Democratic Republic of the Congo (Zaire) - onshore and offshore south of a line through Bandundu, Seke and Pweto and between 12°E and 18°E. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=33 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4061.
+ */
+export declare const ESRI_103210: string;
+/**
+ * ESRI:103211, RGRDC_2005_UTM_Zone_34S. The Democratic Republic of the Congo (Zaire) - south of a line through Bandundu, Seke and Pweto and between 18°E and 24°E. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=34 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4062.
+ */
+export declare const ESRI_103211: string;
+/**
+ * ESRI:103212, RGRDC_2005_UTM_Zone_35S. The Democratic Republic of the Congo (Zaire) - south of a line through Bandundu, Seke and Pweto and east of 24°E. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=35 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4063.
+ */
+export declare const ESRI_103212: string;
+/**
+ * ESRI:103213, Chua_UTM_Zone_23S. Brazil - Distrito Federal. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=23 +south +ellps=intl +towgs84=-144.35,242.88,-33.2 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4071.
+ */
+export declare const ESRI_103213: string;
+/**
+ * ESRI:103214, REGCAN95_UTM_Zone_27N. Spain - Canary Islands - west of 18°W, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=27 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4082.
+ */
+export declare const ESRI_103214: string;
+/**
+ * ESRI:103215, REGCAN95_UTM_Zone_28N. Spain - Canary Islands - east of 18°W, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=28 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4083.
+ */
+export declare const ESRI_103215: string;
+/**
+ * ESRI:103216, ETRS_1989_DKTM1. Denmark - Jutland onshore west of 10°E. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=9 +k=0.99998 +x_0=200000 +y_0=-5000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4093.
+ */
+export declare const ESRI_103216: string;
+/**
+ * ESRI:103217, ETRS_1989_DKTM2. Denmark - onshore - Jutland east of 9°E and Funen. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=10 +k=0.99998 +x_0=400000 +y_0=-5000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4094.
+ */
+export declare const ESRI_103217: string;
+/**
+ * ESRI:103218, ETRS_1989_DKTM3. Denmark - Zealand and Lolland (onshore). Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=11.75 +k=0.99998 +x_0=600000 +y_0=-5000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4095.
+ */
+export declare const ESRI_103218: string;
+/**
+ * ESRI:103219, ETRS_1989_DKTM4. Denmark - Bornholm onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=800000 +y_0=-5000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4096.
+ */
+export declare const ESRI_103219: string;
 /**
  * ESRI:103220, NAD_1983_CORS96_StatePlane_Alabama_East_FIPS_0101. United States (USA) - Alabama east of approximately 86°37'W - counties Barbour; Bullock; Calhoun; Chambers; Cherokee; Clay; Cleburne; Coffee; Coosa; Covington; Crenshaw; Dale; De Kalb; Elmore; Etowah; Geneva; Henry; Houston; Jackson; Lee; Macon; Madison; Marshall; Montgomery; Pike; Randolph; Russell; St Clair; Talladega; Tallapoosa. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
@@ -42560,11 +53281,99 @@ export declare const ESRI_103299: string;
  */
 export declare const ESRI_103300: string;
 /**
+ * ESRI:103301, NAD_1983_HARN_WISCRS_Ashland_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=45.7061111111111 +lon_0=-90.6222222222222 +k=1.0000495683 +x_0=172821.9461 +y_0=0.0017 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8222.
+ */
+export declare const ESRI_103301: string;
+/**
+ * ESRI:103302, NAD_1983_HARN_WISCRS_Barron_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=45.1333333333333 +lon_0=-91.85 +k=1.0000486665 +x_0=93150 +y_0=0.0029 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8218.
+ */
+export declare const ESRI_103302: string;
+/**
+ * ESRI:103303, NAD_1983_HARN_WISCRS_Bayfield_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=46.6696483772222 +lat_0=46.6696483772222 +lon_0=-91.1527777777778 +k_0=1.0000331195 +x_0=228600.4575 +y_0=148551.4837 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8214.
+ */
+export declare const ESRI_103303: string;
+/**
+ * ESRI:103304, NAD_1983_HARN_WISCRS_Brown_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=43 +lon_0=-88 +k=1.00002 +x_0=31600 +y_0=4600 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8212.
+ */
+export declare const ESRI_103304: string;
+/**
+ * ESRI:103305, NAD_1983_HARN_WISCRS_Buffalo_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=43.4813888888889 +lon_0=-91.7972222222222 +k=1.0000382778 +x_0=175260.3502 +y_0=0.0048 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8209.
+ */
+export declare const ESRI_103305: string;
+/**
+ * ESRI:103306, NAD_1983_HARN_WISCRS_Burnett_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=45.8987148658333 +lat_0=45.8987148658333 +lon_0=-92.4577777777778 +k_0=1.0000383841 +x_0=64008.1276 +y_0=59445.9043 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8207.
+ */
+export declare const ESRI_103306: string;
+/**
  * ESRI:103307, NAD_1983_HARN_WISCRS_Calumet_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=1.0000286569 +x_0=244754.8893 +y_0=0.0049 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
  */
 export declare const ESRI_103307: string;
+/**
+ * ESRI:103308, NAD_1983_HARN_WISCRS_Chippewa_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=44.9778568986111 +lat_0=44.9778568986111 +lon_0=-91.2944444444444 +k_0=1.0000391127 +x_0=60045.72 +y_0=44091.4346 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8203.
+ */
+export declare const ESRI_103308: string;
+/**
+ * ESRI:103309, NAD_1983_HARN_WISCRS_Clark_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=43.6 +lon_0=-90.7083333333333 +k=1.0000463003 +x_0=199949.1989 +y_0=0.0086 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8201.
+ */
+export declare const ESRI_103309: string;
+/**
+ * ESRI:103310, NAD_1983_HARN_WISCRS_Columbia_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=43.4625466458333 +lat_0=43.4625466458333 +lon_0=-89.3944444444444 +k_0=1.00003498 +x_0=169164.3381 +y_0=111569.6134 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8198.
+ */
+export declare const ESRI_103310: string;
+/**
+ * ESRI:103311, NAD_1983_HARN_WISCRS_Crawford_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=43.200055605 +lat_0=43.200055605 +lon_0=-90.9388888888889 +k_0=1.0000349151 +x_0=113690.6274 +y_0=53703.1201 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8196.
+ */
+export declare const ESRI_103311: string;
+/**
+ * ESRI:103312, NAD_1983_HARN_WISCRS_Dane_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=43.0695160375 +lat_0=43.0695160375 +lon_0=-89.4222222222222 +k_0=1.0000384786 +x_0=247193.2944 +y_0=146591.9896 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8191.
+ */
+export declare const ESRI_103312: string;
 /**
  * ESRI:103313, NAD_1983_HARN_WISCRS_Dodge_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
@@ -42572,11 +53381,67 @@ export declare const ESRI_103307: string;
  */
 export declare const ESRI_103313: string;
 /**
+ * ESRI:103314, NAD_1983_HARN_WISCRS_Door_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44.4 +lon_0=-87.2722222222222 +k=1.0000187521 +x_0=158801.1176 +y_0=0.0023 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8184.
+ */
+export declare const ESRI_103314: string;
+/**
+ * ESRI:103315, NAD_1983_HARN_WISCRS_Douglas_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=45.8833333333333 +lon_0=-91.9166666666667 +k=1.0000385418 +x_0=59131.3183 +y_0=0.0041 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8181.
+ */
+export declare const ESRI_103315: string;
+/**
+ * ESRI:103316, NAD_1983_HARN_WISCRS_Dunn_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44.4083333333333 +lon_0=-91.8944444444444 +k=1.0000410324 +x_0=51816.104 +y_0=0.003 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8179.
+ */
+export declare const ESRI_103316: string;
+/**
+ * ESRI:103317, NAD_1983_HARN_WISCRS_EauClaire_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=44.8722811263889 +lat_0=44.8722811263889 +lon_0=-91.2888888888889 +k_0=1.000035079 +x_0=120091.4402 +y_0=91687.9239 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8092.
+ */
+export declare const ESRI_103317: string;
+/**
+ * ESRI:103318, NAD_1983_HARN_WISCRS_Florence_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=45.4388888888889 +lon_0=-88.1416666666667 +k=1.0000552095 +x_0=133502.6683 +y_0=0.0063 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8090.
+ */
+export declare const ESRI_103318: string;
+/**
  * ESRI:103319, NAD_1983_HARN_WISCRS_Fond_du_Lac_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=1.0000286569 +x_0=244754.8893 +y_0=0.0049 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
  */
 export declare const ESRI_103319: string;
+/**
+ * ESRI:103320, NAD_1983_HARN_WISCRS_Forest_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44.0055555555556 +lon_0=-88.6333333333333 +k=1.0000673004 +x_0=275844.5533 +y_0=0.0157 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8173.
+ */
+export declare const ESRI_103320: string;
+/**
+ * ESRI:103321, NAD_1983_HARN_WISCRS_Grant_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=41.4111111111111 +lon_0=-90.8 +k=1.0000349452 +x_0=242316.4841 +y_0=0.01 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8171.
+ */
+export declare const ESRI_103321: string;
 /**
  * ESRI:103322, NAD_1983_HARN_WISCRS_Green_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
@@ -42589,6 +53454,30 @@ export declare const ESRI_103322: string;
  * `+proj=lcc +lat_1=43.8070001177778 +lat_0=43.8070001177778 +lon_0=-89.2416666666667 +k_0=1.0000344057 +x_0=150876.3018 +y_0=79170.7795 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
  */
 export declare const ESRI_103323: string;
+/**
+ * ESRI:103324, NAD_1983_HARN_WISCRS_Iowa_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=42.5388888888889 +lon_0=-90.1611111111111 +k=1.0000394961 +x_0=113081.0261 +y_0=0.0045 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8165.
+ */
+export declare const ESRI_103324: string;
+/**
+ * ESRI:103325, NAD_1983_HARN_WISCRS_Iron_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=45.4333333333333 +lon_0=-90.2555555555556 +k=1.0000677153 +x_0=220980.4419 +y_0=0.0085 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8163.
+ */
+export declare const ESRI_103325: string;
+/**
+ * ESRI:103326, NAD_1983_HARN_WISCRS_Jackson_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44.2533351277778 +lon_0=-90.8442965194444 +k=1.0000353 +x_0=27000 +y_0=25000 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8161.
+ */
+export declare const ESRI_103326: string;
 /**
  * ESRI:103327, NAD_1983_HARN_WISCRS_Jefferson_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
@@ -42614,11 +53503,35 @@ export declare const ESRI_103329: string;
  */
 export declare const ESRI_103330: string;
 /**
+ * ESRI:103331, NAD_1983_HARN_WISCRS_LaCrosse_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=43.4511111111111 +lon_0=-91.3166666666667 +k=1.0000319985 +x_0=130454.6598 +y_0=0.0033 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8155.
+ */
+export declare const ESRI_103331: string;
+/**
  * ESRI:103332, NAD_1983_HARN_WISCRS_Lafayette_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
  * `+proj=lcc +lat_1=42.6375622769444 +lat_0=42.6375622769444 +lon_0=-89.8388888888889 +k_0=1.0000390487 +x_0=170078.7403 +y_0=45830.2947 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
  */
 export declare const ESRI_103332: string;
+/**
+ * ESRI:103333, NAD_1983_HARN_WISCRS_Langlade_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=45.1542371052778 +lat_0=45.1542371052778 +lon_0=-89.0333333333333 +k_0=1.0000627024 +x_0=198425.197 +y_0=105279.7829 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8153.
+ */
+export declare const ESRI_103333: string;
+/**
+ * ESRI:103334, NAD_1983_HARN_WISCRS_Lincoln_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44.8444444444444 +lon_0=-89.7333333333333 +k=1.0000599003 +x_0=116129.0323 +y_0=0.0058 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8151.
+ */
+export declare const ESRI_103334: string;
 /**
  * ESRI:103335, NAD_1983_HARN_WISCRS_Manitowoc_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
@@ -42626,17 +53539,65 @@ export declare const ESRI_103332: string;
  */
 export declare const ESRI_103335: string;
 /**
+ * ESRI:103336, NAD_1983_HARN_WISCRS_Marathon_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=44.9009044236111 +lat_0=44.9009044236111 +lon_0=-89.77 +k_0=1.000053289 +x_0=74676.1493 +y_0=55049.2669 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8149.
+ */
+export declare const ESRI_103336: string;
+/**
+ * ESRI:103337, NAD_1983_HARN_WISCRS_Marinette_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44.6916666666667 +lon_0=-87.7111111111111 +k=1.0000234982 +x_0=238658.8794 +y_0=0.0032 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8147.
+ */
+export declare const ESRI_103337: string;
+/**
  * ESRI:103338, NAD_1983_HARN_WISCRS_Marquette_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
  * `+proj=lcc +lat_1=43.8070001177778 +lat_0=43.8070001177778 +lon_0=-89.2416666666667 +k_0=1.0000344057 +x_0=150876.3018 +y_0=79170.7795 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
  */
 export declare const ESRI_103338: string;
 /**
+ * ESRI:103339, NAD_1983_HARN_WISCRS_Menominee_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44.7166666666667 +lon_0=-88.4166666666667 +k=1.0000362499 +x_0=105461.0121 +y_0=0.0029 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8145.
+ */
+export declare const ESRI_103339: string;
+/**
  * ESRI:103340, NAD_1983_HARN_WISCRS_Milwaukee_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=1.0000260649 +x_0=185928.3728 +y_0=0.0009 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
  */
 export declare const ESRI_103340: string;
+/**
+ * ESRI:103341, NAD_1983_HARN_WISCRS_Monroe_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=44.0000739286111 +lat_0=44.0000739286111 +lon_0=-90.6416666666667 +k_0=1.0000434122 +x_0=204521.209 +y_0=121923.9861 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8143.
+ */
+export declare const ESRI_103341: string;
+/**
+ * ESRI:103342, NAD_1983_HARN_WISCRS_Oconto_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44.3972222222222 +lon_0=-87.9083333333333 +k=1.0000236869 +x_0=182880.3676 +y_0=0.0033 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8141.
+ */
+export declare const ESRI_103342: string;
+/**
+ * ESRI:103343, NAD_1983_HARN_WISCRS_Oneida_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=45.7042237702778 +lat_0=45.7042237702778 +lon_0=-89.5444444444444 +k_0=1.0000686968 +x_0=70104.1401 +y_0=57588.0346 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8139.
+ */
+export declare const ESRI_103343: string;
 /**
  * ESRI:103344, NAD_1983_HARN_WISCRS_Outagamie_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
@@ -42662,11 +53623,83 @@ export declare const ESRI_103346: string;
  */
 export declare const ESRI_103347: string;
 /**
+ * ESRI:103348, NAD_1983_HARN_WISCRS_Polk_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44.6611111111111 +lon_0=-92.6333333333333 +k=1.0000433849 +x_0=141732.2823 +y_0=0.0059 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8135.
+ */
+export declare const ESRI_103348: string;
+/**
+ * ESRI:103349, NAD_1983_HARN_WISCRS_Portage_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=44.4168239752778 +lat_0=44.4168239752778 +lon_0=-89.5 +k_0=1.000039936 +x_0=56388.1128 +y_0=50022.1874 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8133.
+ */
+export declare const ESRI_103349: string;
+/**
+ * ESRI:103350, NAD_1983_HARN_WISCRS_Price_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44.5555555555556 +lon_0=-90.4888888888889 +k=1.0000649554 +x_0=227990.8546 +y_0=0.0109 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8131.
+ */
+export declare const ESRI_103350: string;
+/**
  * ESRI:103351, NAD_1983_HARN_WISCRS_Racine_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=1.0000260649 +x_0=185928.3728 +y_0=0.0009 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
  */
 export declare const ESRI_103351: string;
+/**
+ * ESRI:103352, NAD_1983_HARN_WISCRS_Richland_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=43.3223129275 +lat_0=43.3223129275 +lon_0=-90.4305555555556 +k_0=1.0000375653 +x_0=202387.6048 +y_0=134255.4253 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8129.
+ */
+export declare const ESRI_103352: string;
+/**
+ * ESRI:103353, NAD_1983_HARN_WISCRS_Rock_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=41.9444444444444 +lon_0=-89.0722222222222 +k=1.0000337311 +x_0=146304.2926 +y_0=0.0068 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8127.
+ */
+export declare const ESRI_103353: string;
+/**
+ * ESRI:103354, NAD_1983_HARN_WISCRS_Rusk_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=43.9194444444444 +lon_0=-91.0666666666667 +k=1.0000495976 +x_0=250546.1013 +y_0=0.0234 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8125.
+ */
+export declare const ESRI_103354: string;
+/**
+ * ESRI:103355, NAD_1983_HARN_WISCRS_Sauk_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=42.8194444444444 +lon_0=-89.9 +k=1.0000373868 +x_0=185623.5716 +y_0=0.0051 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8123.
+ */
+export declare const ESRI_103355: string;
+/**
+ * ESRI:103356, NAD_1983_HARN_WISCRS_Sawyer_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=45.9000991313889 +lat_0=45.9000991313889 +lon_0=-91.1166666666667 +k_0=1.0000573461 +x_0=216713.2336 +y_0=120734.1631 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8121.
+ */
+export declare const ESRI_103356: string;
+/**
+ * ESRI:103357, NAD_1983_HARN_WISCRS_Shawano_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44.0361111111111 +lon_0=-88.6055555555556 +k=1.000032144 +x_0=262433.3253 +y_0=0.0096 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8119.
+ */
+export declare const ESRI_103357: string;
 /**
  * ESRI:103358, NAD_1983_HARN_WISCRS_Sheboygan_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
@@ -42674,11 +53707,107 @@ export declare const ESRI_103351: string;
  */
 export declare const ESRI_103358: string;
 /**
+ * ESRI:103359, NAD_1983_HARN_WISCRS_St_Croix_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44.0361111111111 +lon_0=-92.6333333333333 +k=1.0000381803 +x_0=165506.7302 +y_0=0.0103 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8117.
+ */
+export declare const ESRI_103359: string;
+/**
+ * ESRI:103360, NAD_1983_HARN_WISCRS_Taylor_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=45.1778220858333 +lat_0=45.1778220858333 +lon_0=-90.4833333333333 +k_0=1.0000597566 +x_0=187147.5744 +y_0=107746.7522 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8115.
+ */
+export declare const ESRI_103360: string;
+/**
+ * ESRI:103361, NAD_1983_HARN_WISCRS_Trempealeau_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=43.1611111111111 +lon_0=-91.3666666666667 +k=1.0000361538 +x_0=256946.9138 +y_0=0.0041 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8113.
+ */
+export declare const ESRI_103361: string;
+/**
+ * ESRI:103362, NAD_1983_HARN_WISCRS_Vernon_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=43.5750329397222 +lat_0=43.5750329397222 +lon_0=-90.7833333333333 +k_0=1.0000408158 +x_0=222504.4451 +y_0=47532.0602 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8111.
+ */
+export declare const ESRI_103362: string;
+/**
+ * ESRI:103363, NAD_1983_HARN_WISCRS_Vilas_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=46.0778440905556 +lat_0=46.0778440905556 +lon_0=-89.4888888888889 +k_0=1.0000730142 +x_0=134417.0689 +y_0=50337.1092 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8109.
+ */
+export declare const ESRI_103363: string;
+/**
+ * ESRI:103364, NAD_1983_HARN_WISCRS_Walworth_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=42.6694620969444 +lat_0=42.6694620969444 +lon_0=-88.5416666666667 +k_0=1.0000367192 +x_0=232562.8651 +y_0=111088.2224 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8107.
+ */
+export declare const ESRI_103364: string;
+/**
+ * ESRI:103365, NAD_1983_HARN_WISCRS_Washburn_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=45.9612198333333 +lat_0=45.9612198333333 +lon_0=-91.7833333333333 +k_0=1.0000475376 +x_0=234086.8682 +y_0=188358.6058 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8105.
+ */
+export declare const ESRI_103365: string;
+/**
+ * ESRI:103366, NAD_1983_HARN_WISCRS_Washington_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=42.9180555555555 +lon_0=-88.0638888888889 +k=1.00003738 +x_0=120091.4415 +y_0=0.003 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8103.
+ */
+export declare const ESRI_103366: string;
+/**
+ * ESRI:103367, NAD_1983_HARN_WISCRS_Waukesha_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=42.5694444444444 +lon_0=-88.225 +k=1.0000346179 +x_0=208788.418 +y_0=0.0034 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8101.
+ */
+export declare const ESRI_103367: string;
+/**
+ * ESRI:103368, NAD_1983_HARN_WISCRS_Waupaca_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=43.4202777777778 +lon_0=-88.8166666666667 +k=1.0000333645 +x_0=185013.9709 +y_0=0.007 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8099.
+ */
+export declare const ESRI_103368: string;
+/**
+ * ESRI:103369, NAD_1983_HARN_WISCRS_Waushara_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=44.1139440458333 +lat_0=44.1139440458333 +lon_0=-89.2416666666667 +k_0=1.0000392096 +x_0=120091.4402 +y_0=45069.7587 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8097.
+ */
+export declare const ESRI_103369: string;
+/**
  * ESRI:103370, NAD_1983_HARN_WISCRS_Winnebago_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=1.0000286569 +x_0=244754.8893 +y_0=0.0049 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
  */
 export declare const ESRI_103370: string;
+/**
+ * ESRI:103371, NAD_1983_HARN_WISCRS_Wood_County_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=44.3625954694444 +lat_0=44.3625954694444 +lon_0=-90 +k_0=1.0000421209 +x_0=208483.6173 +y_0=134589.754 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:8095.
+ */
+export declare const ESRI_103371: string;
 /**
  * ESRI:103372, NAD_1983_CORS96_Maine_2000_East_Zone. United States (USA) - Maine east of approximately 68°25'W. The area is bounded by the following: Beginning at the point determined by the intersection of the Maine State line and the Fort Kent - Frenchville town line, thence continuing easterly and then southerly along the state line to the boundary of the State of Maine as determined by Maritime law, thence following the State boundary westerly to the intersection of the Knox and Hancock County line, thence northerly along the easterly boundary of the Maine 2000 Central Zone, as defined, to the point of beginning. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
@@ -42854,11 +53983,99 @@ export declare const ESRI_103399: string;
  */
 export declare const ESRI_103400: string;
 /**
+ * ESRI:103401, NAD_1983_HARN_WISCRS_Ashland_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=45.7061111111111 +lon_0=-90.6222222222222 +k=1.0000495683 +x_0=172821.945948692 +y_0=0.00182880365760732 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8224.
+ */
+export declare const ESRI_103401: string;
+/**
+ * ESRI:103402, NAD_1983_HARN_WISCRS_Barron_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=45.1333333333333 +lon_0=-91.85 +k=1.0000486665 +x_0=93150 +y_0=0.00304800609601219 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8220.
+ */
+export declare const ESRI_103402: string;
+/**
+ * ESRI:103403, NAD_1983_HARN_WISCRS_Bayfield_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=46.6696483772222 +lat_0=46.6696483772222 +lon_0=-91.1527777777778 +k_0=1.0000331195 +x_0=228600.457505715 +y_0=148551.483566167 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8216.
+ */
+export declare const ESRI_103403: string;
+/**
+ * ESRI:103404, NAD_1983_HARN_WISCRS_Brown_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=43 +lon_0=-88 +k=1.00002 +x_0=31599.9998983998 +y_0=4599.9998983998 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8213.
+ */
+export declare const ESRI_103404: string;
+/**
+ * ESRI:103405, NAD_1983_HARN_WISCRS_Buffalo_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=43.4813888888889 +lon_0=-91.7972222222222 +k=1.0000382778 +x_0=175260.3502159 +y_0=0.00487680975361951 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8210.
+ */
+export declare const ESRI_103405: string;
+/**
+ * ESRI:103406, NAD_1983_HARN_WISCRS_Burnett_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=45.8987148658333 +lat_0=45.8987148658333 +lon_0=-92.4577777777778 +k_0=1.0000383841 +x_0=64008.1277114554 +y_0=59445.9041910084 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8208.
+ */
+export declare const ESRI_103406: string;
+/**
  * ESRI:103407, NAD_1983_HARN_WISCRS_Calumet_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=1.0000286569 +x_0=244754.889204978 +y_0=0.00487680975361951 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
  */
 export declare const ESRI_103407: string;
+/**
+ * ESRI:103408, NAD_1983_HARN_WISCRS_Chippewa_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=44.9778568986111 +lat_0=44.9778568986111 +lon_0=-91.2944444444444 +k_0=1.0000391127 +x_0=60045.7200914402 +y_0=44091.434493269 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8204.
+ */
+export declare const ESRI_103408: string;
+/**
+ * ESRI:103409, NAD_1983_HARN_WISCRS_Clark_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=43.6 +lon_0=-90.7083333333333 +k=1.0000463003 +x_0=199949.198983998 +y_0=0.00853441706883414 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8202.
+ */
+export declare const ESRI_103409: string;
+/**
+ * ESRI:103410, NAD_1983_HARN_WISCRS_Columbia_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=43.4625466458333 +lat_0=43.4625466458333 +lon_0=-89.3944444444444 +k_0=1.00003498 +x_0=169164.338023876 +y_0=111569.613512827 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8200.
+ */
+export declare const ESRI_103410: string;
+/**
+ * ESRI:103411, NAD_1983_HARN_WISCRS_Crawford_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=43.200055605 +lat_0=43.200055605 +lon_0=-90.9388888888889 +k_0=1.0000349151 +x_0=113690.627381255 +y_0=53703.1202438405 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8197.
+ */
+export declare const ESRI_103411: string;
+/**
+ * ESRI:103412, NAD_1983_HARN_WISCRS_Dane_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=43.0695160375 +lat_0=43.0695160375 +lon_0=-89.4222222222222 +k_0=1.0000384786 +x_0=247193.294386589 +y_0=146591.989636779 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8193.
+ */
+export declare const ESRI_103412: string;
 /**
  * ESRI:103413, NAD_1983_HARN_WISCRS_Dodge_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
@@ -42866,11 +54083,67 @@ export declare const ESRI_103407: string;
  */
 export declare const ESRI_103413: string;
 /**
+ * ESRI:103414, NAD_1983_HARN_WISCRS_Door_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44.4 +lon_0=-87.2722222222222 +k=1.0000187521 +x_0=158801.117602235 +y_0=0.00243840487680975 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8185.
+ */
+export declare const ESRI_103414: string;
+/**
+ * ESRI:103415, NAD_1983_HARN_WISCRS_Douglas_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=45.8833333333333 +lon_0=-91.9166666666667 +k=1.0000385418 +x_0=59131.3182626365 +y_0=0.00396240792481585 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8182.
+ */
+export declare const ESRI_103415: string;
+/**
+ * ESRI:103416, NAD_1983_HARN_WISCRS_Dunn_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44.4083333333333 +lon_0=-91.8944444444444 +k=1.0000410324 +x_0=51816.1039370079 +y_0=0.00304800609601219 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8180.
+ */
+export declare const ESRI_103416: string;
+/**
+ * ESRI:103417, NAD_1983_HARN_WISCRS_EauClaire_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=44.8722811263889 +lat_0=44.8722811263889 +lon_0=-91.2888888888889 +k_0=1.000035079 +x_0=120091.44018288 +y_0=91687.9239014478 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8093.
+ */
+export declare const ESRI_103417: string;
+/**
+ * ESRI:103418, NAD_1983_HARN_WISCRS_Florence_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=45.4388888888889 +lon_0=-88.1416666666667 +k=1.0000552095 +x_0=133502.668224536 +y_0=0.0064008128016256 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8091.
+ */
+export declare const ESRI_103418: string;
+/**
  * ESRI:103419, NAD_1983_HARN_WISCRS_Fond_du_Lac_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=1.0000286569 +x_0=244754.889204978 +y_0=0.00487680975361951 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
  */
 export declare const ESRI_103419: string;
+/**
+ * ESRI:103420, NAD_1983_HARN_WISCRS_Forest_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44.0055555555556 +lon_0=-88.6333333333333 +k=1.0000673004 +x_0=275844.553213106 +y_0=0.0158496316992634 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8177.
+ */
+export declare const ESRI_103420: string;
+/**
+ * ESRI:103421, NAD_1983_HARN_WISCRS_Grant_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=41.4111111111111 +lon_0=-90.8 +k=1.0000349452 +x_0=242316.484023368 +y_0=0.0100584201168402 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8172.
+ */
+export declare const ESRI_103421: string;
 /**
  * ESRI:103422, NAD_1983_HARN_WISCRS_Green_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
@@ -42883,6 +54156,30 @@ export declare const ESRI_103422: string;
  * `+proj=lcc +lat_1=43.8070001177778 +lat_0=43.8070001177778 +lon_0=-89.2416666666667 +k_0=1.0000344057 +x_0=150876.301752604 +y_0=79170.7793751588 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
  */
 export declare const ESRI_103423: string;
+/**
+ * ESRI:103424, NAD_1983_HARN_WISCRS_Iowa_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=42.5388888888889 +lon_0=-90.1611111111111 +k=1.0000394961 +x_0=113081.026162052 +y_0=0.00457200914401829 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8166.
+ */
+export declare const ESRI_103424: string;
+/**
+ * ESRI:103425, NAD_1983_HARN_WISCRS_Iron_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=45.4333333333333 +lon_0=-90.2555555555556 +k=1.0000677153 +x_0=220980.441960884 +y_0=0.00853441706883414 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8164.
+ */
+export declare const ESRI_103425: string;
+/**
+ * ESRI:103426, NAD_1983_HARN_WISCRS_Jackson_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44.2533351277778 +lon_0=-90.8442965194444 +k=1.0000353 +x_0=27000 +y_0=24999.9998983998 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8162.
+ */
+export declare const ESRI_103426: string;
 /**
  * ESRI:103427, NAD_1983_HARN_WISCRS_Jefferson_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
@@ -42908,11 +54205,35 @@ export declare const ESRI_103429: string;
  */
 export declare const ESRI_103430: string;
 /**
+ * ESRI:103431, NAD_1983_HARN_WISCRS_LaCrosse_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=43.4511111111111 +lon_0=-91.3166666666667 +k=1.0000319985 +x_0=130454.659690119 +y_0=0.00335280670561341 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8156.
+ */
+export declare const ESRI_103431: string;
+/**
  * ESRI:103432, NAD_1983_HARN_WISCRS_Lafayette_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
  * `+proj=lcc +lat_1=42.6375622769444 +lat_0=42.6375622769444 +lon_0=-89.8388888888889 +k_0=1.0000390487 +x_0=170078.74015748 +y_0=45830.2948437897 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
  */
 export declare const ESRI_103432: string;
+/**
+ * ESRI:103433, NAD_1983_HARN_WISCRS_Langlade_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=45.1542371052778 +lat_0=45.1542371052778 +lon_0=-89.0333333333333 +k_0=1.0000627024 +x_0=198425.196850394 +y_0=105279.782880366 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8154.
+ */
+export declare const ESRI_103433: string;
+/**
+ * ESRI:103434, NAD_1983_HARN_WISCRS_Lincoln_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44.8444444444444 +lon_0=-89.7333333333333 +k=1.0000599003 +x_0=116129.032258065 +y_0=0.00579121158242317 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8152.
+ */
+export declare const ESRI_103434: string;
 /**
  * ESRI:103435, NAD_1983_HARN_WISCRS_Manitowoc_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
@@ -42920,17 +54241,65 @@ export declare const ESRI_103432: string;
  */
 export declare const ESRI_103435: string;
 /**
+ * ESRI:103436, NAD_1983_HARN_WISCRS_Marathon_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=44.9009044236111 +lat_0=44.9009044236111 +lon_0=-89.77 +k_0=1.000053289 +x_0=74676.1493522987 +y_0=55049.2669545339 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8150.
+ */
+export declare const ESRI_103436: string;
+/**
+ * ESRI:103437, NAD_1983_HARN_WISCRS_Marinette_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44.6916666666667 +lon_0=-87.7111111111111 +k=1.0000234982 +x_0=238658.879451359 +y_0=0.00304800609601219 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8148.
+ */
+export declare const ESRI_103437: string;
+/**
  * ESRI:103438, NAD_1983_HARN_WISCRS_Marquette_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
  * `+proj=lcc +lat_1=43.8070001177778 +lat_0=43.8070001177778 +lon_0=-89.2416666666667 +k_0=1.0000344057 +x_0=150876.301752604 +y_0=79170.7793751588 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
  */
 export declare const ESRI_103438: string;
 /**
+ * ESRI:103439, NAD_1983_HARN_WISCRS_Menominee_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44.7166666666667 +lon_0=-88.4166666666667 +k=1.0000362499 +x_0=105461.012141224 +y_0=0.00304800609601219 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8146.
+ */
+export declare const ESRI_103439: string;
+/**
  * ESRI:103440, NAD_1983_HARN_WISCRS_Milwaukee_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=1.0000260649 +x_0=185928.372771146 +y_0=0.000914401828803658 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
  */
 export declare const ESRI_103440: string;
+/**
+ * ESRI:103441, NAD_1983_HARN_WISCRS_Monroe_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=44.0000739286111 +lat_0=44.0000739286111 +lon_0=-90.6416666666667 +k_0=1.0000434122 +x_0=204521.209042418 +y_0=121923.986182372 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8144.
+ */
+export declare const ESRI_103441: string;
+/**
+ * ESRI:103442, NAD_1983_HARN_WISCRS_Oconto_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44.3972222222222 +lon_0=-87.9083333333333 +k=1.0000236869 +x_0=182880.367589535 +y_0=0.00335280670561341 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8142.
+ */
+export declare const ESRI_103442: string;
+/**
+ * ESRI:103443, NAD_1983_HARN_WISCRS_Oneida_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=45.7042237702778 +lat_0=45.7042237702778 +lon_0=-89.5444444444444 +k_0=1.0000686968 +x_0=70104.1402082804 +y_0=57588.0347472695 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8140.
+ */
+export declare const ESRI_103443: string;
 /**
  * ESRI:103444, NAD_1983_HARN_WISCRS_Outagamie_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
@@ -42956,11 +54325,83 @@ export declare const ESRI_103446: string;
  */
 export declare const ESRI_103447: string;
 /**
+ * ESRI:103448, NAD_1983_HARN_WISCRS_Polk_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44.6611111111111 +lon_0=-92.6333333333333 +k=1.0000433849 +x_0=141732.282245365 +y_0=0.00579121158242317 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8136.
+ */
+export declare const ESRI_103448: string;
+/**
+ * ESRI:103449, NAD_1983_HARN_WISCRS_Portage_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=44.4168239752778 +lat_0=44.4168239752778 +lon_0=-89.5 +k_0=1.000039936 +x_0=56388.1127762256 +y_0=50022.1874523749 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8134.
+ */
+export declare const ESRI_103449: string;
+/**
+ * ESRI:103450, NAD_1983_HARN_WISCRS_Price_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44.5555555555556 +lon_0=-90.4888888888889 +k=1.0000649554 +x_0=227990.854457709 +y_0=0.0109728219456439 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8132.
+ */
+export declare const ESRI_103450: string;
+/**
  * ESRI:103451, NAD_1983_HARN_WISCRS_Racine_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=1.0000260649 +x_0=185928.372771146 +y_0=0.000914401828803658 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
  */
 export declare const ESRI_103451: string;
+/**
+ * ESRI:103452, NAD_1983_HARN_WISCRS_Richland_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=43.3223129275 +lat_0=43.3223129275 +lon_0=-90.4305555555556 +k_0=1.0000375653 +x_0=202387.60477521 +y_0=134255.425450851 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8130.
+ */
+export declare const ESRI_103452: string;
+/**
+ * ESRI:103453, NAD_1983_HARN_WISCRS_Rock_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=41.9444444444444 +lon_0=-89.0722222222222 +k=1.0000337311 +x_0=146304.292608585 +y_0=0.00670561341122682 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8128.
+ */
+export declare const ESRI_103453: string;
+/**
+ * ESRI:103454, NAD_1983_HARN_WISCRS_Rusk_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=43.9194444444444 +lon_0=-91.0666666666667 +k=1.0000495976 +x_0=250546.101397003 +y_0=0.0234696469392939 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8126.
+ */
+export declare const ESRI_103454: string;
+/**
+ * ESRI:103455, NAD_1983_HARN_WISCRS_Sauk_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=42.8194444444444 +lon_0=-89.9 +k=1.0000373868 +x_0=185623.571551943 +y_0=0.00518161036322073 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8124.
+ */
+export declare const ESRI_103455: string;
+/**
+ * ESRI:103456, NAD_1983_HARN_WISCRS_Sawyer_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=45.9000991313889 +lat_0=45.9000991313889 +lon_0=-91.1166666666667 +k_0=1.0000573461 +x_0=216713.233731268 +y_0=120734.163169926 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8122.
+ */
+export declare const ESRI_103456: string;
+/**
+ * ESRI:103457, NAD_1983_HARN_WISCRS_Shawano_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44.0361111111111 +lon_0=-88.6055555555556 +k=1.000032144 +x_0=262433.32517145 +y_0=0.0094488188976378 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8120.
+ */
+export declare const ESRI_103457: string;
 /**
  * ESRI:103458, NAD_1983_HARN_WISCRS_Sheboygan_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
@@ -42968,11 +54409,107 @@ export declare const ESRI_103451: string;
  */
 export declare const ESRI_103458: string;
 /**
+ * ESRI:103459, NAD_1983_HARN_WISCRS_St_Croix_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=44.0361111111111 +lon_0=-92.6333333333333 +k=1.0000381803 +x_0=165506.73009906 +y_0=0.0103632207264415 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8118.
+ */
+export declare const ESRI_103459: string;
+/**
+ * ESRI:103460, NAD_1983_HARN_WISCRS_Taylor_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=45.1778220858333 +lat_0=45.1778220858333 +lon_0=-90.4833333333333 +k_0=1.0000597566 +x_0=187147.574295149 +y_0=107746.752146304 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8116.
+ */
+export declare const ESRI_103460: string;
+/**
+ * ESRI:103461, NAD_1983_HARN_WISCRS_Trempealeau_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=43.1611111111111 +lon_0=-91.3666666666667 +k=1.0000361538 +x_0=256946.913893828 +y_0=0.00396240792481585 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8114.
+ */
+export declare const ESRI_103461: string;
+/**
+ * ESRI:103462, NAD_1983_HARN_WISCRS_Vernon_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=43.5750329397222 +lat_0=43.5750329397222 +lon_0=-90.7833333333333 +k_0=1.0000408158 +x_0=222504.44500889 +y_0=47532.0603505207 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8112.
+ */
+export declare const ESRI_103462: string;
+/**
+ * ESRI:103463, NAD_1983_HARN_WISCRS_Vilas_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=46.0778440905556 +lat_0=46.0778440905556 +lon_0=-89.4888888888889 +k_0=1.0000730142 +x_0=134417.068834138 +y_0=50337.1092710185 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8110.
+ */
+export declare const ESRI_103463: string;
+/**
+ * ESRI:103464, NAD_1983_HARN_WISCRS_Walworth_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=42.6694620969444 +lat_0=42.6694620969444 +lon_0=-88.5416666666667 +k_0=1.0000367192 +x_0=232562.86512573 +y_0=111088.222402845 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8108.
+ */
+export declare const ESRI_103464: string;
+/**
+ * ESRI:103465, NAD_1983_HARN_WISCRS_Washburn_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=45.9612198333333 +lat_0=45.9612198333333 +lon_0=-91.7833333333333 +k_0=1.0000475376 +x_0=234086.868173736 +y_0=188358.605943612 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8106.
+ */
+export declare const ESRI_103465: string;
+/**
+ * ESRI:103466, NAD_1983_HARN_WISCRS_Washington_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=42.9180555555555 +lon_0=-88.0638888888889 +k=1.00003738 +x_0=120091.441402083 +y_0=0.00304800609601219 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8104.
+ */
+export declare const ESRI_103466: string;
+/**
+ * ESRI:103467, NAD_1983_HARN_WISCRS_Waukesha_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=42.5694444444444 +lon_0=-88.225 +k=1.0000346179 +x_0=208788.417881636 +y_0=0.00335280670561341 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8102.
+ */
+export declare const ESRI_103467: string;
+/**
+ * ESRI:103468, NAD_1983_HARN_WISCRS_Waupaca_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=43.4202777777778 +lon_0=-88.8166666666667 +k=1.0000333645 +x_0=185013.970942342 +y_0=0.00701041402082804 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8100.
+ */
+export declare const ESRI_103468: string;
+/**
+ * ESRI:103469, NAD_1983_HARN_WISCRS_Waushara_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=44.1139440458333 +lat_0=44.1139440458333 +lon_0=-89.2416666666667 +k_0=1.0000392096 +x_0=120091.44018288 +y_0=45069.7588011176 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8098.
+ */
+export declare const ESRI_103469: string;
+/**
  * ESRI:103470, NAD_1983_HARN_WISCRS_Winnebago_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=1.0000286569 +x_0=244754.889204978 +y_0=0.00487680975361951 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
  */
 export declare const ESRI_103470: string;
+/**
+ * ESRI:103471, NAD_1983_HARN_WISCRS_Wood_County_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ.
+ *
+ * `+proj=lcc +lat_1=44.3625954694444 +lat_0=44.3625954694444 +lon_0=-90 +k_0=1.0000421209 +x_0=208483.617272035 +y_0=134589.753924308 +ellps=GRS80 +towgs84=-0.991,1.9072,0.5129,0.025789907519,0.00965009896,0.011659943232,0 +units=us-ft +no_defs`
+ *
+ * @deprecated Use EPSG:8096.
+ */
+export declare const ESRI_103471: string;
 /**
  * ESRI:103472, NAD_1983_CORS96_StatePlane_Montana_FIPS_2500. United States (USA) - Montana. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
@@ -43310,6 +54847,94 @@ export declare const ESRI_103526: string;
  */
 export declare const ESRI_103527: string;
 /**
+ * ESRI:103528, ETRF_1989_UTM_Zone_28N. Europe between 18°W and 12°W: Faroe Islands - offshore; Ireland - offshore; Jan Mayen - offshore; Portugal - offshore mainland; Spain - offshore mainland; United Kingdom (UKCS) - offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=28 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103528: string;
+/**
+ * ESRI:103529, ETRF_1989_UTM_Zone_29N. Europe between 12°W and 6°W: Faroe Islands - offshore; Ireland - offshore; Jan Mayen - onshore and offshore; Portugal - mainland - onshore and offshore; Spain - mainland - onshore and offshore; United Kingdom - UKCS offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=29 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103529: string;
+/**
+ * ESRI:103530, ETRF_1989_UTM_Zone_30N. Europe between 6°W and 0°W: Faroe Islands offshore; Ireland - offshore; Jan Mayen - offshore; Norway including Svalbard - offshore; Spain - mainland - onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=30 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103530: string;
+/**
+ * ESRI:103531, ETRF_1989_UTM_Zone_31N. Europe between 0°E and 6°E: Andorra; Denmark - offshore; Germany - offshore; Jan Mayen - offshore; Norway including Svalbard - onshore and offshore; Spain - mainland and Balearic islands - onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103531: string;
+/**
+ * ESRI:103532, ETRF_1989_UTM_Zone_32N. Europe between 6°E and 12°E: Austria; Denmark - onshore and offshore; Germany - onshore and offshore; Italy - onshore and offshore; Norway including Svalbard - onshore and offshore; Spain - offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103532: string;
+/**
+ * ESRI:103533, ETRF_1989_UTM_Zone_33N. Europe between 12°E and 18°E: Austria; Croatia; Denmark - offshore and offshore; Germany - onshore and offshore; Italy - onshore and offshore; Norway including Svalbard - onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103533: string;
+/**
+ * ESRI:103534, ETRF_1989_UTM_Zone_34N. Europe between 18°E and 24°E: Bulgaria; Croatia; Italy - onshore and offshore; Norway including Svalbard - onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=34 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103534: string;
+/**
+ * ESRI:103535, ETRF_1989_UTM_Zone_35N. Europe between 24°E and 30°E: Bulgaria - onshore and offshore; Norway including Svalbard - onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=35 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103535: string;
+/**
+ * ESRI:103536, ETRF_1989_UTM_Zone_36N. Europe between 30°E and 36°E: Bulgaria - offshore; Norway including Svalbard - onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=36 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103536: string;
+/**
+ * ESRI:103537, ETRF_1989_UTM_Zone_37N. Europe between 36°E and 42°E: Norway including Svalbard - offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=37 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103537: string;
+/**
+ * ESRI:103538, ETRF_1989_UTM_Zone_38N. Europe - between 42°E and 48°E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=38 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103538: string;
+/**
  * ESRI:103539, NAD_1983_CORS96_StatePlane_Texas_North_FIPS_4201. United States (USA) - Texas - counties of: Armstrong; Briscoe; Carson; Castro; Childress; Collingsworth; Dallam; Deaf Smith; Donley; Gray; Hall; Hansford; Hartley; Hemphill; Hutchinson; Lipscomb; Moore; Ochiltree; Oldham; Parmer; Potter; Randall; Roberts; Sherman; Swisher; Wheeler. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
  * `+proj=lcc +lat_0=34 +lon_0=-101.5 +lat_1=34.65 +lat_2=36.1833333333333 +x_0=200000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs`
@@ -43580,6 +55205,14 @@ export declare const ESRI_103582: string;
  */
 export declare const ESRI_103583: string;
 /**
+ * ESRI:103584, ETRF_1989_TM_Baltic_1993. Estonia, Latvia and Lithuania - onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9996 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103584: string;
+/**
  * ESRI:103585, NAD_1983_CORS96_StatePlane_Wyoming_West_FIPS_4904_Ft_US. United States (USA) - Wyoming - counties of Lincoln; Sublette; Teton; Uinta. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
  * `+proj=tmerc +lat_0=40.5 +lon_0=-110.083333333333 +k=0.9999375 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs`
@@ -43639,6 +55272,30 @@ export declare const ESRI_103593: string;
  * `+proj=lcc +lat_1=36 +lat_0=36 +lon_0=-109.5 +k_0=1.00023 +x_0=300000 +y_0=600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs`
  */
 export declare const ESRI_103594: string;
+/**
+ * ESRI:103595, ONGD17_UTM_Zone_39N. Oman - onshore and offshore west of 54°E. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=39 +ellps=GRS80 +towgs84=1.16835,-1.42001,-2.24431,-0.00822,-0.05508,0.01818,0.23388 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:9295.
+ */
+export declare const ESRI_103595: string;
+/**
+ * ESRI:103596, ONGD17_UTM_Zone_40N. Oman - onshore and offshore between 54°E and 60°E. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=40 +ellps=GRS80 +towgs84=1.16835,-1.42001,-2.24431,-0.00822,-0.05508,0.01818,0.23388 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:9296.
+ */
+export declare const ESRI_103596: string;
+/**
+ * ESRI:103597, ONGD17_UTM_Zone_41N. Oman - offshore east of 60°E. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=41 +ellps=GRS80 +towgs84=1.16835,-1.42001,-2.24431,-0.00822,-0.05508,0.01818,0.23388 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:9297.
+ */
+export declare const ESRI_103597: string;
 /**
  * ESRI:103598, GTM. Guatemala - onshore and offshore. Within 1 cm of PROJ.
  *
@@ -44228,6 +55885,30 @@ export declare const ESRI_103694: string;
  */
 export declare const ESRI_103695: string;
 /**
+ * ESRI:103696, NAD_1983_(CSRS)_v6_UTM_Zone_19N. Canada between 72°W and 66°W onshore and offshore - New Brunswick, Labrador, Nova Scotia, Nunavut, Quebec. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=19 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:22619.
+ */
+export declare const ESRI_103696: string;
+/**
+ * ESRI:103697, NAD_1983_(CSRS)_v6_UTM_Zone_20N. Canada between 66°W and 60°W onshore and offshore - New Brunswick, Labrador, Nova Scotia, Nunavut, Prince Edward Island, Quebec. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=20 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:22620.
+ */
+export declare const ESRI_103697: string;
+/**
+ * ESRI:103698, NAD_1983_(CSRS)_v6_UTM_Zone_21N. Canada between 60°W and 54°W - Newfoundland and Labrador; Nunavut; Quebec. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=utm +zone=21 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:22621.
+ */
+export declare const ESRI_103698: string;
+/**
  * ESRI:103699, Palestine_Grid_1923_Modified_TM. Palestine. Within 1 cm of PROJ.
  *
  * `+proj=tmerc +lat_0=31.7343936111111 +lon_0=35.2045169444444 +k=1.0000067 +x_0=169529.584 +y_0=126907.39 +ellps=GRS80 +towgs84=23.772,17.49,17.859,-0.3132,-1.85274,1.67299,-5.4262 +units=m +no_defs`
@@ -44798,11 +56479,659 @@ export declare const ESRI_103792: string;
  */
 export declare const ESRI_103793: string;
 /**
+ * ESRI:103794, Mexican_Datum_1993_UTM_Zone_11N. Mexico west of 114°W, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=11 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4484.
+ */
+export declare const ESRI_103794: string;
+/**
+ * ESRI:103795, Mexican_Datum_1993_UTM_Zone_12N. Mexico between 114°W and 108°W, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=12 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4485.
+ */
+export declare const ESRI_103795: string;
+/**
+ * ESRI:103796, Mexican_Datum_1993_UTM_Zone_13N. Mexico between 108°W and 102°W, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=13 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4486.
+ */
+export declare const ESRI_103796: string;
+/**
+ * ESRI:103797, Mexican_Datum_1993_UTM_Zone_14N. Mexico between 102°W and 96°W, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=14 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4487.
+ */
+export declare const ESRI_103797: string;
+/**
+ * ESRI:103798, Mexican_Datum_1993_UTM_Zone_15N. Mexico between 96°W and 90°W, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=15 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4488.
+ */
+export declare const ESRI_103798: string;
+/**
+ * ESRI:103799, Mexican_Datum_1993_UTM_Zone_16N. Mexico east of 90°W, onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=16 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:4489.
+ */
+export declare const ESRI_103799: string;
+/**
+ * ESRI:103800, NAD_1983_HARN_Adj_WI_Adams_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43.3666666666667 +lon_0=-90 +k=0.999999 +x_0=147218.694437389 +y_0=0 +a=6378376.271 +rf=298.268410995005 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103800: string;
+/**
+ * ESRI:103801, NAD_1983_HARN_Adj_WI_Ashland_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=45.7061111111111 +lon_0=-90.6222222222222 +k=0.999997 +x_0=172821.945643891 +y_0=0 +a=6378471.92 +rf=298.272883775229 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103801: string;
+/**
+ * ESRI:103802, NAD_1983_HARN_Adj_WI_Barron_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=45.1333333333333 +lon_0=-91.85 +k=0.999996 +x_0=93150 +y_0=0 +a=6378472.931 +rf=298.272931052052 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103802: string;
+/**
+ * ESRI:103803, NAD_1983_HARN_Adj_WI_Brown_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43 +lon_0=-88 +k=1.00002 +x_0=31599.99998984 +y_0=4599.98983997968 +ellps=GRS80 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103803: string;
+/**
+ * ESRI:103804, NAD_1983_HARN_Adj_WI_Buffalo_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43.4813888888889 +lon_0=-91.7972222222222 +k=1 +x_0=175260.350520701 +y_0=0 +a=6378380.991 +rf=298.268631713702 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103804: string;
+/**
+ * ESRI:103805, NAD_1983_HARN_Adj_WI_Calumet_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=0.999996 +x_0=244754.889509779 +y_0=0 +a=6378345.09 +rf=298.266952895494 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103805: string;
+/**
+ * ESRI:103806, NAD_1983_HARN_Adj_WI_Clark_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43.6 +lon_0=-90.7083333333333 +k=0.999994 +x_0=199949.1998984 +y_0=0 +a=6378470.401 +rf=298.272812743089 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103806: string;
+/**
+ * ESRI:103807, NAD_1983_HARN_Adj_WI_Dodge_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=41.4722222222222 +lon_0=-88.775 +k=0.999997 +x_0=263347.726695453 +y_0=0 +a=6378376.811 +rf=298.268436246721 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103807: string;
+/**
+ * ESRI:103808, NAD_1983_HARN_Adj_WI_Door_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.4 +lon_0=-87.2722222222222 +k=0.999991 +x_0=158801.117602235 +y_0=0 +a=6378313.92 +rf=298.26549531037 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103808: string;
+/**
+ * ESRI:103809, NAD_1983_HARN_Adj_WI_Douglas_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=45.8833333333333 +lon_0=-91.9166666666667 +k=0.999995 +x_0=59131.3182626365 +y_0=0 +a=6378414.93 +rf=298.270218784012 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103809: string;
+/**
+ * ESRI:103810, NAD_1983_HARN_Adj_WI_Dunn_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.4083333333333 +lon_0=-91.8944444444444 +k=0.999998 +x_0=51816.1036322073 +y_0=0 +a=6378413.021 +rf=298.270129514522 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103810: string;
+/**
+ * ESRI:103811, NAD_1983_HARN_Adj_WI_Florence_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=45.4388888888889 +lon_0=-88.1416666666667 +k=0.999993 +x_0=133502.667005334 +y_0=0 +a=6378530.851 +rf=298.275639532334 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103811: string;
+/**
+ * ESRI:103812, NAD_1983_HARN_Adj_WI_Fond_du_Lac_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=0.999996 +x_0=244754.889509779 +y_0=0 +a=6378345.09 +rf=298.266952895494 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103812: string;
+/**
+ * ESRI:103813, NAD_1983_HARN_Adj_WI_Forest_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.0055555555556 +lon_0=-88.6333333333333 +k=0.999996 +x_0=275844.551689103 +y_0=0 +a=6378591.521 +rf=298.278476609315 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103813: string;
+/**
+ * ESRI:103814, NAD_1983_HARN_Adj_WI_Grant_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=41.4111111111111 +lon_0=-90.8 +k=0.999997 +x_0=242316.484632969 +y_0=0 +a=6378378.881 +rf=298.268533044963 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103814: string;
+/**
+ * ESRI:103815, NAD_1983_HARN_Adj_WI_Iowa_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.5388888888889 +lon_0=-90.1611111111111 +k=0.999997 +x_0=113081.026162052 +y_0=0 +a=6378408.041 +rf=298.269896637591 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103815: string;
+/**
+ * ESRI:103816, NAD_1983_HARN_Adj_WI_Iron_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=45.4333333333333 +lon_0=-90.2555555555556 +k=0.999996 +x_0=220980.441960884 +y_0=0 +a=6378655.071 +rf=298.281448362111 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103816: string;
+/**
+ * ESRI:103817, NAD_1983_HARN_Adj_WI_Jefferson_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=41.4722222222222 +lon_0=-88.775 +k=0.999997 +x_0=263347.726695453 +y_0=0 +a=6378376.811 +rf=298.268436246721 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103817: string;
+/**
+ * ESRI:103818, NAD_1983_HARN_Adj_WI_Juneau_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43.3666666666667 +lon_0=-90 +k=0.999999 +x_0=147218.694437389 +y_0=0 +a=6378376.271 +rf=298.268410995005 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103818: string;
+/**
+ * ESRI:103819, NAD_1983_HARN_Adj_WI_Kenosha_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=0.999998 +x_0=185928.371856744 +y_0=0 +a=6378315.7 +rf=298.265578547505 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103819: string;
+/**
+ * ESRI:103820, NAD_1983_HARN_Adj_WI_Kewaunee_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1 +x_0=79857.7597155194 +y_0=0 +a=6378285.86 +rf=298.264183156421 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103820: string;
+/**
+ * ESRI:103821, NAD_1983_HARN_Adj_WI_LaCrosse_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43.4511111111111 +lon_0=-91.3166666666667 +k=0.999994 +x_0=130454.660909322 +y_0=0 +a=6378379.301 +rf=298.268552685186 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103821: string;
+/**
+ * ESRI:103822, NAD_1983_HARN_Adj_WI_Lincoln_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.8444444444444 +lon_0=-89.7333333333333 +k=0.999998 +x_0=116129.032258065 +y_0=0 +a=6378531.821 +rf=298.275684891897 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103822: string;
+/**
+ * ESRI:103823, NAD_1983_HARN_Adj_WI_Manitowoc_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1 +x_0=79857.7597155194 +y_0=0 +a=6378285.86 +rf=298.264183156421 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103823: string;
+/**
+ * ESRI:103824, NAD_1983_HARN_Adj_WI_Marinette_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.6916666666667 +lon_0=-87.7111111111111 +k=0.999986 +x_0=238658.877317755 +y_0=0 +a=6378376.041 +rf=298.268400239645 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103824: string;
+/**
+ * ESRI:103825, NAD_1983_HARN_Adj_WI_Menominee_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.7166666666667 +lon_0=-88.4166666666667 +k=0.999994 +x_0=105461.010922022 +y_0=0 +a=6378406.601 +rf=298.269829299684 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103825: string;
+/**
+ * ESRI:103826, NAD_1983_HARN_Adj_WI_Milwaukee_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=0.999998 +x_0=185928.371856744 +y_0=0 +a=6378315.7 +rf=298.265578547505 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103826: string;
+/**
+ * ESRI:103827, NAD_1983_HARN_Adj_WI_Oconto_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.3972222222222 +lon_0=-87.9083333333333 +k=0.999991 +x_0=182880.365760732 +y_0=0 +a=6378345.42 +rf=298.266968327098 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103827: string;
+/**
+ * ESRI:103828, NAD_1983_HARN_Adj_WI_Outagamie_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=0.999996 +x_0=244754.889509779 +y_0=0 +a=6378345.09 +rf=298.266952895494 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103828: string;
+/**
+ * ESRI:103829, NAD_1983_HARN_Adj_WI_Ozaukee_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=0.999998 +x_0=185928.371856744 +y_0=0 +a=6378315.7 +rf=298.265578547505 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103829: string;
+/**
+ * ESRI:103830, NAD_1983_HARN_Adj_WI_Polk_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.6611111111111 +lon_0=-92.6333333333333 +k=1 +x_0=141732.283464567 +y_0=0 +a=6378413.671 +rf=298.270159910105 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103830: string;
+/**
+ * ESRI:103831, NAD_1983_HARN_Adj_WI_Price_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.5555555555556 +lon_0=-90.4888888888889 +k=0.999998 +x_0=227990.855981712 +y_0=0 +a=6378563.891 +rf=298.277184563214 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103831: string;
+/**
+ * ESRI:103832, NAD_1983_HARN_Adj_WI_Racine_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=0.999998 +x_0=185928.371856744 +y_0=0 +a=6378315.7 +rf=298.265578547505 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103832: string;
+/**
+ * ESRI:103833, NAD_1983_HARN_Adj_WI_Rock_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=41.9444444444444 +lon_0=-89.0722222222222 +k=0.999996 +x_0=146304.292608585 +y_0=0 +a=6378377.671 +rf=298.268476462415 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103833: string;
+/**
+ * ESRI:103834, NAD_1983_HARN_Adj_WI_Rusk_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43.9194444444444 +lon_0=-91.0666666666667 +k=0.999997 +x_0=250546.101092202 +y_0=0 +a=6378472.751 +rf=298.272922634813 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103834: string;
+/**
+ * ESRI:103835, NAD_1983_HARN_Adj_WI_St_Croix_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.0361111111111 +lon_0=-92.6333333333333 +k=0.999995 +x_0=165506.731013462 +y_0=0 +a=6378412.511 +rf=298.270105665679 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103835: string;
+/**
+ * ESRI:103836, NAD_1983_HARN_Adj_WI_Sauk_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.8194444444444 +lon_0=-89.9 +k=0.999995 +x_0=185623.571247143 +y_0=0 +a=6378407.281 +rf=298.26986109814 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103836: string;
+/**
+ * ESRI:103837, NAD_1983_HARN_Adj_WI_Shawano_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.0361111111111 +lon_0=-88.6055555555556 +k=0.99999 +x_0=262433.32486665 +y_0=0 +a=6378406.051 +rf=298.269803580344 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103837: string;
+/**
+ * ESRI:103838, NAD_1983_HARN_Adj_WI_Sheboygan_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1 +x_0=79857.7597155194 +y_0=0 +a=6378285.86 +rf=298.264183156421 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103838: string;
+/**
+ * ESRI:103839, NAD_1983_HARN_Adj_WI_Trempealeau_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43.1611111111111 +lon_0=-91.3666666666667 +k=0.999998 +x_0=256946.913893828 +y_0=0 +a=6378380.091 +rf=298.26858962751 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103839: string;
+/**
+ * ESRI:103840, NAD_1983_HARN_Adj_WI_Washington_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.9180555555555 +lon_0=-88.0638888888889 +k=0.999995 +x_0=120091.44018288 +y_0=0 +a=6378407.141 +rf=298.269854551399 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103840: string;
+/**
+ * ESRI:103841, NAD_1983_HARN_Adj_WI_Waukesha_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.5694444444444 +lon_0=-88.225 +k=0.999997 +x_0=208788.417576835 +y_0=0 +a=6378376.871 +rf=298.268439052467 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103841: string;
+/**
+ * ESRI:103842, NAD_1983_HARN_Adj_WI_Waupaca_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43.4202777777778 +lon_0=-88.8166666666667 +k=0.999996 +x_0=185013.97002794 +y_0=0 +a=6378375.251 +rf=298.268363297321 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103842: string;
+/**
+ * ESRI:103843, NAD_1983_HARN_Adj_WI_Winnebago_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=0.999996 +x_0=244754.889509779 +y_0=0 +a=6378345.09 +rf=298.266952895494 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103843: string;
+/**
+ * ESRI:103844, NAD_1983_HARN_Adj_WI_Bayfield_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=45.3333333333333 +lon_0=-91.1527777777778 +lat_1=46.4138888888889 +lat_2=46.925 +x_0=228600.457200914 +y_0=0 +a=6378411.351 +rf=298.270051421254 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103844: string;
+/**
+ * ESRI:103845, NAD_1983_HARN_Adj_WI_Burnett_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=45.3638888888889 +lon_0=-92.4577777777778 +lat_1=45.7138888888889 +lat_2=46.0833333333333 +x_0=64008.128016256 +y_0=0 +a=6378414.96 +rf=298.270220186885 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103845: string;
+/**
+ * ESRI:103847, NAD_1983_HARN_Adj_WI_Columbia_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=42.4583333333333 +lon_0=-89.3944444444444 +lat_1=43.3333333333333 +lat_2=43.5916666666667 +x_0=169164.338328677 +y_0=0 +a=6378376.331 +rf=298.268413800752 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103847: string;
+/**
+ * ESRI:103848, NAD_1983_HARN_Adj_WI_Crawford_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=42.7166666666667 +lon_0=-90.9388888888889 +lat_1=43.0583333333333 +lat_2=43.3416666666667 +x_0=113690.627381255 +y_0=0 +a=6378379.031 +rf=298.268540059328 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103848: string;
+/**
+ * ESRI:103849, NAD_1983_HARN_Adj_WI_Dane_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=41.75 +lon_0=-89.4222222222222 +lat_1=42.9083333333333 +lat_2=43.2305555555555 +x_0=247193.294386589 +y_0=0 +a=6378407.621 +rf=298.269876997368 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103849: string;
+/**
+ * ESRI:103850, NAD_1983_HARN_Adj_WI_EauClaire_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=44.0472222222222 +lon_0=-91.2888888888889 +lat_1=44.7305555555555 +lat_2=45.0138888888889 +x_0=120091.44018288 +y_0=0 +a=6378380.381 +rf=298.268603188617 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103850: string;
+/**
+ * ESRI:103851, NAD_1983_HARN_Adj_WI_Green_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=42.225 +lon_0=-89.8388888888889 +lat_1=42.4861111111111 +lat_2=42.7888888888889 +x_0=170078.74015748 +y_0=0 +a=6378408.481 +rf=298.269917213063 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103851: string;
+/**
+ * ESRI:103852, NAD_1983_HARN_Adj_WI_GreenLake_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=43.0944444444444 +lon_0=-89.2416666666667 +lat_1=43.6666666666667 +lat_2=43.9472222222222 +x_0=150876.301752603 +y_0=0 +a=6378375.601 +rf=298.268379664173 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103852: string;
+/**
+ * ESRI:103853, NAD_1983_HARN_Adj_WI_Jackson_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=43.7944444444444 +lon_0=-90.7388888888889 +lat_1=44.1638888888889 +lat_2=44.4194444444444 +x_0=125882.651765303 +y_0=0 +a=6378409.151 +rf=298.269948543895 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103853: string;
+/**
+ * ESRI:103854, NAD_1983_HARN_Adj_WI_Lafayette_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=42.225 +lon_0=-89.8388888888889 +lat_1=42.4861111111111 +lat_2=42.7888888888889 +x_0=170078.74015748 +y_0=0 +a=6378408.481 +rf=298.269917213063 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103854: string;
+/**
+ * ESRI:103855, NAD_1983_HARN_Adj_WI_Langlade_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=44.2069444444445 +lon_0=-89.0333333333333 +lat_1=45 +lat_2=45.3083333333333 +x_0=198425.196850394 +y_0=0 +a=6378560.121 +rf=298.277008268831 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103855: string;
+/**
+ * ESRI:103856, NAD_1983_HARN_Adj_WI_Marathon_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=44.4055555555556 +lon_0=-89.77 +lat_1=44.7452777777778 +lat_2=45.0563888888889 +x_0=74676.1493522987 +y_0=0 +a=6378500.6 +rf=298.274224921888 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103856: string;
+/**
+ * ESRI:103857, NAD_1983_HARN_Adj_WI_Marquette_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=43.0944444444444 +lon_0=-89.2416666666667 +lat_1=43.6666666666667 +lat_2=43.9472222222222 +x_0=150876.301752603 +y_0=0 +a=6378375.601 +rf=298.268379664173 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103857: string;
+/**
+ * ESRI:103858, NAD_1983_HARN_Adj_WI_Monroe_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=42.9027777777778 +lon_0=-90.6416666666667 +lat_1=43.8388888888889 +lat_2=44.1611111111111 +x_0=204521.209042418 +y_0=0 +a=6378438.991 +rf=298.27134393498 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103858: string;
+/**
+ * ESRI:103859, NAD_1983_HARN_Adj_WI_Oneida_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=45.1861111111111 +lon_0=-89.5444444444444 +lat_1=45.5666666666667 +lat_2=45.8416666666667 +x_0=70104.1402082804 +y_0=0 +a=6378593.86 +rf=298.278585986653 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103859: string;
+/**
+ * ESRI:103860, NAD_1983_HARN_Adj_WI_Pepin_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=43.8619444444444 +lon_0=-92.2277777777778 +lat_1=44.5222222222222 +lat_2=44.75 +x_0=167640.335280671 +y_0=0 +a=6378381.271 +rf=298.268644807185 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103860: string;
+/**
+ * ESRI:103861, NAD_1983_HARN_Adj_WI_Pierce_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=43.8619444444444 +lon_0=-92.2277777777778 +lat_1=44.5222222222222 +lat_2=44.75 +x_0=167640.335280671 +y_0=0 +a=6378381.271 +rf=298.268644807185 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103861: string;
+/**
+ * ESRI:103862, NAD_1983_HARN_Adj_WI_Portage_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=43.9666666666667 +lon_0=-89.5 +lat_1=44.1833333333333 +lat_2=44.65 +x_0=56388.1127762256 +y_0=0 +a=6378344.377 +rf=298.266919538913 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103862: string;
+/**
+ * ESRI:103863, NAD_1983_HARN_Adj_WI_Richland_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=42.1138888888889 +lon_0=-90.4305555555556 +lat_1=43.1416666666667 +lat_2=43.5027777777778 +x_0=202387.60477521 +y_0=0 +a=6378408.091 +rf=298.269898975713 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103863: string;
+/**
+ * ESRI:103864, NAD_1983_HARN_Adj_WI_Sawyer_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=44.8138888888889 +lon_0=-91.1166666666667 +lat_1=45.7194444444444 +lat_2=46.0805555555556 +x_0=216713.233426467 +y_0=0 +a=6378534.451 +rf=298.275807877103 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103864: string;
+/**
+ * ESRI:103865, NAD_1983_HARN_Adj_WI_Taylor_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=44.2083333333333 +lon_0=-90.4833333333333 +lat_1=45.0555555555556 +lat_2=45.3 +x_0=187147.574295149 +y_0=0 +a=6378532.921 +rf=298.275736330576 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103865: string;
+/**
+ * ESRI:103866, NAD_1983_HARN_Adj_WI_Vernon_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=43.1472222222222 +lon_0=-90.7833333333333 +lat_1=43.4666666666667 +lat_2=43.6833333333333 +x_0=222504.44500889 +y_0=0 +a=6378408.941 +rf=298.269938723784 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103866: string;
+/**
+ * ESRI:103867, NAD_1983_HARN_Adj_WI_Vilas_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=45.625 +lon_0=-89.4888888888889 +lat_1=45.9305555555556 +lat_2=46.225 +x_0=134417.068834138 +y_0=0 +a=6378624.171 +rf=298.280003402845 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103867: string;
+/**
+ * ESRI:103868, NAD_1983_HARN_Adj_WI_Walworth_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=41.6694444444444 +lon_0=-88.5416666666667 +lat_1=42.5888888888889 +lat_2=42.75 +x_0=232562.86512573 +y_0=0 +a=6378377.411 +rf=298.268464304182 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103868: string;
+/**
+ * ESRI:103869, NAD_1983_HARN_Adj_WI_Washburn_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=44.2666666666667 +lon_0=-91.7833333333333 +lat_1=45.7722222222222 +lat_2=46.15 +x_0=234086.868173736 +y_0=0 +a=6378474.591 +rf=298.273008677695 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103869: string;
+/**
+ * ESRI:103870, NAD_1983_HARN_Adj_WI_Waushara_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=43.7083333333333 +lon_0=-89.2416666666667 +lat_1=43.975 +lat_2=44.2527777777778 +x_0=120091.44018288 +y_0=0 +a=6378405.971 +rf=298.269799839349 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103870: string;
+/**
+ * ESRI:103871, NAD_1983_HARN_Adj_WI_Wood_Meters. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=43.1513888888889 +lon_0=-90 +lat_1=44.1805555555556 +lat_2=44.5444444444444 +x_0=208483.616967234 +y_0=0 +a=6378437.651 +rf=298.271281273316 +units=m +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103871: string;
+/**
  * ESRI:103872, GDM2008_LGM2012. Mauritius - onshore and offshore. Includes Rodrigues, Agalega Islands, and Cargados Carajos. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
  * `+proj=lcc +lat_0=-20.2755163 +lon_0=57.5645566222222 +lat_1=-20.0611111111111 +lat_2=-20.4444444444444 +x_0=250000 +y_0=350000 +ellps=GRS80 +units=m +no_defs`
  */
 export declare const ESRI_103872: string;
+/**
+ * ESRI:103873, NAD_1983_(CSRS)_v6_UTM_Zone_15N. Canada between 96°W and 90°W, onshore and offshore south of 84°N - Manitoba, Nunavut, Ontario. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=15 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:22615.
+ */
+export declare const ESRI_103873: string;
+/**
+ * ESRI:103874, NAD_1983_(CSRS)_v6_UTM_Zone_16N. Canada between 90°W and 84°W, onshore and offshore south of 84°N - Manitoba, Nunavut, Ontario. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=16 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:22616.
+ */
+export declare const ESRI_103874: string;
+/**
+ * ESRI:103875, NAD_1983_(CSRS)_v6_UTM_Zone_17N. Canada between 84°W and 78°W, onshore and offshore south of 84°N - Nunavut, Ontario and Quebec. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=17 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:22617.
+ */
+export declare const ESRI_103875: string;
+/**
+ * ESRI:103876, NAD_1983_(CSRS)_v6_UTM_Zone_18N. Canada between 78°W and 72°W, onshore and offshore south of 84°N - Nunavut, Ontario and Quebec. Within 1 cm of PROJ.
+ *
+ * `+proj=utm +zone=18 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`
+ *
+ * @deprecated Use EPSG:22618.
+ */
+export declare const ESRI_103876: string;
 /**
  * ESRI:103888, Hartebeesthoek94_Lo15_(E-N). Namibia - Walvis Bay. Within 1 cm of PROJ.
  *
@@ -44863,6 +57192,574 @@ export declare const ESRI_103896: string;
  * `+proj=tmerc +lat_0=41.1833333333333 +lon_0=-96.05 +k=1.0000482 +x_0=40000 +y_0=25000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs`
  */
 export declare const ESRI_103897: string;
+/**
+ * ESRI:103900, NAD_1983_HARN_Adj_WI_Adams_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43.3666666666667 +lon_0=-90 +k=0.999999 +x_0=147218.694437389 +y_0=0 +a=6378376.271 +rf=298.268410995005 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103900: string;
+/**
+ * ESRI:103901, NAD_1983_HARN_Adj_WI_Ashland_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=45.7061111111111 +lon_0=-90.6222222222222 +k=0.999997 +x_0=172821.945643891 +y_0=0 +a=6378471.92 +rf=298.272883775229 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103901: string;
+/**
+ * ESRI:103902, NAD_1983_HARN_Adj_WI_Barron_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=45.1333333333333 +lon_0=-91.85 +k=0.999996 +x_0=93150 +y_0=0 +a=6378472.931 +rf=298.272931052052 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103902: string;
+/**
+ * ESRI:103903, NAD_1983_HARN_Adj_WI_Brown_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43 +lon_0=-88 +k=1.00002 +x_0=31599.99998984 +y_0=4599.98983997968 +ellps=GRS80 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103903: string;
+/**
+ * ESRI:103904, NAD_1983_HARN_Adj_WI_Buffalo_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43.4813888888889 +lon_0=-91.7972222222222 +k=1 +x_0=175260.350520701 +y_0=0 +a=6378380.991 +rf=298.268631713702 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103904: string;
+/**
+ * ESRI:103905, NAD_1983_HARN_Adj_WI_Calumet_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=0.999996 +x_0=244754.889509779 +y_0=0 +a=6378345.09 +rf=298.266952895494 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103905: string;
+/**
+ * ESRI:103906, NAD_1983_HARN_Adj_WI_Clark_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43.6 +lon_0=-90.7083333333333 +k=0.999994 +x_0=199949.1998984 +y_0=0 +a=6378470.401 +rf=298.272812743089 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103906: string;
+/**
+ * ESRI:103907, NAD_1983_HARN_Adj_WI_Dodge_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=41.4722222222222 +lon_0=-88.775 +k=0.999997 +x_0=263347.726695453 +y_0=0 +a=6378376.811 +rf=298.268436246721 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103907: string;
+/**
+ * ESRI:103908, NAD_1983_HARN_Adj_WI_Door_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.4 +lon_0=-87.2722222222222 +k=0.999991 +x_0=158801.117602235 +y_0=0 +a=6378313.92 +rf=298.26549531037 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103908: string;
+/**
+ * ESRI:103909, NAD_1983_HARN_Adj_WI_Douglas_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=45.8833333333333 +lon_0=-91.9166666666667 +k=0.999995 +x_0=59131.3182626365 +y_0=0 +a=6378414.93 +rf=298.270218784012 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103909: string;
+/**
+ * ESRI:103910, NAD_1983_HARN_Adj_WI_Dunn_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.4083333333333 +lon_0=-91.8944444444444 +k=0.999998 +x_0=51816.1036322073 +y_0=0 +a=6378413.021 +rf=298.270129514522 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103910: string;
+/**
+ * ESRI:103911, NAD_1983_HARN_Adj_WI_Florence_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=45.4388888888889 +lon_0=-88.1416666666667 +k=0.999993 +x_0=133502.667005334 +y_0=0 +a=6378530.851 +rf=298.275639532334 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103911: string;
+/**
+ * ESRI:103912, NAD_1983_HARN_Adj_WI_Fond_du_Lac_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=0.999996 +x_0=244754.889509779 +y_0=0 +a=6378345.09 +rf=298.266952895494 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103912: string;
+/**
+ * ESRI:103913, NAD_1983_HARN_Adj_WI_Forest_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.0055555555556 +lon_0=-88.6333333333333 +k=0.999996 +x_0=275844.551689103 +y_0=0 +a=6378591.521 +rf=298.278476609315 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103913: string;
+/**
+ * ESRI:103914, NAD_1983_HARN_Adj_WI_Grant_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=41.4111111111111 +lon_0=-90.8 +k=0.999997 +x_0=242316.484632969 +y_0=0 +a=6378378.881 +rf=298.268533044963 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103914: string;
+/**
+ * ESRI:103915, NAD_1983_HARN_Adj_WI_Iowa_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.5388888888889 +lon_0=-90.1611111111111 +k=0.999997 +x_0=113081.026162052 +y_0=0 +a=6378408.041 +rf=298.269896637591 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103915: string;
+/**
+ * ESRI:103916, NAD_1983_HARN_Adj_WI_Iron_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=45.4333333333333 +lon_0=-90.2555555555556 +k=0.999996 +x_0=220980.441960884 +y_0=0 +a=6378655.071 +rf=298.281448362111 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103916: string;
+/**
+ * ESRI:103917, NAD_1983_HARN_Adj_WI_Jefferson_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=41.4722222222222 +lon_0=-88.775 +k=0.999997 +x_0=263347.726695453 +y_0=0 +a=6378376.811 +rf=298.268436246721 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103917: string;
+/**
+ * ESRI:103918, NAD_1983_HARN_Adj_WI_Juneau_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43.3666666666667 +lon_0=-90 +k=0.999999 +x_0=147218.694437389 +y_0=0 +a=6378376.271 +rf=298.268410995005 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103918: string;
+/**
+ * ESRI:103919, NAD_1983_HARN_Adj_WI_Kenosha_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=0.999998 +x_0=185928.371856744 +y_0=0 +a=6378315.7 +rf=298.265578547505 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103919: string;
+/**
+ * ESRI:103920, NAD_1983_HARN_Adj_WI_Kewaunee_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1 +x_0=79857.7597155194 +y_0=0 +a=6378285.86 +rf=298.264183156421 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103920: string;
+/**
+ * ESRI:103921, NAD_1983_HARN_Adj_WI_LaCrosse_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43.4511111111111 +lon_0=-91.3166666666667 +k=0.999994 +x_0=130454.660909322 +y_0=0 +a=6378379.301 +rf=298.268552685186 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103921: string;
+/**
+ * ESRI:103922, NAD_1983_HARN_Adj_WI_Lincoln_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.8444444444444 +lon_0=-89.7333333333333 +k=0.999998 +x_0=116129.032258065 +y_0=0 +a=6378531.821 +rf=298.275684891897 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103922: string;
+/**
+ * ESRI:103923, NAD_1983_HARN_Adj_WI_Manitowoc_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1 +x_0=79857.7597155194 +y_0=0 +a=6378285.86 +rf=298.264183156421 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103923: string;
+/**
+ * ESRI:103924, NAD_1983_HARN_Adj_WI_Marinette_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.6916666666667 +lon_0=-87.7111111111111 +k=0.999986 +x_0=238658.877317755 +y_0=0 +a=6378376.041 +rf=298.268400239645 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103924: string;
+/**
+ * ESRI:103925, NAD_1983_HARN_Adj_WI_Menominee_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.7166666666667 +lon_0=-88.4166666666667 +k=0.999994 +x_0=105461.010922022 +y_0=0 +a=6378406.601 +rf=298.269829299684 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103925: string;
+/**
+ * ESRI:103926, NAD_1983_HARN_Adj_WI_Milwaukee_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=0.999998 +x_0=185928.371856744 +y_0=0 +a=6378315.7 +rf=298.265578547505 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103926: string;
+/**
+ * ESRI:103927, NAD_1983_HARN_Adj_WI_Oconto_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.3972222222222 +lon_0=-87.9083333333333 +k=0.999991 +x_0=182880.365760732 +y_0=0 +a=6378345.42 +rf=298.266968327098 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103927: string;
+/**
+ * ESRI:103928, NAD_1983_HARN_Adj_WI_Outagamie_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=0.999996 +x_0=244754.889509779 +y_0=0 +a=6378345.09 +rf=298.266952895494 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103928: string;
+/**
+ * ESRI:103929, NAD_1983_HARN_Adj_WI_Ozaukee_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=0.999998 +x_0=185928.371856744 +y_0=0 +a=6378315.7 +rf=298.265578547505 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103929: string;
+/**
+ * ESRI:103930, NAD_1983_HARN_Adj_WI_Polk_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.6611111111111 +lon_0=-92.6333333333333 +k=1 +x_0=141732.283464567 +y_0=0 +a=6378413.671 +rf=298.270159910105 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103930: string;
+/**
+ * ESRI:103931, NAD_1983_HARN_Adj_WI_Price_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.5555555555556 +lon_0=-90.4888888888889 +k=0.999998 +x_0=227990.855981712 +y_0=0 +a=6378563.891 +rf=298.277184563214 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103931: string;
+/**
+ * ESRI:103932, NAD_1983_HARN_Adj_WI_Racine_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=0.999998 +x_0=185928.371856744 +y_0=0 +a=6378315.7 +rf=298.265578547505 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103932: string;
+/**
+ * ESRI:103933, NAD_1983_HARN_Adj_WI_Rock_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=41.9444444444444 +lon_0=-89.0722222222222 +k=0.999996 +x_0=146304.292608585 +y_0=0 +a=6378377.671 +rf=298.268476462415 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103933: string;
+/**
+ * ESRI:103934, NAD_1983_HARN_Adj_WI_Rusk_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43.9194444444444 +lon_0=-91.0666666666667 +k=0.999997 +x_0=250546.101092202 +y_0=0 +a=6378472.751 +rf=298.272922634813 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103934: string;
+/**
+ * ESRI:103935, NAD_1983_HARN_Adj_WI_St_Croix_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.0361111111111 +lon_0=-92.6333333333333 +k=0.999995 +x_0=165506.731013462 +y_0=0 +a=6378412.511 +rf=298.270105665679 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103935: string;
+/**
+ * ESRI:103936, NAD_1983_HARN_Adj_WI_Sauk_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.8194444444444 +lon_0=-89.9 +k=0.999995 +x_0=185623.571247143 +y_0=0 +a=6378407.281 +rf=298.26986109814 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103936: string;
+/**
+ * ESRI:103937, NAD_1983_HARN_Adj_WI_Shawano_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=44.0361111111111 +lon_0=-88.6055555555556 +k=0.99999 +x_0=262433.32486665 +y_0=0 +a=6378406.051 +rf=298.269803580344 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103937: string;
+/**
+ * ESRI:103938, NAD_1983_HARN_Adj_WI_Sheboygan_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1 +x_0=79857.7597155194 +y_0=0 +a=6378285.86 +rf=298.264183156421 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103938: string;
+/**
+ * ESRI:103939, NAD_1983_HARN_Adj_WI_Trempealeau_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43.1611111111111 +lon_0=-91.3666666666667 +k=0.999998 +x_0=256946.913893828 +y_0=0 +a=6378380.091 +rf=298.26858962751 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103939: string;
+/**
+ * ESRI:103940, NAD_1983_HARN_Adj_WI_Washington_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.9180555555555 +lon_0=-88.0638888888889 +k=0.999995 +x_0=120091.44018288 +y_0=0 +a=6378407.141 +rf=298.269854551399 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103940: string;
+/**
+ * ESRI:103941, NAD_1983_HARN_Adj_WI_Waukesha_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.5694444444444 +lon_0=-88.225 +k=0.999997 +x_0=208788.417576835 +y_0=0 +a=6378376.871 +rf=298.268439052467 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103941: string;
+/**
+ * ESRI:103942, NAD_1983_HARN_Adj_WI_Waupaca_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=43.4202777777778 +lon_0=-88.8166666666667 +k=0.999996 +x_0=185013.97002794 +y_0=0 +a=6378375.251 +rf=298.268363297321 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103942: string;
+/**
+ * ESRI:103943, NAD_1983_HARN_Adj_WI_Winnebago_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=0.999996 +x_0=244754.889509779 +y_0=0 +a=6378345.09 +rf=298.266952895494 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103943: string;
+/**
+ * ESRI:103944, NAD_1983_HARN_Adj_WI_Bayfield_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=45.3333333333333 +lon_0=-91.1527777777778 +lat_1=46.4138888888889 +lat_2=46.925 +x_0=228600.457200914 +y_0=0 +a=6378411.351 +rf=298.270051421254 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103944: string;
+/**
+ * ESRI:103945, NAD_1983_HARN_Adj_WI_Burnett_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=45.3638888888889 +lon_0=-92.4577777777778 +lat_1=45.7138888888889 +lat_2=46.0833333333333 +x_0=64008.128016256 +y_0=0 +a=6378414.96 +rf=298.270220186885 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103945: string;
+/**
+ * ESRI:103947, NAD_1983_HARN_Adj_WI_Columbia_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=42.4583333333333 +lon_0=-89.3944444444444 +lat_1=43.3333333333333 +lat_2=43.5916666666667 +x_0=169164.338328677 +y_0=0 +a=6378376.331 +rf=298.268413800752 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103947: string;
+/**
+ * ESRI:103948, NAD_1983_HARN_Adj_WI_Crawford_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=42.7166666666667 +lon_0=-90.9388888888889 +lat_1=43.0583333333333 +lat_2=43.3416666666667 +x_0=113690.627381255 +y_0=0 +a=6378379.031 +rf=298.268540059328 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103948: string;
+/**
+ * ESRI:103949, NAD_1983_HARN_Adj_WI_Dane_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=41.75 +lon_0=-89.4222222222222 +lat_1=42.9083333333333 +lat_2=43.2305555555555 +x_0=247193.294386589 +y_0=0 +a=6378407.621 +rf=298.269876997368 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103949: string;
+/**
+ * ESRI:103950, NAD_1983_HARN_Adj_WI_EauClaire_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=44.0472222222222 +lon_0=-91.2888888888889 +lat_1=44.7305555555555 +lat_2=45.0138888888889 +x_0=120091.44018288 +y_0=0 +a=6378380.381 +rf=298.268603188617 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103950: string;
+/**
+ * ESRI:103951, NAD_1983_HARN_Adj_WI_Green_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=42.225 +lon_0=-89.8388888888889 +lat_1=42.4861111111111 +lat_2=42.7888888888889 +x_0=170078.74015748 +y_0=0 +a=6378408.481 +rf=298.269917213063 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103951: string;
+/**
+ * ESRI:103952, NAD_1983_HARN_Adj_WI_GreenLake_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=43.0944444444444 +lon_0=-89.2416666666667 +lat_1=43.6666666666667 +lat_2=43.9472222222222 +x_0=150876.301752604 +y_0=0 +a=6378375.601 +rf=298.268379664173 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103952: string;
+/**
+ * ESRI:103953, NAD_1983_HARN_Adj_WI_Jackson_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=43.7944444444444 +lon_0=-90.7388888888889 +lat_1=44.1638888888889 +lat_2=44.4194444444444 +x_0=125882.651765304 +y_0=0 +a=6378409.151 +rf=298.269948543895 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103953: string;
+/**
+ * ESRI:103954, NAD_1983_HARN_Adj_WI_Lafayette_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=42.225 +lon_0=-89.8388888888889 +lat_1=42.4861111111111 +lat_2=42.7888888888889 +x_0=170078.74015748 +y_0=0 +a=6378408.481 +rf=298.269917213063 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103954: string;
+/**
+ * ESRI:103955, NAD_1983_HARN_Adj_WI_Langlade_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=44.2069444444445 +lon_0=-89.0333333333333 +lat_1=45 +lat_2=45.3083333333333 +x_0=198425.196850394 +y_0=0 +a=6378560.121 +rf=298.277008268831 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103955: string;
+/**
+ * ESRI:103956, NAD_1983_HARN_Adj_WI_Marathon_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=44.4055555555556 +lon_0=-89.77 +lat_1=44.7452777777778 +lat_2=45.0563888888889 +x_0=74676.1493522987 +y_0=0 +a=6378500.6 +rf=298.274224921888 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103956: string;
+/**
+ * ESRI:103957, NAD_1983_HARN_Adj_WI_Marquette_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=43.0944444444444 +lon_0=-89.2416666666667 +lat_1=43.6666666666667 +lat_2=43.9472222222222 +x_0=150876.301752604 +y_0=0 +a=6378375.601 +rf=298.268379664173 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103957: string;
+/**
+ * ESRI:103958, NAD_1983_HARN_Adj_WI_Monroe_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=42.9027777777778 +lon_0=-90.6416666666667 +lat_1=43.8388888888889 +lat_2=44.1611111111111 +x_0=204521.209042418 +y_0=0 +a=6378438.991 +rf=298.27134393498 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103958: string;
+/**
+ * ESRI:103959, NAD_1983_HARN_Adj_WI_Oneida_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=45.1861111111111 +lon_0=-89.5444444444444 +lat_1=45.5666666666667 +lat_2=45.8416666666667 +x_0=70104.1402082804 +y_0=0 +a=6378593.86 +rf=298.278585986653 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103959: string;
+/**
+ * ESRI:103960, NAD_1983_HARN_Adj_WI_Pepin_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=43.8619444444444 +lon_0=-92.2277777777778 +lat_1=44.5222222222222 +lat_2=44.75 +x_0=167640.335280671 +y_0=0 +a=6378381.271 +rf=298.268644807185 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103960: string;
+/**
+ * ESRI:103961, NAD_1983_HARN_Adj_WI_Pierce_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=43.8619444444444 +lon_0=-92.2277777777778 +lat_1=44.5222222222222 +lat_2=44.75 +x_0=167640.335280671 +y_0=0 +a=6378381.271 +rf=298.268644807185 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103961: string;
+/**
+ * ESRI:103962, NAD_1983_HARN_Adj_WI_Portage_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=43.9666666666667 +lon_0=-89.5 +lat_1=44.1833333333333 +lat_2=44.65 +x_0=56388.1127762256 +y_0=0 +a=6378344.377 +rf=298.266919538913 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103962: string;
+/**
+ * ESRI:103963, NAD_1983_HARN_Adj_WI_Richland_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=42.1138888888889 +lon_0=-90.4305555555556 +lat_1=43.1416666666667 +lat_2=43.5027777777778 +x_0=202387.60477521 +y_0=0 +a=6378408.091 +rf=298.269898975713 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103963: string;
+/**
+ * ESRI:103964, NAD_1983_HARN_Adj_WI_Sawyer_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=44.8138888888889 +lon_0=-91.1166666666667 +lat_1=45.7194444444444 +lat_2=46.0805555555556 +x_0=216713.233426467 +y_0=0 +a=6378534.451 +rf=298.275807877103 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103964: string;
+/**
+ * ESRI:103965, NAD_1983_HARN_Adj_WI_Taylor_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=44.2083333333333 +lon_0=-90.4833333333333 +lat_1=45.0555555555556 +lat_2=45.3 +x_0=187147.574295149 +y_0=0 +a=6378532.921 +rf=298.275736330576 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103965: string;
+/**
+ * ESRI:103966, NAD_1983_HARN_Adj_WI_Vernon_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=43.1472222222222 +lon_0=-90.7833333333333 +lat_1=43.4666666666667 +lat_2=43.6833333333333 +x_0=222504.44500889 +y_0=0 +a=6378408.941 +rf=298.269938723784 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103966: string;
+/**
+ * ESRI:103967, NAD_1983_HARN_Adj_WI_Vilas_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=45.625 +lon_0=-89.4888888888889 +lat_1=45.9305555555556 +lat_2=46.225 +x_0=134417.068834138 +y_0=0 +a=6378624.171 +rf=298.280003402845 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103967: string;
+/**
+ * ESRI:103968, NAD_1983_HARN_Adj_WI_Walworth_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=41.6694444444444 +lon_0=-88.5416666666667 +lat_1=42.5888888888889 +lat_2=42.75 +x_0=232562.86512573 +y_0=0 +a=6378377.411 +rf=298.268464304182 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103968: string;
+/**
+ * ESRI:103969, NAD_1983_HARN_Adj_WI_Washburn_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=44.2666666666667 +lon_0=-91.7833333333333 +lat_1=45.7722222222222 +lat_2=46.15 +x_0=234086.868173736 +y_0=0 +a=6378474.591 +rf=298.273008677695 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103969: string;
+/**
+ * ESRI:103970, NAD_1983_HARN_Adj_WI_Waushara_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=43.7083333333333 +lon_0=-89.2416666666667 +lat_1=43.975 +lat_2=44.2527777777778 +x_0=120091.44018288 +y_0=0 +a=6378405.971 +rf=298.269799839349 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103970: string;
+/**
+ * ESRI:103971, NAD_1983_HARN_Adj_WI_Wood_Feet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=lcc +lat_0=43.1513888888889 +lon_0=-90 +lat_1=44.1805555555556 +lat_2=44.5444444444444 +x_0=208483.616967234 +y_0=0 +a=6378437.651 +rf=298.271281273316 +units=us-ft +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_103971: string;
 /**
  * ESRI:103972, Germany_Zone_1. Germany - offshore North Sea west of 4°30'E. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
@@ -44978,11 +57875,163 @@ export declare const ESRI_103989: string;
  */
 export declare const ESRI_103991: string;
 /**
+ * ESRI:104000, GCS_Assumed_Geographic_1. Not specified. Up to 32.2 m from PROJ.
+ *
+ * `+proj=longlat +ellps=clrk66 +towgs84=-9,157,184 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104000: string;
+/**
+ * ESRI:104009, GCS_Kyrg-06. Kyrgyzstan. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:7686.
+ */
+export declare const ESRI_104009: string;
+/**
+ * ESRI:104010, GCS_IGS08. World. Up to 1.52 m from PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:9014.
+ */
+export declare const ESRI_104010: string;
+/**
+ * ESRI:104011, WGS_1984_(G730). World. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +no_defs`
+ *
+ * @deprecated Use EPSG:9053.
+ */
+export declare const ESRI_104011: string;
+/**
+ * ESRI:104012, WGS_1984_(G873). World. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +no_defs`
+ *
+ * @deprecated Use EPSG:9054.
+ */
+export declare const ESRI_104012: string;
+/**
+ * ESRI:104013, WGS_1984_(G1150). World. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +no_defs`
+ *
+ * @deprecated Use EPSG:9055.
+ */
+export declare const ESRI_104013: string;
+/**
+ * ESRI:104014, WGS_1984_(G1674). World. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +no_defs`
+ *
+ * @deprecated Use EPSG:9056.
+ */
+export declare const ESRI_104014: string;
+/**
+ * ESRI:104015, WGS_1984_(G1762). World. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +no_defs`
+ *
+ * @deprecated Use EPSG:9057.
+ */
+export declare const ESRI_104015: string;
+/**
+ * ESRI:104016, WGS_1984_(Transit). World. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +no_defs`
+ *
+ * @deprecated Use EPSG:8888.
+ */
+export declare const ESRI_104016: string;
+/**
+ * ESRI:104017, PZ-90.02. World. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378136 +rf=298.257839303 +no_defs`
+ *
+ * @deprecated Use EPSG:9474.
+ */
+export declare const ESRI_104017: string;
+/**
+ * ESRI:104018, PZ-90.11. World. Up to 3.11 m from PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378136 +rf=298.257839303 +no_defs`
+ *
+ * @deprecated Use EPSG:9475.
+ */
+export declare const ESRI_104018: string;
+/**
+ * ESRI:104019, ITRF2014. World. Up to 0.0263 m from PROJ.
+ *
+ * `+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs`
+ *
+ * @deprecated Use EPSG:9000.
+ */
+export declare const ESRI_104019: string;
+/**
+ * ESRI:104020, GCS_JGD_2011. Japan - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:6668.
+ */
+export declare const ESRI_104020: string;
+/**
+ * ESRI:104021, IGS14. World. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:9019.
+ */
+export declare const ESRI_104021: string;
+/**
+ * ESRI:104022, GGD. Georgia - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:10831.
+ */
+export declare const ESRI_104022: string;
+/**
+ * ESRI:104023, GCS_International_1967. Not specified. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=aust_SA +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104023: string;
+/**
  * ESRI:104024, California_SRS_Epoch_2017.50_(NAD83). USA - California and borders of NV, AZ, OR and MX Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
  * `+proj=longlat +ellps=GRS80 +no_defs`
  */
 export declare const ESRI_104024: string;
+/**
+ * ESRI:104025, GCS_Voirol_Unifie_1960_Paris. Algeria - onshore north of 32°N. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378249.145 +rf=293.465 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104025: string;
+/**
+ * ESRI:104026, GCS_Voirol_Unifie_1960. Algeria - onshore north of 32°N. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378249.145 +rf=293.465 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104026: string;
+/**
+ * ESRI:104027, ONGD17. Oman - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:9294.
+ */
+export declare const ESRI_104027: string;
 /**
  * ESRI:104028, GDM2008. Mauritius - onshore and offshore. Includes Rodrigues, Agalega Islands, and Cargados Carajos. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
@@ -45026,6 +58075,14 @@ export declare const ESRI_104048: string;
  */
 export declare const ESRI_104050: string;
 /**
+ * ESRI:104100, GCS_GDBD2009. Brunei Darussalam - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:5246.
+ */
+export declare const ESRI_104100: string;
+/**
  * ESRI:104101, GCS_Estonia_1937. Estonia - onshore and offshore. Within 1 cm of PROJ.
  *
  * `+proj=longlat +ellps=bessel +towgs84=374,150,588 +no_defs`
@@ -45044,6 +58101,14 @@ export declare const ESRI_104102: string;
  */
 export declare const ESRI_104103: string;
 /**
+ * ESRI:104104, GCS_Hong_Kong_1980. Hong Kong - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4611.
+ */
+export declare const ESRI_104104: string;
+/**
  * ESRI:104105, GCS_Datum_Lisboa_Bessel. Portugal - mainland, Azores and Madeira, onshore and offshore. Within 1 cm of PROJ.
  *
  * `+proj=longlat +ellps=bessel +towgs84=631.392,-66.551,481.442,1.09,-4.445,-4.487,-4.43 +no_defs`
@@ -45056,11 +58121,43 @@ export declare const ESRI_104105: string;
  */
 export declare const ESRI_104106: string;
 /**
+ * ESRI:104107, GCS_RGF_1993. France - onshore and offshore, mainland and Corsica (France métropolitaine including Corsica). Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:4171.
+ */
+export declare const ESRI_104107: string;
+/**
+ * ESRI:104108, GCS_NZGD_2000. New Zealand - onshore and offshore. Includes Antipodes Islands, Auckland Islands, Bounty Islands, Chatham Islands, Cambell Island, Kermadec Islands, Raoul Island and Snares Islands. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:4167.
+ */
+export declare const ESRI_104108: string;
+/**
  * ESRI:104109, GCS_Pohnpei. Federated States of Micronesia - onshore and offshore. Includes Caroline Islands, Yap, Truk, Ponape, Kosrae. Within 1 cm of PROJ.
  *
  * `+proj=longlat +ellps=clrk66 +towgs84=-89.121,-348.182,260.871 +no_defs`
  */
 export declare const ESRI_104109: string;
+/**
+ * ESRI:104110, GCS_REGVEN. Venezuela - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:4189.
+ */
+export declare const ESRI_104110: string;
+/**
+ * ESRI:104111, GCS_JGD_2000. Japan - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:4612.
+ */
+export declare const ESRI_104111: string;
 /**
  * ESRI:104112, GCS_Bab_South. Palau - onshore and offshore. Within 1 cm of PROJ.
  *
@@ -45073,6 +58170,102 @@ export declare const ESRI_104112: string;
  * `+proj=longlat +ellps=clrk66 +towgs84=25.1,-275.6,222.6 +no_defs`
  */
 export declare const ESRI_104113: string;
+/**
+ * ESRI:104114, GCS_Bermuda_2000. Bermuda - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=WGS84 +no_defs`
+ *
+ * @deprecated Use EPSG:4762.
+ */
+export declare const ESRI_104114: string;
+/**
+ * ESRI:104115, GCS_ITRF_1988. World. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=GRS80 +towgs84=-0.0247,-0.0115,0.0979,-0.0001,0,0.00018,-0.00895 +no_defs`
+ *
+ * @deprecated Use EPSG:8988.
+ */
+export declare const ESRI_104115: string;
+/**
+ * ESRI:104116, GCS_ITRF_1989. World. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=GRS80 +towgs84=-0.0297,-0.0475,0.0739,0,0,0.00018,0.00585 +no_defs`
+ *
+ * @deprecated Use EPSG:8989.
+ */
+export declare const ESRI_104116: string;
+/**
+ * ESRI:104117, GCS_ITRF_1990. World. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=GRS80 +towgs84=-0.0247,-0.0235,0.0359,0,0,0.00018,-0.00245 +no_defs`
+ *
+ * @deprecated Use EPSG:8990.
+ */
+export declare const ESRI_104117: string;
+/**
+ * ESRI:104118, GCS_ITRF_1991. World. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=GRS80 +towgs84=-0.0267,-0.0275,0.0199,0,0,0.00018,-0.00215 +no_defs`
+ *
+ * @deprecated Use EPSG:8991.
+ */
+export declare const ESRI_104118: string;
+/**
+ * ESRI:104119, GCS_ITRF_1992. World. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=GRS80 +towgs84=-0.0147,-0.0135,0.0139,0,0,0.00018,-0.00075 +no_defs`
+ *
+ * @deprecated Use EPSG:8992.
+ */
+export declare const ESRI_104119: string;
+/**
+ * ESRI:104120, GCS_ITRF_1993. World. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=GRS80 +towgs84=-0.0127,-0.0065,0.0209,0.00039,-0.0008,0.00114,-0.00195 +no_defs`
+ *
+ * @deprecated Use EPSG:8993.
+ */
+export declare const ESRI_104120: string;
+/**
+ * ESRI:104121, GCS_ITRF_1994. World. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=GRS80 +towgs84=-0.0067,-0.0061,0.0185,0,0,0,-0.00155 +no_defs`
+ *
+ * @deprecated Use EPSG:8994.
+ */
+export declare const ESRI_104121: string;
+/**
+ * ESRI:104122, GCS_ITRF_1996. World. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=GRS80 +towgs84=-0.0067,-0.0061,0.0185,0,0,0,-0.00155 +no_defs`
+ *
+ * @deprecated Use EPSG:8995.
+ */
+export declare const ESRI_104122: string;
+/**
+ * ESRI:104123, GCS_ITRF_1997. World. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=GRS80 +towgs84=-0.0067,-0.0061,0.0185,0,0,0,-0.00155 +no_defs`
+ *
+ * @deprecated Use EPSG:8996.
+ */
+export declare const ESRI_104123: string;
+/**
+ * ESRI:104124, GCS_ITRF_2000. World. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs`
+ *
+ * @deprecated Use EPSG:8997.
+ */
+export declare const ESRI_104124: string;
+/**
+ * ESRI:104125, GCS_Chatham_Islands_1979. New Zealand - Chatham Islands group - onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:4673.
+ */
+export declare const ESRI_104125: string;
 /**
  * ESRI:104126, GCS_Observatorio_Meteorologico_1965. Macao - onshore and offshore. Up to 0.217 m from PROJ.
  *
@@ -45092,6 +58285,14 @@ export declare const ESRI_104127: string;
  */
 export declare const ESRI_104128: string;
 /**
+ * ESRI:104129, GCS_EUREF_FIN. Finland - onshore and offshore. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs`
+ *
+ * @deprecated Use EPSG:10690.
+ */
+export declare const ESRI_104129: string;
+/**
  * ESRI:104130, GCS_Jordan. Jordan. Within 1 cm of PROJ.
  *
  * `+proj=longlat +ellps=intl +towgs84=-86,-98,-119 +no_defs`
@@ -45104,11 +58305,43 @@ export declare const ESRI_104130: string;
  */
 export declare const ESRI_104131: string;
 /**
+ * ESRI:104132, GCS_Ocotepeque_1935. Costa Rica; El Salvador; Guatemala; Honduras; Nicaragua. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=clrk66 +no_defs`
+ *
+ * @deprecated Use EPSG:5451.
+ */
+export declare const ESRI_104132: string;
+/**
+ * ESRI:104133, GCS_JAD_2001. Jamaica - onshore and offshore. Includes Morant Cays and Pedro Cays. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=WGS84 +no_defs`
+ *
+ * @deprecated Use EPSG:4758.
+ */
+export declare const ESRI_104133: string;
+/**
  * ESRI:104135, GCS_MSK_1942. Mongolia. Within 1 cm of PROJ.
  *
  * `+proj=longlat +ellps=krass +towgs84=-78.0421780299,-204.5186132514,-77.449861533,-1.7736709695,3.3197917322,-1.0426077127,4.95105766 +no_defs`
  */
 export declare const ESRI_104135: string;
+/**
+ * ESRI:104136, GCS_TWD_1967. Taiwan, Republic of China - onshore - Taiwan Island, Penghu (Pescadores) Islands. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=aust_SA +no_defs`
+ *
+ * @deprecated Use EPSG:3821.
+ */
+export declare const ESRI_104136: string;
+/**
+ * ESRI:104137, GCS_TWD_1997. Taiwan, Republic of China - onshore and offshore - Taiwan Island, Penghu (Pescadores) Islands. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:3824.
+ */
+export declare const ESRI_104137: string;
 /**
  * ESRI:104138, GCS_Old_Hawaiian_Intl_1924. United States (USA) - Hawaii - main islands onshore. Up to 2.26 m from PROJ.
  *
@@ -45128,11 +58361,219 @@ export declare const ESRI_104139: string;
  */
 export declare const ESRI_104140: string;
 /**
+ * ESRI:104141, GCS_CGRS_1993. Cyprus - onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=WGS84 +no_defs`
+ *
+ * @deprecated Use EPSG:6311.
+ */
+export declare const ESRI_104141: string;
+/**
+ * ESRI:104142, GCS_PTRA08. Portugal - Azores and Madeira island groups and surrounding EEZ - Flores, Corvo; Graciosa, Terceira, Sao Jorge, Pico, Faial; Sao Miguel, Santa Maria; Madeira, Porto Santo, Desertas; Selvagens. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:5013.
+ */
+export declare const ESRI_104142: string;
+/**
+ * ESRI:104143, GCS_CR05. Costa Rica - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=WGS84 +no_defs`
+ *
+ * @deprecated Use EPSG:5365.
+ */
+export declare const ESRI_104143: string;
+/**
+ * ESRI:104144, GCS_ISN_2004. Iceland - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:5324.
+ */
+export declare const ESRI_104144: string;
+/**
+ * ESRI:104145, GCS_NAD_1983_2011. Puerto Rico - onshore and offshore. United States (USA) - Alaska and conterminous (contiguous) lower 48 states (CONUS) - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:6318.
+ */
+export declare const ESRI_104145: string;
+/**
+ * ESRI:104179, ETRF90. Europe - onshore and offshore - ETRF extent - approximately 16°W to 33°E and 33°N to 84°N. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs`
+ *
+ * @deprecated Use EPSG:9060.
+ */
+export declare const ESRI_104179: string;
+/**
+ * ESRI:104180, ETRF91. Europe - onshore and offshore - ETRF extent - approximately 16°W to 33°E and 33°N to 84°N. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs`
+ *
+ * @deprecated Use EPSG:9061.
+ */
+export declare const ESRI_104180: string;
+/**
+ * ESRI:104181, ETRF92. Europe - onshore and offshore - ETRF extent - approximately 16°W to 33°E and 33°N to 84°N. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs`
+ *
+ * @deprecated Use EPSG:9062.
+ */
+export declare const ESRI_104181: string;
+/**
+ * ESRI:104182, ETRF93. Europe - onshore and offshore - ETRF extent - approximately 16°W to 33°E and 33°N to 84°N. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs`
+ *
+ * @deprecated Use EPSG:9063.
+ */
+export declare const ESRI_104182: string;
+/**
+ * ESRI:104183, ETRF94. Europe - onshore and offshore - ETRF extent - approximately 16°W to 33°E and 33°N to 84°N. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs`
+ *
+ * @deprecated Use EPSG:9064.
+ */
+export declare const ESRI_104183: string;
+/**
+ * ESRI:104184, ETRF96. Europe - onshore and offshore - ETRF extent - approximately 16°W to 33°E and 33°N to 84°N. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs`
+ *
+ * @deprecated Use EPSG:9065.
+ */
+export declare const ESRI_104184: string;
+/**
+ * ESRI:104185, ETRF97. Europe - onshore and offshore - ETRF extent - approximately 16°W to 33°E and 33°N to 84°N. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs`
+ *
+ * @deprecated Use EPSG:9066.
+ */
+export declare const ESRI_104185: string;
+/**
+ * ESRI:104186, ETRF2000. Europe - onshore and offshore - ETRF extent - approximately 16°W to 33°E and 33°N to 84°N. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs`
+ *
+ * @deprecated Use EPSG:9067.
+ */
+export declare const ESRI_104186: string;
+/**
+ * ESRI:104199, GCS_WGS_1984_Major_Auxiliary_Sphere. World. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +R=6378137 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104199: string;
+/**
  * ESRI:104221, JGD_2024. Japan - onshore and offshore. Within 1 cm of PROJ.
  *
  * `+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs`
  */
 export declare const ESRI_104221: string;
+/**
+ * ESRI:104223, GCS_NAD_1983_CORS96. Puerto Rico - onshore and offshore. United States (USA) - Alaska and conterminous (contiguous) lower 48 states (CONUS) - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:6783.
+ */
+export declare const ESRI_104223: string;
+/**
+ * ESRI:104248, Macao_2008. Macao - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=intl +no_defs`
+ *
+ * @deprecated Use EPSG:8431.
+ */
+export declare const ESRI_104248: string;
+/**
+ * ESRI:104256, GCS_Nepal_Nagarkot. Nepal. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=evrst30 +no_defs`
+ *
+ * @deprecated Use EPSG:6207.
+ */
+export declare const ESRI_104256: string;
+/**
+ * ESRI:104257, GCS_ITRF_2008. World. Up to 0.0107 m from PROJ.
+ *
+ * `+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs`
+ *
+ * @deprecated Use EPSG:8999.
+ */
+export declare const ESRI_104257: string;
+/**
+ * ESRI:104258, GCS_ETRF_1989. Europe - onshore and offshore - ETRF extent - approximately 16°W to 33°E and 33°N to 84°N. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:9059.
+ */
+export declare const ESRI_104258: string;
+/**
+ * ESRI:104259, GCS_NAD_1983_PACP00. American Samoa, Marshall Islands, United States (USA) - Hawaii, United States minor outlying islands; onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:9075.
+ */
+export declare const ESRI_104259: string;
+/**
+ * ESRI:104260, GCS_NAD_1983_MARP00. Guam, Northern Mariana Islands and Palau; onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:9072.
+ */
+export declare const ESRI_104260: string;
+/**
+ * ESRI:104261, GCS_Merchich. Africa - Morocco and Western Sahara - onshore. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=clrk80ign +towgs84=31,146,47 +no_defs`
+ *
+ * @deprecated Use EPSG:4261.
+ */
+export declare const ESRI_104261: string;
+/**
+ * ESRI:104286, GCS_NAD_1983_MA11. Guam, Northern Mariana Islands and Palau; onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:6325.
+ */
+export declare const ESRI_104286: string;
+/**
+ * ESRI:104287, GCS_NAD_1983_PA11. NAD83 PA11 - US interests Pacific plate Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:6322.
+ */
+export declare const ESRI_104287: string;
+/**
+ * ESRI:104304, GCS_Voirol_1875. Algeria - onshore north of 32°N. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=clrk80ign +towgs84=-73,-247,227 +no_defs`
+ *
+ * @deprecated Use EPSG:4304.
+ */
+export declare const ESRI_104304: string;
+/**
+ * ESRI:104305, GCS_Voirol_Unifie_1960_Degree. Algeria - onshore north of 32°N. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378249.145 +rf=293.465 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104305: string;
 /**
  * ESRI:104646, GCS_PANAMA08_2011. Panama - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
  *
@@ -45661,6 +59102,606 @@ export declare const ESRI_104785: string;
  * `+proj=longlat +a=6378523 +rf=298.2752724 +no_defs`
  */
 export declare const ESRI_104786: string;
+/**
+ * ESRI:104800, GCS_NAD_1983_HARN_Adj_WI_Adams. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378376.271 +rf=298.268410995005 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104800: string;
+/**
+ * ESRI:104801, GCS_NAD_1983_HARN_Adj_WI_Ashland. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378471.92 +rf=298.272883775229 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104801: string;
+/**
+ * ESRI:104802, GCS_NAD_1983_HARN_Adj_WI_Barron. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378472.931 +rf=298.272931052052 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104802: string;
+/**
+ * ESRI:104803, GCS_NAD_1983_HARN_Adj_WI_Bayfield. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378411.351 +rf=298.270051421254 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104803: string;
+/**
+ * ESRI:104804, GCS_NAD_1983_HARN_Adj_WI_Brown. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104804: string;
+/**
+ * ESRI:104805, GCS_NAD_1983_HARN_Adj_WI_Buffalo. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378380.991 +rf=298.268631713702 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104805: string;
+/**
+ * ESRI:104806, GCS_NAD_1983_HARN_Adj_WI_Burnett. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378414.96 +rf=298.270220186885 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104806: string;
+/**
+ * ESRI:104807, GCS_NAD_1983_HARN_Adj_WI_Calumet. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378345.09 +rf=298.266952895494 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104807: string;
+/**
+ * ESRI:104809, GCS_NAD_1983_HARN_Adj_WI_Clark. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378470.401 +rf=298.272812743089 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104809: string;
+/**
+ * ESRI:104810, GCS_NAD_1983_HARN_Adj_WI_Columbia. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378376.331 +rf=298.268413800752 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104810: string;
+/**
+ * ESRI:104811, GCS_NAD_1983_HARN_Adj_WI_Crawford. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378379.031 +rf=298.268540059328 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104811: string;
+/**
+ * ESRI:104812, GCS_NAD_1983_HARN_Adj_WI_Dane. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378407.621 +rf=298.269876997368 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104812: string;
+/**
+ * ESRI:104813, GCS_NAD_1983_HARN_Adj_WI_Dodge. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378376.811 +rf=298.268436246721 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104813: string;
+/**
+ * ESRI:104814, GCS_NAD_1983_HARN_Adj_WI_Door. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378313.92 +rf=298.26549531037 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104814: string;
+/**
+ * ESRI:104815, GCS_NAD_1983_HARN_Adj_WI_Douglas. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378414.93 +rf=298.270218784012 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104815: string;
+/**
+ * ESRI:104816, GCS_NAD_1983_HARN_Adj_WI_Dunn. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378413.021 +rf=298.270129514522 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104816: string;
+/**
+ * ESRI:104817, GCS_NAD_1983_HARN_Adj_WI_EauClaire. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378380.381 +rf=298.268603188617 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104817: string;
+/**
+ * ESRI:104818, GCS_NAD_1983_HARN_Adj_WI_Florence. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378530.851 +rf=298.275639532334 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104818: string;
+/**
+ * ESRI:104819, GCS_NAD_1983_HARN_Adj_WI_FondduLac. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378345.09 +rf=298.266952895494 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104819: string;
+/**
+ * ESRI:104820, GCS_NAD_1983_HARN_Adj_WI_Forest. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378591.521 +rf=298.278476609315 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104820: string;
+/**
+ * ESRI:104821, GCS_NAD_1983_HARN_Adj_WI_Grant. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378378.881 +rf=298.268533044963 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104821: string;
+/**
+ * ESRI:104822, GCS_NAD_1983_HARN_Adj_WI_Green. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378408.481 +rf=298.269917213063 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104822: string;
+/**
+ * ESRI:104823, GCS_NAD_1983_HARN_Adj_WI_GreenLake. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378375.601 +rf=298.268379664173 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104823: string;
+/**
+ * ESRI:104824, GCS_NAD_1983_HARN_Adj_WI_Iowa. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378408.041 +rf=298.269896637591 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104824: string;
+/**
+ * ESRI:104825, GCS_NAD_1983_HARN_Adj_WI_Iron. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378655.071 +rf=298.281448362111 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104825: string;
+/**
+ * ESRI:104826, GCS_NAD_1983_HARN_Adj_WI_Jackson. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378409.151 +rf=298.269948543895 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104826: string;
+/**
+ * ESRI:104827, GCS_NAD_1983_HARN_Adj_WI_Jefferson. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378376.811 +rf=298.268436246721 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104827: string;
+/**
+ * ESRI:104828, GCS_NAD_1983_HARN_Adj_WI_Juneau. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378376.271 +rf=298.268410995005 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104828: string;
+/**
+ * ESRI:104829, GCS_NAD_1983_HARN_Adj_WI_Kenosha. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378315.7 +rf=298.265578547505 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104829: string;
+/**
+ * ESRI:104830, GCS_NAD_1983_HARN_Adj_WI_Kewaunee. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378285.86 +rf=298.264183156421 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104830: string;
+/**
+ * ESRI:104831, GCS_NAD_1983_HARN_Adj_WI_LaCrosse. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378379.301 +rf=298.268552685186 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104831: string;
+/**
+ * ESRI:104832, GCS_NAD_1983_HARN_Adj_WI_Lafayette. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378408.481 +rf=298.269917213063 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104832: string;
+/**
+ * ESRI:104833, GCS_NAD_1983_HARN_Adj_WI_Langlade. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378560.121 +rf=298.277008268831 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104833: string;
+/**
+ * ESRI:104834, GCS_NAD_1983_HARN_Adj_WI_Lincoln. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378531.821 +rf=298.275684891897 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104834: string;
+/**
+ * ESRI:104835, GCS_NAD_1983_HARN_Adj_WI_Manitowoc. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378285.86 +rf=298.264183156421 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104835: string;
+/**
+ * ESRI:104836, GCS_NAD_1983_HARN_Adj_WI_Marathon. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378500.6 +rf=298.274224921888 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104836: string;
+/**
+ * ESRI:104837, GCS_NAD_1983_HARN_Adj_WI_Marinette. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378376.041 +rf=298.268400239645 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104837: string;
+/**
+ * ESRI:104838, GCS_NAD_1983_HARN_Adj_WI_Marquette. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378375.601 +rf=298.268379664173 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104838: string;
+/**
+ * ESRI:104839, GCS_NAD_1983_HARN_Adj_WI_Menominee. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378406.601 +rf=298.269829299684 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104839: string;
+/**
+ * ESRI:104840, GCS_NAD_1983_HARN_Adj_WI_Milwaukee. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378315.7 +rf=298.265578547505 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104840: string;
+/**
+ * ESRI:104841, GCS_NAD_1983_HARN_Adj_WI_Monroe. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378438.991 +rf=298.27134393498 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104841: string;
+/**
+ * ESRI:104842, GCS_NAD_1983_HARN_Adj_WI_Oconto. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378345.42 +rf=298.266968327098 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104842: string;
+/**
+ * ESRI:104843, GCS_NAD_1983_HARN_Adj_WI_Oneida. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378593.86 +rf=298.278585986653 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104843: string;
+/**
+ * ESRI:104844, GCS_NAD_1983_HARN_Adj_WI_Outagamie. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378345.09 +rf=298.266952895494 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104844: string;
+/**
+ * ESRI:104845, GCS_NAD_1983_HARN_Adj_WI_Ozaukee. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378315.7 +rf=298.265578547505 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104845: string;
+/**
+ * ESRI:104846, GCS_NAD_1983_HARN_Adj_WI_Pepin. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378381.271 +rf=298.268644807185 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104846: string;
+/**
+ * ESRI:104847, GCS_NAD_1983_HARN_Adj_WI_Pierce. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378381.271 +rf=298.268644807185 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104847: string;
+/**
+ * ESRI:104848, GCS_NAD_1983_HARN_Adj_WI_Polk. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378413.671 +rf=298.270159910105 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104848: string;
+/**
+ * ESRI:104849, GCS_NAD_1983_HARN_Adj_WI_Portage. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378344.377 +rf=298.266919538913 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104849: string;
+/**
+ * ESRI:104850, GCS_NAD_1983_HARN_Adj_WI_Price. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378563.891 +rf=298.277184563214 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104850: string;
+/**
+ * ESRI:104851, GCS_NAD_1983_HARN_Adj_WI_Racine. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378315.7 +rf=298.265578547505 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104851: string;
+/**
+ * ESRI:104852, GCS_NAD_1983_HARN_Adj_WI_Richland. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378408.091 +rf=298.269898975713 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104852: string;
+/**
+ * ESRI:104853, GCS_NAD_1983_HARN_Adj_WI_Rock. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378377.671 +rf=298.268476462415 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104853: string;
+/**
+ * ESRI:104854, GCS_NAD_1983_HARN_Adj_WI_Rusk. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378472.751 +rf=298.272922634813 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104854: string;
+/**
+ * ESRI:104855, GCS_NAD_1983_HARN_Adj_WI_StCroix. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378412.511 +rf=298.270105665679 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104855: string;
+/**
+ * ESRI:104856, GCS_NAD_1983_HARN_Adj_WI_Sauk. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378407.281 +rf=298.26986109814 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104856: string;
+/**
+ * ESRI:104857, GCS_NAD_1983_HARN_Adj_WI_Sawyer. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378534.451 +rf=298.275807877103 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104857: string;
+/**
+ * ESRI:104858, GCS_NAD_1983_HARN_Adj_WI_Shawano. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378406.051 +rf=298.269803580344 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104858: string;
+/**
+ * ESRI:104859, GCS_NAD_1983_HARN_Adj_WI_Sheboygan. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378285.86 +rf=298.264183156421 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104859: string;
+/**
+ * ESRI:104860, GCS_NAD_1983_HARN_Adj_WI_Taylor. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378532.921 +rf=298.275736330576 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104860: string;
+/**
+ * ESRI:104861, GCS_NAD_1983_HARN_Adj_WI_Trempealeau. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378380.091 +rf=298.26858962751 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104861: string;
+/**
+ * ESRI:104862, GCS_NAD_1983_HARN_Adj_WI_Vernon. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378408.941 +rf=298.269938723784 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104862: string;
+/**
+ * ESRI:104863, GCS_NAD_1983_HARN_Adj_WI_Vilas. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378624.171 +rf=298.280003402845 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104863: string;
+/**
+ * ESRI:104864, GCS_NAD_1983_HARN_Adj_WI_Walworth. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378377.411 +rf=298.268464304182 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104864: string;
+/**
+ * ESRI:104865, GCS_NAD_1983_HARN_Adj_WI_Washburn. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378474.591 +rf=298.273008677695 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104865: string;
+/**
+ * ESRI:104866, GCS_NAD_1983_HARN_Adj_WI_Washington. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378407.141 +rf=298.269854551399 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104866: string;
+/**
+ * ESRI:104867, GCS_NAD_1983_HARN_Adj_WI_Waukesha. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378376.871 +rf=298.268439052467 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104867: string;
+/**
+ * ESRI:104868, GCS_NAD_1983_HARN_Adj_WI_Waupaca. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378375.251 +rf=298.268363297321 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104868: string;
+/**
+ * ESRI:104869, GCS_NAD_1983_HARN_Adj_WI_Waushara. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378405.971 +rf=298.269799839349 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104869: string;
+/**
+ * ESRI:104870, GCS_NAD_1983_HARN_Adj_WI_Winnebago. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378345.09 +rf=298.266952895494 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104870: string;
+/**
+ * ESRI:104871, GCS_NAD_1983_HARN_Adj_WI_Wood. United States (USA) - Wisconsin. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +a=6378437.651 +rf=298.271281273316 +no_defs`
+ *
+ * @deprecated The registry deprecated this code.
+ */
+export declare const ESRI_104871: string;
+/**
+ * ESRI:104896, GCS_ITRF_2005. World. Within 1 cm of PROJ.
+ *
+ * `+proj=longlat +ellps=GRS80 +towgs84=0.0001,-0.0008,-0.0058,0,0,0,0.0004 +no_defs`
+ *
+ * @deprecated Use EPSG:8998.
+ */
+export declare const ESRI_104896: string;
+/**
+ * ESRI:104990, GCS_HD1909. Hungary. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=bessel +no_defs`
+ *
+ * @deprecated Use EPSG:3819.
+ */
+export declare const ESRI_104990: string;
+/**
+ * ESRI:104991, GCS_IGRS. Iraq - onshore and offshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=GRS80 +no_defs`
+ *
+ * @deprecated Use EPSG:3889.
+ */
+export declare const ESRI_104991: string;
+/**
+ * ESRI:104992, GCS_MGI_1901. Bosnia and Herzegovina; Croatia - onshore; Kosovo; Montenegro - onshore; North Macedonia; Serbia; Slovenia - onshore. Within 1 cm of PROJ. The registry has no transformation to WGS 84.
+ *
+ * `+proj=longlat +ellps=bessel +no_defs`
+ *
+ * @deprecated Use EPSG:3906.
+ */
+export declare const ESRI_104992: string;
 /**
  * ESRI:112000, OSGB36_National_Highways_A01H1. UK - Highways England - A1 Up to 3.69 m from PROJ.
  *

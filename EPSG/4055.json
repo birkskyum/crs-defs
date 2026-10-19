@@ -1,0 +1,1 @@
+{"id":"EPSG:4055","name":"Popular Visualisation CRS","type":"geographic","area":{"bbox":[-180,-90,180,90],"name":"World."},"definition":"+proj=longlat +R=6378137 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":[]}

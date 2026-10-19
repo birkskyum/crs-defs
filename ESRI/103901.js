@@ -1,0 +1,5 @@
+export const id = "ESRI:103901";
+export const name = "NAD_1983_HARN_Adj_WI_Ashland_Feet";
+export const bbox = [-92.89,42.48,-86.25,47.31];
+export const definition = "+proj=tmerc +lat_0=45.7061111111111 +lon_0=-90.6222222222222 +k=0.999997 +x_0=172821.945643891 +y_0=0 +a=6378471.92 +rf=298.272883775229 +units=us-ft +no_defs";
+export const errorM = 0;

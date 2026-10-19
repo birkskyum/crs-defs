@@ -1,0 +1,1 @@
+{"id":"ESRI:104133","name":"GCS_JAD_2001","type":"geographic","area":{"bbox":[-80.6,14.08,-74.51,19.36],"name":"Jamaica - onshore and offshore. Includes Morant Cays and Pedro Cays."},"definition":"+proj=longlat +ellps=WGS84 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4758"]}

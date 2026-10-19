@@ -1,0 +1,1 @@
+{"id":"EPSG:4280","name":"Padang","type":"geographic","area":{"bbox":[95.16,-5.99,106.13,5.97],"name":"Indonesia - Sumatra."},"definition":"+proj=longlat +ellps=bessel +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4211"]}

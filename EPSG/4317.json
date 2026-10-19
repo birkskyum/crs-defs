@@ -1,0 +1,1 @@
+{"id":"EPSG:4317","name":"Dealul Piscului 1970","type":"geographic","area":{"bbox":[20.26,43.44,31.41,48.27],"name":"Romania - onshore and offshore."},"definition":"+proj=longlat +ellps=krass +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4179"]}

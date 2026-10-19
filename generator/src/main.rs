@@ -1,4 +1,5 @@
-//! Lists every projected and geographic 2D CRS of each authority, asks PROJ for its candidate
+//! Lists every projected and geographic 2D CRS of each authority, deprecated ones included and marked with their
+//! replacements, asks PROJ for its candidate
 //! transformations to WGS 84, writes each one as a proj4 string, and records reference positions so
 //! that proj4js can be checked against PROJ. Output goes to `data/raw/<authority>/<code>.json`.
 
@@ -89,7 +90,7 @@ fn codes(ctx: &Context, authority: &str, kind: PJ_TYPE) -> Vec<String> {
     let auth = c(authority);
     let mut out = Vec::new();
     unsafe {
-        let list = proj_get_codes_from_database(ctx.0, auth.as_ptr(), kind, 0);
+        let list = proj_get_codes_from_database(ctx.0, auth.as_ptr(), kind, 1);
         let mut i = 0;
         while !list.is_null() && !(*list.add(i)).is_null() {
             out.push(text(*list.add(i)).unwrap());
@@ -273,6 +274,16 @@ fn build(ctx: &Context, wgs84: &Obj, authority: &str, kind: &str, code: &str) ->
     if body != "Earth" {
         result["error"] = format!("not on Earth ({body})").into();
         return result;
+    }
+    if unsafe { proj_is_deprecated(crs.0) } != 0 {
+        let list = unsafe { proj_get_non_deprecated(ctx.0, crs.0) };
+        let count = if list.is_null() { 0 } else { unsafe { proj_list_get_count(list) } };
+        let replacements: Vec<String> = (0..count).filter_map(|i| Obj::new(unsafe { proj_list_get(ctx.0, list, i) })).filter_map(|o| id_of(&o)).collect();
+        if !list.is_null() {
+            unsafe { proj_list_destroy(list) };
+        }
+        result["deprecated"] = true.into();
+        result["replacedBy"] = replacements.into();
     }
     let (mut w, mut s, mut e, mut n, mut area) = (0.0, 0.0, 0.0, 0.0, null());
     if unsafe { proj_get_area_of_use(ctx.0, crs.0, &mut w, &mut s, &mut e, &mut n, &mut area) } == 0 || w < -1000.0 {

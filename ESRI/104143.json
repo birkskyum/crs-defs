@@ -1,0 +1,1 @@
+{"id":"ESRI:104143","name":"GCS_CR05","type":"geographic","area":{"bbox":[-90.45,2.15,-81.43,11.77],"name":"Costa Rica - onshore and offshore."},"definition":"+proj=longlat +ellps=WGS84 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:5365"]}

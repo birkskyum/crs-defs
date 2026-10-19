@@ -1,0 +1,1 @@
+{"id":"ESRI:104010","name":"GCS_IGS08","type":"geographic","area":{"bbox":[-180,-90,180,90],"name":"World."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":1.52,"proj4jsErrorM":1.52,"approximate":true,"deprecated":true,"replacedBy":["EPSG:9014"]}

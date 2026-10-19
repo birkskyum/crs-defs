@@ -1,0 +1,1 @@
+{"id":"ESRI:37246","name":"GCS_Pico_de_Las_Nieves","type":"geographic","area":{"bbox":[-18.22,27.58,-13.37,29.47],"name":"Spain - Canary Islands onshore."},"definition":"+proj=longlat +ellps=intl +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4728"]}

@@ -1,0 +1,5 @@
+export const id = "ESRI:103967";
+export const name = "NAD_1983_HARN_Adj_WI_Vilas_Feet";
+export const bbox = [-92.89,42.48,-86.25,47.31];
+export const definition = "+proj=lcc +lat_0=45.625 +lon_0=-89.4888888888889 +lat_1=45.9305555555556 +lat_2=46.225 +x_0=134417.068834138 +y_0=0 +a=6378624.171 +rf=298.280003402845 +units=us-ft +no_defs";
+export const errorM = 0;

@@ -1,0 +1,1 @@
+{"id":"EPSG:4260","name":"Manoca","type":"geographic","area":{"bbox":[8.32,1.65,16.21,13.09],"name":"Cameroon - onshore and offshore."},"definition":"+proj=longlat +a=6378249.145 +rf=293.465 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4193"]}

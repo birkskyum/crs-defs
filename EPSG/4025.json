@@ -1,0 +1,1 @@
+{"id":"EPSG:4025","name":"Unknown datum based upon the NWL 9D ellipsoid","type":"geographic","area":{"bbox":[-180,-90,180,90],"name":"Not specified."},"definition":"+proj=longlat +ellps=NWL9D +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":[]}

@@ -1,0 +1,5 @@
+export const id = "ESRI:102592";
+export const name = "Sud_Algerie_Degree";
+export const bbox = [-8.67,18.97,11.99,38.8];
+export const definition = "+proj=lcc +lat_1=33.3 +lat_0=33.3 +lon_0=2.7 +k_0=0.999625769 +x_0=500135 +y_0=300090 +a=6378249.145 +rf=293.465 +units=m +no_defs";
+export const errorM = 0;

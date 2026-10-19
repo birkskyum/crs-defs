@@ -1,0 +1,1 @@
+{"id":"EPSG:4902","name":"NDG (Paris)","type":"geographic","area":{"bbox":[6.84,47.42,8.23,49.07],"name":"France - Alsace."},"definition":"+proj=longlat +a=6376523 +rf=308.64 +pm=paris +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4901"]}

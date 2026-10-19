@@ -1,0 +1,1 @@
+{"id":"EPSG:4226","name":"Cote d'Ivoire","type":"geographic","area":{"bbox":[-8.61,1.02,-2.48,10.74],"name":"Côte d'Ivoire (Ivory Coast) - onshore and offshore."},"definition":"+proj=longlat +ellps=clrk80ign +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4142","EPSG:4143"]}

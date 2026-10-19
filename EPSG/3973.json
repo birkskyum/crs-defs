@@ -1,0 +1,1 @@
+{"id":"EPSG:3973","name":"WGS 84 / NSIDC EASE-Grid North","type":"projected","area":{"bbox":[-180,0,180,90],"name":"Northern hemisphere."},"definition":"+proj=laea +R_A +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":null,"approximate":false,"deprecated":true,"replacedBy":["EPSG:6931"]}

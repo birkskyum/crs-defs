@@ -1,0 +1,1 @@
+{"id":"EPSG:4047","name":"Unspecified datum based upon the GRS 1980 Authalic Sphere","type":"geographic","area":{"bbox":[-180,-90,180,90],"name":"Not specified."},"definition":"+proj=longlat +R=6371007 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":[]}

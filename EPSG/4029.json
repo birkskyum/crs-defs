@@ -1,0 +1,1 @@
+{"id":"EPSG:4029","name":"Unknown datum based upon the War Office ellipsoid","type":"geographic","area":{"bbox":[-180,-90,180,90],"name":"Not specified."},"definition":"+proj=longlat +a=6378300 +rf=296 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":[]}

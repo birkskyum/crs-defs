@@ -1,0 +1,5 @@
+export const id = "EPSG:6959";
+export const name = "VN-2000 / TM-3 Da Nang zone";
+export const bbox = [106.43,8.57,108.76,21.67];
+export const definition = "+proj=tmerc +lat_0=0 +lon_0=107.75 +k=0.9999 +x_0=0 +y_0=500000 +ellps=WGS84 +towgs84=-191.90441429,-39.30318279,-111.45032835,0.00928836,-0.01975479,0.00427372,0.252906278 +units=m +no_defs";
+export const errorM = 0.808;

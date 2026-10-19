@@ -1,0 +1,1 @@
+{"id":"ESRI:37001","name":"GCS_WGS_1966","type":"geographic","area":{"bbox":[-180,-90,180,90],"name":"World."},"definition":"+proj=longlat +ellps=NWL9D +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4760"]}

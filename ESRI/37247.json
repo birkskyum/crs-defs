@@ -1,0 +1,1 @@
+{"id":"ESRI:37247","name":"GCS_Porto_Santo_1936","type":"geographic","area":{"bbox":[-17.31,32.35,-16.23,33.15],"name":"Portugal - Madeira, Porto Santo and Desertas islands - onshore."},"definition":"+proj=longlat +ellps=intl +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4615"]}

@@ -1,0 +1,1 @@
+{"id":"ESRI:104026","name":"GCS_Voirol_Unifie_1960","type":"geographic","area":{"bbox":[-2.95,31.99,9.09,37.14],"name":"Algeria - onshore north of 32°N."},"definition":"+proj=longlat +a=6378249.145 +rf=293.465 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":[]}

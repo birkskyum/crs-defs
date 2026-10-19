@@ -1,0 +1,1 @@
+{"id":"ESRI:104104","name":"GCS_Hong_Kong_1980","type":"geographic","area":{"bbox":[113.76,22.13,114.51,22.58],"name":"Hong Kong - onshore and offshore."},"definition":"+proj=longlat +ellps=intl +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4611"]}

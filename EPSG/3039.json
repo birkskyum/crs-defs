@@ -1,0 +1,1 @@
+{"id":"EPSG:3039","name":"ETRS89 / TM27","type":"projected","area":{"bbox":[-24,27.6,-18,66.5],"name":"Europe - between 24°W and 18°W."},"definition":"+proj=utm +zone=27 +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":[]}

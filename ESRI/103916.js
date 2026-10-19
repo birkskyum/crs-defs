@@ -1,0 +1,5 @@
+export const id = "ESRI:103916";
+export const name = "NAD_1983_HARN_Adj_WI_Iron_Feet";
+export const bbox = [-92.89,42.48,-86.25,47.31];
+export const definition = "+proj=tmerc +lat_0=45.4333333333333 +lon_0=-90.2555555555556 +k=0.999996 +x_0=220980.441960884 +y_0=0 +a=6378655.071 +rf=298.281448362111 +units=us-ft +no_defs";
+export const errorM = 0;

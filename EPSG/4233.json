@@ -1,0 +1,1 @@
+{"id":"EPSG:4233","name":"Gandajika 1970","type":"geographic","area":{"bbox":[69.29,-3.47,77.08,8.1],"name":"Maldives - onshore and offshore."},"definition":"+proj=longlat +ellps=intl +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4684","EPSG:4685"]}

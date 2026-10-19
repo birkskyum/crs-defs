@@ -1,0 +1,1 @@
+{"id":"EPSG:2983","name":"ST87 Ouvea / UTM zone 58S","type":"projected","area":{"bbox":[166.44,-20.77,166.71,-20.34],"name":"New Caledonia - Loyalty Islands - Ouvea."},"definition":"+proj=utm +zone=58 +south +ellps=intl +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:3164"]}

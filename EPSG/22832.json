@@ -1,0 +1,1 @@
+{"id":"EPSG:22832","name":"Douala / UTM zone 32N","type":"projected","area":{"bbox":[8.32,1.65,16.21,13.09],"name":"Cameroon - onshore and offshore."},"definition":"+proj=utm +zone=32 +ellps=clrk80ign +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:2214"]}

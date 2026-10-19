@@ -1,0 +1,1 @@
+{"id":"EPSG:4819","name":"Nord Sahara 1959 (Paris)","type":"geographic","area":{"bbox":[-13.17,18.98,11.99,37.34],"name":"Algeria; Morocco; Tunisia."},"definition":"+proj=longlat +a=6378249.145 +rf=293.465 +pm=paris +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4307"]}

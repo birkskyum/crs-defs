@@ -1,0 +1,1 @@
+{"id":"ESRI:104114","name":"GCS_Bermuda_2000","type":"geographic","area":{"bbox":[-68.83,28.91,-60.7,35.73],"name":"Bermuda - onshore and offshore."},"definition":"+proj=longlat +ellps=WGS84 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4762"]}

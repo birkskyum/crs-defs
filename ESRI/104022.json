@@ -1,0 +1,1 @@
+{"id":"ESRI:104022","name":"GGD","type":"geographic","area":{"bbox":[38.97,41.04,46.72,43.59],"name":"Georgia - onshore and offshore."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:10831"]}

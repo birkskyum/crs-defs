@@ -1,0 +1,1 @@
+{"id":"ESRI:37231","name":"GCS_Anna_1_1965","type":"geographic","area":{"bbox":[96.76,-12.27,96.99,-11.76],"name":"Cocos (Keeling) Islands - onshore."},"definition":"+proj=longlat +ellps=aust_SA +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4708"]}

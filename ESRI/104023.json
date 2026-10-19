@@ -1,0 +1,1 @@
+{"id":"ESRI:104023","name":"GCS_International_1967","type":"geographic","area":{"bbox":[-180,-90,180,90],"name":"Not specified."},"definition":"+proj=longlat +ellps=aust_SA +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":[]}

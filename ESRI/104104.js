@@ -1,0 +1,5 @@
+export const id = "ESRI:104104";
+export const name = "GCS_Hong_Kong_1980";
+export const bbox = [113.76,22.13,114.51,22.58];
+export const definition = "+proj=longlat +ellps=intl +no_defs";
+export const errorM = 0;

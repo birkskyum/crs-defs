@@ -1,0 +1,1 @@
+{"id":"EPSG:29183","name":"SAD69 / UTM zone 23S","type":"projected","area":{"bbox":[-48,-26.3,-42,0],"name":"Brazil - between 48°W and 42°W."},"definition":"+proj=utm +zone=23 +south +ellps=GRS67 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:29193"]}

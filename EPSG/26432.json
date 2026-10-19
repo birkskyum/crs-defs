@@ -1,0 +1,1 @@
+{"id":"EPSG:26432","name":"Mhast / UTM zone 32S","type":"projected","area":{"bbox":[10.53,-6.04,13.1,-4.38],"name":"Angola - Cabinda."},"definition":"+proj=utm +zone=32 +south +ellps=intl +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:3353","EPSG:3354"]}

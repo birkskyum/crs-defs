@@ -1,0 +1,1 @@
+{"id":"ESRI:104027","name":"ONGD17","type":"geographic","area":{"bbox":[51.99,14.33,63.38,26.74],"name":"Oman - onshore and offshore."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:9294"]}

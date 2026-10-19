@@ -1,0 +1,1 @@
+{"id":"EPSG:4228","name":"Douala","type":"geographic","area":{"bbox":[8.32,1.65,16.21,13.09],"name":"Cameroon - onshore and offshore."},"definition":"+proj=longlat +ellps=clrk80ign +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4192"]}

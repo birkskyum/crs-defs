@@ -1,0 +1,5 @@
+export const id = "ESRI:103848";
+export const name = "NAD_1983_HARN_Adj_WI_Crawford_Meters";
+export const bbox = [-92.89,42.48,-86.25,47.31];
+export const definition = "+proj=lcc +lat_0=42.7166666666667 +lon_0=-90.9388888888889 +lat_1=43.0583333333333 +lat_2=43.3416666666667 +x_0=113690.627381255 +y_0=0 +a=6378379.031 +rf=298.268540059328 +units=m +no_defs";
+export const errorM = 0;

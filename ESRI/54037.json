@@ -1,0 +1,1 @@
+{"id":"ESRI:54037","name":"WGS_1984_Equal_Earth_Asia_Pacific","type":"projected","area":{"bbox":[-180,-90,180,90],"name":"World."},"definition":"+proj=eqearth +lon_0=150 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs","datumShift":"none","transformation":null,"errorM":0,"proj4jsErrorM":0.002,"approximate":false,"deprecated":true,"replacedBy":["EPSG:8859"]}

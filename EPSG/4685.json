@@ -1,0 +1,1 @@
+{"id":"EPSG:4685","name":"Gandajika","type":"geographic","area":{"bbox":[11.79,-13.46,31.31,5.39],"name":"The Democratic Republic of the Congo (Zaire) - onshore and offshore."},"definition":"+proj=longlat +ellps=intl +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4696"]}

@@ -1,0 +1,1 @@
+{"id":"EPSG:3051","name":"ETRS89 / TM39","type":"projected","area":{"bbox":[48,36,54,75],"name":"Europe - between 48°E and 54°E."},"definition":"+proj=utm +zone=39 +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":[]}

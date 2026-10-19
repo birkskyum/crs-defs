@@ -1,0 +1,1 @@
+{"id":"EPSG:4681","name":"Mauritania 1999","type":"geographic","area":{"bbox":[-20.04,14.72,-4.8,27.3],"name":"Mauritania - onshore and offshore."},"definition":"+proj=longlat +a=6378249.145 +rf=293.465 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4700","EPSG:4702"]}

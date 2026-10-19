@@ -1,0 +1,1 @@
+{"id":"EPSG:4172","name":"POSGAR","type":"geographic","area":{"bbox":[-73.59,-58.41,-52.63,-21.78],"name":"Argentina - onshore and offshore."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4190","EPSG:4694"]}

@@ -1,0 +1,1 @@
+{"id":"EPSG:4731","name":"Viti Levu 1916","type":"geographic","area":{"bbox":[177.19,-18.32,178.75,-17.25],"name":"Fiji - Viti Levu island."},"definition":"+proj=longlat +a=6378249.145 +rf=293.465 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4752"]}

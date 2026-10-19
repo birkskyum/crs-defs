@@ -1,0 +1,1 @@
+{"id":"ESRI:104846","name":"GCS_NAD_1983_HARN_Adj_WI_Pepin","type":"geographic","area":{"bbox":[-92.89,42.48,-86.25,47.31],"name":"United States (USA) - Wisconsin."},"definition":"+proj=longlat +a=6378381.271 +rf=298.268644807185 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":[]}

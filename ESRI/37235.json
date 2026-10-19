@@ -1,0 +1,1 @@
+{"id":"ESRI:37235","name":"GCS_Reunion_1947","type":"geographic","area":{"bbox":[55.16,-21.42,55.91,-20.81],"name":"Reunion - onshore."},"definition":"+proj=longlat +ellps=intl +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4626"]}

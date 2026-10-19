@@ -1,0 +1,1 @@
+{"id":"ESRI:37219","name":"GCS_Easter_Island_1967","type":"geographic","area":{"bbox":[-109.51,-27.25,-109.16,-27.01],"name":"Chile - Easter Island onshore."},"definition":"+proj=longlat +ellps=intl +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4719"]}

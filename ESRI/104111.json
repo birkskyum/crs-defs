@@ -1,0 +1,1 @@
+{"id":"ESRI:104111","name":"GCS_JGD_2000","type":"geographic","area":{"bbox":[122.38,17.09,157.65,46.05],"name":"Japan - onshore and offshore."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4612"]}

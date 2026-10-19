@@ -1,6 +1,6 @@
 {
   "name": "crs-defs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "PROJ strings for EPSG and ESRI codes, with datum shifts checked against PROJ",
   "type": "module",
   "sideEffects": false,

@@ -1,0 +1,1 @@
+{"id":"ESRI:37222","name":"GCS_Johnston_Island_1961","type":"geographic","area":{"bbox":[-169.59,16.67,-169.47,16.79],"name":"United States Minor Outlying Islands - Johnston Atoll."},"definition":"+proj=longlat +ellps=intl +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4725"]}

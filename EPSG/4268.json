@@ -1,0 +1,1 @@
+{"id":"EPSG:4268","name":"NAD27 Michigan","type":"geographic","area":{"bbox":[-90.42,41.69,-82.12,48.31],"name":"United States (USA) - Michigan."},"definition":"+proj=longlat +a=6378450.0475489 +b=6356826.62148844 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4267"]}

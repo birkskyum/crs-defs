@@ -1,0 +1,1 @@
+{"id":"ESRI:37233","name":"GCS_ISTS_073_1969","type":"geographic","area":{"bbox":[72.3,-7.49,72.55,-7.18],"name":"British Indian Ocean Territory - Chagos Archipelago - Diego Garcia."},"definition":"+proj=longlat +ellps=intl +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4724"]}

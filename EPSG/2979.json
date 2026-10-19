@@ -1,0 +1,1 @@
+{"id":"EPSG:2979","name":"K0 1949 / UTM zone 42S","type":"projected","area":{"bbox":[68.69,-49.78,70.62,-48.6],"name":"French Southern Territories - Kerguelen onshore."},"definition":"+proj=utm +zone=42 +south +ellps=intl +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:3336"]}

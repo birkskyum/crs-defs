@@ -1,0 +1,5 @@
+export const id = "EPSG:5890";
+export const name = "JAXA Snow Depth Polar Stereographic North";
+export const bbox = [-180,60,180,90];
+export const definition = "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=90 +x_0=0 +y_0=0 +a=6378273 +b=6356889.449 +units=m +no_defs";
+export const errorM = 0;

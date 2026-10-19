@@ -1,0 +1,1 @@
+{"id":"EPSG:27037","name":"Nahrwan 1967 / UTM zone 37N","type":"projected","area":{"bbox":[38.79,31.14,42,36.75],"name":"Iraq - west of 42°E."},"definition":"+proj=utm +zone=37 +a=6378249.145 +rf=293.465 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:7005"]}

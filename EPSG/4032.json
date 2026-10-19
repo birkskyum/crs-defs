@@ -1,0 +1,1 @@
+{"id":"EPSG:4032","name":"Unknown datum based upon the OSU86F ellipsoid","type":"geographic","area":{"bbox":[-180,-90,180,90],"name":"Not specified."},"definition":"+proj=longlat +a=6378136.2 +rf=298.257223563 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":[]}

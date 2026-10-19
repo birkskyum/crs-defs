@@ -1,0 +1,1 @@
+{"id":"EPSG:4014","name":"Unknown datum based upon the Clarke 1880 (SGA 1922) ellipsoid","type":"geographic","area":{"bbox":[-180,-90,180,90],"name":"Not specified."},"definition":"+proj=longlat +a=6378249.2 +rf=293.46598 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":[]}

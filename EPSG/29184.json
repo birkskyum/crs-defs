@@ -1,0 +1,1 @@
+{"id":"EPSG:29184","name":"SAD69 / UTM zone 24S","type":"projected","area":{"bbox":[-42,-22.96,-36,-2.68],"name":"Brazil - between 42°W and 36°W, onshore."},"definition":"+proj=utm +zone=24 +south +ellps=GRS67 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:29194"]}

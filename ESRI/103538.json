@@ -1,0 +1,1 @@
+{"id":"ESRI:103538","name":"ETRF_1989_UTM_Zone_38N","type":"projected","area":{"bbox":[42,37,48,41.65],"name":"Europe - between 42°E and 48°E."},"definition":"+proj=utm +zone=38 +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":[]}

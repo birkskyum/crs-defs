@@ -1,0 +1,1 @@
+{"id":"ESRI:104144","name":"GCS_ISN_2004","type":"geographic","area":{"bbox":[-30.87,59.96,-5.55,69.59],"name":"Iceland - onshore and offshore."},"definition":"+proj=longlat +ellps=GRS80 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:5324"]}

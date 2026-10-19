@@ -1,0 +1,1 @@
+{"id":"EPSG:3105","name":"Mauritania 1999 / UTM zone 30N","type":"projected","area":{"bbox":[-6,15.49,-4.8,25.74],"name":"Mauritania - east of 6°W."},"definition":"+proj=utm +zone=30 +a=6378249.145 +rf=293.465 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:3345","EPSG:3369"]}

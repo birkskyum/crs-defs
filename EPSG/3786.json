@@ -1,0 +1,1 @@
+{"id":"EPSG:3786","name":"World Equidistant Cylindrical (Sphere)","type":"projected","area":{"bbox":[-180,-90,180,90],"name":"World."},"definition":"+proj=eqc +lat_ts=0 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +R=6371007 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4088"]}

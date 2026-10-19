@@ -1,0 +1,1 @@
+{"id":"ESRI:37259","name":"GCS_Kusaie_1951","type":"geographic","area":{"bbox":[162.85,5.21,163.1,5.43],"name":"Federated States of Micronesia - Kosrae (Kusaie)."},"definition":"+proj=longlat +ellps=intl +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4735"]}

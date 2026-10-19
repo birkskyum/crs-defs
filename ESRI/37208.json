@@ -1,0 +1,1 @@
+{"id":"ESRI:37208","name":"GCS_Ayabelle","type":"geographic","area":{"bbox":[41.75,10.94,44.15,12.72],"name":"Djibouti - onshore and offshore."},"definition":"+proj=longlat +a=6378249.145 +rf=293.465 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4713"]}

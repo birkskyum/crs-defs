@@ -1,0 +1,1 @@
+{"id":"ESRI:104839","name":"GCS_NAD_1983_HARN_Adj_WI_Menominee","type":"geographic","area":{"bbox":[-92.89,42.48,-86.25,47.31],"name":"United States (USA) - Wisconsin."},"definition":"+proj=longlat +a=6378406.601 +rf=298.269829299684 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":[]}

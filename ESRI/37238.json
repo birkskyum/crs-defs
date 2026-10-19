@@ -1,0 +1,1 @@
+{"id":"ESRI:37238","name":"GCS_DOS_71_4","type":"geographic","area":{"bbox":[-5.85,-16.08,-5.59,-15.85],"name":"St Helena, Ascension and Tristan da Cunha - St Helena Island - onshore."},"definition":"+proj=longlat +ellps=intl +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4710"]}

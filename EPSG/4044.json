@@ -1,0 +1,1 @@
+{"id":"EPSG:4044","name":"Unknown datum based upon the Everest 1830 (1962 Definition) ellipsoid","type":"geographic","area":{"bbox":[-180,-90,180,90],"name":"Not specified."},"definition":"+proj=longlat +a=6377301.243 +rf=300.8017255 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":[]}

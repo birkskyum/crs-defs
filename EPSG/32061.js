@@ -1,0 +1,5 @@
+export const id = "EPSG:32061";
+export const name = "NAD27 / Guatemala Norte";
+export const bbox = [-91.86,15.85,-88.34,17.83];
+export const definition = "+proj=lcc +lat_1=16.8166666666667 +lat_0=16.8166666666667 +lon_0=-90.3333333333333 +k_0=0.99992226 +x_0=500000 +y_0=292209.579 +ellps=clrk66 +towgs84=0,125,194 +units=m +no_defs";
+export const errorM = 0;

@@ -1,0 +1,1 @@
+{"id":"ESRI:37232","name":"GCS_Gan_1970","type":"geographic","area":{"bbox":[72.81,-0.69,73.69,7.08],"name":"Maldives - onshore."},"definition":"+proj=longlat +ellps=intl +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4684"]}

@@ -1,0 +1,1 @@
+{"id":"ESRI:104256","name":"GCS_Nepal_Nagarkot","type":"geographic","area":{"bbox":[80.06,26.34,88.21,30.43],"name":"Nepal."},"definition":"+proj=longlat +ellps=evrst30 +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:6207"]}

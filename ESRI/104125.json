@@ -1,0 +1,1 @@
+{"id":"ESRI:104125","name":"GCS_Chatham_Islands_1979","type":"geographic","area":{"bbox":[-177.25,-44.64,-175.54,-43.3],"name":"New Zealand - Chatham Islands group - onshore."},"definition":"+proj=longlat +ellps=intl +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4673"]}

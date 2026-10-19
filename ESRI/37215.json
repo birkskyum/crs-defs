@@ -1,0 +1,1 @@
+{"id":"ESRI:37215","name":"GCS_Bellevue_IGN","type":"geographic","area":{"bbox":[168.09,-20.31,169.95,-17.37],"name":"Vanuatu - southern islands - Aneityum, Efate, Erromango and Tanna."},"definition":"+proj=longlat +ellps=intl +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4714"]}

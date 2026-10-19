@@ -1,0 +1,5 @@
+export const id = "ESRI:103927";
+export const name = "NAD_1983_HARN_Adj_WI_Oconto_Feet";
+export const bbox = [-92.89,42.48,-86.25,47.31];
+export const definition = "+proj=tmerc +lat_0=44.3972222222222 +lon_0=-87.9083333333333 +k=0.999991 +x_0=182880.365760732 +y_0=0 +a=6378345.42 +rf=298.266968327098 +units=us-ft +no_defs";
+export const errorM = 0;

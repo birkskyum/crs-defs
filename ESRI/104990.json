@@ -1,0 +1,1 @@
+{"id":"ESRI:104990","name":"GCS_HD1909","type":"geographic","area":{"bbox":[16.11,45.74,22.9,48.58],"name":"Hungary."},"definition":"+proj=longlat +ellps=bessel +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:3819"]}

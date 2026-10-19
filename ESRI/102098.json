@@ -1,0 +1,1 @@
+{"id":"ESRI:102098","name":"ETRS_1989_UTM_Zone_27N","type":"projected","area":{"bbox":[-24,27.6,-18,66.5],"name":"Europe - between 24°W and 18°W."},"definition":"+proj=utm +zone=27 +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":[]}

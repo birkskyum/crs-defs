@@ -1,0 +1,1 @@
+{"id":"ESRI:37229","name":"GCS_Wake_Eniwetok_1960","type":"geographic","area":{"bbox":[162.27,8.66,167.82,19.38],"name":"Marshall Islands - onshore. Wake atoll onshore."},"definition":"+proj=longlat +ellps=hough +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4732"]}

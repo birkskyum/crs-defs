@@ -1,0 +1,5 @@
+export const id = "ESRI:103933";
+export const name = "NAD_1983_HARN_Adj_WI_Rock_Feet";
+export const bbox = [-92.89,42.48,-86.25,47.31];
+export const definition = "+proj=tmerc +lat_0=41.9444444444444 +lon_0=-89.0722222222222 +k=0.999996 +x_0=146304.292608585 +y_0=0 +a=6378377.671 +rf=298.268476462415 +units=us-ft +no_defs";
+export const errorM = 0;

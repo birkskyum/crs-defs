@@ -1,0 +1,5 @@
+export const id = "ESRI:31918";
+export const name = "SIRGAS_UTM_Zone_18N";
+export const bbox = [-78,0,-72,15.04];
+export const definition = "+proj=utm +zone=18 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs";
+export const errorM = 0;

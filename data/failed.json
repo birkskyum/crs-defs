@@ -24,6 +24,10 @@
   "failed": "Molodensky-Badekas (CF geog2D domain) has no proj4 form"
  },
  {
+  "id": "EPSG:21817",
+  "failed": "PROJ could not transform any sample point"
+ },
+ {
   "id": "EPSG:2218",
   "failed": "PROJ has no proj4 form for this CRS"
  },
@@ -152,11 +156,27 @@
   "failed": "PROJ has no proj4 form for this CRS"
  },
  {
+  "id": "EPSG:2297",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "EPSG:2298",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
   "id": "EPSG:2299",
   "failed": "PROJ has no proj4 form for this CRS"
  },
  {
+  "id": "EPSG:2300",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
   "id": "EPSG:2301",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "EPSG:2302",
   "failed": "PROJ has no proj4 form for this CRS"
  },
  {
@@ -188,12 +208,60 @@
   "failed": "2 Helmert steps and 0 grids"
  },
  {
+  "id": "EPSG:23853",
+  "failed": "PROJ could not transform any sample point"
+ },
+ {
+  "id": "EPSG:23886",
+  "failed": "PROJ could not transform any sample point"
+ },
+ {
   "id": "EPSG:24718",
   "failed": "Molodensky-Badekas (CF geog2D domain) has no proj4 form"
  },
  {
+  "id": "EPSG:29118",
+  "failed": "PROJ could not transform any sample point"
+ },
+ {
+  "id": "EPSG:29119",
+  "failed": "PROJ could not transform any sample point"
+ },
+ {
+  "id": "EPSG:29120",
+  "failed": "PROJ could not transform any sample point"
+ },
+ {
+  "id": "EPSG:29121",
+  "failed": "PROJ could not transform any sample point"
+ },
+ {
+  "id": "EPSG:29177",
+  "failed": "PROJ could not transform any sample point"
+ },
+ {
+  "id": "EPSG:29178",
+  "failed": "PROJ could not transform any sample point"
+ },
+ {
+  "id": "EPSG:29179",
+  "failed": "PROJ could not transform any sample point"
+ },
+ {
+  "id": "EPSG:29180",
+  "failed": "PROJ could not transform any sample point"
+ },
+ {
   "id": "EPSG:2963",
   "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
+  "id": "EPSG:29635",
+  "failed": "PROJ could not transform any sample point"
+ },
+ {
+  "id": "EPSG:29636",
+  "failed": "PROJ could not transform any sample point"
  },
  {
   "id": "EPSG:2985",
@@ -220,6 +288,10 @@
   "failed": "PROJ has no proj4 form for this CRS"
  },
  {
+  "id": "EPSG:31461",
+  "failed": "PROJ could not transform any sample point"
+ },
+ {
   "id": "EPSG:3173",
   "failed": "PROJ has no proj4 form for this CRS"
  },
@@ -230,6 +302,10 @@
  {
   "id": "EPSG:3374",
   "failed": "2 Helmert steps and 0 grids"
+ },
+ {
+  "id": "EPSG:3752",
+  "failed": "PROJ has no proj4 form for this CRS"
  },
  {
   "id": "EPSG:4120",
@@ -328,6 +404,10 @@
   "failed": "grid used in reverse"
  },
  {
+  "id": "EPSG:7082",
+  "failed": "PROJ has no proj4 form for this CRS"
+ },
+ {
   "id": "EPSG:8237",
   "failed": "grid used in reverse"
  },
@@ -370,6 +450,30 @@
  {
   "id": "EPSG:9309",
   "failed": "Time-dependent Coordinate Frame rotation (geocen) has no proj4 form"
+ },
+ {
+  "id": "ESRI:102040",
+  "failed": "Molodensky-Badekas (CF geog2D domain) has no proj4 form"
+ },
+ {
+  "id": "ESRI:102085",
+  "failed": "Molodensky-Badekas (CF geog2D domain) has no proj4 form"
+ },
+ {
+  "id": "ESRI:102086",
+  "failed": "Molodensky-Badekas (CF geog2D domain) has no proj4 form"
+ },
+ {
+  "id": "ESRI:102087",
+  "failed": "Molodensky-Badekas (CF geog2D domain) has no proj4 form"
+ },
+ {
+  "id": "ESRI:102088",
+  "failed": "Molodensky-Badekas (CF geog2D domain) has no proj4 form"
+ },
+ {
+  "id": "ESRI:102089",
+  "failed": "Molodensky-Badekas (CF geog2D domain) has no proj4 form"
  },
  {
   "id": "ESRI:102224",

@@ -38,6 +38,13 @@ test('EPSG:4326 is plain WGS 84', async () => {
   assert.equal(constants.EPSG_4326, '+proj=longlat +datum=WGS84 +no_defs');
 });
 
+test('ESRI:102100 is kept as deprecated, pointing to EPSG:3857', async () => {
+  const record = await readJson('ESRI/102100.json');
+  assert.equal(record.deprecated, true);
+  assert.deepEqual(record.replacedBy, ['EPSG:3857']);
+  assert.equal(constants.ESRI_102100, constants.EPSG_3857);
+});
+
 test('constants, modules, records, all.json and catalog.json list the same definitions', async () => {
   const all = await readJson('all.json');
   const {crs} = await readJson('catalog.json');

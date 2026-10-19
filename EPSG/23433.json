@@ -1,0 +1,1 @@
+{"id":"EPSG:23433","name":"Garoua / UTM zone 33N","type":"projected","area":{"bbox":[8.32,1.65,16.21,13.09],"name":"Cameroon - onshore and offshore."},"definition":"+proj=utm +zone=33 +ellps=clrk80ign +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:2312"]}

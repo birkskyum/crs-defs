@@ -1,0 +1,1 @@
+{"id":"EPSG:6732","name":"GDA94 / MGA zone 41","type":"projected","area":{"bbox":[62.92,-57.5,66,-53.43],"name":"Heard Island and McDonald Islands - offshore west of 66°E."},"definition":"+proj=utm +zone=41 +south +ellps=GRS80 +units=m +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":[]}

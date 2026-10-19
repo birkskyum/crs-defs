@@ -1,0 +1,1 @@
+{"id":"EPSG:4296","name":"Sudan","type":"geographic","area":{"bbox":[-1000,-1000,-1000,-1000],"name":"Sudan - south."},"definition":"+proj=longlat +ellps=clrk80ign +no_defs","datumShift":"unknown","transformation":null,"errorM":0,"proj4jsErrorM":0,"approximate":false,"deprecated":true,"replacedBy":["EPSG:4201"]}

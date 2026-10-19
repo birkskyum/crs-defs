@@ -34,6 +34,8 @@ type Raw = {
   name: string;
   area?: {name: string; bbox: number[]};
   error?: string;
+  deprecated?: boolean;
+  replacedBy?: string[];
   points?: {lonlat: LonLat; xy: [number, number]; ballpark: boolean}[];
   candidates?: Candidate[];
 };
@@ -121,6 +123,7 @@ function evaluate(raw: Raw) {
     errorM,
     proj4jsErrorM: proj4jsError(raw, definition),
     approximate: errorM > EXACT_M,
+    ...(raw.deprecated && {deprecated: true, replacedBy: raw.replacedBy ?? []}),
     // Only offered when the grid gets closer to PROJ than the definition above.
     ...(grid && gridErrorM !== null && gridErrorM < errorM && {
       grid: {
@@ -166,13 +169,17 @@ for (const authority of AUTHORITIES) {
   definitions.push(...ok);
 }
 
+const count = (f: (r: Definition) => boolean) => definitions.filter(f).length;
+
 // The package root: one string constant per CRS, named like EPSG_28992, so editors can auto-import them.
 const constant = (r: Definition) => r.id.replace(':', '_');
 const comment = (r: Definition) => {
   const accuracy = r.errorM <= EXACT_M ? 'Within 1 cm of PROJ.' : `Up to ${r.errorM} m from PROJ.`;
   const proj4js = r.proj4jsErrorM === null ? ` proj4js ${proj4Version} can't read it.` : '';
   const shift = r.datumShift === 'unknown' ? ' The registry has no transformation to WGS 84.' : '';
-  const text = `${r.id}, ${r.name}. ${r.area.name} ${accuracy}${shift}${proj4js}\n *\n * \`${r.definition}\``;
+  const replacement = r.replacedBy?.length ? `Use ${r.replacedBy.join(' or ')}.` : 'The registry deprecated this code.';
+  const deprecated = r.deprecated ? `\n *\n * @deprecated ${replacement}` : '';
+  const text = `${r.id}, ${r.name}. ${r.area.name} ${accuracy}${shift}${proj4js}\n *\n * \`${r.definition}\`${deprecated}`;
   return `/**\n * ${text.replaceAll('*/', '* /')}\n */`;
 };
 await writeFile(`${ROOT}index.js`, definitions.map(r => `export const ${constant(r)} = ${JSON.stringify(r.definition)};`).join('\n') + '\n');
@@ -181,14 +188,13 @@ await writeFile(`${ROOT}index.d.ts`, definitions.map(r => `${comment(r)}\nexport
 await writeFile(`${ROOT}all.json`, JSON.stringify(Object.fromEntries(definitions.map(r => [r.id, r.definition]))) + '\n');
 await writeFile(`${ROOT}catalog.json`, JSON.stringify({
   versions: meta,
-  crs: definitions.map(r => ({id: r.id, name: r.name, type: r.type, bbox: r.area.bbox, datumShift: r.datumShift, errorM: r.errorM, approximate: r.approximate}))
+  crs: definitions.map(r => ({id: r.id, name: r.name, type: r.type, bbox: r.area.bbox, datumShift: r.datumShift, errorM: r.errorM, approximate: r.approximate, ...(r.deprecated && {deprecated: true})}))
 }) + '\n');
 await mkdir(`${ROOT}data`, {recursive: true});
 await writeFile(`${ROOT}data/failed.json`, JSON.stringify(failed.sort((a, b) => a.id.localeCompare(b.id)), null, 1) + '\n');
 
-const count = (f: (r: Definition) => boolean) => definitions.filter(f).length;
 console.log(meta);
-console.log(`${definitions.length} definitions, ${failed.length} without one`);
+console.log(`${definitions.length} definitions (${count(r => !!r.deprecated)} deprecated), ${failed.length} without one`);
 console.log(`within 1 cm of PROJ: ${count(r => r.errorM <= 0.01)}, within 1 m: ${count(r => r.errorM <= 1)}`);
 console.log(`in proj4js within 1 m: ${count(r => r.proj4jsErrorM !== null && r.proj4jsErrorM <= 1)}, proj4js can't read: ${count(r => r.proj4jsErrorM === null)}`);
 console.log(`grid closer: ${count(r => 'grid' in r)}`);
