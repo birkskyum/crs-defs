@@ -22,7 +22,7 @@ proj4.defs('EPSG:28992', EPSG_28992);
 proj4('EPSG:28992', [4.8932, 52.3731]); // [121358.61, 487361.81]
 ```
 
-In MapLibre GL JS 6.15 and later, `projection` converts from longitude and latitude on WGS 84 to the grid's meters:
+In MapLibre GL JS 6.15 and later:
 
 ```js
 import * as maplibregl from 'maplibre-gl';
@@ -32,9 +32,12 @@ import {EPSG_4326, EPSG_28992} from 'crs-defs';
 maplibregl.addProjection({
   name: 'EPSG:28992',
   projection: proj4(EPSG_4326, EPSG_28992),
+  definition: EPSG_28992,
   tileMatrixSet: {origin: [-285401.92, 903401.92], extentAtZoom0: 256 * 3440.64}
 });
 ```
+
+MapLibre registers one CRS per name and always works in longitude and latitude. `projection` is the pair of functions between the two, `forward` from lng/lat to the grid's meters and `inverse` back, and proj4 builds that pair from WGS 84 and the grid's definition. `definition` is the string MapLibre's workers use to place GeoJSON, together with the projection handler from MapLibre's custom CRS guide.
 
 A development server loads the whole module (1.2 MB). `crs-defs/EPSG/28992` holds just one code, with its name, area of use and error as separate exports:
 
