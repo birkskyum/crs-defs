@@ -36,7 +36,8 @@
   ],
   "scripts": {
     "build": "node scripts/build.ts",
-    "test": "node --test test/*.test.js"
+    "test": "node --test test/*.test.js",
+    "check:national": "node scripts/national-checks.ts"
   },
   "keywords": [
     "epsg",
@@ -58,6 +59,7 @@
     "url": "git+https://github.com/birkskyum/crs-defs.git"
   },
   "devDependencies": {
+    "geotiff": "^3.0.5",
     "proj4": "2.22.0"
   }
 }

@@ -128,6 +128,20 @@ Not covered:
 - 97 definitions use projections proj4js 2.22 doesn't have, such as Winkel Tripel, Eckert I to V, Natural Earth and the Colombian urban grids. They're correct PROJ strings.
 - Deprecated codes, and ESRI codes for other planets, are left out.
 
+## Checked against national services
+
+Agreeing with PROJ says little on its own, since PROJ writes the definitions. These checks run them in proj4js against each country's official transformation, which doesn't go through PROJ. The official inputs are ETRS89 coordinates, fed in as lon/lat the way web data arrives, at height 0 as in a 2D map.
+
+| Grid | Reference | Points | Definition, median / max | With its `grid`, median / max |
+|---|---|---|---|---|
+| RD, EPSG:28992 | NSGI's RDNAPTRANS™2018 validation set | 7,959 in the Netherlands | 3 cm / 24 cm | |
+| British National Grid, EPSG:27700 | Ordnance Survey's OSTN15 test points | 40 | 1.8 m / 4.9 m | 1 mm / 8 mm |
+| CH1903+ / LV95, EPSG:2056 | swisstopo's REFRAME service | 30 places | under 1 mm / under 1 mm | |
+
+LV95 is defined by a 3-parameter shift from ETRS89, so a PROJ string can match it exactly. RDNAPTRANS adds a correction grid to its datum shift, which a single `+towgs84` can't carry. OSTN15 is a grid, so only the `grid` definition matches it.
+
+`npm run check:national` downloads the reference data and writes `data/national-checks.json`.
+
 ## Versions
 
 This release is built from EPSG v13.105 (2026-10-12) and Esri's ArcGIS Pro 3.6 data, through PROJ master (9.10.0-dev, 83f5dd62), and checked with proj4js 2.22.0. `catalog.json` carries the versions.

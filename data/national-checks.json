@@ -1,0 +1,48 @@
+{
+ "crsDefs": "0.1.0",
+ "proj4js": "2.22.0",
+ "checks": [
+  {
+   "id": "EPSG:28992",
+   "name": "RD",
+   "source": "NSGI RDNAPTRANS2018 validation set (Z001), points in the Netherlands",
+   "url": "https://raw.githubusercontent.com/GeodetischeInfrastructuur/transformations/main/validate/data/Z001_ETRS89andRDNAP.txt",
+   "definition": {
+    "points": 7959,
+    "medianM": 0.032,
+    "p95M": 0.165,
+    "maxM": 0.24
+   }
+  },
+  {
+   "id": "EPSG:27700",
+   "name": "OSGB36 / British National Grid",
+   "source": "Ordnance Survey OSTN15 test points",
+   "url": "https://www.ordnancesurvey.co.uk/documents/resources/OSTN15-OSGM15-DevelopersPack.zip",
+   "definition": {
+    "points": 40,
+    "medianM": 1.794,
+    "p95M": 4.738,
+    "maxM": 4.938
+   },
+   "grid": {
+    "points": 40,
+    "medianM": 0.001,
+    "p95M": 0.007,
+    "maxM": 0.008
+   }
+  },
+  {
+   "id": "EPSG:2056",
+   "name": "CH1903+ / LV95",
+   "source": "swisstopo REFRAME, wgs84tolv95",
+   "url": "https://geodesy.geo.admin.ch/reframe/",
+   "definition": {
+    "points": 30,
+    "medianM": 0,
+    "p95M": 0,
+    "maxM": 0
+   }
+  }
+ ]
+}
